@@ -1,0 +1,56 @@
+---
+sidebar: sidebar
+permalink: task_managing_creating_rules.html
+keywords: netapp, saas backup, office 365, creating rules, managing rules, preselected backup tier
+summary: You can view information within SaaS Backup for Office 365 in various ways.
+---
+
+= Creating and managing rules inside NetApp SaaS Backup for Office 365
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Rules allow you to automatically move users toa preselected backup tier based on predefined criteria.
+
+toc::[]
+
+== Creating rules
+You can create rules for Microsoft Exchange Online and Microsoft OneDrive for Business.  Rules for Microsoft Exchange Online are applied before rules for Microsoft OneDrive for Business.  You cannot create rules for Microsoft SharePoint Online.
+
+You must apply a user defined filter to your data before you can create a rule.  Applied filters are displayed below the *Filter* icon.  NetApp SaaS Backup for Office 365 default filters appear in gray.  User defined filters appear in light blue.
+image:rules.jpg[Example of user defined filter and SaaS Backup defined filter for creating rules]
+
+xref:_creating_a_user_defined_filter[Creating a user defined filter]
+
+.Steps
+
+. From the Dashboard, select the service for which you want to create rules.
+. Click *view* next to the number of protected or unprotected mailboxes for Microsoft Exchange Online or MySites for Microsoft OneDrive for Business.
+. Click *Create Rule*.
+  If no user created filter is applied, image:create_rule.jpg[Screenshot of create rule button] does not appear.
+. Enter a name for the rule.
+. For *Destination Group*, select the tier to which you want users who meet the rule's criteria to be moved.
+. Select *Apply to existing items* if you want the rule to be immediately applied to all unprotected items.  If not selected, the rule is applied to newly discovered items and any unprotected items the next time new items are discovered.
+
+Multiple rules can be created.  The rules are applied in the order they appear in the *Manage Rules* list.
+image:manage_rules.jpg[Manage rules screen]
+You can click the image:up_down_rules_icon.jpg[] to move a rule up or down in the list.
+
+== Managing rules
+
+.Steps 
+
+. From the Dashboard, select the service for which you want to create rules.
+. Click *view* next to the number of protected or unprotected mailboxes for Microsoft Exchange Online or MySites for Microsoft OneDrive for Business.
+. Click *Filter*.
+  image:filter.jpg[Screenshot of filter dropdown menu button]
+. Click *Rules*.
+  The existing rules are displayed.
+. Click *Apply Now* to apply the rule to existing unprotected items.
+. Click image:delete.jpg[Screenshot of delete icon] to delete the rule.
+  The status of the items to which the rule was previously applies is not changed when the rule is deleted.

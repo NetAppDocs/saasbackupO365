@@ -1,0 +1,139 @@
+---
+sidebar: sidebar
+permalink: task_viewing_data.html
+keywords: netapp, saas backup, office 365, viewing, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log
+summary: You can view information within SaaS Backup for Office 365 in various ways.
+---
+
+= Viewing data with NetApp SaaS Backup for Office 365
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can filter data for specific results, use inline search to find what you need, and view the activity log for a list of all activity.
+
+toc::[]
+
+== Creating a user defined filter
+You can filter the view of your mailboxes, sites, or MySites to only show results that fit specific criteria.  For example, you can set your filters to only see mailboxes in a certain country and a certain department within that country.
+
+.Steps
+
+.	From the Dashboard, select the service that you want to view.
+.	Click *view* next to the number of protected or unprotected mailboxes, MySites, or sites.
+  The currently applied filters are listed under the *Filter* icon.
+. Click *Filter*.
+  image:filter.jpg[Screenshot of filter dropdown menu button]
+.	In the first drop-down menu, select the filter of your choice.
+  For Microsoft SharePoint Online, you can filter by Template ID.  You can enter the Template ID to search for it, or select it from the dropdown menu.
+  For all other services, you can filter by group, country, office, department, or title.  The second drop-down menu is populated with selections based on the filter you select. For example, if you select Group as your first filter, you can select one of the backup policy group tiers as your secondary filter.
+  image:select_filter.jpg[Screenshot of first set of filter options]
+.	In the second drop down menu, select the secondary filter of your choice.
+  image:select_filter2.jpg[Screenshot of second set of filter options]
+.	If you want to add more filters, click *Add Filter*.
+.	Click *Apply Filter*.
+  Filter results are displayed.
+
+== Performing a search inside Microsoft Exchange Online
+You can perform an inline search within an individual mailbox for specific content.  This also applies to mailboxes that are part of an Office 365 Group.
+
+.Steps
+
+.	From the Dashboard, click *Microsoft Exchange Online*.
+.	Click *view* next to the number of protected mailboxes.
+.	Double-click the email address for which you need to perform the search.
+.	Click the category (Mail, Tasks, Contacts, Calendar, or Other) that you need to search.
+.	Type a search string in the search field.
+  The search is automatically performed and results are displayed after the search string is entered.
+
+== Performing a search inside Microsoft OneDrive for Business
+You can perform an inline search within an individual MySite for specific content.
+
+.Steps
+
+.	From the Dashboard, click *Microsoft OneDrive for Business*.
+.	Click *view* next to the number of protected MySites.
+.	Click the MySite in which you need to perform the search.
+.	Click the files that you need to search.
+.	Type a search string in the search field.
+  The search is automatically performed and results are displayed after the search string is entered.
+
+== Performing a search inside Microsoft SharePoint Online
+You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Office 365 Group.
+
+.Steps
+
+.	From the Dashboard, click *Microsoft SharePoint Online*.
+.	Click *view* next to the number of protected sites.
+.	Click the site in which you need to perform the search.
+.	Click the content category that you need to search.
+.	Type the search string in the search field.
+  The search is automatically performed and results are displayed after the search string is entered.
+
+== Viewing Job History
+NetApp SaaS Backup for Office 365 stores a log of all jobs that includes the job type, service, start time, end time, and completion status.
+
+.Steps
+
+.	Click *Reporting* on the left navigation pane.
+  image:reporting.jpg[Screenshot of reporting button]
+.	Click the *Job History* tab.
+  A list of all SaaS Backup jobs is displayed.
+.	To filter the results, click *Filter*.
+.	In the first drop-down menu, select a filter.
+  You can filter by policy, service, or type.  If you select policy, the second drop-down menu is populated with backup tiers.  If you select service, the second drop-down menu is populated with SaaS Backup for Office 365 services.  If you select type, the second drop-down menu is populated with SaaS Backup for Office 365 job types, such as restore and backup.
+.	In the second drop-down menu, select the specific policy, service, or type you for which you want to see related activity.
+.	If you want to add more filters, click *Add Filter*.
+.	Click *Apply Filter*.
+  image:apply_filter.jpg[Screenshot of Apply Filter button]
+  Filter results are displayed.
+.	Click any job to expand the view for additional job details.
+
+== Viewing the Activity Log
+A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can filter the activity log by service and event. For example, if you need to see all of the restore operations that have occurred for Microsoft Exchange Online, you can filter the activity log to view those specific results.
+
+.Steps
+
+.	Click *Reporting* on the left navigation pane.
+  image:reporting.jpg[Screenshot of reporting button]
+.	Click the *Activity Log* tab.
+  A list of all SaaS Backup for Office 365 activity is displayed.
+.	To filter the results, click *Filter*.
+.	In the first drop-down menu, select a filter.
+  You can filter by service or event.  If you select service, the second drop-down menu is populated with SaaS Backup for Office 365 services.  If you select event, the second drop-down menu is populated with SaaS Backup for Office 365 events, such as restore and backup.
+.	In the second drop-down menu, select the specific service or event you for which you want to see related activity.
+.	If you want to add more filters, click *Add Filter*.
+.	Click *Apply Filter*.
+  image:apply_filter.jpg[Screenshot of Apply Filter button]
+  Filter results are displayed.
+
+== Downloading the Activity Log
+A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can download the activity log to a .csv file.
+
+.Steps
+
+  .	Click *Reporting* on the left navigation pane.
+    image:reporting.jpg[Screenshot of reporting button]
+  .	Click the *Activity Log* tab.
+    A list of all SaaS Backup for Office 365 activity is displayed.
+  .	Click download.
+    The activity log is downloaded as a .csv file.
+
+== Downloading a log of completed jobs
+You can download an Excel spreadsheet of successfully completed jobs.
+
+.Steps
+
+. Click *Jobs* from the left navigation pane
+  image:jobs_button.jpg[Screensot of jobs button]
+. Click the recently completed job that you want to download.
+. Click *Successful* under the number of successfully completed jobs.
+  image:completed_jobs.jpg[Screenshot of completed jobs]
+. Click *Download* in the top right.
+  image:download.jpg[Screenshot of download screen]
+  The log is downloaded

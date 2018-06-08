@@ -21,8 +21,9 @@ toc::[]
 
 == May 2018
 * NetApp Cloud Control has been renamed to NetApp SaaS Backup for Office 365.
-* You can now purge user users, site collections, and Office 365 groups, completely removing all associated data from SaaS Backup for Office 365.
+* You can now purge users, site collections, and Office 365 groups, completely removing all associated data from SaaS Backup for Office 365.
   <<task_managing_services.adoc#purging-a-user-site-collection-or-office-365-group,Purging a user, site collection, or Office 365 group>>
+* SaaS Backup now discovers both public and private groups for Office 365 groups.
 
 == April 2018
 Cloud Control now supports shared mailboxes for Microsoft Office Exchange Online.

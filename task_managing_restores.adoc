@@ -25,6 +25,8 @@ toc::[]
 == Performing a high-level service restore
 You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
 
+.Steps
+
 . From the Dashboard, select the service for which you need to perform a restore.
 . Click *view* next to the number of protected mailboxes, MySites, sites, or groups.
   If you are restoring shared mailboxes for Microsoft Exchange Online, click the *Shared* tab. If you are restoring mailboxes that are not shared, remain on the *Regular* tab.
@@ -48,6 +50,7 @@ You follow the same procedure to perform high-level restores of mailboxes for Mi
      If you restore to a different MySite, you must enter the destination MySite in the search field. You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
    * Export
       If you export, a .zip file is created with your MySites.  You will receive a notification email containing an authenticated URL to the location of the .zip file.
+
 . Click *Confirm*.
   A message is displayed indicating that the restore job was created.
 . Click *View the job progress* to monitor the progress of the restore.

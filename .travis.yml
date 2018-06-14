@@ -16,6 +16,7 @@ before_install:
 - mv sidebar.yml _data/sidebars/
 - sed -i 's/\/jekyll/\/'$REPO_NAME'/g' ./_config.yml
 - ES_INDEX="clouddocs-"$REPO_NAME
+- ES_INDEX=$(echo "$ES_INDEX" | tr '[:upper:]' '[:lower:]')
 - SK_INDEXES=$ES_INDEX
 - ES_INDEX_URL="https\:\/\/"$ES_AUTH"\@"$ES_API
 - SK_ES_URL="https\:\/\/"$ES_API$SK_INDEXES

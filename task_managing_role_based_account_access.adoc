@@ -38,7 +38,7 @@ You can assign the following roles to users:
 . Click *Confirm*.
 
 == Updating administrative roles assigned to user accounts
-If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Office 365. When the user logs back in, administrative role updates are reflected in the user's account.
+If an update is made to a user's administrative roles, the user is automatically logged out of Cloud Control. When the user logs back in, administrative role updates are reflected in the user's account.
 
 .Steps
 
@@ -51,7 +51,7 @@ If an update is made to a user's administrative roles, the user is automatically
 . Click *Confirm*.
 
 == Deleting all administrative roles from a user account
-If all administrative roles are deleted from a user's account, the user is automatically logged out of SaaS Backup for Office 365.
+If all administrative roles are deleted from a user's account, the user is automatically logged out of Cloud Control.
 
 .Steps
 

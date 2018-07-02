@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task_managing_creating_rules.html
 keywords: netapp, saas backup, office 365, creating rules, managing rules, preselected backup tier
-summary: You can create and manage rules for Microsoft Exchange Online and Microsoft OneDrive for Business inside SaaS Backup for Office 365.
+summary: You can view information within SaaS Backup for Office 365 in various ways.
 ---
 
 = Creating and managing rules inside NetApp SaaS Backup for Office 365
@@ -15,7 +15,7 @@ summary: You can create and manage rules for Microsoft Exchange Online and Micro
 :imagesdir: ./media/
 
 [.lead]
-Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
+Rules allow you to automatically move users toa preselected backup tier based on predefined criteria.
 
 toc::[]
 
@@ -43,7 +43,7 @@ You can click the image:up_down_rules_icon.jpg[] to move a rule up or down in th
 
 == Managing rules
 
-.Steps
+.Steps 
 
 . From the Dashboard, select the service for which you want to create rules.
 . Click *view* next to the number of protected or unprotected mailboxes for Microsoft Exchange Online or MySites for Microsoft OneDrive for Business.

@@ -7,6 +7,7 @@ entries:
     url: /concept_overview.html
   - title: Getting Started
     url: /task_getting_started.html
+    url: /task_getting_started_free_trial.html
   - title: Managing backups with SaaS Backup for Office 365
     url: /task_managing_backups.html
   - title: Mananging restores with SaaS Backup for Office 365

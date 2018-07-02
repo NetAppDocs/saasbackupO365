@@ -15,7 +15,7 @@ summary: You can use SaaS Backup for Office 365 to perform high-level and graula
 :imagesdir: ./media/
 
 [.lead]
-You can perform high-level and granular-level restores with NetApp SaaS Backup (formerly "NetApp Cloud Control") for Office 365.
+You can perform high-level and granular-level restores with NetApp SaaS Backup (formerly named "NetApp Cloud Control") for Office 365.
 
 By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 

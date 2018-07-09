@@ -5,7 +5,7 @@ keywords: netapp, saas backup, office 365, getting started
 summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
 ---
 
-= Getting started with Saas Backup for Office 365
+= Getting started with SaaS Backup for Office 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -15,7 +15,7 @@ summary: Getting started with SaaS Backup for Office 365 includes deciding what 
 :imagesdir: ./media/
 
 [.lead]
-Getting started with NetApp SaaS Backup (formerly named "NetApp Cloud Control) for Office 365 includes various steps such as deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+Getting started with NetApp SaaS Backup (formerly "NetApp Cloud Control") for Office 365 includes various steps such as deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
 
 toc::[]
 
@@ -254,7 +254,7 @@ When you set up SaaS Backup for Office 365, by default, your data is unprotected
 . Click *Apply*.
 
 == Performing an immediate backup of a specific backup policy
-When you set up Saas Backup for Office 365, by default, all of your data is unprotected.  After you move your data to a protected tier, you can perform an immediate backup of the tier to which you moved your data.  This prevents your data from being at risk until the first scheduled backup occurs.  If you can wait for the first scheduled backup, performing an immediate backup is not necessary.
+When you set up SaaS Backup for Office 365, by default, all of your data is unprotected.  After you move your data to a protected tier, you can perform an immediate backup of the tier to which you moved your data.  This prevents your data from being at risk until the first scheduled backup occurs.  If you can wait for the first scheduled backup, performing an immediate backup is not necessary.
 
 You can perform an immediate backup any time you deem necessary for data protection. If you are running a trial version of SaaS Backup for Office 365, you can only perform three immediate backups per day, per service.
 

@@ -27,7 +27,7 @@ With a free 30-day trial of Microsoft Office 365 for Business, you can discover 
 
 Steps
 
-. Go to this http://o365setup.com/#Trial+Center[site]  to start your trial subscription.
+. Go to this https://products.office.com/en-us/try[site]  to start your trial subscription.
 . Under *Enterprise Plan Trials*, click *Office 365 Enterprise E3-25 users*.
 . Click *Next*.
 . Follow the on-screen instructions to complete the sign-up process.
@@ -38,7 +38,7 @@ Steps
 
 Steps
 
-. Click http://www.netapp.com/us/products/cloud-storage/cloud-control-backup-saas.aspx[here] to go to the SaaS Backup for Office 365 free-trial URL.
+. Click https://www.netapp.com/us/forms/tools/cloud-control-for-microsoft-office-365.aspx[here] to go to the SaaS Backup for Office 365 free-trial URL.
 . Click *30-Day Free Trial*.
 . Enter the requested registration information.
   After you submit the form, you will receive an email containing your free-trial activation code.

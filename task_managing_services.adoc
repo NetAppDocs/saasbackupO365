@@ -26,8 +26,8 @@ If needed, you can activate one or more SaaS Backup for Office 365 services. Mic
 
 .	Click *Services* from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
+. Click the Microsoft Office 365 link.
+  image:mso365_settings.jpg[]
 .	Click *Activate* next to the service that you want to activate.
 .	Click *Confirm*.
 
@@ -38,10 +38,9 @@ If needed, you can deactivate one or more of your SaaS Backup for Office 365 ser
 
 .	Click *Services* from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
+. Click the Microsoft Office 365 link.
+  image:mso365_settings.jpg[]
 .	Click *Deactivate* next to the service that you want to deactivate.
-  image:deactivate.jpg[Screenshot of deactivate button]
 .	Click *Confirm*.
 
 == Managing service accounts
@@ -51,8 +50,8 @@ If needed, you can add permissions to a service account user. Service accounts a
 
 .	Click Services from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
+. Click the Microsoft Office 365 link.
+  image:mso365_settings.jpg[]
 . Click the *+* icon next to *Manage Service Accounts*.
 . Click *Confirm* to be redirected to the Microsoft Office 365 sign-in page to grant permissions.
 
@@ -64,8 +63,9 @@ By default, your user accounts, sites, and groups are automatically synchronized
 .	Click Services from the left navigation pane.
   image:services.jpg[Screenshot of services button]
 .	Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
+  image:mso365_settings.jpg[]
 . Click *Sync Now* next to the service that you want to synchronize.
+    image:sync_now.jpg[]
   New users are discovered and added in an unprotected state.  If you want newly discovered users to be backed up, you must change the backup policy of the users from unprotected to one of the predefined tier groups.
 .	Click *Confirm*.
 .	Click *View the job progress* to monitor the progress.
@@ -81,9 +81,10 @@ You can manually synchronize your user permissions with Azure Active Directory f
 
 .	Click Services from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
+.	Click the Microsoft Office 365 link.
+  image:mso365_settings.jpg[]
 . Click *Rediscover Permissions*.
+  image:rediscover_permissions.jpg[]
   If permissions for a services are discovered, the service is displayed with the option to active.
 
 == Adding a license
@@ -93,9 +94,7 @@ Education domains can have a license for faculty and a separate license for stud
 
 . Click *Services* from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-. Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
-. Under *Subscription details*, click image:bluecircle_icon.jpg[] icon.
+. Click image:bluecircle_icon.jpg[] icon in the right corner.
 . Enter the license information.
 . Click *Validate Subscription*.
 . Click *Next*.
@@ -105,11 +104,12 @@ Education domains can have a license for faculty and a separate license for stud
 
 .Steps
 
-. Click *Services* from the left navigation pane.
+.	Click Services from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-. Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of icon to access configuration settings for services]
+.	Click the Microsoft Office 365 link.
+  image:mso365_settings.jpg[]
 . Click *Grant Consent*.
+  image:grant_consent.jpg[]
   You are redirected to the Azure authorization page for authentication.
 . Select your tenant account.
 . *Accept* the permissions.
@@ -119,8 +119,8 @@ Education domains can have a license for faculty and a separate license for stud
 . To access shared mailboxes after an *Auto Sync* or a *Sync Now* do the following:
   .. Click *Services* from the left navigation pane.
      image:services.jpg[Screenshot of services button]
-  .. Click the Microsoft Exchange Online.
-  .. Click *view* next to the number of unprotected mailboxes.
+  .. Click Microsoft Exchange Online.
+  .. Click the number of unprotected mailboxes.
   .. Click the *Shared* tab.
 
 == Creating a new MS Office 365 service account
@@ -143,10 +143,10 @@ You can completely remove all the data associated with a user, site collection, 
 
 .Steps
 
-. Click your SaaS Backup userid in the top right corner.
+. Click the configuration icon next to your SaaS Backup userid in the top left corner.
 . Select *Account Settings*.
 . Click the *Retain and Purge* tab.
-. Select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.
+. Under *Purge Data*, select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.
 . Search for the user, site collection, or Office 365 group that you want to purge.
   For Microsoft Exchange Online or OneDrive for Business, enter user or Office 365 group name.  For SharePoint Online, enter the site collection name.
 . When the search result returns, click the image:bluecircle_icon.jpg[] to select the user, site collection, or Office 365 group.

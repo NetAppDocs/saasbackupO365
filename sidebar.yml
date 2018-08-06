@@ -12,7 +12,7 @@ entries:
     url: /task_managing_backups.html
   - title: Mananging restores with SaaS Backup for Office 365
     url: /task_managing_restores.html
-  - title: Viewing Data for SaaS Backup for Office 365
+  - title: Viewing data for SaaS Backup for Office 365
     url: /task_viewing_data.html
   - title: Creating and managing rules
     url: /task_managing_creating_rules.html

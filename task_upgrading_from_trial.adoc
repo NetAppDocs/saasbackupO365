@@ -36,10 +36,10 @@ If you change your backup storage destination when you upgrade, your trial data 
 
 .Steps
 
-. Click *Services* from the left navigation pane.
-  image:services.jpg[Screenshot of the services button]
-. Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[Screenshot of the configuration icon]
+.	Click Services from the left navigation pane.
+  image:services.jpg[Screenshot of services button]
+.	Click the Microsoft Office 365 link.
+  image:mso365_settings.jpg[]
 . Under *Subscription details*, click *Upgrade*.
   image:upgrade.jpg[Screenshot of upgrade button]
 . Select your upgrade option, and then click *Next*.

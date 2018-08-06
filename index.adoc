@@ -36,3 +36,5 @@ NetApp SaaS Backup (formerly "NetApp Cloud Control") is a secure, web-based, sof
 == Provide feedback, get help, or find more information
 * link:task_providing_feedback.html[Providing feedback]
 * link:concept_get_help_find_info.html[Where to get help and find more information]
+
+Last updated August 3, 2018

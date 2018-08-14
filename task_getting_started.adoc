@@ -107,7 +107,7 @@ To manually configure impersonation:
 .	Click *OK*.
 . Verify that the user name appears in the *Members* section.
 .	Click *Save*.
-
+////
 === Assigning user permissions for Microsoft OneDrive for Business
 If you plan to use SaaS Backup with Microsoft OneDrive for Business, you must assign eDiscovery permissions.  This allows your Microsoft Office 365 service account to access the site.
 
@@ -193,7 +193,7 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
     ... Click *Test Connection*.
     ... Click *Next*.
     ... Review your configuration, and then click *Save*.
-
+////
 ==== Signing up with a NetApp SSO account
 
 .Steps

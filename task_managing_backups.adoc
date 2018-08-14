@@ -45,9 +45,9 @@ You can move data between the three policies, but you cannot create new policies
 [options="header" width="80%"]
 |=======
 |Backup policy |Backup frequency |Data retention period
-|Tier 1 |Once every 12 hours |365 days
-|Tier 2 |Once every 18 hours |365 days
-|Tier 3 |Once every 24 hours |365 days
+|Tier 1 |Once every 12 hours |3 years
+|Tier 2 |Once every 18 hours |3 years
+|Tier 3 |Once every 24 hours |3 years
 |=======
 
 === Backup policies for BYOS
@@ -55,9 +55,9 @@ You can move data between the three policies, but you cannot create new policies
 [options="header" width="80%"]
 |=======
 |Backup policy |Backup frequency |Data retention period
-|Tier 1 |Once every 12 hours |Unlimited
-|Tier 2 |Once every 18 hours |Unlimited
-|Tier 3 |Once every 24 hours |Unlimited
+|Tier 1 |Once every 12 hours |3 years
+|Tier 2 |Once every 18 hours |3 years
+|Tier 3 |Once every 24 hours |3 years
 |=======
 
 Backup policies with an *Active* status are policies to which items have been assigned for backup.  Backup policies with an *Inactive* status do not have items assigned for backup.

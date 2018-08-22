@@ -21,7 +21,7 @@ The following new features and updates have been added to this release of NetApp
 
 === August 2018
 * The user interface has been redesigned for improved user experience and efficiency.
-* Data retention polices have been enhanced to allow tier one data to be retained for 7 years and tier 2 and tier 3 data to be retained forever.
+* Data retention polices have been updated to allow data to be retained for 3 years.
   <<task_managing_backups.adoc#backup_policies,Backup policies>>
 
 === May 2018

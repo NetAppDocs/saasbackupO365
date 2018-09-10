@@ -39,8 +39,7 @@ Steps
 Steps
 
 . Click https://www.netapp.com/us/forms/tools/cloud-control-for-microsoft-office-365.aspx[here] to go to the SaaS Backup for Office 365 free-trial URL.
-. Click *30-Day Free Trial*.
-. Enter the requested registration information.
+. Enter the requested registration information and click *Submit*.
   After you submit the form, you will receive an email containing your free-trial activation code.
 
 

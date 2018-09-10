@@ -65,7 +65,7 @@ By default, your user accounts, sites, and groups are automatically synchronized
 .	Click the Microsoft Office 365 settings icon.
   image:mso365_settings.jpg[]
 . Click *Sync Now* next to the service that you want to synchronize.
-    image:sync_now.jpg[]
+    image:sync_now.png[]
   New users are discovered and added in an unprotected state.  If you want newly discovered users to be backed up, you must change the backup policy of the users from unprotected to one of the predefined tier groups.
 .	Click *Confirm*.
 .	Click *View the job progress* to monitor the progress.

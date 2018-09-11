@@ -28,7 +28,6 @@ The following new features and updates have been added to this release of NetApp
 === April 2018
 * SaaS Backup for Office 365 now supports shared mailboxes for Microsoft Office Exchange Online.
   Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_managing_services.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
-
   After your automatic service account is created, your shared mailboxes will be automatically discovered during the next scheduled synchronization of your user account.  If you want your shared mailboxes discovered immediately, you can   <<task_managing_services.adoc#synchronizing-user-accounts-sites-and-groups,synchronizing your user accounts immediately>>.
 
 === March 2018

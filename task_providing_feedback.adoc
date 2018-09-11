@@ -21,7 +21,8 @@ toc::[]
 
 .Steps
 
-.	Click your user name in the top right of the screen.
+.	Click *Support* on the left pane navigation.
+  image:support.png[]
 .	Select *Feedback*.
 .	Complete the short feedback survey.
 .	Click *Submit*.

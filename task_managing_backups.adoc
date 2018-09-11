@@ -44,38 +44,36 @@ You can move data between the three policies, but you cannot create new policies
 
 [options="header" width="80%"]
 |=======
-|Backup policy |Backup frequency |Data retention period
-|Tier 1 |Once every 12 hours |365 days
-|Tier 2 |Once every 18 hours |365 days
-|Tier 3 |Once every 24 hours |365 days
+|Backup policy |Backup frequency |Default data retention period
+|Tier 1 |Once every 12 hours |3 years
+|Tier 2 |Once every 18 hours |3 years
+|Tier 3 |Once every 24 hours |3 years
 |=======
 
 === Backup policies for BYOS
 
 [options="header" width="80%"]
 |=======
-|Backup policy |Backup frequency |Data retention period
-|Tier 1 |Once every 12 hours |Unlimited
-|Tier 2 |Once every 18 hours |Unlimited
-|Tier 3 |Once every 24 hours |Unlimited
+|Backup policy |Backup frequency |Default data retention period
+|Tier 1 |Once every 12 hours |Forever
+|Tier 2 |Once every 18 hours |Forever
+|Tier 3 |Once every 24 hours |Forever
 |=======
-
-Backup policies with an *Active* status are policies to which items have been assigned for backup.  Backup policies with an *Inactive* status do not have items assigned for backup.
 
 == Changing backup policies
 If you want to change the backup frequency of your data, you can assign the data to a different backup policy tier.
 
 .Steps
 
-. From the Dashboard, select the service that you want to change.
-. Click *view* next to the number of protected mailboxes, MySites, sites, or groups.
+. From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service you want to change.
+  The number above PROTECTED indicates the number of mailboxes, MySites, or groups that are currently protected by a backup policy.  The number above UNPROTECTED indicates the number of mailboxes, MySites, or groups that are not protected by a backup policy.
+  image:number_protected_unprotected.jpg[]
 .	Select the items for which you want to change the backup policy.
 . Click the *Groups* menu.
   image:groups_menu.jpg[]
 . Select the new policy tier for the backup.
   *Note*:  Only the tier 3 policy is available for Microsoft Office 365 groups.
 .	Click *Apply*.
-
 
 == Updating backup settings
 You can update your backup settings to control various backup options. Available backup settings vary based on service.
@@ -107,10 +105,9 @@ Microsoft Office 365 Groups
 
 . Click *Services* from the left navigation pane.
   image:services.jpg[]
-. Click the Microsoft Office 365 settings icon.
-  image:configure_icon.jpg[]
-.	Click *Settings* next to the service that you need to update.
-  image:settings.jpg[]
+. Click Microsoft Office 365.
+  image:mso365_settings.jpg[]
+.	Under *Manage Services*, click the backup settings icon image:configure_icon.jpg[] next to the service that you need to update.
   A list of your backup settings available for the selected service is displayed.
 . Select the desired backup settings.
 . Click *Confirm*.
@@ -120,24 +117,22 @@ As needed, you can perform an immediate backup of any Microsoft Office 365 servi
 
 .Steps
 
-. From the Dashboard, select the service for which you want to perform an immediate backup.
-. Click *view* next to the number of protected mailboxes, MySites, sites, or groups.
+. From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform an immediate backup.
 . Select the items that you want to back up.
 . Click *Backup Now*.
   image:backup_now.jpg[]
-  A message is displayed indicating that the selected services will be placed in the job queue for immediate backup.
+  A message is displayed indicating that the selected services will be placed in the job queue for backup.
 . Click *Confirm*.
   A message is displayed indicating that the backup job was created.
 . Click *View the job progress* to monitor the progress of the backup.
 
 == Canceling a job
-If you have initiated an immediate backup or an immediate restore but need to cancel it before it is completed, you can do so.
+If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
 
 .Steps
 
 . Click *Jobs* from the left navigation pane.
   image:jobs_button.jpg[]
-. Select the *Most Recent* tab.
 . Under *Recent Running Jobs*, click the job that you want to cancel.
 . Click *Cancel*.
   The progress of the cancelled job is displayed under *Recent Completed Jobs*.

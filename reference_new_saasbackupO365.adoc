@@ -19,6 +19,11 @@ toc::[]
 == New features and updates
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
 
+=== August 2018
+* The user interface has been redesigned for improved user experience and efficiency.
+* Data retention polices have been updated to allow data to be retained for 3 years.
+  <<task_managing_backups.adoc#backup_policies,Backup policies>>
+
 === May 2018
 * NetApp Cloud Control has been renamed to NetApp SaaS Backup for Office 365.
 * You can now purge users, site collections, and Office 365 groups, completely removing all associated data from SaaS Backup for Office 365.
@@ -28,7 +33,11 @@ The following new features and updates have been added to this release of NetApp
 === April 2018
 * SaaS Backup for Office 365 now supports shared mailboxes for Microsoft Office Exchange Online.
   Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_managing_services.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
+<<<<<<< HEAD
   After your automatic service account is created, your shared mailboxes will be automatically discovered during the next scheduled synchronization of your user account.  If you want your shared mailboxes discovered immediately, you can   <<task_managing_services.adoc#synchronizing-user-accounts-sites-and-groups,synchronizing your user accounts immediately>>.
+=======
+  After your automatic service account is created, your shared mailboxes will be automatically discovered during the next scheduled synchronization of your user account.  If you want your shared mailboxes discovered immediately, you can <<task_managing_services.adoc#synchronizing-user-accounts-sites-and-groups,synchronize your user accounts immediately>>.
+>>>>>>> f623c7a3f87c253ab6d5126c23cbd8b21b851670
 
 === March 2018
 The location in which you enter an activation code for a free trial was moved to the Add a Service Provider wizard:

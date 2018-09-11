@@ -29,28 +29,34 @@ xref:_creating_a_user_defined_filter[Creating a user defined filter]
 
 .Steps
 
-. From the Dashboard, select the service for which you want to create rules.
-. Click *view* next to the number of protected or unprotected mailboxes for Microsoft Exchange Online or MySites for Microsoft OneDrive for Business.
-. Click *Create Rule*.
+. From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
+  image:number_protected_unprotected.jpg[]
   If no user created filter is applied, image:create_rule.jpg[Screenshot of create rule button] does not appear.
+. Click *Filter*.
+  image:filter.jpg[]
+. Click the *Select* dropdown menu and select your filter.
+  A search field appears.
+. Enter your search criteria.
+. Click *Apply Filter*.
+. Click *Create Rule*.
 . Enter a name for the rule.
 . For *Destination Group*, select the tier to which you want users who meet the rule's criteria to be moved.
 . Select *Apply to existing items* if you want the rule to be immediately applied to all unprotected items.  If not selected, the rule is applied to newly discovered items and any unprotected items the next time new items are discovered.
 
 Multiple rules can be created.  The rules are applied in the order they appear in the *Manage Rules* list.
-image:manage_rules.jpg[Manage rules screen]
 You can click the image:up_down_rules_icon.jpg[] to move a rule up or down in the list.
 
 == Managing rules
+You can apply existing rules to unprotected items, change the order in which rules are applied, and delete rules.
 
 .Steps
 
-. From the Dashboard, select the service for which you want to create rules.
-. Click *view* next to the number of protected or unprotected mailboxes for Microsoft Exchange Online or MySites for Microsoft OneDrive for Business.
+. From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
+  image:number_protected_unprotected.jpg[]
 . Click *Filter*.
   image:filter.jpg[Screenshot of filter dropdown menu button]
 . Click *Rules*.
   The existing rules are displayed.
 . Click *Apply Now* to apply the rule to existing unprotected items.
-. Click image:delete.jpg[Screenshot of delete icon] to delete the rule.
+. Click the trash can image:delete.jpg[Screenshot of delete icon] to delete the rule.
   The status of the items to which the rule was previously applies is not changed when the rule is deleted.

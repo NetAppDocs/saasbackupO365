@@ -29,10 +29,11 @@ You can assign the following roles to users:
 
 .Steps
 
-. Click your user ID in the top left of the screen.
-. Select *My Account* from the drop-down menu.
-. Click the *User Management* tab.
+. Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
 . Click the image:bluecircle_icon.jpg[Screenshot of icon clicked to display user role options] icon.
+. Enter the email address for the user you want to add.
 . Click the drop-down menu to select the role.
   You can assign one or more roles to a user.
 . Click *Confirm*.
@@ -42,10 +43,10 @@ If an update is made to a user's administrative roles, the user is automatically
 
 .Steps
 
-. Click your user ID in the top left of the screen.
-. Select *My Account* from the drop-down menu.
-. Click the *User Management* tab.
-. Click image:edit.jpg[Screenshot of edit icon] next to the user name that you want to update.
+. Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click  *Update User* next to the user name that you want to update.
 . Click the drop-down menu to select the role.
   You can assign one or more roles to a user.
 . Click *Confirm*.
@@ -55,8 +56,8 @@ If all administrative roles are deleted from a user's account, the user is autom
 
 .Steps
 
-. Click your user ID in the top left of the screen.
-. Select *My Account* from the drop-down menu.
-. Click the *User Management* tab.
-. Click image:delete.jpg[Screenshot of delete icon] next to the user name that you want to remove.
+. Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click  *Delete User* next to the user name that you want to remove.
 . Click *Yes*.

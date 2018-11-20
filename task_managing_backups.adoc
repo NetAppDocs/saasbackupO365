@@ -93,16 +93,16 @@ You can update the length of time, in number of years, that data is retained for
 . Click the configuration icon image:configuration_icon.jpg[Configuration Icon] next to your SaaS Backup userid in the top left corner.
 . Click *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
-. To update the data retention policy for a specific tenant do the following:
+. To update the data retention policy for a specific user in a specific service do the following:
 .. Under *Data Retention Policies*, click the dropdown menu next to *RETENTION PERIOD* and select the period you want from the list of preset times.
-.. Click the dropdown menu next to *TYPE OF SERVIE* and select the service you are updating.
+.. Click the dropdown menu next to *TYPE OF SERVICE* and select the service you are updating.
 .. In the search box, begin entering the user, site, or MySite you want to update.
 .. Select the user, site, or MySite you want from the matching results.
 .. Click image:blue_circle_icon.jpg[Plus sign].
 .. Continue to search for and add individual mailboxes, sites, or MySites as needed.
 .. Click *Save*.
    The individual mailboxes, sites, or MySites you selected are updated to the selected retention period.
-. To update the data retention policy for all tenants, do the following:
+. To update the data retention policy at the tenant level, do the following:
 .. Under *Tenant Level Data Retention Policies*, click dropdown menu next to *RETENTION PERIOD* and select the period you want from the list of preset times.
 .. Click *Save*.
    All backup policy tiers are updated to the retention period you selected.

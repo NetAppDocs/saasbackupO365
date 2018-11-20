@@ -144,6 +144,7 @@ You can assign user permissions manually or automatically.  If you have a few us
 .	In the *Secondary admin* field, type the name of your Microsoft Office 365 service account.
 .	Click *OK*.
 
+
 === Assigning user permissions for Microsoft SharePoint Online
 If you plan to use SaaS Backup with Microsoft SharePoint Online, you must https://support.office.com/en-us/article/Manage-administrators-for-a-site-collection-9a7e46f9-3fc4-4297-955a-82cb292a5be0#__toc341786267[add an administrator to the site collection administrator list].  This allows your Microsoft Office 365 service account to access user account permissions.
 

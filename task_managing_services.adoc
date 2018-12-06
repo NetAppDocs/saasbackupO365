@@ -139,7 +139,7 @@ Education domains can have a license for faculty and a separate license for stud
   .. Select *Create user without product license*.
 
 == Purging a user, site collection, or Office 365 group
-You can completely remove all the data associated with a user, site collection, or Office 365 group.
+You can completely remove all the data associated with a user, site collection, or Office 365 group. Purged data is recoverable for seven days.  After seven days, the data is permanently deleted.
 
 .Steps
 

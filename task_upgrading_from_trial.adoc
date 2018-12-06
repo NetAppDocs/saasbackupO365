@@ -70,7 +70,7 @@ If you change your backup storage destination when you upgrade, your trial data 
      You are redirected to the SaaS Backup page.
   .. Sign in to SaaS Backup for Office 365 with your Microsoft Office 365 account.
   .. Click the Microsoft Office 365 settings icon.
-     image:configure_icon.jpg[Screenshot of configuration icon]
+     image:configure_Icon.jpg[Screenshot of configuration icon]
   .. Under Subscription details, click *Activate*.
      image:activate.jpg[Screenshot of activate button]
      If you used a BYOS option for your trial subscription a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.

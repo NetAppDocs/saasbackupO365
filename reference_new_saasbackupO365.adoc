@@ -19,6 +19,9 @@ toc::[]
 == New features and updates
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
 
+=== December 2018
+* SaaS Backup for Office 365 can now be purchased through the AppDirect Marketplace and the CANCOM Marketplace.
+
 === August 2018
 * The user interface has been redesigned for improved user experience and efficiency.
 * Data retention polices have been updated to allow data to be retained for 3 years.

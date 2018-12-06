@@ -61,13 +61,7 @@ If you change your backup storage destination when you upgrade, your trial data 
 . If you selected *AWS Marketplace*:
   NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.  If you used a BYOS storage option for your trial subscription, your trial data is not migrated.
   .. Click the link to *Go to the AWS Marketplace*.
-  .. Click *Continue*.
-     image:continue.jpg[Screenshot of AWS continue button]
-  .. Click *Modify your current contract*.
-     image:modify_current_contract.jpg[Screenshot of notice that you will be subscribed to this software and agree that your use is subject to the pricing terms, your automatic renewal selection, and the ELUA]
-  .. Enter the requested information to upgrade to the licensed subscription.
-  .. Click the link to set up your account.
-     You are redirected to the SaaS Backup page.
+  .. Follow the Marketplace instructions.
   .. Sign in to SaaS Backup for Office 365 with your Microsoft Office 365 account.
   .. Click the Microsoft Office 365 settings icon.
      image:configure_Icon.jpg[Screenshot of configuration icon]

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_services.html
-keywords: netapp, saas backup, office 365, activating service, deactivating, synchronizing, user accounts, sites, groups, adding, license, granting, permissions, enabling shared mailboxes, azure, active directory
+keywords: netapp, saas backup, office 365, activating service, deactivating, synchronizing, user accounts, sites, groups, adding, license, granting, permissions, enabling shared mailboxes, azure, active directory, purge, purging, site collection, office 365 group
 summary: Within NetApp SaaS Backup for Office 365 you can activate new services, deactivate existing services, synchronize your service account users, and grant permissions to service accounts.
 ---
 

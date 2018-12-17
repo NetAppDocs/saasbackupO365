@@ -164,7 +164,7 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
   .. To restore to one or more specific content items:
      ... Click the content category of the single items that you want to restore.
      ... Select the items that you want to restore:
-       * If you want to restore the most recent version of the item, click *Restore*, and then select a restor option.
+       * If you want to restore the most recent version of the item, click *Restore*, and then select a restore option.
             image:restore.jpg[]
             For Microsoft Office 365 Groups, you only have the option to restore to the same site. For Microsoft SharePoint Online, you can restore to the same site or to another site.
             ** Restore to the same site

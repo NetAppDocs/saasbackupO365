@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_backups.html
-keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates,
+keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archived mailboxes
 summary: Managing backups for NetApp SaaS for Office 365 includes various tasks such as changing your backup policies, updating your backup settings, and canceling jobs.
 ---
 
@@ -19,21 +19,6 @@ After you have completed the setup process for NetApp SaaS Backup (formerly "Net
 
 toc::[]
 
-== Supported templates for Microsoft SharePoint Online
-Only the following templates are supported for Microsoft SharePoint Online backups.
-
-* STS#0 (Team Site)
-* BLOG#0 (Blog Site)
-* DEV#0 (Developer Site)
-* PROJECTSITE#0 (Project Site)
-* COMMUNITY#0 (Community Site)
-* BDR#0 (Document Center)
-* COMMUNITYPORTAL#0 (Community Portal)
-* ENTERWIKI#0 (Enterprise WIKI)
-* EHS#1 (Root site)
-* EHS#0 (Root site)
-* SITEPAGEPUBLISHING#0 (Communication site)
-* GROUP (Group site collection prefix)
 
 == Backup policies
 SaaS Backup for Office 365 has three predefined tiers of backup policies.  These policy tiers vary in backup frequency and data retention period, depending upon whether you are using SaaS Backup provided storage or BYOS.
@@ -60,20 +45,41 @@ You can move data between the three policies, but you cannot create new policies
 |Tier 3 |Once every 24 hours |Forever
 |=======
 
-== Changing backup policies
-If you want to change the backup frequency of your data, you can assign the data to a different backup policy tier.
+== Scheduling a backup or changing backup frequency
+You can back up your unprotected data by assigning it to a backup policy. When unprotected data is assigned to a backup policy, it moves to a *PENDING* state until the next scheduled backup for the assigned policy occurs, after which it is moved to a *PROTECTED* state.
+If you want to change the backup frequency of protected data, you can assign the data to a different backup policy tier.
 
 .Steps
 
 . From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service you want to change.
-  The number above PROTECTED indicates the number of mailboxes, MySites, or groups that are currently protected by a backup policy.  The number above UNPROTECTED indicates the number of mailboxes, MySites, or groups that are not protected by a backup policy.
+  If you want to change the backup frequency of protected data, click *PROTECTED*. If you want to backup newly discovered mailboxes, sites, or MySites, select *UNPROTECTED*.
   image:number_protected_unprotected.jpg[]
-.	Select the items for which you want to change the backup policy.
+.	If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
+  If you are backing up or changing the backup policy for archived mailboxes, click the *ARCHIVED* tab.
+  If you are backing up or changing regular mailboxes, remain on the *USER* tab.
+. Select the items you want to backup.
 . Click the *Groups* menu.
   image:groups_menu.jpg[Groups Menu]
 . Select the new policy tier for the backup.
-  *Note*:  Only the tier 3 policy is available for Microsoft Office 365 groups.
+  *Note*:  Microsoft Office 365 groups and archived mailboxes can only be moved to the tier 3 policy.
 .	Click *Apply*.
+
+== Performing an immediate backup of a service
+As needed, you can perform an immediate backup of any Microsoft Office 365 service.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform an immediate backup.
+. If you are backing up shared mailboxes, click the *SHARED* tab.
+  If you are backing up archived mailboxes, click the *ARCHIVED* tab.
+  If you are backing up regular mailboxes, remain on the *USER* tab.
+. Select the items that you want to back up.
+. Click *Backup Now*.
+  image:backup_now.jpg[]
+  A message is displayed indicating that the selected services will be placed in the job queue for backup.
+. Click *Confirm*.
+  A message is displayed indicating that the backup job was created.
+. Click *View the job progress* to monitor the progress of the backup.
 
 == Updating the backup retention period
 You can update the length of time, in number of years, that data is retained for individual tiers, mailboxes, sites, and MySites to 7 years, 10 years or forever.  If all your backup tiers have the same retention period, you can perform a global update to simultaneously change the retention period for all tenants.
@@ -144,27 +150,18 @@ Microsoft Office 365 Groups
 . Select the desired backup settings.
 . Click *Confirm*.
 
-== Performing an immediate backup of a service
-As needed, you can perform an immediate backup of any Microsoft Office 365 service.
+== Supported templates for Microsoft SharePoint Online
+Only the following templates are supported for Microsoft SharePoint Online backups.
 
-.Steps
-
-. From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform an immediate backup.
-. Select the items that you want to back up.
-. Click *Backup Now*.
-  image:backup_now.jpg[]
-  A message is displayed indicating that the selected services will be placed in the job queue for backup.
-. Click *Confirm*.
-  A message is displayed indicating that the backup job was created.
-. Click *View the job progress* to monitor the progress of the backup.
-
-== Canceling a job
-If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
-
-.Steps
-
-. Click *Jobs* from the left navigation pane.
-  image:jobs_button.jpg[]
-. Under *Recent Running Jobs*, click the job that you want to cancel.
-. Click *Cancel*.
-  The progress of the cancelled job is displayed under *Recent Completed Jobs*.
+* STS#0 (Team Site)
+* BLOG#0 (Blog Site)
+* DEV#0 (Developer Site)
+* PROJECTSITE#0 (Project Site)
+* COMMUNITY#0 (Community Site)
+* BDR#0 (Document Center)
+* COMMUNITYPORTAL#0 (Community Portal)
+* ENTERWIKI#0 (Enterprise WIKI)
+* EHS#1 (Root site)
+* EHS#0 (Root site)
+* SITEPAGEPUBLISHING#0 (Communication site)
+* GROUP (Group site collection prefix)

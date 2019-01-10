@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_services.html
-keywords: netapp, saas backup, office 365, activating service, deactivating, synchronizing, user accounts, sites, groups, adding, license, granting, permissions, enabling shared mailboxes, azure, active directory, purge, purging, site collection, office 365 group
+keywords: netapp, saas backup, office 365, activating service, deactivating, adding, license, security groups, purge, purging, site collection, office 365 group, cancelling jobs
 summary: Within NetApp SaaS Backup for Office 365 you can activate new services, deactivate existing services, synchronize your service account users, and grant permissions to service accounts.
 ---
 
@@ -43,50 +43,6 @@ If needed, you can deactivate one or more of your SaaS Backup for Office 365 ser
 .	Click *Deactivate* next to the service that you want to deactivate.
 .	Click *Confirm*.
 
-== Managing service accounts
-If needed, you can add permissions to a service account user. Service accounts are used to perform concurrent backups efficiently.
-
-.Steps
-
-.	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
-. Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
-. Click the *+* icon next to *Manage Service Accounts*.
-. Click *Confirm* to be redirected to the Microsoft Office 365 sign-in page to grant permissions.
-
-== Synchronizing user accounts, sites, and groups
-By default, your user accounts, sites, and groups are automatically synchronized with SaaS Backup for Office 365 once every 24 hours.  However, if you make changes and you want to synchronize SaaS Backup for Office 365 with your service before the next scheduled *Auto Sync*, you can initiate an immediate synchronization.
-
-.Steps
-
-.	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 settings icon.
-  image:mso365_settings.jpg[]
-. Click *Sync Now* next to the service that you want to synchronize.
-    image:sync_now.png[]
-  New users are discovered and added in an unprotected state.  If you want newly discovered users to be backed up, you must change the backup policy of the users from unprotected to one of the predefined tier groups.
-.	Click *Confirm*.
-.	Click *View the job progress* to monitor the progress.
-  When the job is complete, you can click the job under *Recent Completed Jobs* to view the number of users that were added or removed during the synchronization. Changes to user accounts are indicated as follows:
-  * *Rediscovered* users indicates the number of unchanged user accounts.
-  * *Deactivated* users indicates the number of deleted user accounts.
-  * *Newly added* users indicates the number of new user accounts.
-
-== Synchronizing user permissions with Azure Active Directory
-You can manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Office 365.
-
-.Steps
-
-.	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
-. Click *Rediscover Permissions*.
-  image:rediscover_permissions.jpg[]
-  If permissions for a services are discovered, the service is displayed with the option to active.
-
 == Adding a license
 Education domains can have a license for faculty and a separate license for students.
 
@@ -100,43 +56,17 @@ Education domains can have a license for faculty and a separate license for stud
 . Click *Next*.
 . Click *Save*.
 
-== Granting permissions to enable shared mailboxes
+== Adding security groups
+You can add up to 3 security groups.  You can then use your security groups as filtering options in SaaS Backup.  After you add a security group, it cannot be deleted.
+
+New security groups must be discovered through an AutoSync*or a manual synchronization before they can be added.
 
 .Steps
 
-.	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
-.	Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
-. Click *Grant Consent*.
-  image:grant_consent.jpg[]
-  You are redirected to the Azure authorization page for authentication.
-. Select your tenant account.
-. *Accept* the permissions.
-  Your shared mailboxes will be discovered during the next scheduled *Auto Sync* or you can perform a *Sync Now*.  If you *Sync Now*, it will take a few minutes for your shared mailboxes to be discovered.
-  <<task_managing_services.adoc#sychronizing-user-accounts-sites-and-groups,Sychronizing user accounts, sites, and groups>>
-
-. To access shared mailboxes after an *Auto Sync* or a *Sync Now* do the following:
-  .. Click *Services* from the left navigation pane.
-     image:services.jpg[Screenshot of services button]
-  .. Click Microsoft Exchange Online.
-  .. Click the number of unprotected mailboxes.
-  .. Click the *Shared* tab.
-
-== Creating a new MS Office 365 service account
-
-.Steps
-
-. Log in to your Office 365 Management portal using an account with administrative privileges.
-. Click on the *App Launcher* icon.
-. Click *Admin*.
-. Click *Users*.
-  image:users.jpg[Screenshot of users icon]
-. Click *Add a user* to create a new account.
-. Enter the required information into the form.
-  .. Select *Let me create the password* and deselect *Make this user change their password when they first sign in*.
-  .. For *Role*, select *Customized Administrator*; then select *Exchange administrator* and *SharePoint administrator*.
-  .. Select *Create user without product license*.
+. Click *ACCOUNT SETTINGS*.
+. Click *SECURITY GROUPS*.
+. In the search field, enter the name of the security group you want to add.
+. Click *Add*.
 
 == Purging a user, site collection, or Office 365 group
 You can completely remove all the data associated with a user, site collection, or Office 365 group. Purged data is recoverable for seven days.  After seven days, the data is permanently deleted.
@@ -148,7 +78,19 @@ You can completely remove all the data associated with a user, site collection, 
 . Click *RETAIN AND PURGE*.
 . Under *Purge Data*, select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.
 . Search for the user, site collection, or Office 365 group that you want to purge.
-  For Microsoft Exchange Online or OneDrive for Business, enter user or Office 365 group name.  For SharePoint Online, enter the site collection name.
+  For Microsoft Exchange Online or OneDrive for Business, enter the user or Office 365 group name.  For SharePoint Online, enter the site collection name.
+  Note:  If you the user has an archived mailbox, the username of the archived mailbox is prefixed by "In-Place Archive".
 . When the search result returns, click the image:bluecircle_icon.jpg[] to select the user, site collection, or Office 365 group.
 . Click *Save*.
 . Click *Yes* to confirm that you want purge the data.
+
+== Canceling a job
+If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
+
+.Steps
+
+. Click *Jobs* from the left navigation pane.
+  image:jobs_button.jpg[]
+. Under *Recent Running Jobs*, click the job that you want to cancel.
+. Click *Cancel*.
+  The progress of the cancelled job is displayed under *Recent Completed Jobs*.

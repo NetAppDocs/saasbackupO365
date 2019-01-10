@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_backups.html
-keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archived mailboxes
+keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archived mailboxes, archived, archive, shared, mailboxes
 summary: Managing backups for NetApp SaaS for Office 365 includes various tasks such as changing your backup policies, updating your backup settings, and canceling jobs.
 ---
 

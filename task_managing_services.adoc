@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_services.html
-keywords: netapp, saas backup, office 365, activating service, deactivating, adding, license, security groups, purge, purging, site collection, office 365 group, cancelling jobs
+keywords: netapp, saas backup, office 365, activating service, deactivating, adding, license, security, groups, purge, purging, site collection, office 365 group, cancelling, jobs
 summary: You can manage your service in various ways within NetApp SaaS Backup (formerly named "NetApp Cloud Control") including activating a new services, deactivating a existing services, purging data, and canceling a job.
 ---
 

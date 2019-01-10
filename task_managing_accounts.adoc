@@ -2,8 +2,20 @@
 sidebar: sidebar
 permalink: task_managing_accounts.html
 keywords: netapp, saas backup, office 365, synchronizing, autosync, discovering, user accounts, sites, groups, enabling, shared mailboxes, archived mailboxes, site collection, office 365 group
-summary: Within NetApp SaaS Backup for Office 365 you can activate new services, deactivate existing services, synchronize your service account users, and grant permissions to service accounts.
+summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can manage your service accounts, discover newly added accounts, and set account notifications.
+
+toc::[]
 
 == Managing service accounts
 If needed, you can add permissions to a service account user. Service accounts are used to perform concurrent backups efficiently.
@@ -35,3 +47,16 @@ A synchronization must occur between SaaS Backup and your Microsoft Office 365 a
   * *Rediscovered* users indicates the number of unchanged user accounts.
   * *Deactivated* users indicates the number of deleted user accounts.
   * *Newly added* users indicates the number of new user accounts.
+
+== Setting account notifications
+You can add users to account notifications and then select the specific notifications you wan each user to receive.  For example, you can select to have a user receive an email notification each time there is a restore failure.
+
+.Steps
+
+. Click *ACCOUNT SETTINGS*.
+. Click *NOTIFICATION MANAGEMENT*.
+. Enter the email address of the account you want to receive notifications.
+. Click *Add Notifications*.
+  The user is added under the list of accounts for notifications.
+. Select the specific notifications you want the user to receive.
+. Click *Save*.

@@ -21,7 +21,6 @@ By default, only the most recent backup is available for restore.  You can updat
 
 toc::[]
 
-
 == Performing a high-level service restore
 You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
 

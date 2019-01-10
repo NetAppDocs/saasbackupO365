@@ -1,10 +1,22 @@
 ---
 sidebar: sidebar
-permalink: task_managing_permisions.html
+permalink: task_managing_permissions.html
 keywords: netapp, saas backup, office 365, synchronizing, granting, permissions, enabling shared mailboxes, azure, active directory
-summary: Within NetApp SaaS Backup for Office 365 you can activate new services, deactivate existing services, synchronize your service account users, and grant permissions to service accounts.
+summary: Within NetApp SaaS Backup for Office 365 you can manage permissions with Azure Active Directory and you can grant permissions to enable shared mailboxes.
 ---
 
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Within NetApp SaaS Backup for Office 365 you can manage permissions with Azure Active Directory and you can grant permissions to enable shared mailboxes.
+
+toc::[]
 
 == Synchronizing user permissions with Azure Active Directory
 You can manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Office 365.

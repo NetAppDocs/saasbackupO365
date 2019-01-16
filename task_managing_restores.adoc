@@ -64,7 +64,7 @@ Within Microsoft Exchange Online, you can restore granular-level items for a sin
 . From the Dashboard, click the number above *PROTECTED* in the Exchange box.
   image:number_protected_exchange.jpg[]
   If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
-  If you are restoring archived mailboxes for Microsoft Exchange Online, click the *ARCHIVED* tab. Note: Archived mailboxes are restored to the user's regular mailbox.
+  If you are restoring archived mailboxes for Microsoft Exchange Online, click the *ARCHIVED* tab.
   If you are restoring regular mailboxes, remain on the *USER* tab.
 .	Click the mailbox for which you need to perform the granular-level restore.
 .	Restore an entire Microsoft Office Exchange category or restore a specific item within a category.

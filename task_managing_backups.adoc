@@ -160,7 +160,49 @@ Only the following templates are supported for Microsoft SharePoint Online backu
 * BDR#0 (Document Center)
 * COMMUNITYPORTAL#0 (Community Portal)
 * ENTERWIKI#0 (Enterprise WIKI)
-* EHS#1 (Root site)
-* EHS#0 (Root site)
-* SITEPAGEPUBLISHING#0 (Communication site)
-* GROUP (Group site collection prefix)
+* EHS#1 (Root Site)
+* EHS#0 (Root Site)
+* SITEPAGEPUBLISHING#0 (Communication Site)
+* GROUP#0 (Group Site Collection Prefix)
+* STS#1 (Blank Site)
+* STS#2 (Document Workspace)
+* STS#3 (Modern Team Site)
+* APP#0 (App Template)
+
+== Supported apps for Microsoft SharePoint Online
+The following apps are supported for Microsoft SharePoint Online backups.
+
+* Custom List
+* Badge (Community Site) 
+* Document Library
+* Style Library
+* Survey
+* Link
+* Announcement
+* Contact
+* Calendar
+* Discussion Board
+* Photos
+* Picture Library
+* Content Web Parts
+* List Template Gallery
+* Master Page Gallery
+* Site Pages
+* Custom List in Dataset View
+* Solution Gallery
+* Theme Gallery
+* Composed Looks
+* Promoted Links
+* Tasks
+* Posts (Blog Site)
+* Comments (Blog Site)
+* Community Discussions (Community Site)
+* Categories (Blog Site)
+* Community Categories (Community Site)
+* Report
+* Wiki Pages
+* Site Collection Images
+* Community Members (Community Site)
+* Issue Tracking
+* Record Library
+* Sharing Links

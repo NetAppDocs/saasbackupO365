@@ -14,7 +14,7 @@ summary: Welcome to the documentation portal for NetApp SaaS Backup for Office 3
 
 NetApp SaaS Backup (formerly "NetApp Cloud Control") is a secure, web-based, software-as-a-service (SaaS) offering that backs up your Microsoft Office 365 data to Amazon S3 storage, Microsoft Azure Blob storage, or StorageGRID Webscale object storage.
 
-*Documentation last updated: December 6, 2018*
+*Documentation last updated: February 21, 2019*
 
 == Discover what's new
 
@@ -32,6 +32,8 @@ NetApp SaaS Backup (formerly "NetApp Cloud Control") is a secure, web-based, sof
 * link:task_viewing_data.html[Viewing SaaS Backup for Office 365 data]
 * link:task_managing_creating_rules.html[Creating and managing rules]
 * link:task_managing_services.html[Managing services]
+* link:task_managing_permissions.html[Managing permissions]
+* link:task_managing_accounts.html[Managing accounts]
 * link:task_managing_role_based_account_access.html[Managing role-based account access]
 * link:task_upgrading_from_trial.html[Upgrading from a trial subscription]
 

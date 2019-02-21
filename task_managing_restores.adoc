@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_restores.html
-keywords: netapp, saas restores, office 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, backup settings
+keywords: netapp, saas restores, office 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archived, archive, shared, mailboxes
 summary: You can use SaaS Backup for Office 365 to perform high-level and graular level restores for Microsoft Office 365.
 ---
 
@@ -21,7 +21,6 @@ By default, only the most recent backup is available for restore.  You can updat
 
 toc::[]
 
-
 == Performing a high-level service restore
 You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
 
@@ -29,7 +28,9 @@ You follow the same procedure to perform high-level restores of mailboxes for Mi
 
 . From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform the restore.
   image:number_protected_unprotected.jpg[]
-  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *Shared* tab. If you are restoring mailboxes that are not shared, remain on the *User* tab.
+  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+  If you are restoring archived mailboxes for Microsoft Exchange Online, click the *ARCHIVED* tab. Note: Archived mailboxes are restored to the user's regular mailbox.
+  If you are restoring mailboxes that are not shared, remain on the *USER* tab.
 . Select the items that you want to restore.
 . Click *Restore*.
   image:restore.jpg[]
@@ -37,9 +38,9 @@ You follow the same procedure to perform high-level restores of mailboxes for Mi
 .. If you are restoring mailboxes for *Microsoft Exchange Online* select one of the following options:
    * Restore to the same mailbox
    * Export to PST
-      If you export to PST, you will receive a notification email with the location of the PST file when the export is completed.
+     If you export to PST, you will receive a notification email with the location of the PST file when the export is completed.
    * Restore to a another mailbox
-      If you restore to another mailbox, you must enter the destination mailbox in the search field. You can type in a portion of the destination email address in the search field to initiate an automatic search for matching destination mailboxes.
+     If you restore to another mailbox, you must enter the destination mailbox in the search field. You can type in a portion of the destination email address in the search field to initiate an automatic search for matching destination mailboxes.
 .. If you are restoring groups for *Microsoft Office 365 Groups* select one of the following options:
    * Restore to the same group
    * Export
@@ -62,7 +63,9 @@ Within Microsoft Exchange Online, you can restore granular-level items for a sin
 
 . From the Dashboard, click the number above *PROTECTED* in the Exchange box.
   image:number_protected_exchange.jpg[]
-  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *Shared* tab. If you are restoring mailboxes that are not shared, remain on the *User* tab.
+  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+  If you are restoring archived mailboxes for Microsoft Exchange Online, click the *ARCHIVED* tab.
+  If you are restoring regular mailboxes, remain on the *USER* tab.
 .	Click the mailbox for which you need to perform the granular-level restore.
 .	Restore an entire Microsoft Office Exchange category or restore a specific item within a category.
   For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
@@ -187,7 +190,9 @@ By default, only your most recent backup is available for restore. *Note*: Previ
 .Steps
 
 . From the Dashboard, click the number above *PROTECTED* in box of the service for which you want to perform the restore.
-  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *Shared* tab. If you are restoring mailboxes that are not shared, remain on the *User* tab.
+  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+  If you are restoring archived mailboxes for Microsoft Exchange Online, click the *ARCHIVED* tab. Note: Archived mailboxes are restored to the user's regular mailbox.
+  If you are restoring regular mailboxes, remain on the *USER* tab.
 . Click the item that you want to restore.
 .	Click *View Backup History*.
   A calendar is displayed.  Dates for which backups are available are indicated by a green circle.

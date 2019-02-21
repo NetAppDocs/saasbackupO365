@@ -18,6 +18,10 @@ entries:
     url: /task_managing_creating_rules.html
   - title: Managing services
     url: /task_managing_services.html
+  - title: Managing permissions
+    url: /task_managing_permissions.html
+  - title: Managing accounts
+    url: /task_managing_accounts.html
   - title: Managing role-based account access
     url: /task_managing_role_based_account_access.html
   - title: Upgrading from a trial subscription

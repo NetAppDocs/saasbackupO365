@@ -22,9 +22,7 @@ The following new features and updates have been added to this release of NetApp
 === February 2019
 * SaaS Backup for Office 365 now supports the following:
 ** Backup and restore of archived mailboxes.
-** Download of restore statistics for Microsoft Exchange Online, OneDrive for Business, and SharePoint Online.
-** Creation and utilization of up to three security groups.
-   <<task_managing_services.adoc#adding_security_groups,Adding security groups>>
+** Enhanced backup and restore statistics across Microsoft Office Exchange Online, SharePoint, and OneDrive for Business.
 
 === December 2018
 * SaaS Backup for Office 365 can now be purchased through the AppDirect Marketplace and the CANCOM Marketplace.

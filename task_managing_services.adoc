@@ -59,7 +59,8 @@ Education domains can have a license for faculty and a separate license for stud
 == Adding security groups
 You can add up to 3 security groups.  You can then use your security groups as filtering options in SaaS Backup.  After you add a security group, it cannot be deleted.
 
-New security groups must be discovered through an AutoSync*or a manual synchronization before they can be added.
+New security groups must be discovered through an AutoSync or a manual synchronization before they can be added.
+https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide[Create, edit, or delete a security group in the Admin Center].
 
 .Steps
 
@@ -73,7 +74,7 @@ You can completely remove all the data associated with a user, site collection, 
 
 .Steps
 
-. Click the configuration icon image:configuration_Icon.jpg[] next to your SaaS Backup userid in the top left corner.
+. Click the configuration icon image:configure_Icon.jpg[] next to your SaaS Backup userid in the top left corner.
 . Select *ACCOUNT SERVICE*.
 . Click *RETAIN AND PURGE*.
 . Under *Purge Data*, select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.

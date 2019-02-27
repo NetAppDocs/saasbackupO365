@@ -22,8 +22,9 @@ NetApp SaaS Backup (formerly "NetApp Cloud Control") is a secure, web-based, sof
 
 == Getting started
 
-* link:task_getting_started_free_trial.html[Getting started with a free trial]
 * link:task_getting_started.html[Getting started with a paid subscription]
+* link:task_getting_started_free_trial.html[Getting started with a free trial]
+* link:task_upgrading_from_trial.html[Upgrading from a free trial]
 
 == Managing SaaS Backup for Office 365
 

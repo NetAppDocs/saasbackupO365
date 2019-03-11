@@ -185,7 +185,7 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
       .. Click *View the job progress* to monitor the progress of the restore.
 
 == Restoring from a previous backup
-By default, only your most recent backup is available for restore. *Note*: Previous backups of Microsoft Office 365 group sites are not available for restore.
+By default, only your most recent backup is available for restore.
 
 .Steps
 

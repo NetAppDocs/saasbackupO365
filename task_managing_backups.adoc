@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_backups.html
-keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archived mailboxes, archived, archive, shared, mailboxes
+keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes
 summary: Managing backups for NetApp SaaS for Office 365 includes various tasks such as changing your backup policies, updating your backup settings, and canceling jobs.
 ---
 
@@ -54,13 +54,13 @@ If you want to change the backup frequency of protected data, you can assign the
   If you want to change the backup frequency of protected data, click *PROTECTED*. If you want to backup newly discovered mailboxes, sites, or MySites, select *UNPROTECTED*.
   image:number_protected_unprotected.jpg[]
 .	If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
-  If you are backing up or changing the backup policy for archived mailboxes, click the *ARCHIVED* tab.
+  If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
   If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 . Select the items you want to backup.
 . Click the *Groups* menu.
   image:groups_menu.jpg[Groups Menu]
 . Select the new policy tier for the backup.
-  *Note*:  Microsoft Office 365 groups and archived mailboxes can only be moved to the tier 3 policy.
+  *Note*:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
 .	Click *Apply*.
 
 == Performing an immediate backup of a service
@@ -70,7 +70,7 @@ As needed, you can perform an immediate backup of any Microsoft Office 365 servi
 
 . From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform an immediate backup.
 . If you are backing up shared mailboxes, click the *SHARED* tab.
-  If you are backing up archived mailboxes, click the *ARCHIVED* tab.
+  If you are backing up archive mailboxes, click the *ARCHIVE* tab.
   If you are backing up regular mailboxes, remain on the *USER* tab.
 . Select the items that you want to back up.
 . Click *Backup Now*.
@@ -173,7 +173,7 @@ Only the following templates are supported for Microsoft SharePoint Online backu
 The following apps are supported for Microsoft SharePoint Online backups.
 
 * Custom List
-* Badge (Community Site) 
+* Badge (Community Site)
 * Document Library
 * Style Library
 * Survey

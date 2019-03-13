@@ -21,7 +21,7 @@ The following new features and updates have been added to this release of NetApp
 
 === February 2019
 * SaaS Backup for Office 365 now supports the following:
-** Backup and restore of archived mailboxes.
+** Backup and restore of archive mailboxes.
 ** Enhanced backup and restore statistics across Microsoft Office Exchange Online, SharePoint, and OneDrive for Business.
 
 === December 2018

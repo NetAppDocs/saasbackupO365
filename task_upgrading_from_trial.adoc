@@ -19,8 +19,6 @@ When you upgrade from a trial subscription to a licensed subscription, your tria
 
 toc::[]
 
-If you change your backup storage destination type or your backup storage region when you upgrade, your trial data is loss.
-
 [options="header" width="90%"]
 |=======
 |If the backup destination of your trial subscription is... |And the backup destination of your licensed subscription is... |Your trial data is...
@@ -34,7 +32,7 @@ If you change your backup storage destination type or your backup storage region
 |BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
 
-Any change to your backup destination region results in data loss.
+*If you change your backup storage destination type, your trial data is loss.  Any change to your backup destination region also results in data loss.*
 
 .Steps
 

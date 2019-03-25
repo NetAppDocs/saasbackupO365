@@ -50,6 +50,7 @@ SaaS Backup does not create the StorageGRID Webscale bucket.  It must already ex
  * Container name
  * Access point
  * Access key
+ * Region
 
 == Creating a new MS Office 365 service account with global administrator permissions
 Creating a new Microsoft Office 365 service account with global administrator permissions is recommended when signing up for SaaS Backup for Office 365. However, creating a new account is not required.  If you prefer, you can use your existing Microsoft Office 365 service account.

@@ -19,6 +19,13 @@ toc::[]
 == New features and updates
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
 
+=== March 2019
+* SaaS Backup for Office 365 now supports multiple backup locations in each supported region.
+  You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
+  *Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
+  <<task_getting_started.adoc#signing-up-for-saaS-backup-for-office-365>>
+  <<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription>>
+
 === February 2019
 * SaaS Backup for Office 365 now supports the following:
 ** Backup and restore of archive mailboxes.

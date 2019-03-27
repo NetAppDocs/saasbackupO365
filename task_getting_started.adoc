@@ -257,7 +257,7 @@ When you set up SaaS Backup for Office 365, by default, your data is unprotected
 . Click the *Groups* menu.
   image:groups_menu.jpg[Screenshot of the SaaS Backup Groups Menu button]
 . Select the *tier* for the backup policy that you want to assign.
-  See   <<task_gettomg_started.adoc#moving-unprotected-data-to-a-protected-state,Moving unprotected data to a protected state>> for a description of the backup policy tiers.
+  See   <<task_managing_backups.adoc#backup-policies,Backup Policies>> for a description of the backup policy tiers.
 . Click *Apply*.
 
 == Performing an immediate backup of a specific backup policy

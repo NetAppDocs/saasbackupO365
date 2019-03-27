@@ -32,7 +32,7 @@ toc::[]
 |BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
 
-*If you change your backup storage destination type, your trial data is loss.  Any change to your backup destination region also results in data loss.*
+*If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
 .Steps
 

@@ -49,7 +49,7 @@ A synchronization must occur between SaaS Backup and your Microsoft Office 365 a
   * *Newly added* users indicates the number of new user accounts.
 
 == Setting account notifications
-You can add users to account notifications and then select the specific notifications you wan each user to receive.  For example, you can select to have a user receive an email notification each time there is a restore failure.
+You can add users to account notifications and then select the specific notifications you want each user to receive.  For example, you can select to have a user receive an email notification each time there is a restore failure.
 
 .Steps
 

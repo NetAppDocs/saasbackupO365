@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_services.html
-keywords: netapp, saas backup, office 365, activating service, deactivating, adding, license, security, groups, purge, purging, site collection, office 365 group, cancelling, jobs
+keywords: netapp, saas backup, office 365, activating service, deactivating, security, groups, purge, purging, site collection, office 365 group, cancelling, jobs
 summary: You can manage your service in various ways within NetApp SaaS Backup (formerly named "NetApp Cloud Control") including activating a new services, deactivating a existing services, purging data, and canceling a job.
 ---
 
@@ -42,19 +42,6 @@ If needed, you can deactivate one or more of your SaaS Backup for Office 365 ser
   image:mso365_settings.jpg[]
 .	Click *Deactivate* next to the service that you want to deactivate.
 .	Click *Confirm*.
-
-== Adding a license
-Education domains can have a license for faculty and a separate license for students.
-
-.Steps
-
-. Click *Services* from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
-. Click image:bluecircle_icon.jpg[] icon in the right corner.
-. Enter the license information.
-. Click *Validate Subscription*.
-. Click *Next*.
-. Click *Save*.
 
 == Adding security groups
 You can add up to 3 security groups.  You can then use your security groups as filtering options in SaaS Backup.  After you add a security group, it cannot be deleted.

@@ -21,6 +21,8 @@ entries:
     url: /task_managing_services.html
   - title: Managing permissions
     url: /task_managing_permissions.html
+  - title: Managing licenses
+    url: /task_managing_licenses.html
   - title: Managing accounts
     url: /task_managing_accounts.html
   - title: Managing role-based account access

@@ -32,8 +32,8 @@ Education domains can have a license for faculty and a separate license for stud
 . Click *Next*.
 . Click *Save*.
 
-== Releasing a licenses
-When a user license is released, the user is moved to the unprotected tier and backups for that user are discontinued.  
+== Releasing a license
+When a user license is released, the user is moved to the unprotected tier and backups for that user are discontinued.
 
 .Steps
 
@@ -45,6 +45,6 @@ When a user license is released, the user is moved to the unprotected tier and b
 . Add additional accounts, if needed.
 . Click *Release*.
 . Click *Yes, please release license(s)*.
-* Click *Confirm*.
+. Click *Confirm*.
 
 *Note:* If you need to restore data for a user whose license has been released, you must contact the SaaS Backup Support team.

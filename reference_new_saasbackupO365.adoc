@@ -25,6 +25,8 @@ The following new features and updates have been added to this release of NetApp
   *Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
   <<task_getting_started.adoc#signing-up-for-saaS-backup-for-office-365, Getting started>>
   <<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription, Upgrading from a trial subscription>>
+* You can now release user licenses and make them available for other users.
+  <<task_managing_licenses.adoc#releasing-a-license, Release a license>> 
 
 === February 2019
 * SaaS Backup for Office 365 now supports the following:

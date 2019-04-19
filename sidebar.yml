@@ -18,9 +18,9 @@ entries:
   - title: Creating and managing rules
     url: /task_managing_creating_rules.html
   - title: Managing services
-    url: /task_managing_security_groups.html
-  - title: Managing security groups
     url: /task_managing_services.html
+  - title: Managing security groups
+    url: /task_managing_security_groups.html
   - title: Managing permissions
     url: /task_managing_permissions.html
   - title: Managing licenses

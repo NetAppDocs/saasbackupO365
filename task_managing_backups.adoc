@@ -15,7 +15,7 @@ summary: Managing backups for NetApp SaaS for Office 365 includes various tasks 
 :imagesdir: ./media/
 
 [.lead]
-After you have completed the setup process for NetApp SaaS Backup (formerly "NetApp Cloud Control"), you can use SaaS Backup for Office 365 to manage backups of Microsoft Exchange Online, Microsoft OneDrive for Business, and Microsoft SharePoint Online.
+After you have completed the setup process for NetApp SaaS Backup, you can use SaaS Backup for Office 365 to manage backups of Microsoft Exchange Online, Microsoft OneDrive for Business, and Microsoft SharePoint Online.
 
 toc::[]
 

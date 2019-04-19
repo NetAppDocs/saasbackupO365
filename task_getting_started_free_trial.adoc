@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_getting_started_free_trial.html
-keywords: netapp, saas backup, office 365, getting started
+keywords: netapp, saas backup, office 365, getting started, free trial, restrictions
 summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
 ---
 
-= Getting started with NetApp SaaS Backup (formerly "NetApp Cloud Control") for Office 365
+= Getting started with NetApp SaaS Backup for Office 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -17,10 +17,20 @@ summary: Getting started with SaaS Backup for Office 365 includes deciding what 
 [.lead]
 To get started with a free trial of SaaS Backup for Office 365, you must do the following:
 
+. Be aware of the free trial restrictions.
 . If you do not have a Microsoft Office 365 test account, you must sign up for a Microsoft Office 365 free trial account.
 . Sign up for SaaS Backup for Office 365 using your Microsoft Office 365 account or your NetApp SSO account.
 
 toc::[]
+
+== Free trial restrictions
+The following restrictions apply to free trial accounts:
+
+* A maximum of 25 users and 25 site collections for Microsoft OneDrive for Business
+* A maximum of 25 users for Microsoft Office Exchange Online and Microsoft Office 365 groups
+* A maximum of 3 immediate backups per day.
+* Automated backups for only the first 30 days.
+* No scheduled backups are allowed during the 15 day grace period after the free trial ends.
 
 == Signing up for a Microsoft Office 365 free trial account
 With a free 30-day trial of Microsoft Office 365 for Business, you can discover the latest features of Microsoft Office 365 and SaaS Backup for Office 365.

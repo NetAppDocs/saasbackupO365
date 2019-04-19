@@ -4,7 +4,7 @@ permalink: index.html
 summary: Welcome to the documentation portal for NetApp SaaS Backup for Office 365.
 ---
 
-= NetApp SaaS Backup (formerly "NetApp Cloud Control") for Office 365 documentation
+= NetApp SaaS Backup for Office 365 documentation
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -12,7 +12,7 @@ summary: Welcome to the documentation portal for NetApp SaaS Backup for Office 3
 :imagesdir: ./media/
 :keywords: ontap cloud, amazon web services, saas backup, microsoft office 365, microsoft office exchange, onedrive for business, sharepoint online, saas restore, documentation, help
 
-NetApp SaaS Backup (formerly "NetApp Cloud Control") is a secure, web-based, software-as-a-service (SaaS) offering that backs up your Microsoft Office 365 data to Amazon S3 storage, Microsoft Azure Blob storage, or StorageGRID Webscale object storage.
+NetApp SaaS Backup is a secure, web-based, software-as-a-service (SaaS) offering that backs up your Microsoft Office 365 data to Amazon S3 storage, Microsoft Azure Blob storage, or StorageGRID Webscale object storage.
 
 *Documentation last updated: April 2, 2019*
 
@@ -33,6 +33,7 @@ NetApp SaaS Backup (formerly "NetApp Cloud Control") is a secure, web-based, sof
 * link:task_managing_restores.html[Managing restores with SaaS Backup for Office 365]
 * link:task_viewing_data.html[Viewing SaaS Backup for Office 365 data]
 * link:task_managing_creating_rules.html[Creating and managing rules]
+* link:task_managing_security_groups.html[Managing security groups]
 * link:task_managing_services.html[Managing services]
 * link:task_managing_permissions.html[Managing permissions]
 * link:task_managing_accounts.html[Managing accounts]

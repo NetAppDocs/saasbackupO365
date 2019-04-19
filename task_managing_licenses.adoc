@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_managing_licenses.html
-keywords: netapp, saas backup, adding, license,
+keywords: netapp, saas backup, adding, license, deleting, removing, releasing
 summary: You can add or release a license.
 ---
 
@@ -15,11 +15,15 @@ summary: You can add or release a license.
 :imagesdir: ./media/
 
 [.lead]
-You can manage your service in various ways within NetApp SaaS Backup (formerly named "NetApp Cloud Control") including activating a new services, deactivating a existing services, purging data, and canceling a job.
+Any regular user mailbox, whether protected or unprotected, consumes a license.  Shared mailboxes do not consume a license.
 
 toc::[]
 
 == Adding a license
+If you have just received a license for a paid subscription, please go to <<task_getting_started.adoc#Getting-started-with-SaaS-Backup-for-Office-365, Getting Started with a Paid Subscription>> and follow the sign up instructions.  You will enter your license key as part of the sign up process.
+
+If you are already using SaaS Backup, you can follow these steps to add additional licenses.
+
 Education domains can have a license for faculty and a separate license for students.
 
 .Steps

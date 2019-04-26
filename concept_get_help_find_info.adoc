@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concept_get_help_find_info.html
 keywords: where to find more information, help, support
-summary: You can get help and find more information in the NetApp SaaS Backup (formerly NetApp Cloud Control) for Office 365 community forum and knowledge base articles.
+summary: You can get help and find more information in the NetApp SaaS Backup for Office 365 community forum and knowledge base articles.
 ---
 
 = Where to get help and find more information
@@ -13,7 +13,7 @@ summary: You can get help and find more information in the NetApp SaaS Backup (f
 :linkattrs:
 :imagesdir: ./media/
 
-You can get help and find more information in the NetApp SaaS Backup (formerly "NetApp Cloud Control") for Office 365 community forum and knowledge base articles.
+You can get help and find more information in the NetApp SaaS Backup for Office 365 community forum and knowledge base articles.
 
 These resources can be accessed inside SaaS Backup through the *Support* link on the navigation menu.
 

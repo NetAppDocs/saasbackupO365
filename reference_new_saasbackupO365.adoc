@@ -5,7 +5,7 @@ keywords: what's new, features, new, release notes, bugs, limitations, known iss
 summary: SaaS Backup for Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 
-= What's new in NetApp SaaS Backup (formerly "NetApp Cloud Control") for Office 365
+= What's new in NetApp SaaS Backup for Office 365
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -19,12 +19,21 @@ toc::[]
 == New features and updates
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
 
+=== April 2019
+* SaaS Backup for Office 365 now supports deletion of security groups.
++
+<<task_managing_security_groups.adoc#deleting-security-groups, Deleting security groups>>
+* Shared mailboxes no longer consume a user license.
+
+
 === March 2019
 * SaaS Backup for Office 365 now supports multiple backup locations in each supported region.
   You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
   *Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
   <<task_getting_started.adoc#signing-up-for-saaS-backup-for-office-365, Getting started>>
   <<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription, Upgrading from a trial subscription>>
+* You can now release user licenses and make them available for other users.
+  <<task_managing_licenses.adoc#releasing-a-license, Release a license>>
 
 === February 2019
 * SaaS Backup for Office 365 now supports the following:

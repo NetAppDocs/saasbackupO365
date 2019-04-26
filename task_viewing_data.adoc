@@ -31,7 +31,9 @@ You can filter the view of your mailboxes, sites, or MySites to only show result
   image:filter.jpg[Screenshot of filter dropdown menu button]
 .	Click the *Select* drop-down menu, and select the filter of your choice.
   For Microsoft SharePoint Online, you can filter by Template ID.  You can enter the Template ID to search for it, or select it from the dropdown menu.
-  For all other services, you can filter by group, country, office, department, title, domain or country.  The second drop-down menu is populated with selections based on the filter you select. For example, if you select Group as your first filter, you can select one of the backup policy group tiers as your secondary filter.
+  For all other services, you can filter by group, country, office, department, title, domain or country.  If you have security groups, they are also listed as filtering options.
+
+  The second drop-down menu is populated with selections based on the filter you select. For example, if you select Group as your first filter, you can select one of the backup policy group tiers as your secondary filter.
   image:select_filter.jpg[Screenshot of first set of filter options]
   A search field appears.
 .	Enter your search criteria.

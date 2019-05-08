@@ -19,6 +19,11 @@ toc::[]
 == New features and updates
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
 
+=== May 2019
+* SaaS Backup now supports add-on licenses.
++
+<<task_managing_licenses.adoc#activating-an-add-on-license, Activating an add-on license>>
+
 === April 2019
 * SaaS Backup for Office 365 now supports deletion of security groups.
 +
@@ -28,10 +33,11 @@ The following new features and updates have been added to this release of NetApp
 
 === March 2019
 * SaaS Backup for Office 365 now supports multiple backup locations in each supported region.
-  You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
-  *Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
-  <<task_getting_started.adoc#signing-up-for-saaS-backup-for-office-365, Getting started>>
-  <<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription, Upgrading from a trial subscription>>
++
+You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
+*Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
+<<task_getting_started.adoc#signing-up-for-saaS-backup-for-office-365, Getting started>>
+<<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription, Upgrading from a trial subscription>>
 * You can now release user licenses and make them available for other users.
   <<task_managing_licenses.adoc#releasing-a-license, Release a license>>
 
@@ -56,8 +62,9 @@ The following new features and updates have been added to this release of NetApp
 
 === April 2018
 * SaaS Backup for Office 365 now supports shared mailboxes for Microsoft Office Exchange Online.
-  Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_managing_permissions.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
-  After your automatic service account is created, your shared mailboxes will be automatically discovered during the next scheduled synchronization of your user account.  If you want your shared mailboxes discovered immediately, you can <<task_managing_services.adoc#synchronizing-user-accounts-sites-and-groups,synchronize your user accounts immediately>>.
++
+Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_managing_permissions.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
+After your automatic service account is created, your shared mailboxes will be automatically discovered during the next scheduled synchronization of your user account.  If you want your shared mailboxes discovered immediately, you can <<task_managing_services.adoc#synchronizing-user-accounts-sites-and-groups,synchronize your user accounts immediately>>.
 
 === March 2018
 The location in which you enter an activation code for a free trial was moved to the Add a Service Provider wizard:

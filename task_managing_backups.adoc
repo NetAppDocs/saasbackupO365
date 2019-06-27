@@ -28,10 +28,10 @@ You can move data between the three policies, but you cannot create new policies
 
 [options="header" width="80%"]
 |=======
-|Backup policy |Backup frequency |Default data retention period for production |Default data retention period for sandbox
-|Tier 1 |Once every 12 hours |3 years |2 years
-|Tier 2 |Once every 18 hours |3 years |2 years
-|Tier 3 |Once every 24 hours |3 years |2 years
+|Backup policy |Backup frequency |Default data retention period
+|Tier 1 |Once every 12 hours |3 years
+|Tier 2 |Once every 18 hours |3 years
+|Tier 3 |Once every 24 hours |3 years
 |=======
 
 === Backup policies for BYOS

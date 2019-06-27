@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
-permalink: task_managing_accounts.html
-keywords: netapp, saas backup, office 365, synchronizing, autosync, discovering, user accounts, sites, groups, enabling, shared mailboxes, archive mailboxes, site collection, office 365 group
+permalink: task_adding_permissions.html
+keywords: netapp, saas backup, office 365, adding, permissions, service, account
 summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
 :toc: macro
@@ -17,7 +17,7 @@ You can manage your service accounts, discover newly added accounts, and set acc
 
 toc::[]
 
-== Managing service accounts
+== Adding permissions to service accounts
 If needed, you can add permissions to a service account user. Service accounts are used to perform concurrent backups efficiently.
 
 .Steps

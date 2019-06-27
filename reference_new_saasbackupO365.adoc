@@ -19,6 +19,10 @@ toc::[]
 == New features and updates
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
 
+=== June 2019
+* SaaS Backup for Office 365 now supports the backup and restore of items created using the copy-to feature in Microsoft SharePoint Online and Microsoft OneDrive for Business.
+* Enhancements have been made to include additional details in the restore statistics for Microsoft SharePoint Online.
+
 === May 2019
 * SaaS Backup now supports add-on licenses.
 +

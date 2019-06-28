@@ -29,14 +29,12 @@ entries:
     url: /task_managing_accounts.html
   - title: Managing role-based account access
     url: /task_managing_role_based_account_access.html
-  - title: Managing accounts
-  entries:
-    - title: Adding permissions to service accounts
-      url: /task_adding_permissions.html
-    - title: Setting account Notifications
-      url: /task_setting_account_notifications.html
-    - title: Discovering new mailboxes, sites, and groups
-      url: /task_discovering_new.html
+  - title: Adding permissions to service accounts
+    url: /task_adding_permissions.html
+  - title: Setting account Notifications
+    url: /task_setting_account_notifications.html
+  - title: Discovering new mailboxes, sites, and groups
+    url: /task_discovering_new.html
   - title: Upgrading from a trial subscription
     url: /task_upgrading_from_trial.html
   - title: Providing feedback

@@ -1,0 +1,24 @@
+---
+sidebar: sidebar
+permalink: concept_free_trial_restrictions.html
+keywords: netapp, saas backup, office 365, getting started, free trial, restrictions
+summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Free trial restrictions
+
+The following restrictions apply to free trial accounts:
+
+* A maximum of 25 users and 25 site collections for Microsoft OneDrive for Business
+* A maximum of 25 users for Microsoft Office Exchange Online and Microsoft Office 365 groups
+* A maximum of 3 immediate backups per day.
+* Automated backups for only the first 30 days.
+* No scheduled backups are allowed during the 15 day grace period after the free trial ends.

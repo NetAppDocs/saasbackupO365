@@ -58,7 +58,7 @@ If you want to change the backup frequency of protected data, you can assign the
   If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 . Select the items you want to backup.
 . Click the *Groups* menu.
-  image:groups_menu.jpg[Groups Menu]
+  image:groups_menu.gif[Groups Menu]
 . Select the new policy tier for the backup.
   *Note*:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
 .	Click *Apply*.
@@ -74,7 +74,7 @@ As needed, you can perform an immediate backup of any Microsoft Office 365 servi
   If you are backing up regular mailboxes, remain on the *USER* tab.
 . Select the items that you want to back up.
 . Click *Backup Now*.
-  image:backup_now.jpg[]
+  image:backup_now.gif[]
   A message is displayed indicating that the selected services will be placed in the job queue for backup.
 . Click *Confirm*.
   A message is displayed indicating that the backup job was created.

@@ -1,0 +1,45 @@
+---
+sidebar: sidebar
+permalink: concept_information_to_gather_for_byos.html
+keywords: netapp, saas backup, office 365, getting started, BYOS, bring, your, own, storage, information, gather, needed, setup
+summary: If you choose a BYOS option to store your data, you must gather pertinent information about your storage before signing up.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Information to gather about your Bring Your Own Storage (BYOS) option
+If you choose to use Amazon S3 or Azure Blob storage provided by SaaS Backup, you do not need to gather any information before signing up.  If you are providing your own Amazon S3, Azure Blob or StorageGRID Webscale bucket, you must gather the following information about your storage before signing up.
+
+- Amazon S3
+
+  * Bucket name
+  * Region
+  * Access key
+  * Secret key
+
+- StorageGRID Webscale
++
+.Note
+SaaS Backup does not create the StorageGRID Webscale bucket.  It must already exist.
+
+  * Host/IP address
+    You must have a public IP address and a domain name with a certificate, for example, webscale.netapp.com. You must also be using Transport Layer Security (TLS) protocol 1.2.
+  * Port
+    The open port should be 8082 or 443, whichever is configured.
+  * Bucket name
+  * Access key
+  * Secret key
+
+- Azure Blob
+
+ * Account name
+ * Container name
+ * Access point
+ * Access key
+ * Region

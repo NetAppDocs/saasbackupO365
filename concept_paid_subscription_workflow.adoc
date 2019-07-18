@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: concept_paid_subscription_workflow.html
+keywords: netapp, saas backup, office 365, getting started, paid, subscription, workflow
+summary: To get started with a paid subscription for SaaS Backup for Office 365, you must decide what type of storage you will use for your backups, create a Microsoft Office 365 service account with global permissions, and you must complete the sign up process.
+---
+
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Workflow for getting started with a paid subscription to SaaS Backup for Office 365
+
+To get started with a paid subscription to SaaS Backup for Office 365, you must do the following:
+
+. Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup or if you will use a Bring Your Own Storage (BYOS) option.
++
+<<concept_storage_types.adoc#storage-types-you-can-use-with-SaaS-Backup, Storage types you can use with SaaS Backup>>.
+. If necessary, gathering information for your BYOS storage option.
+. <<task_creating_msservice_account_with_global_permissions.adoc#creating-a-new-ms-office-365-service-account-with-global-permissions, Create a new Microsoft Office 365 service account with global administrator permissions>>.
+. If necessary, <<task_configuring_impersonation.adoc#configuring-impersonation-for-microsoft-exchange-online, Configure Impersonation for Microsoft Exchange Online>>.
+. <<task_signing_up_for_saasbkup_paid_subscription.adoc#signing-up-for-a-paid-subscription-of-saaS-backup-for-office-365, Sign up for SaaS Backup for Office 365 with a NetApp SSO account or a Microsoft Office 365 service account>>.
+. <<task_scheduling_first_backup.adoc#scheduling-your-first-backup, Schedule your first backup>>.
+. <<task_performing_immediate_backup_of_policy.adoc#performing-an-immediate-backup-of-a-specific-backup-policy, Optional: Immediately back up your data>>. 
+
+image:workflow_paid_subscription_signup.gif[workflow of paid subscription sign up process]

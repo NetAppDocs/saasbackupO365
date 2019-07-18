@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: concept_free_trial_restrictions.html
 keywords: netapp, saas backup, office 365, getting started, free trial, restrictions
-summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+summary: You should be aware of certain restrictions that apply to free trial accounts.
 ---
 
 :toc: macro

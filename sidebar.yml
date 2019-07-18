@@ -8,20 +8,19 @@ entries:
   - title: Getting started
     entries:
       - title: Getting started with a free trial
-        url: /task_getting_started_free_trial.html
         entries:
           - title: Free trial restrictions
             url: /concept_free_trial_restrictions.html
           - title: Registering for a free trial activation code
-            url: /task_registering_for_free_trial_activation_code.html            
+            url: /task_registering_for_free_trial_activation_code.html
           - title: Signing up for a Microsoft Office 365 free trial account
             url: /task_signing_up_for_o365_free_trial.html
           - title: Signing up for a free trial of SaaS Backup for Office 365
             url: /task_signing_up_for_saasbkup_free_trial.html
-  - title: What happens to your free trial data
-    url: /reference_free_trial_data.html
-  - title: Getting Started with a Paid Subscription
-    url: /task_getting_started.html
+          - title: What happens to your free trial data
+            url: /reference_free_trial_data.html
+      - title: Getting Started with a Paid Subscription
+        url: /task_getting_started_paid_subscription.html
   - title: Managing backups with SaaS Backup for Office 365
     url: /task_managing_backups.html
   - title: Managing restores with SaaS Backup for Office 365

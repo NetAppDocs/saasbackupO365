@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: task_getting_started.html
+permalink: task_getting_started_paid_subscription.html
 keywords: netapp, saas backup, office 365, getting started
 summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
 ---
 
-= Getting started with SaaS Backup for Office 365
+= Getting started with a paid subscription of SaaS Backup for Office 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:

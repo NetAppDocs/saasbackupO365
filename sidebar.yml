@@ -9,10 +9,10 @@ entries:
     entries:
       - title: Getting started with a free trial
         entries:
-          - title: Free trial restrictions
-            url: /concept_free_trial_restrictions.html
           - title: Workflow
             url: /concept_free_trial_workflow.html
+          - title: Free trial restrictions
+            url: /concept_free_trial_restrictions.html            
           - title: Registering for a free trial activation code
             url: /task_registering_for_free_trial_activation_code.html
           - title: Signing up for a Microsoft Office 365 free trial account
@@ -38,26 +38,28 @@ entries:
             url: /task_scheduling_first_backup.html
           - title: Perform and immedate backup
             url: /task_performing_immediate_backup_of_policy.html
-  - title: Managing backups with SaaS Backup for Office 365
-    url: /task_managing_backups.html
-  - title: Managing restores with SaaS Backup for Office 365
-    url: /task_managing_restores.html
-  - title: Viewing data for SaaS Backup for Office 365
-    url: /task_viewing_data.html
-  - title: Creating and managing rules
-    url: /task_managing_creating_rules.html
-  - title: Managing services
-    url: /task_managing_services.html
-  - title: Managing security groups
-    url: /task_managing_security_groups.html
-  - title: Managing permissions
-    url: /task_managing_permissions.html
-  - title: Managing licenses
-    url: /task_managing_licenses.html
-  - title: Managing accounts
-    url: /task_managing_accounts.html
-  - title: Managing role-based account access
-    url: /task_managing_role_based_account_access.html
+  - title: Managing SaaS Backup
+    entries:
+    - title: Managing backups with SaaS Backup for Office 365
+      url: /task_managing_backups.html
+    - title: Managing restores with SaaS Backup for Office 365
+      url: /task_managing_restores.html
+    - title: Viewing data for SaaS Backup for Office 365
+      url: /task_viewing_data.html
+    - title: Creating and managing rules
+      url: /task_managing_creating_rules.html
+    - title: Managing services
+      url: /task_managing_services.html
+    - title: Managing security groups
+      url: /task_managing_security_groups.html
+    - title: Managing permissions
+      url: /task_managing_permissions.html
+    - title: Managing licenses
+      url: /task_managing_licenses.html
+    - title: Managing accounts
+      url: /task_managing_accounts.html
+    - title: Managing role-based account access
+      url: /task_managing_role_based_account_access.html
   - title: Adding permissions to service accounts
     url: /task_adding_permissions.html
   - title: Setting account Notifications

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: task_assigning_admin_roles_to_user_accounts.html
+keywords: netapp, saas backup, office 365, role-based accounts, administrative roles, privileges, granting
+summary: You can assign administrative roles to user accounts to grant administrative privileges to selected users for one or more services.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Assigning administrative roles to user accounts
+You can assign administrative roles to user accounts to grant administrative privileges to selected users for one or more services.
+
+You can assign the following roles to users:
+
+* Global Tenant: Grants administrative privileges to all services, storage target, and license updates (renewal/upgrade).
+* Exchange Administrator: Grants administrative privileges to Microsoft Exchange Online only.  Other services cannot be viewed or modified.
+* OneDrive Administrator: Grants administrative privileges to Microsoft OneDrive for Business only.  Other services cannot be viewed or modified.
+* SharePoint Administrator: Grants administrative privileges to Microsoft SharePoint Online only.  Other services cannot be viewed or modified.
+
+.Steps
+
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click the image:bluecircle_icon.gif[Screenshot of icon clicked to display user role options] icon.
+. Enter the email address for the user you want to add.
+. Click the drop-down menu to select the role.
+  You can assign one or more roles to a user.
+. Click *Confirm*.

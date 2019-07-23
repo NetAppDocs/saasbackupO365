@@ -1,11 +1,10 @@
 ---
 sidebar: sidebar
 permalink: reference_new_saasbackupO365.html
-keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements
+keywords: what's new, features, new, release notes, enhancements
 summary: SaaS Backup for Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 
-= What's new in NetApp SaaS Backup for Office 365
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -14,10 +13,8 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
-toc::[]
-
 == New features and updates
-The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365
+The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
 === June 2019
 * SaaS Backup for Office 365 now supports the backup and restore of items created using the copy-to feature in Microsoft SharePoint Online and Microsoft OneDrive for Business.
@@ -26,24 +23,22 @@ The following new features and updates have been added to this release of NetApp
 === May 2019
 * SaaS Backup now supports add-on licenses.
 +
-<<task_managing_licenses.adoc#activating-an-add-on-license, Activating an add-on license>>
+<<task_activating_an_add_on_license.adoc#activating-an-add-on-license, Activating an add-on license>>
 
 === April 2019
 * SaaS Backup for Office 365 now supports deletion of security groups.
 +
-<<task_managing_security_groups.adoc#deleting-security-groups, Deleting security groups>>
+<<task_deleting_security_groups.adoc#deleting-security-groups, Deleting security groups>>
 * Shared mailboxes no longer consume a user license.
-
 
 === March 2019
 * SaaS Backup for Office 365 now supports multiple backup locations in each supported region.
 +
 You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
 *Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
-<<task_getting_started.adoc#signing-up-for-saaS-backup-for-office-365, Getting started>>
 <<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription, Upgrading from a trial subscription>>
 * You can now release user licenses and make them available for other users.
-  <<task_managing_licenses.adoc#releasing-a-license, Release a license>>
+  <<task_releasing_a_user_license.adoc#releasing-a-user-license, Release a user license>>
 
 === February 2019
 * SaaS Backup for Office 365 now supports the following:
@@ -56,18 +51,18 @@ You can now choose any of the available locations in your selected region as the
 === August 2018
 * The user interface has been redesigned for improved user experience and efficiency.
 * Data retention polices have been updated to allow data to be retained for 3 years.
-  <<task_managing_backups.adoc#backup_policies,Backup policies>>
+  <<concept_backup_policies.adoc#backup_policies,Backup policies>>
 
 === May 2018
 * NetApp Cloud Control has been renamed to NetApp SaaS Backup for Office 365.
 * You can now purge users, site collections, and Office 365 groups, completely removing all associated data from SaaS Backup for Office 365.
-  <<task_managing_services.adoc#purging-a-user-site-collection-or-office-365-group,Purging a user, site collection, or Office 365 group>>
+  <<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,Purging a user, site collection, or Office 365 group>>
 * SaaS Backup now discovers both public and private groups for Office 365 groups.
 
 === April 2018
 * SaaS Backup for Office 365 now supports shared mailboxes for Microsoft Office Exchange Online.
 +
-Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_managing_permissions.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
+Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
 After your automatic service account is created, your shared mailboxes will be automatically discovered during the next scheduled synchronization of your user account.  If you want your shared mailboxes discovered immediately, you can <<task_managing_services.adoc#synchronizing-user-accounts-sites-and-groups,synchronize your user accounts immediately>>.
 
 === March 2018
@@ -77,12 +72,12 @@ image:subscription_types_free_trial.jpg[Screenshot that shows where you enter an
 
 === February 2018
 * Filtering based on Template ID is now available for Microsoft SharePoint Online.
-  <<task_viewing_data.adoc#creating-a-user-defined-filer,Creating a user defined filter>>
+  <<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,Creating a user defined filter>>
 * You can now download the SaaS Backup for Office 365 user account activity log to a .csv file.
-  <<task_viewing_data.adoc#downloading-the-activity-log,Downloading the activity log>>
+  <<task_viewing_and_downloading_data.adoc#downloading-the-activity-log,Downloading the activity log>>
 * Synchronization of user accounts, sites, and groups between SaaS Backup for Office 365 and your service is now enabled by default.
 * Inclusion of backup version history is now enabled by default. The default number of versions is 20.
-  <<task_managing_backups.adoc#updating-backup-settings,Updating Backup Settings>>
+  <<task_updating_backup_settings.adoc#updating-backup-settings,Updating Backup Settings>>
 
 === January 2018
 * The activity log now displays the name of the user ID associated with each action performed inside SaaS Backup for Office 365.
@@ -98,8 +93,4 @@ image:subscription_types_free_trial.jpg[Screenshot that shows where you enter an
 === October 2017
 * Rules can be created that allow you to automatically move users to a preselected backup tier based on predefined criteria.
   You can create rules for Microsoft Exchange Online and Microsoft OneDrive for Business.  You cannot create rules for Microsoft SharePoint Online.
-  <<task_managing_creating_rules.adoc#creating-rules,Creating Rules>>
-
-== Known problems and limitations
-* Partially failed job status for restore of site collection group
-  If an entire site collection group is deleted, the restore of private groups in the collection fails, resulting in a restore job status of “partially failed.”  If this happens, the site is not accessible from the GUI.
+  <<task_creating_rules.adoc#creating-rules,Creating Rules>>

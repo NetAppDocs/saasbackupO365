@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task_releasing_a_user_licenses.html
+permalink: task_releasing_a_user_license.html
 keywords: netapp, saas backup, releasing, reassigning, user, license
 summary: Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.
 ---

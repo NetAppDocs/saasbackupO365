@@ -1,8 +1,12 @@
 entries:
   - title: NetApp SaaS Backup for Office 365
     url: /index.html
-  - title: What's new in SaaS Backup for Office 365
-    url: /reference_new_saasbackupO365.html
+  - title: Release notes
+    entries:
+    - title: What's new
+      url: /reference_new_saasbackupO365.html
+    - title: Known problems and limitations
+      url: /reference_kpls.html
   - title: SaaS Backup for Office 365 Overview
     url: /concept_overview.html
   - title: Getting started
@@ -21,6 +25,8 @@ entries:
             url: /task_signing_up_for_saasbkup_free_trial.html
           - title: What happens to your free trial data
             url: /reference_free_trial_data.html
+          - title: Upgrading from a trial subscription
+            url: /task_upgrading_from_trial.html            
       - title: Getting Started with a Paid Subscription
         entries:
           - title: Workflow
@@ -78,34 +84,46 @@ entries:
         url: /task_activating_an_add_on_license.html
       - title: Releasing a user license
         url: /task_releasing_a_user_license.html
-    - title: Viewing data for SaaS Backup for Office 365
+    - title: Managing rules
       entries:
-      - title: Creating a user defined filter
-        url: /task_creating_user_defined_filter.html
-      - title: Performing a search
-        url: /task_performing_search.html
-      - title: Viewing and downloading data
-        url: /task_viewing_and_downloading_data.html
-    - title: Creating and managing rules
-      url: /task_managing_creating_rules.html
+      - title: Creating new rules
+        url: /task_creating_rules.html
+      - title: Applying existing rules
+        url: /task_applying_rules.html
+      - title: Deleting rules
+        url: /task_deleting_rules.html
     - title: Managing services
-      url: /task_managing_services.html
-    - title: Managing security groups
-      url: /task_managing_security_groups.html
-    - title: Managing licenses
-      url: /task_managing_licenses.html
-    - title: Managing accounts
-      url: /task_managing_accounts.html
+      entries:
+      - title: Activating a service
+        url: /task_activating_a_service.html
+      - title: Deactivating a service
+        url: /task_deactivating_a_service.html
     - title: Managing role-based account access
-      url: /task_managing_role_based_account_access.html
-  - title: Adding permissions to service accounts
-    url: /task_adding_permissions.html
+      entries:
+      - title: Assigning administrative roles to user accounts
+        url: /task_assigning_admin_roles_to_user_accounts.html
+      - title: Updating administrative roles assigned to user accounts
+        url: /task_updating_admin_roles_assigned_to_user_accounts.html
+      - title: Deleting all administrative roles from a user account
+        url: /task_deleting_admin_roles_from_a_user_account.html
+    - title: Managing security groups
+      entries:
+      - title: Adding security groups
+        url: /task_adding_security_groups.html
+      - title: Deleting security groups
+        url: /task_deleting_security_groups.html
+  - title: Viewing data for SaaS Backup for Office 365
+    entries:
+    - title: Creating a user defined filter
+      url: /task_creating_user_defined_filter.html
+    - title: Performing a search
+      url: /task_performing_search.html
+    - title: Viewing and downloading data
+      url: /task_viewing_and_downloading_data.html
   - title: Setting account Notifications
     url: /task_setting_account_notifications.html
   - title: Discovering new mailboxes, sites, and groups
     url: /task_discovering_new.html
-  - title: Upgrading from a trial subscription
-    url: /task_upgrading_from_trial.html
   - title: Providing feedback
     url: /task_providing_feedback.html
   - title: Where to get help and find more information

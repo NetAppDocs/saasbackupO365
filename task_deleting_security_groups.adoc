@@ -1,0 +1,23 @@
+---
+sidebar: sidebar
+permalink: task_deleting_security_groups.html
+keywords: netapp, saas backup, office 365, security, groups
+summary: If a security group is being utilized in a user-defined rule, it cannot be deleted.  You must remove the user-defined rule, then delete the security group.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Deleting security groups
+If a security group is being utilized in a user-defined rule, it cannot be deleted.  You must remove the user-defined rule, then delete the security group.
+<<task_managing_creating_rules.adoc#deleting-rules, Deleting rules>>
+
+.Steps
+. Click *ACCOUNT SETTINGS*.
+. Click *SECURITY GROUPS*.
+. Click the delete icon next to the group you want to remove.

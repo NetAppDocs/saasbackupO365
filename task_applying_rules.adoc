@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_applying_rules.html
-keywords: netapp, saas backup, office 365, creating rules, managing, deleting, removing, adding, applying
-summary: You can create and manage rules for Microsoft Exchange Online and Microsoft OneDrive for Business inside SaaS Backup for Office 365.
+keywords: netapp, saas backup, office 365, creating, rules, managing, adding, applying
+summary: You can apply existing rules to unprotected items, change the order in which rules are applied, and delete rules.
 ---
 
 :toc: macro
@@ -13,61 +13,19 @@ summary: You can create and manage rules for Microsoft Exchange Online and Micro
 :linkattrs:
 :imagesdir: ./media/
 
-[.lead]
+== Applying existing rules
 Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
 
-toc::[]
-
-== Creating new rules
-You can create rules for Microsoft Exchange Online and Microsoft OneDrive for Business.  Rules for Microsoft Exchange Online are applied before rules for Microsoft OneDrive for Business.  You cannot create rules for Microsoft SharePoint Online.
-
-You must apply a user defined filter to your data before you can create a rule.  Applied filters are displayed below the *Filter* icon.  NetApp SaaS Backup for Office 365 default filters appear in gray.  User defined filters appear in light blue.
-image:rules.jpg[Example of user defined filter and SaaS Backup defined filter for creating rules]
-
-xref:_creating_a_user_defined_filter[Creating a user defined filter]
-
-.Steps
-
-. From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
-  image:number_protected_unprotected.gif[]
-  If no user created filter is applied, image:create_rule.jpg[Screenshot of create rule button] does not appear.
-. Click *Filter*.
-  image:filter.jpg[]
-. Click the *Select* dropdown menu and select your filter.
-  A search field appears.
-. Enter your search criteria.
-. Click *Apply Filter*.
-. Click *Create Rule*.
-. Enter a name for the rule.
-. For *Destination Group*, select the tier to which you want users who meet the rule's criteria to be moved.
-. Select *Apply to existing items* if you want the rule to be immediately applied to all unprotected items.  If not selected, the rule is applied to newly discovered items and any unprotected items the next time new items are discovered.
-
-Multiple rules can be created.  The rules are applied in the order they appear in the *Manage Rules* list.
-You can click the image:up_down_rules_icon.jpg[] to move a rule up or down in the list.
-
-== Applying existing rules
 You can apply existing rules to unprotected items, change the order in which rules are applied, and delete rules.
 
 .Steps
 
 . From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
-  image:number_protected_unprotected.gif[]
++
+image:number_protected_unprotected.gif[]
 . Click *Filter*.
-  image:filter.jpg[Screenshot of filter dropdown menu button]
++
+image:filter.jpg[Screenshot of filter dropdown menu button]
 . Click *Rules*.
   The existing rules are displayed.
 . Click *Apply Now* to apply the rule to existing unprotected items.
-
-== Deleting rules
-If you no longer need a existing rule, you can delete it.  Also, if you need to delete a security group that is used in a rule, you must delete the rule using the security group before the security group can be removed.
-
-.Steps
-
-. From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
-  image:number_protected_unprotected.gif[]
-. Click *Filter*.
-  image:filter.jpg[Screenshot of filter dropdown menu button]
-. Click *Rules*.
-  The existing rules are displayed.
-. Click the trash can image:delete.jpg[Screenshot of delete icon] to delete the rule.
-  The status of the items to which the rule was previously applies is not changed when the rule is deleted.

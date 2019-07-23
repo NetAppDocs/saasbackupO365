@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: task_canceling_job.html
+keywords: netapp, saas backup, office 365, canceling, jobs, backup, restore, immediate
+summary: If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Canceling a job
+If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
+
+.Steps
+
+. Click *Jobs* from the left navigation pane.
++
+image:jobs_button.gif[Screenshot of jobs button]
+. Under *Recent Running Jobs*, click the job that you want to cancel.
+. Click *Cancel*.
+  The progress of the cancelled job is displayed under *Recent Completed Jobs*.

@@ -18,9 +18,9 @@ A synchronization must occur between SaaS Backup and your Microsoft Office 365 a
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 .	Click the Microsoft Office 365 settings icon.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Click *Sync Now* next to the service that you want to synchronize.
   image:sync_now.png[]
   New users, shared mailboxes, and archive mailboxes are discovered and added in an unprotected state.  If you want newly discovered users, shared mailboxes, or archive mailboxes to be backed up, you must change the backup policy of the users from unprotected to one of the predefined tier groups.

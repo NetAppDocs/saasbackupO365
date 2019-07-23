@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: task_creating_user_defined_filter.html
+keywords: netapp, saas backup, office 365, viewing, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log
+summary: You can filter the view of your mailboxes, sites, or MySites to only show results that fit specific criteria.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Creating a user defined filter
+You can filter the view of your mailboxes, sites, or MySites to only show results that fit specific criteria.  For example, you can set your filters to only see mailboxes in a certain country and a certain department within that country.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service for which you want to create a filter.
+  The number above PROTECTED indicates the number of mailboxes, MySites, or groups that are currently protected by a backup policy.  The number above UNPROTECTED indicates the number of mailboxes, MySites, or groups that are not protected by a backup policy.
++
+image:number_protected_unprotected.gif[]
+. Click *Filter*.
++
+image:filter.gif[Screenshot of filter dropdown menu button]
+.	Click the *Select* drop-down menu, and select the filter of your choice.
++
+For Microsoft SharePoint Online, you can filter by Template ID.  You can enter the Template ID to search for it, or select it from the dropdown menu.
++
+For all other services, you can filter by group, country, office, department, title, domain or country.  If you have security groups, they are also listed as filtering options.
++
+The second drop-down menu is populated with selections based on the filter you select. For example, if you select Group as your first filter, you can select one of the backup policy group tiers as your secondary filter.
++
+image:select_filter.gif[Screenshot of first set of filter options]
++
+A search field appears.
+.	Enter your search criteria.
+.	If you want to add more filters, click *Add Filter* and make your selection.
+.	Click *Apply Filter*.
+  Filter results are displayed.

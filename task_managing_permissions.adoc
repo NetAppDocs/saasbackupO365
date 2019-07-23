@@ -24,9 +24,9 @@ You can manually synchronize your user permissions with Azure Active Directory f
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 .	Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Click *Rediscover Permissions*.
   image:rediscover_permissions.jpg[]
   If permissions for a services are discovered, the service is displayed with the option to active.
@@ -36,9 +36,9 @@ You can manually synchronize your user permissions with Azure Active Directory f
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 .	Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Click *Grant Consent*.
   image:grant_consent.jpg[]
   You are redirected to the Azure authorization page for authentication.
@@ -48,7 +48,7 @@ You can manually synchronize your user permissions with Azure Active Directory f
 
 . To access shared mailboxes after an *Auto Sync* or a *Sync Now* do the following:
   .. Click *Services* from the left navigation pane.
-     image:services.jpg[Screenshot of services button]
+     image:services.gif[Screenshot of services button]
   .. Click Microsoft Exchange Online.
   .. Click the number of unprotected mailboxes.
   .. Click the *Shared* tab.

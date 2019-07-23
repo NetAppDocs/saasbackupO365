@@ -25,9 +25,9 @@ If needed, you can activate one or more SaaS Backup for Office 365 services. Mic
 .Steps
 
 .	Click *Services* from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 . Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 .	Click *Activate* next to the service that you want to activate.
 .	Click *Confirm*.
 
@@ -37,9 +37,9 @@ If needed, you can deactivate one or more of your SaaS Backup for Office 365 ser
 .Steps
 
 .	Click *Services* from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 . Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 .	Click *Deactivate* next to the service that you want to deactivate.
 .	Click *Confirm*.
 
@@ -65,7 +65,7 @@ If you have initiated an immediate backup or an immediate restore, but need to c
 .Steps
 
 . Click *Jobs* from the left navigation pane.
-  image:jobs_button.jpg[]
+  image:jobs_button.gif[Screenshot of jobs button]
 . Under *Recent Running Jobs*, click the job that you want to cancel.
 . Click *Cancel*.
   The progress of the cancelled job is displayed under *Recent Completed Jobs*.

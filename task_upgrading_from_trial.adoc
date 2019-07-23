@@ -37,9 +37,9 @@ toc::[]
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 .	Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Under *Subscription details*, click *Upgrade*.
   image:upgrade.jpg[Screenshot of upgrade button]
 . Select your upgrade option, and then click *Next*.

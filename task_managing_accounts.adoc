@@ -23,8 +23,8 @@ If needed, you can add permissions to a service account user. Service accounts a
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 . Click the Microsoft Office 365 link.
-  image:mso365_settings.jpg[]
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Click the *+* icon next to *Manage Service Accounts*.
 . Click *Confirm* to be redirected to the Microsoft Office 365 sign-in page to grant permissions.

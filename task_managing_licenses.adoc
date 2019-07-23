@@ -29,7 +29,7 @@ Education domains can have a license for faculty and a separate license for stud
 .Steps
 
 . Click *Services* from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 . Click image:bluecircle_icon.gif[] icon in the right corner.
 . Enter the license information.
 . Click *Validate Subscription*.
@@ -42,7 +42,7 @@ After purchasing an add-on license, you must renew your subscription details ins
 .Steps
 
 . Click *Services* from the left navigation pane.
-  image:services.jpg[Screenshot of services button]
+  image:services.gif[Screenshot of services button]
 . Click image:configure_Icon.jpg[] icon in the right corner.
 . Click *Renew* next to Subscription Details.
   image:renew_icon.jpg[Screenshot of renew icon]

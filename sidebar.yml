@@ -63,7 +63,13 @@ entries:
       - title: Restoring from a previous backup
         url: /task_restoring_from_previous_backup.html
     - title: Viewing data for SaaS Backup for Office 365
-      url: /task_viewing_data.html
+      entries:
+      - title: Creating a user defined filter
+        url: /task_creating_user_defined_filter.html
+      - title: Performing a search
+        url: /task_performing_search.html
+      - title: Viewing and downloading data
+        url: /task_viewing_and_downloading_data.html      
     - title: Creating and managing rules
       url: /task_managing_creating_rules.html
     - title: Managing services

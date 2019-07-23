@@ -24,7 +24,5 @@ image:services.gif[Screenshot of services button]
 . Click the Microsoft Office 365 link.
 +
 image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
-.	Click *Deactivate* next to the service that you want to deactivate.
-+
-image:deactivate.gif[Screenshot of deactivate button]
+.	Click image:deactivate.gif[Screenshot of deactivate button] next to the service that you want to deactivate.
 .	Click *Confirm*.

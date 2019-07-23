@@ -98,7 +98,7 @@ image:restore.gif[image of restore button]
          You can restore an entire folder, or specific files within the folder.  To restore an entire folder, you select the folder. To restore a specific file, you select the folder containing the file, and then select the individual file within the folder.
      ... Click Restore.
 +
-         image:restore.gif[image of restore button]
+image:restore.gif[image of restore button]
      ... Select a restore option.
          You can choose one of the following restore options:
        * Restore to the same MySite

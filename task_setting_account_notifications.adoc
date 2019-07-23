@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task_discovering_new.html
+permalink: task_setting_account_notifications.html
 keywords: netapp, saas backup, office 365, setting, account, notifications, notification, management, adding
 summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---

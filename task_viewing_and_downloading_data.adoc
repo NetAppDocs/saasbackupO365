@@ -21,20 +21,14 @@ NetApp SaaS Backup for Office 365 stores a log of all jobs that includes the job
 
 .Steps
 
-.	Click *Reporting* on the left navigation pane.
-+
-image:reporting.gif[Screenshot of reporting button]
-+
+.	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
 A list of all SaaS Backup jobs is displayed under the *Job History* tab.
 .	To filter the results, click *Filter*.
 .	Click the *Select* drop-down menu, and select a filter.
   You can filter by policy, service, or type. After you select a filter, a search field appears.
 .	Enter your search criteria.
 .	If you want to add more filters, click *Add Filter*.
-.	Click *Apply Filter*.
-+
-image:apply_filter.gif[Screenshot of Apply Filter button]
-+
+.	Click image:apply_filter.gif[Screenshot of Apply Filter button]
 Filter results are displayed.
 .	Click any job to expand the view for additional job details.
 
@@ -43,9 +37,7 @@ A log is stored of all activity that occurs inside SaaS Backup for Office 365.  
 
 .Steps
 
-.	Click *Reporting* on the left navigation pane.
-+
-image:reporting.gif[Screenshot of reporting button]
+.	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
 .	Click the *Activity Log* tab.
   A list of all SaaS Backup for Office 365 activity is displayed.
 .	To filter the results, click *Filter*.
@@ -53,9 +45,7 @@ image:reporting.gif[Screenshot of reporting button]
   You can filter by service or event.  After you select a filter, a search field appears.
 .	Enter your search criteria.
 .	If you want to add more filters, click *Add Filter*.
-.	Click *Apply Filter*.
-+
-image:apply_filter.gif[Screenshot of Apply Filter button]
+.	Click image:apply_filter.gif[Screenshot of Apply Filter button].
 +
 Filter results are displayed.
 
@@ -64,15 +54,10 @@ A log is stored of all activity that occurs inside SaaS Backup for Office 365.  
 
 .Steps
 
-.	Click *Reporting* on the left navigation pane.
-+
-image:reporting.gif[Screenshot of reporting button]
+.	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
 .	Click the *Activity Log* tab.
 A list of all SaaS Backup for Office 365 activity is displayed.
-.	Click download.
-+
-image:download_activitylog.gif[Screenshoot of download button right corner of the Activity Log]
-+
+.	Click image:download_activitylog.gif[Screenshoot of download button right corner of the Activity Log].
 The activity log is downloaded as a .csv file.
 
 === Downloading a log of completed jobs

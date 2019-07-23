@@ -21,8 +21,7 @@ toc::[]
 
 .Steps
 
-.	Click *Support* on the left pane navigation.
-  image:support.png[]
+.	Click image:support.png[] on the left pane navigation.
 .	Select *Feedback*.
 .	Complete the short feedback survey.
 .	Click *Submit*.

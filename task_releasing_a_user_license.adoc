@@ -16,8 +16,7 @@ summary: Any regular user mailbox, whether protected or unprotected, consumes a 
 == Releasing a user license
 Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.  When a user license is released, the user is moved to the unprotected tier and backups for that user are discontinued.
 
-.Note
-Share mailboxes do not consume a license.
+*Note:* Share mailboxes do not consume a license.
 
 .Steps
 

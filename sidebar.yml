@@ -98,6 +98,14 @@ entries:
         url: /task_activating_a_service.html
       - title: Deactivating a service
         url: /task_deactivating_a_service.html
+      - title: Canceling a job
+        url: /task_canceling_job.html
+      - title: Setting notifications
+        url: /task_setting_account_notifications.html
+      - title: Discovering new mailboxes, sites, and groups
+        url: /task_discovering_new.html
+      - title: Purging a user, site collection, or Office 365 group
+        url: /task_purging.html
     - title: Managing role-based account access
       entries:
       - title: Assigning administrative roles to user accounts
@@ -120,10 +128,6 @@ entries:
       url: /task_performing_search.html
     - title: Viewing and downloading data
       url: /task_viewing_and_downloading_data.html
-  - title: Setting account Notifications
-    url: /task_setting_account_notifications.html
-  - title: Discovering new mailboxes, sites, and groups
-    url: /task_discovering_new.html
   - title: Providing feedback
     url: /task_providing_feedback.html
   - title: Where to get help and find more information

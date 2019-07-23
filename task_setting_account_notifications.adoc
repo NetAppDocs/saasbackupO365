@@ -12,7 +12,7 @@ summary: Within NetApp SaaS Backup for Office 365 you can manage your service ac
 :linkattrs:
 :imagesdir: ./media/
 
-== Setting account notifications
+== Setting notifications
 You can add users to account notifications and then select the specific notifications you want each user to receive.  For example, you can select to have a user receive an email notification each time there is a restore failure.
 
 .Steps

@@ -26,7 +26,7 @@ You can filter the view of your mailboxes, sites, or MySites to only show result
 
 . From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service for which you want to create a filter.
   The number above PROTECTED indicates the number of mailboxes, MySites, or groups that are currently protected by a backup policy.  The number above UNPROTECTED indicates the number of mailboxes, MySites, or groups that are not protected by a backup policy.
-  image:number_protected_unprotected.jpg[]
+  image:number_protected_unprotected.gif[]
 . Click *Filter*.
   image:filter.jpg[Screenshot of filter dropdown menu button]
 .	Click the *Select* drop-down menu, and select the filter of your choice.
@@ -47,7 +47,7 @@ You can perform an inline search within an individual mailbox for specific conte
 .Steps
 
 . From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in Exchange box.
-  image:number_protected_unprotected.jpg[]
+  image:number_protected_unprotected.gif[]
 .	If you are searching *PROTECTED* mailboxes, click the email address for which you need to perform the search.
   ..	Select the category (Mail, Tasks, Contacts, Calendar, or Other) that you need to search.
   .. Select *file* or *folder* from dropdown menu next to the search field to indicate if you are searching for a file or folder.

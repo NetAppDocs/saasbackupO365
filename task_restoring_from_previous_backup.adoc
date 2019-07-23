@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: task_restoring_from_previous_backup.html
+keywords: netapp, saas restores, office 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+summary: By default, only your most recent backup is available for restore.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Restoring from a previous backup
+By default, only your most recent backup is available for restore.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in box of the service for which you want to perform the restore.
+  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+  If you are restoring archive mailboxes for Microsoft Exchange Online, click the *ARCHIVE* tab. Note: Archive mailboxes are restored to the user's regular mailbox.
+  If you are restoring regular mailboxes, remain on the *USER* tab.
+. Click the item that you want to restore.
+.	Click *View Backup History*.
+  A calendar is displayed.  Dates for which backups are available are indicated by a green circle.
+. If you want to display the items backed up over a select number of days, click *Show Selected Backups* and select one of the pre-defined number of days from the drop-down menu.
+. Otherwise, click the date of the backup that you want to restore and then select the specific backup.
+. Select the items that you want to restore.
+. Click Restore.
+  image:restore.jpg[]
+. Select a restore option:
+  .. If you are restoring mailboxes for *Microsoft Exchange Online* or a mailbox for a Microsoft Office 365 Group, select one of the following options:
+    * Restore to the same mailbox
+       If you are restoring to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
+    * Restore to another mailbox
+       If you restore to another mailbox, you must enter the destination mailbox in the search field. You can type in a portion of the destination email address in the search field to initiate an automatic search for matching destination mailboxes.
+  .. If you are restoring MySites for *Microsoft OneDrive for Business*, select one of the following options:
+    * Restore to the same MySite
+       If you are restoring individual files to the same MySite, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.  If you are restoring an entire folder, the option to *Replace the existing content* is not available.
+    * Restore to a different MySite
+       If you restore to a different MySite, you must enter the destination MySite in the search field. You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
+  .. If you are restoring sites for *Microsoft SharePoint Online*, you can restore to the same site or to a different site.  If you are restoring a Microsoft Office 365 group site, you can only restore to the same site.
+    * Restore to the same site
+       If you restore to the same site, then by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.   If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
+    * Restore to a different site
+       If you restore to a different site, you must enter the destination site into the search field.  You can type a portion of the destination site into the search field to initiate an automatic search for matching sites.
+. Click *Confirm*.
+  A message is displayed indicating that the restore job is created.
+. Click *View the job progress* to monitor the progress of the restore.

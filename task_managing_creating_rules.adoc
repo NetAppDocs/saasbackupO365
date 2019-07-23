@@ -30,7 +30,7 @@ xref:_creating_a_user_defined_filter[Creating a user defined filter]
 .Steps
 
 . From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
-  image:number_protected_unprotected.jpg[]
+  image:number_protected_unprotected.gif[]
   If no user created filter is applied, image:create_rule.jpg[Screenshot of create rule button] does not appear.
 . Click *Filter*.
   image:filter.jpg[]
@@ -52,7 +52,7 @@ You can apply existing rules to unprotected items, change the order in which rul
 .Steps
 
 . From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
-  image:number_protected_unprotected.jpg[]
+  image:number_protected_unprotected.gif[]
 . Click *Filter*.
   image:filter.jpg[Screenshot of filter dropdown menu button]
 . Click *Rules*.
@@ -65,7 +65,7 @@ If you no longer need a existing rule, you can delete it.  Also, if you need to 
 .Steps
 
 . From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
-  image:number_protected_unprotected.jpg[]
+  image:number_protected_unprotected.gif[]
 . Click *Filter*.
   image:filter.jpg[Screenshot of filter dropdown menu button]
 . Click *Rules*.

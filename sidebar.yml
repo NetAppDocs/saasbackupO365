@@ -40,7 +40,7 @@ entries:
             url: /task_performing_immediate_backup_of_policy.html
   - title: Managing SaaS Backup
     entries:
-    - title: Managing backups with SaaS Backup for Office 365
+    - title: Managing backups
       entries:
       - title: Backup policies
         url: /concept_backup_policies.html
@@ -54,8 +54,14 @@ entries:
         url: /task_updating_backup_settings.html
       - title: Templates and apps supported for backup in Microsoft SharePoint Online
         url: /concept_supported_templates_and_apps.html
-    - title: Managing restores with SaaS Backup for Office 365
-      url: /task_managing_restores.html
+    - title: Managing restores
+      entries:
+      - title: Performing a high-level restore
+        url: /task_performing_high_level_restore.html
+      - title: Performing a granular-level restore
+        url: /task_performing_granular_level_restore.html
+      - title: Restoring from a previous backup
+        url: /task_restoring_from_previous_backup.html
     - title: Viewing data for SaaS Backup for Office 365
       url: /task_viewing_data.html
     - title: Creating and managing rules

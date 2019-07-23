@@ -27,8 +27,6 @@ Any regular user mailbox, whether protected or unprotected, consumes a license. 
 +
 image:services.gif[Screenshot of services button]
 . Click image:configure_icon.gif[Screenshot of configuration icon] icon in the right corner.
-. Click *Renew* next to Subscription Details.
-+
-image:renew_icon.jpg[Screenshot of renew icon]
+. Click image:renew_icon.gif[Screenshot of renew icon] next to Subscription Details.
 . Enter your username and password.
 . Click *Submit*.

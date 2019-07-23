@@ -21,13 +21,16 @@ If you want to change the backup frequency of protected data, you can assign the
 
 . From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service you want to change.
   If you want to change the backup frequency of protected data, click *PROTECTED*. If you want to backup newly discovered mailboxes, sites, or MySites, select *UNPROTECTED*.
-  image:number_protected_unprotected.gif[]
-.	If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
-  If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
-  If you are backing up or changing regular mailboxes, remain on the *USER* tab.
++
+image:number_protected_unprotected.gif[]
+.	Select your backup options.
+.. If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
+.. If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
+.. If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 . Select the items you want to backup.
 . Click the *Groups* menu.
-  image:groups_menu.gif[Groups Menu]
++
+image:groups_menu.gif[Groups Menu]
 . Select the new policy tier for the backup.
   *Note*:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
 .	Click *Apply*.

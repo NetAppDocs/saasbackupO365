@@ -25,7 +25,7 @@ You can apply existing rules to unprotected items, change the order in which rul
 image:number_protected_unprotected.gif[]
 . Click *Filter*.
 +
-image:filter.jpg[Screenshot of filter dropdown menu button]
+image:filter.gif[Screenshot of filter dropdown menu button]
 . Click *Rules*.
   The existing rules are displayed.
 . Click *Apply Now* to apply the rule to existing unprotected items.

@@ -42,9 +42,11 @@ Microsoft Office 365 Groups
 .Steps
 
 . Click *Services* from the left navigation pane.
-  image:services.gif[Screenshot of services button]
++
+image:services.gif[Screenshot of services button]
 . Click Microsoft Office 365.
-  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
++
+image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 .	Under *Manage Services*, click the backup settings icon image:configure_icon.gif[Screenshot of configuration icon] next to the service that you need to update.
   A list of your backup settings available for the selected service is displayed.
 . Select the desired backup settings.

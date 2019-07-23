@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task_managing_permissions.html
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html
 keywords: netapp, saas backup, office 365, granting, permissions, enabling, shared, mailboxes, azure, grant, shared
 summary: Within NetApp SaaS Backup for Office 365 you can grant permissions to enable shared mailboxes.
 ---

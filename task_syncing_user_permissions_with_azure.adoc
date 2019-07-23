@@ -19,9 +19,13 @@ You can manually synchronize your user permissions with Azure Active Directory f
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.gif[Screenshot of services button]
++
+image:services.gif[Screenshot of services button]
 .	Click the Microsoft Office 365 link.
-  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
++
+image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Click *Rediscover Permissions*.
-  image:rediscover_permissions.jpg[]
-  If permissions for a services are discovered, the service is displayed with the option to active.
++
+image:rediscover_permissions.gif[Rediscover permissions icon]
++
+If permissions for a services are discovered, the service is displayed with the option to active.

@@ -23,8 +23,10 @@ You can perform an immediate backup any time you deem necessary for data protect
 .	From the Dashboard, select the service for which you want to perform an immediate backup.
 .	Under *Backup Policies*, click the tier that you want to back up.
 .	Click Backup Now.
-  image:backup_now.gif[Screenshot of the the SaaS Backup "Backup Now" button]
-  A message is displayed indicating that the services under the selected tier will be placed in the job queue for immediate backup.
++
+image:backup_now.gif[Screenshot of the the SaaS Backup "Backup Now" button]
++
+A message is displayed indicating that the services under the selected tier will be placed in the job queue for immediate backup.
 .	Click *Confirm*.
   A message is displayed indicating that the backup job was created.
 .	Click *View the job progress* to monitor the progress of the backup.

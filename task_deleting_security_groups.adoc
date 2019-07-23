@@ -15,7 +15,7 @@ summary: If a security group is being utilized in a user-defined rule, it cannot
 
 == Deleting security groups
 If a security group is being utilized in a user-defined rule, it cannot be deleted.  You must remove the user-defined rule, then delete the security group.
-<<task_managing_creating_rules.adoc#deleting-rules, Deleting rules>>
+<<task_deleting_rules.adoc#deleting-rules, Deleting rules>>
 
 .Steps
 . Click *ACCOUNT SETTINGS*.

@@ -37,11 +37,14 @@ toc::[]
 .Steps
 
 .	Click Services from the left navigation pane.
-  image:services.gif[Screenshot of services button]
++
+image:services.gif[Screenshot of services button]
 .	Click the Microsoft Office 365 link.
-  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
++
+image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Under *Subscription details*, click *Upgrade*.
-  image:upgrade.jpg[Screenshot of upgrade button]
++
+image:upgrade.gif[Screenshot of upgrade button]
 . Select your upgrade option, and then click *Next*.
   If you are purchasing through AWS Marketplace, select *AWS Marketplace*. Otherwise, select *NetApp License*.
 . If you selected *NetApp License*:
@@ -52,7 +55,8 @@ toc::[]
   .. If you want to change your destination storage type or destination storage region, do the following:
     ... Select your new destination storage type and/or region.
         *Note*: If you change the destination of your storage or your destination region, NetApp SaaS Backup for Office 365 does not migrate the trial data.  You must agree to proceed.
-         image:iAgree.jpg[Screen for user acceptance that data is not migrated with change of destination storage]
++
+image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]
     ... If you are changing the destination storage type, enter the required information and click *Test Connection*.
     ... Click *Next*.
     ... Review your configuration, and then click *Save*.
@@ -63,10 +67,13 @@ toc::[]
   .. Follow the Marketplace instructions.
   .. Sign in to SaaS Backup for Office 365 with your Microsoft Office 365 account.
   .. Click the Microsoft Office 365 settings icon.
-     image:configure_icon.gif[Screenshot of configuration icon]
++
+image:configure_icon.gif[Screenshot of configuration icon]
   .. Under Subscription details, click *Activate*.
-     image:activate.jpg[Screenshot of activate button]
++
+image:activate.gif[Screenshot of activate button]
      If you used a BYOS option for your trial subscription a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.
-     image:iAgree.jpg[Screen for user acceptance that data is not migrated with change of destination storage]
++
+image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]
      NOTE: If you select to have fewer users in your licensed subscription than in your trial subscription, all user accounts are moved to the unprotected tier when the licensed subscription is activated.  After activation, you must manually move the desired accounts into a protected tier.
   .. Click *Save*.

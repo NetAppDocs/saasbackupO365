@@ -29,7 +29,8 @@ By default, only your most recent backup is available for restore.
 . Otherwise, click the date of the backup that you want to restore and then select the specific backup.
 . Select the items that you want to restore.
 . Click Restore.
-  image:restore.jpg[]
++
+image:restore.gif[image of restore button]
 . Select a restore option:
   .. If you are restoring mailboxes for *Microsoft Exchange Online* or a mailbox for a Microsoft Office 365 Group, select one of the following options:
     * Restore to the same mailbox

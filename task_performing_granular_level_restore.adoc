@@ -22,16 +22,20 @@ Within Microsoft Exchange Online, you can restore granular-level items for a sin
 .Steps
 
 . From the Dashboard, click the number above *PROTECTED* in the Exchange box.
-  image:number_protected_exchange.gif[screen shot of number of protected instances in Exchange]
-  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
-  If you are restoring archive mailboxes for Microsoft Exchange Online, click the *ARCHIVE* tab.
-  If you are restoring regular mailboxes, remain on the *USER* tab.
++
+image:number_protected_exchange.gif[screen shot of number of protected instances in Exchange]
+. Select your backup option.
+..  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+..  If you are restoring archive mailboxes for Microsoft Exchange Online, click the *ARCHIVE* tab.
+..  If you are restoring regular mailboxes, remain on the *USER* tab.
 .	Click the mailbox for which you need to perform the granular-level restore.
 .	Restore an entire Microsoft Office Exchange category or restore a specific item within a category.
   For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
  .. To restore an entire category:
     ... Select the category that you need to restore.
     ... Click *Restore*.
++
+image:restore.gif[image of restore button]
     ... Select a restore option.
       * Restore to the same mailbox
           If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.
@@ -50,7 +54,8 @@ Within Microsoft Exchange Online, you can restore granular-level items for a sin
     ... Select the items that you want to restore.
         For mail, you can restore an entire folder or specific emails within the folder.  To restore the entire folder, you select the folder.  To restore individual emails, you select the folder containing the email, and then select the individual emails within the folder.
     ... Click *Restore*.
-        image:restore.jpg[restore button]
++
+image:restore.gif[image of restore button]
     ... Select a restore option:
          For Microsoft Office 365 Groups, you only have the option to restore to the same mailbox and you cannot replace the existing content. For Microsoft Exchange Online, you can restore to the same mailbox and replace the existing content or you can restore to a another mailbox.
          * Restore to the same mailbox
@@ -76,7 +81,8 @@ Within Microsoft OneDrive for Business, you can restore granular-level items, su
   .. To restore a group of files:
      ... Select the group of files.
      ... Click *Restore*.
-         image:restore.jpg[]
++
+image:restore.gif[image of restore button]
      ... Select a restore option:
        * Restore to the same MySite
        * Restore to a different MySite
@@ -91,7 +97,8 @@ Within Microsoft OneDrive for Business, you can restore granular-level items, su
      ... Select the files that you want to restore.
          You can restore an entire folder, or specific files within the folder.  To restore an entire folder, you select the folder. To restore a specific file, you select the folder containing the file, and then select the individual file within the folder.
      ... Click Restore.
-         image:restore.jpg[]
++
+         image:restore.gif[image of restore button]
      ... Select a restore option.
          You can choose one of the following restore options:
        * Restore to the same MySite
@@ -113,7 +120,7 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
   .. To restore an entire content category:
      ... Select the category that you need to restore.
      ... Click *Restore*.
-         image:restore.jpg[]
+         image:restore.gif[image of restore button]
      ... Select a restore option:
          For Microsoft Office 365 Groups, you only have the option to restore to the same site.  For Microsoft SharePoint Online, you can restore to the same site or to another site.
        * Restore to the same site
@@ -129,7 +136,7 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
      ... Click the content category of the single items that you want to restore.
      ... Select the items that you want to restore:
        * If you want to restore the most recent version of the item, click *Restore*, and then select a restore option.
-            image:restore.jpg[]
+            image:restore.gif[image of restore button]
             For Microsoft Office 365 Groups, you only have the option to restore to the same site. For Microsoft SharePoint Online, you can restore to the same site or to another site.
             ** Restore to the same site
                 If you restore to the same site, then by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
@@ -139,7 +146,7 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
        ... If you want to restore a previous version of the item, click *Show versions*.
          * Select the version that you want to restore.
          * Click *Restore*.
-           image:restore.jpg[]
+           image:restore.gif[image of restore button]
             You can restore to the same site or to a different site.  If you restore to another site, you must enter the destination site in the search field.  You can type a portion of the site in the search field to initiate an automatic search for matching sites.
       .. Click *Confirm*.
          A message is displayed indicating that the restore job was created.

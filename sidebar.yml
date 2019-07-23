@@ -62,6 +62,22 @@ entries:
         url: /task_performing_granular_level_restore.html
       - title: Restoring from a previous backup
         url: /task_restoring_from_previous_backup.html
+    - title: Managing permissions
+      entries:
+      - title: Adding permissions to a service account
+        url: /task_adding_permissions_to_service_accounts.html
+      - title: Synchronizing user permissions with Azure Active Directory
+        url: /task_syncing_user_permissions_with_azure.html
+      - title: Granting permissions to enable shared mailboxes
+        url: /task_granting_permissions_to_enable_shared_mailboxes.html
+    - title: Managing licenses
+      entries:
+      - title: Adding a license
+        url: /task_adding_a_license.html
+      - title: Activating an add-on license
+        url: /task_activating_an_add_on_license.html
+      - title: Releasing a user license
+        url: /task_releasing_a_user_license.html
     - title: Viewing data for SaaS Backup for Office 365
       entries:
       - title: Creating a user defined filter
@@ -69,15 +85,13 @@ entries:
       - title: Performing a search
         url: /task_performing_search.html
       - title: Viewing and downloading data
-        url: /task_viewing_and_downloading_data.html      
+        url: /task_viewing_and_downloading_data.html
     - title: Creating and managing rules
       url: /task_managing_creating_rules.html
     - title: Managing services
       url: /task_managing_services.html
     - title: Managing security groups
       url: /task_managing_security_groups.html
-    - title: Managing permissions
-      url: /task_managing_permissions.html
     - title: Managing licenses
       url: /task_managing_licenses.html
     - title: Managing accounts

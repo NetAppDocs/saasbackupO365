@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task_performing_granular_level_restores.html
+permalink: task_performing_granular_level_restore.html
 keywords: netapp, saas restores, office 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
 summary: You can use SaaS Backup for Office 365 to perform high-level and granular level restores for Microsoft Office 365.
 ---

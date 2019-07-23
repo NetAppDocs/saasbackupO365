@@ -32,7 +32,7 @@ You can perform an inline search within an individual mailbox for specific conte
   .. Type a search string in the search field.
      The search is automatically performed and results are displayed after the search string is entered.
 
-== Searching inside Microsoft OneDrive for Business
+=== Searching inside Microsoft OneDrive for Business
 You can perform an inline search within an individual MySite for specific content.
 
 .Steps
@@ -43,7 +43,7 @@ You can perform an inline search within an individual MySite for specific conten
 .	Type a search string in the search field.
   The search is automatically performed and results are displayed after the search string is entered.
 
-== Searching inside Microsoft SharePoint Online
+=== Searching inside Microsoft SharePoint Online
 You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Office 365 Group.
 
 .Steps

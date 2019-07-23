@@ -28,7 +28,7 @@ You can update the length of time, in number of years, that data is retained for
 === Updating the backup retention period for tenants
 .Steps
 
-. Click the configuration icon image:configure_Icon.jpg[Configuration Icon] next to your SaaS Backup userid in the top left corner.
+. Click the configuration icon image:configure_icon.gif[Configuration Icon] next to your SaaS Backup userid in the top left corner.
 . Click *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
 . To update the data retention policy for a specific user in a specific service, do the following:

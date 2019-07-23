@@ -1,0 +1,34 @@
+---
+sidebar: sidebar
+permalink: task_activating_an_add_on_license.html
+keywords: netapp, saas backup, activating, add-on, add, on, license
+summary: You can add or release a license.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+
+== Activating an add-on license
+After purchasing an add-on license, you must renew your subscription details inside of SaaS Backup in order to activate the license.
+
+.Note
+
+Any regular user mailbox, whether protected or unprotected, consumes a license.  Shared mailboxes do not consume a license.
+
+.Steps
+
+. Click *Services* from the left navigation pane.
++
+image:services.gif[Screenshot of services button]
+. Click image:configure_icon.gif[Screenshot of configuration icon] icon in the right corner.
+. Click *Renew* next to Subscription Details.
++
+image:renew_icon.jpg[Screenshot of renew icon]
+. Enter your username and password.
+. Click *Submit*.

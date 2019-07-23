@@ -48,7 +48,7 @@ You can completely remove all the data associated with a user, site collection, 
 
 .Steps
 
-. Click the configuration icon image:configure_Icon.jpg[] next to your SaaS Backup userid in the top left corner.
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
 . Select *ACCOUNT SERVICE*.
 . Click *RETAIN AND PURGE*.
 . Under *Purge Data*, select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.

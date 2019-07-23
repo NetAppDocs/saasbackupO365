@@ -38,7 +38,7 @@ image:apply_filter.gif[Screenshot of Apply Filter button]
 Filter results are displayed.
 .	Click any job to expand the view for additional job details.
 
-== Viewing the Activity Log
+=== Viewing the Activity Log
 A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can filter the activity log by service and event. For example, if you need to see all of the restore operations that have occurred for Microsoft Exchange Online, you can filter the activity log to view those specific results.
 
 .Steps
@@ -59,7 +59,7 @@ image:apply_filter.gif[Screenshot of Apply Filter button]
 +
 Filter results are displayed.
 
-== Downloading the Activity Log
+=== Downloading the Activity Log
 A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can download the activity log to a .csv file.
 
 .Steps
@@ -75,7 +75,7 @@ image:download_activitylog.gif[Screenshoot of download button right corner of th
 +
 The activity log is downloaded as a .csv file.
 
-== Downloading a log of completed jobs
+=== Downloading a log of completed jobs
 You can download an Excel spreadsheet of successfully completed jobs.
 
 .Steps

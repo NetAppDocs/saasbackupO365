@@ -1,0 +1,34 @@
+---
+sidebar: sidebar
+permalink: task_releasing_a_user_licenses.html
+keywords: netapp, saas backup, releasing, reassigning, user, license
+summary: Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Releasing a user license
+Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.  When a user license is released, the user is moved to the unprotected tier and backups for that user are discontinued.
+
+.Note
+Share mailboxes do not consume a license.
+
+.Steps
+
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
+. Select *ACCOUNT SERVICE*.
+. Click *RETAIN AND PURGE*.
+. Under *Release License*, begin typing the account name for the user whose license you want to release.
+. When the account is found, select it from the auto-populated list and click image:bluecircle_icon.gif[Blue plus sign icon].
+. Add additional accounts, if needed.
+. Click *Release*.
+. Click *Yes, please release license(s)*.
+. Click *Confirm*.
+
+*Note:* If you need to restore data for a user whose license has been released, you must contact the SaaS Backup Support team.

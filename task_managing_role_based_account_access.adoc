@@ -29,7 +29,7 @@ You can assign the following roles to users:
 
 .Steps
 
-. Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
 . Click *ACCOUNT SETTINGS*.
 . Click *ROLE MANAGEMENT*.
 . Click the image:bluecircle_icon.gif[Screenshot of icon clicked to display user role options] icon.
@@ -43,7 +43,7 @@ If an update is made to a user's administrative roles, the user is automatically
 
 .Steps
 
-. Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
 . Click *ACCOUNT SETTINGS*.
 . Click *ROLE MANAGEMENT*.
 . Click  *Update User* next to the user name that you want to update.
@@ -56,7 +56,7 @@ If all administrative roles are deleted from a user's account, the user is autom
 
 .Steps
 
-. Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
 . Click *ACCOUNT SETTINGS*.
 . Click *ROLE MANAGEMENT*.
 . Click  *Delete User* next to the user name that you want to remove.

@@ -1,0 +1,76 @@
+---
+sidebar: sidebar
+permalink: concept_supported_templates_and_apps.html
+keywords: netapp, saas backup, office 365, backup, supported, templates, apps
+summary: Only certain templates and apps are supported for Microsoft SharePoint Online.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Templates and apps supported for backup in Microsoft SharePoint Online
+Only certain templates and certain apps are supported for Microsoft SharePoint Online backups.
+
+=== Supported templates
+
+Only the following templates are supported for Microsoft SharePoint Online backups.
+
+* STS#0 (Team Site)
+* BLOG#0 (Blog Site)
+* DEV#0 (Developer Site)
+* PROJECTSITE#0 (Project Site)
+* COMMUNITY#0 (Community Site)
+* BDR#0 (Document Center)
+* COMMUNITYPORTAL#0 (Community Portal)
+* ENTERWIKI#0 (Enterprise WIKI)
+* EHS#1 (Root Site)
+* EHS#0 (Root Site)
+* SITEPAGEPUBLISHING#0 (Communication Site)
+* GROUP#0 (Group Site Collection Prefix)
+* STS#1 (Blank Site)
+* STS#2 (Document Workspace)
+* STS#3 (Modern Team Site)
+* APP#0 (App Template)
+
+=== Supported apps
+The following apps are supported for Microsoft SharePoint Online backups.
+
+* Custom List
+* Badge (Community Site)
+* Document Library
+* Style Library
+* Survey
+* Link
+* Announcement
+* Contact
+* Calendar
+* Discussion Board
+* Photos
+* Picture Library
+* Content Web Parts
+* List Template Gallery
+* Master Page Gallery
+* Site Pages
+* Custom List in Dataset View
+* Solution Gallery
+* Theme Gallery
+* Composed Looks
+* Promoted Links
+* Tasks
+* Posts (Blog Site)
+* Comments (Blog Site)
+* Community Discussions (Community Site)
+* Categories (Blog Site)
+* Community Categories (Community Site)
+* Report
+* Wiki Pages
+* Site Collection Images
+* Community Members (Community Site)
+* Issue Tracking
+* Record Library
+* Sharing Links

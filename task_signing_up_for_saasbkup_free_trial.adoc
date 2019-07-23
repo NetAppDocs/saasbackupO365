@@ -72,7 +72,7 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
 .	Enter the requested user information, and then click *Sign Up*.
   The free trial activation code you received from your channel partner, sales representative or in the registration email is required.
 . Click the *Services* icon.
-  image:bluecircle_icon.jpg[Screenshot of SaaS Backup for Office 365 services icon]
+  image:bluecircle_icon.gif[Screenshot of SaaS Backup for Office 365 services icon]
 . Click the Microsoft Office 365 icon to select the SaaS service.
   image:O365_icon.jpg[MS Office 365 icon]
 . Click *Add Microsoft Office 365 Account*.

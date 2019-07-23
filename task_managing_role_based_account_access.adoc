@@ -32,7 +32,7 @@ You can assign the following roles to users:
 . Click the settings icon image:configure_icon.jpg[] next to your user ID in the top left of the screen.
 . Click *ACCOUNT SETTINGS*.
 . Click *ROLE MANAGEMENT*.
-. Click the image:bluecircle_icon.jpg[Screenshot of icon clicked to display user role options] icon.
+. Click the image:bluecircle_icon.gif[Screenshot of icon clicked to display user role options] icon.
 . Enter the email address for the user you want to add.
 . Click the drop-down menu to select the role.
   You can assign one or more roles to a user.

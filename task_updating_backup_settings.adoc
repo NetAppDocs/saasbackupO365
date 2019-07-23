@@ -1,0 +1,51 @@
+---
+sidebar: sidebar
+permalink: task_updating_backup_settings.html
+keywords: netapp, saas backup, office 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows
+summary: You can update your backup settings to control various backup options. Available backup settings vary based on service.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Updating backup settings
+You can update your backup settings to control various backup options. Available backup settings vary based on service.
+
+[options="header"]
+|=======
+|Backup setting |Description |Enabled |Available in...
+|Auto Sync |Enables the automatic scheduled synchronization of newly added or deleted users, OneDrives, or site collections once every 24 hours. |By default |Microsoft Exchange Online
+Microsoft SharePoint Online
+Microsoft OneDrive for Business
+Microsoft Office 365 Groups
+|Enable Restore of Recoverable Items |Enables the user to restore Microsoft Exchange recoverable items |Manually |Microsoft Exchange Online
+|Enable Backup of Recoverable Items |Enables the backup of Microsoft Exchange recoverable items.  Only the tier 1 backup policy allows for the backup of recoverable items. |Manually |Microsoft Exchange Online
+|Include Workflows| Includes workflows in the backup |Manually |Microsoft SharePoint Online
+Microsoft Office 365 Groups
+|Include List Views| Includes view of list in backup |Manually |Microsoft SharePoint Online
+Microsoft Office 365 Groups
+|Include Version History| Enables maintenance of multiple file versions in the backup.
+*Note*: This setting only applies to individual files.  It does not apply to entire folders, tiers, or services. |By default |Microsoft SharePoint Online
+Microsoft OneDrive for Business
+Microsoft Office 365 Groups
+|Number of Versions |Sets the number of backup file versions to maintain.
+By default, the latest version is automatically backed up, even if this setting is not enabled. |Set to 20 by default |Microsoft SharePoint Online
+Microsoft OneDrive for Business
+Microsoft Office 365 Groups
+|=======
+
+.Steps
+
+. Click *Services* from the left navigation pane.
+  image:services.jpg[]
+. Click Microsoft Office 365.
+  image:mso365_settings.jpg[]
+.	Under *Manage Services*, click the backup settings icon image:configure_icon.jpg[] next to the service that you need to update.
+  A list of your backup settings available for the selected service is displayed.
+. Select the desired backup settings.
+. Click *Confirm*.

@@ -12,7 +12,7 @@ entries:
           - title: Workflow
             url: /concept_free_trial_workflow.html
           - title: Free trial restrictions
-            url: /concept_free_trial_restrictions.html            
+            url: /concept_free_trial_restrictions.html
           - title: Registering for a free trial activation code
             url: /task_registering_for_free_trial_activation_code.html
           - title: Signing up for a Microsoft Office 365 free trial account
@@ -26,7 +26,7 @@ entries:
           - title: Workflow
             url: /concept_paid_subscription_workflow.html
           - title: Information to gather about your BYOS option
-          - title: Storage types
+          - title: Storage types you can use with SaaS Backup
             url: /concept_storage_types.html
           - title: Information to gather about your BYOS option
             url: /concept_information_to_gather_for_byos.html
@@ -41,7 +41,19 @@ entries:
   - title: Managing SaaS Backup
     entries:
     - title: Managing backups with SaaS Backup for Office 365
-      url: /task_managing_backups.html
+      entries:
+      - title: Backup policies
+        url: /concept_backup_policies.html
+      - title: Scheduling a backup or changing backup frequency
+        url: /task_scheduling_backup_or_changing_frequency.html
+      - title: Performing an immediate backup
+        url: /task_performing_immediate_backup_of_service.html
+      - title: Updating the backup retention period
+        url: /task_updating_backup_retention_period.html
+      - title: Updating backup settings
+        url: /task_updating_backup_settings.html
+      - title: Templates and apps supported for backup in Microsoft SharePoint Online
+        url: /concept_supported_templates_and_apps.html
     - title: Managing restores with SaaS Backup for Office 365
       url: /task_managing_restores.html
     - title: Viewing data for SaaS Backup for Office 365

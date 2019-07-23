@@ -30,7 +30,7 @@ Education domains can have a license for faculty and a separate license for stud
 
 . Click *Services* from the left navigation pane.
   image:services.jpg[Screenshot of services button]
-. Click image:bluecircle_icon.jpg[] icon in the right corner.
+. Click image:bluecircle_icon.gif[] icon in the right corner.
 . Enter the license information.
 . Click *Validate Subscription*.
 . Click *Next*.
@@ -58,7 +58,7 @@ When a user license is released, the user is moved to the unprotected tier and b
 . Select *ACCOUNT SERVICE*.
 . Click *RETAIN AND PURGE*.
 . Under *Release License*, begin typing the account name for the user whose license you want to release.
-. When the account is found, select it from the auto-populated list and click image:bluecircle_icon.jpg[].
+. When the account is found, select it from the auto-populated list and click image:bluecircle_icon.gif[].
 . Add additional accounts, if needed.
 . Click *Release*.
 . Click *Yes, please release license(s)*.

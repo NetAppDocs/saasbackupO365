@@ -22,24 +22,12 @@ NetApp SaaS Backup is a secure, web-based, software-as-a-service (SaaS) offering
 
 == Getting started
 
-* link:task_getting_started.html[Getting started with a paid subscription]
-* link:task_getting_started_free_trial.html[Getting started with a free trial]
+* link:concept_paid_subscription_workflow.html[Getting started with a paid subscription]
+* link:concept_free_trial_workflow.html[Getting started with a free trial]
 * link:task_upgrading_from_trial.html[Upgrading from a free trial]
-
-== Managing SaaS Backup for Office 365
-
-* link:task_upgrading_from_trial.html[Upgrading from a trial subscription]
-* link:task_managing_backups.html[Managing backups with SaaS Backup for Office 365]
-* link:task_managing_restores.html[Managing restores with SaaS Backup for Office 365]
-* link:task_viewing_data.html[Viewing SaaS Backup for Office 365 data]
-* link:task_managing_creating_rules.html[Creating and managing rules]
-* link:task_managing_security_groups.html[Managing security groups]
-* link:task_managing_services.html[Managing services]
-* link:task_managing_permissions.html[Managing permissions]
-* link:task_managing_licenses.html[Managing licenses]
-* link:task_managing_role_based_account_access.html[Managing role-based account access]
-
 
 == Provide feedback, get help, or find more information
 * link:task_providing_feedback.html[Providing feedback]
 * link:concept_get_help_find_info.html[Where to get help and find more information]
+* link:https://cloud.netapp.com/saas-backup[Product Page]
+* link:https://cloud.netapp.com/hubfs/NetApp%20SaaS%20Backup%20for%20Microsoft%20365.pdf?hsCtaTracking=486aae2e-33b3-489b-89c0-aff2c8adf7d1%7C37e522a7-0826-4a5f-8a79-85f565ff4592[Solution Brief]

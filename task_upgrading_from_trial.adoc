@@ -36,15 +36,11 @@ toc::[]
 
 .Steps
 
-.	Click Services from the left navigation pane.
-+
-image:services.gif[Screenshot of services button]
+.	Click image:services.gif[Screenshot of services button] from the left navigation pane.
 .	Click the Microsoft Office 365 link.
 +
 image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
-. Under *Subscription details*, click *Upgrade*.
-+
-image:upgrade.gif[Screenshot of upgrade button]
+. Under *Subscription details*, click image:upgrade.gif[Screenshot of upgrade button].
 . Select your upgrade option, and then click *Next*.
   If you are purchasing through AWS Marketplace, select *AWS Marketplace*. Otherwise, select *NetApp License*.
 . If you selected *NetApp License*:
@@ -69,9 +65,7 @@ image:iAgree.gif[Screen for user acceptance that data is not migrated with chang
   .. Click the Microsoft Office 365 settings icon.
 +
 image:configure_icon.gif[Screenshot of configuration icon]
-  .. Under Subscription details, click *Activate*.
-+
-image:activate.gif[Screenshot of activate button]
+  .. Under Subscription details, click image:activate.gif[Screenshot of activate button].
      If you used a BYOS option for your trial subscription a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.
 +
 image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]

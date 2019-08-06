@@ -124,14 +124,16 @@ entries:
         url: /task_adding_security_groups.html
       - title: Deleting security groups
         url: /task_deleting_security_groups.html
-  - title: Viewing data for SaaS Backup for Office 365
+  - title: Viewing data
     entries:
     - title: Creating a user defined filter
       url: /task_creating_user_defined_filter.html
     - title: Performing a search
       url: /task_performing_search.html
-    - title: Viewing and downloading data
-      url: /task_viewing_and_downloading_data.html
+    - title: Viewing job history and activity log
+      url: /task_viewing_history_and_activity.html
+    - title: Downloading data
+      url: /task_downloading_data.html
   - title: Providing feedback
     url: /task_providing_feedback.html
   - title: Where to get help and find more information

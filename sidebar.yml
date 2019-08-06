@@ -7,8 +7,14 @@ entries:
       url: /reference_new_saasbackupO365.html
     - title: Known problems and limitations
       url: /reference_kpls.html
-  - title: SaaS Backup for Office 365 Overview
-    url: /concept_overview.html
+  - title: Concepts
+    entries:
+    - title: Overview
+      url: /concept_overview.html
+    - title: Storage types you can use with SaaS Backup
+      url: /concept_storage_types.html
+    - title: Information to gather about your BYOS option
+      url: /concept_information_to_gather_for_byos.html
   - title: Getting started
     entries:
       - title: Getting started with a free trial
@@ -32,10 +38,6 @@ entries:
           - title: Workflow
             url: /concept_paid_subscription_workflow.html
           - title: Information to gather about your BYOS option
-          - title: Storage types you can use with SaaS Backup
-            url: /concept_storage_types.html
-          - title: Information to gather about your BYOS option
-            url: /concept_information_to_gather_for_byos.html
           - title: Creating a MS Office service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
           - title: Configuring Impersonation for Microsoft Exchange Online
@@ -52,6 +54,8 @@ entries:
       entries:
       - title: Backup policies
         url: /concept_backup_policies.html
+      - title: Backup settings
+        url: /concept_backup_settings.html
       - title: Scheduling a backup or changing backup frequency
         url: /task_scheduling_backup_or_changing_frequency.html
       - title: Performing an immediate backup

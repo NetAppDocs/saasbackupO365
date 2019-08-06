@@ -18,7 +18,7 @@ toc::[]
 
 If you do not upgrade to a licensed version of SaaS Backup for Office 365, the data used during your free trial period is deleted as follows:
 
-[options="header"]
+[options="header" width="70%"]
 |======
 |If your SaaS Backup free trial is... |Number of days after end of trial |Your data is...
 |Expired |1-15 days |Available: The administrator has normal access and can perform manual backups and restores.  SaaS Backup continues to display alerts and sent out notifcations.

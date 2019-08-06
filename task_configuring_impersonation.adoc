@@ -31,13 +31,15 @@ To manually configure impersonation do the following:
 . Click *Admin roles*.
 . Double-click in the right pane to select *Discovery management*.
 . Under *Roles*, click the *+* symbol.
-  image:screen_shot_write_scope.gif[Screen shot of write scope window when configuring impersonation for Microsoft Exchange Online]
++
+image:screen_shot_write_scope.gif[Screen shot of write scope window when configuring impersonation for Microsoft Exchange Online]
 . Select *ApplicationImpersonation* from the drop-down menu.
 . Click *Add*.
 .	Click *OK*.
 .	Verify that *ApplicationImpersonation* was added under *Roles*.
 .	Under Members, click the *+* symbol.
-  image:screen_shot_members.gif[Screen shot of members window when configuring impersonation for Microsoft Exchange Online]
++
+image:screen_shot_members.gif[Screen shot of members window when configuring impersonation for Microsoft Exchange Online]
   A new window appears
 . Choose the user name.
 . Click *Add*.

@@ -18,9 +18,7 @@ If needed, you can deactivate one or more of your SaaS Backup for Office 365 ser
 
 .Steps
 
-.	Click *Services* from the left navigation pane.
-+
-image:services.gif[Screenshot of services button]
+.	Click image:services.gif[Screenshot of services button] from the left navigation pane.
 . Click the Microsoft Office 365 link.
 +
 image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]

@@ -1,0 +1,63 @@
+---
+sidebar: sidebar
+permalink: task_managing_role_based_account_access.html
+keywords: netapp, saas backup, office 365, role-based accounts, administrative roles, privileges, granting
+summary: You can assign administrative roles to user accounts to grant administrative privileges to selected users for one or more services.
+---
+
+= Managing role-based account access
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can assign administrative roles to user accounts to grant administrative privileges to selected users for one or more services.
+
+toc::[]
+
+== Assigning administrative roles to user accounts
+You can assign the following roles to users:
+
+* Global Tenant: Grants administrative privileges to all services, storage target, and license updates (renewal/upgrade).
+* Exchange Administrator: Grants administrative privileges to Microsoft Exchange Online only.  Other services cannot be viewed or modified.
+* OneDrive Administrator: Grants administrative privileges to Microsoft OneDrive for Business only.  Other services cannot be viewed or modified.
+* SharePoint Administrator: Grants administrative privileges to Microsoft SharePoint Online only.  Other services cannot be viewed or modified.
+
+.Steps
+
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click the image:bluecircle_icon.gif[Screenshot of icon clicked to display user role options] icon.
+. Enter the email address for the user you want to add.
+. Click the drop-down menu to select the role.
+  You can assign one or more roles to a user.
+. Click *Confirm*.
+
+== Updating administrative roles assigned to user accounts
+If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Office 365. When the user logs back in, administrative role updates are reflected in the user's account.
+
+.Steps
+
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click  *Update User* next to the user name that you want to update.
+. Click the drop-down menu to select the role.
+  You can assign one or more roles to a user.
+. Click *Confirm*.
+
+== Deleting all administrative roles from a user account
+If all administrative roles are deleted from a user's account, the user is automatically logged out of SaaS Backup for Office 365.
+
+.Steps
+
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click  *Delete User* next to the user name that you want to remove.
+. Click *Yes*.

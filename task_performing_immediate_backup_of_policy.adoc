@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: task_performing_immediate_backup_of_policy.html
+keywords: netapp, saas backup, office 365, getting started
+summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Performing an immediate backup of a specific backup policy
+When you set up SaaS Backup for Office 365, by default, all of your data is unprotected.  After you move your data to a protected tier, you can perform an immediate backup of the tier to which you moved your data.  This prevents your data from being at risk until the first scheduled backup occurs.  If you can wait for the first scheduled backup, performing an immediate backup is not necessary.
+
+You can perform an immediate backup any time you deem necessary for data protection. If you are running a trial version of SaaS Backup for Office 365, you can only perform three immediate backups per day, per service.
+
+.Steps
+
+.	From the Dashboard, select the service for which you want to perform an immediate backup.
+.	Under *Backup Policies*, click the tier that you want to back up.
+.	Click Backup Now.
++
+image:backup_now.gif[Screenshot of the the SaaS Backup "Backup Now" button]
++
+A message is displayed indicating that the services under the selected tier will be placed in the job queue for immediate backup.
+.	Click *Confirm*.
+  A message is displayed indicating that the backup job was created.
+.	Click *View the job progress* to monitor the progress of the backup.

@@ -1,0 +1,27 @@
+---
+sidebar: sidebar
+permalink: task_updating_admin_roles_assigned_to_user_accounts.html
+keywords: netapp, saas backup, office 365, role-based accounts, administrative roles, privileges, updating, changing
+summary: If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Office 365. When the user logs back in, administrative role updates are reflected in the user's account.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Updating administrative roles assigned to user accounts
+If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Office 365. When the user logs back in, administrative role updates are reflected in the user's account.
+
+.Steps
+
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click  *Update User* next to the user name that you want to update.
+. Click the drop-down menu to select the role.
+  You can assign one or more roles to a user.
+. Click *Confirm*.

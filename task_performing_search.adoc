@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: task_performing_search.html
+keywords: netapp, saas backup, office 365, search, searching, performing, exchange, sharePoint, oneDrive, online
+summary: You can use inline search to find specific content.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Performing a search
+You can use inline search for Microsoft Exchange Online, Microsoft OneDrive for Business, and Microsoft SharePoint Online to find specific content.
+
+=== Searching Microsoft Exchange Online
+You can perform an inline search within an individual mailbox for specific content.  This also applies to mailboxes that are part of an Office 365 Group.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in Exchange box.
+  image:number_protected_unprotected.gif[]
+.	If you are searching *PROTECTED* mailboxes, click the email address for which you need to perform the search.
+  ..	Select the category (Mail, Tasks, Contacts, Calendar, or Other) that you need to search.
+  .. Select *file* or *folder* from dropdown menu next to the search field to indicate if you are searching for a file or folder.
+  ..	Type a search string in the search field.
+      The search is automatically performed and results are displayed after the search string is entered.
+. If you are searching *UNPROTECTED* mailboxes, select the mailbox you want to search.
+  .. Type a search string in the search field.
+     The search is automatically performed and results are displayed after the search string is entered.
+
+=== Searching inside Microsoft OneDrive for Business
+You can perform an inline search within an individual MySite for specific content.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in OneDrive box.
+.	Click the MySite in which you need to perform the search.
+.	Click the files that you need to search.
+.	Type a search string in the search field.
+  The search is automatically performed and results are displayed after the search string is entered.
+
+=== Searching inside Microsoft SharePoint Online
+You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Office 365 Group.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in SharePoint box.
+.	Click the site in which you need to perform the search.
+.	Click the content category that you need to search.
+.	Type the search string in the search field.
+  The search is automatically performed and results are displayed after the search string is entered.

@@ -1,0 +1,89 @@
+---
+sidebar: sidebar
+permalink: task_configuring_impersonation.html
+keywords: netapp, saas backup, office 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts,
+summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+
+== Configuring Impersonation for  Microsoft Exchange Online
+If you plan to use SaaS Backup with Microsoft Exchange Online, you must configure impersonation.  Impersonation allows your Microsoft Office 365 service account to impersonate user accounts and access associated permissions.
+
+=== Automatically configuring Impersonation
+To automatically configure impersonation, run https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx[MSDN PowerShell Commands].
+
+=== Manually configuring impersonation
+To manually configure impersonation do the following:
+
+.Steps
+
+. Use Exchange Admin Center or an administrator account to log in to your Microsoft Office 365 service account.
+. Select the *Exchange* tab.
+. In the left navigation pane, under Dashboard, select *Permissions*.
+. Click *Admin roles*.
+. Double-click in the right pane to select *Discovery management*.
+. Under *Roles*, click the *+* symbol.
++
+image:screen_shot_write_scope.gif[Screen shot of write scope window when configuring impersonation for Microsoft Exchange Online]
+. Select *ApplicationImpersonation* from the drop-down menu.
+. Click *Add*.
+.	Click *OK*.
+.	Verify that *ApplicationImpersonation* was added under *Roles*.
+.	Under Members, click the *+* symbol.
++
+image:screen_shot_members.gif[Screen shot of members window when configuring impersonation for Microsoft Exchange Online]
+  A new window appears
+. Choose the user name.
+. Click *Add*.
+.	Click *OK*.
+. Verify that the user name appears in the *Members* section.
+.	Click *Save*.
+////
+=== Assigning user permissions for Microsoft OneDrive for Business
+If you plan to use SaaS Backup with Microsoft OneDrive for Business, you must assign eDiscovery permissions.  This allows your Microsoft Office 365 service account to access the site.
+
+NOTE:  After you add eDiscovery permissions, your service account is listed as an owner of all backed-up site collections. This does not change permissions or grant access that was not previously authorized.
+
+You can assign user permissions manually or automatically.  If you have a few users, manual assignment is recommended.
+
+*To manually assign permissions to each user account:*
+
+.Steps
+
+. Under the *Admin* tab, select *SharePoint*.
+.	Click *User profiles*.
+.	Under *People*, select *Manage User Profiles*.
+.	Search for the users that you want to configure.
+.	Scroll over the search results, and then select the down arrow for the user that you want to select.
+.	Select *Manage Site Collection Owners*.
+.	Under *Site Collection Owners*, add the appropriate administrator account.
+.	Click *OK*.
+.	To verify the permissions, select the down arrow and then select *Manage Personal Site*.
+  The Microsoft Office 365 service account can now access the site.
+
+*To automatically assign permissions to each user account:*
+
+.Steps
+
+.	Run the https://support.office.com/en-us/article/Assign-eDiscovery-permissions-to-OneDrive-for-Business-sites-422858ff-917b-46d4-9e5b-3397f60eee4d[SharePoint Online Management Shell script].
+. Log in to the Office 365 Management portal with your Microsoft Office 365 service account.
+  Your Microsoft Office 365 account should have global administrator permissions.
+.	In the left navigation pane, click *Admin centers > SharePoint*.
+.	Click *user profiles*.
+.	Under *My Site Settings*, click *Set up My Sites*.
+.	Under *My Site Secondary Admin*, click *Enable My Site secondary admin*.
+.	In the *Secondary admin* field, type the name of your Microsoft Office 365 service account.
+.	Click *OK*.
+
+
+=== Assigning user permissions for Microsoft SharePoint Online
+If you plan to use SaaS Backup with Microsoft SharePoint Online, you must https://support.office.com/en-us/article/Manage-administrators-for-a-site-collection-9a7e46f9-3fc4-4297-955a-82cb292a5be0#__toc341786267[add an administrator to the site collection administrator list].  This allows your Microsoft Office 365 service account to access user account permissions.
+////

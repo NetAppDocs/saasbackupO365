@@ -1,0 +1,39 @@
+---
+sidebar: sidebar
+permalink: concept_backup_policies.html
+keywords: netapp, saas backup, office 365, backup, policies, byos, provides, storage, tiers, tier 1, tier 2, tier 3, frequency, default, data, retention,
+summary: SaaS Backup for Office 365 has three predefined tiers of backup policies.  These policy tiers vary in backup frequency and data retention period, depending upon whether you are using SaaS Backup provided storage or BYOS.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Backup policies
+SaaS Backup for Office 365 has three predefined tiers of backup policies.  These policy tiers vary in backup frequency and data retention period, depending upon whether you are using SaaS Backup provided storage or BYOS.
+
+You can move data between the three policies, but you cannot create new policies or change the parameters of the predefined tiers.
+
+=== Backup policies for SaaS Backup provided storage
+
+[options="header" width="80%"]
+|=======
+|Backup policy |Backup frequency |Default data retention period
+|Tier 1 |Once every 12 hours |3 years
+|Tier 2 |Once every 18 hours |3 years
+|Tier 3 |Once every 24 hours |3 years
+|=======
+
+=== Backup policies for BYOS
+
+[options="header" width="80%"]
+|=======
+|Backup policy |Backup frequency |Default data retention period
+|Tier 1 |Once every 12 hours |Forever
+|Tier 2 |Once every 18 hours |Forever
+|Tier 3 |Once every 24 hours |Forever
+|=======

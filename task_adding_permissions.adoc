@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: task_adding_permissions.html
+keywords: netapp, saas backup, office 365, adding, permissions, service, account
+summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
+---
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can manage your service accounts, discover newly added accounts, and set account notifications.
+
+toc::[]
+
+== Adding permissions to service accounts
+If needed, you can add permissions to a service account user. Service accounts are used to perform concurrent backups efficiently.
+
+.Steps
+
+.	Click Services from the left navigation pane.
+  image:services.gif[Screenshot of services button]
+. Click the Microsoft Office 365 link.
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+. Click the *+* icon next to *Manage Service Accounts*.
+. Click *Confirm* to be redirected to the Microsoft Office 365 sign-in page to grant permissions.

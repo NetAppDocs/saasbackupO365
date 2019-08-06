@@ -1,0 +1,101 @@
+---
+sidebar: sidebar
+permalink: task_signing_up_for_saasbkup_free_trial.html
+keywords: netapp, saas backup, office 365, getting started, free trial, signing up, sso, micrsoft, office, 365, service, account
+summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+
+== Signing up for a free trial of SaaS Backup for Office 365
+
+You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 service account or with your NetApp SSO account.
+
+=== Signing up for a free trial with a Microsoft Office 365 service account
+
+.Steps
+
+.	Enter the SaaS Backup for Office 365 URL into your web browser:
+  https://saasbackup.netapp.com
+. Select your region.
+  Your tenancy is created in the selected region.  Your data will be stored in that datacenter location and cannot be changed later.
+.	Click *Sign up* at the bottom of the landing page.
+.	Accept the End-User License Agreement.
+. Click *Sign Up with Office 365*.
+  image:sign_up_0365.gif[Screenshot of button clicked to sign for SaaS Backup for Office 365 using an Office 365 service account]
+.	Enter the email address and password for your Microsoft Office 365 test or trial account, and then click *Sign in*.
+  A list of the permissions requested by SaaS Backup for Office 365 is displayed.
+.	Click *Accept*.
+.	Enter the requested user information.
+.	Click *Sign up*.
+  Your user name and a list of permissions given to SaaS Backup for Office 365 is displayed.
+.	Click *Next*.
+  A list of the available Microsoft Office 365 services is displayed.
+.	Select the Microsoft Office 365 services that you want to activate.
+.	Click *Next*.
+. Select *Free Trial* for the subscription type.
+. Enter your free trial activation code provided by your channel partner or sales representative, or obtained through the registration email.
+. Click *Next*.
+.	Select your backup storage option.
+  You can use storage provided by SaaS Backup or the Bring Your Own Storage (BYOS) option.
+  .. If you are using storage provided by SaaS Backup do the following:
+    ... Click *SaaS Backup Provided Storage*.
+    ... Select the *Amazon S3* or *Azure Blob* storage option.
+    ... Click *Next*.
+    ... Review your configuration, and then click *Save*.
+  .. If you are using the BYOS option do the following:
+    ... Click *Bring Your Own Storage (BYOS)*.
+    ... Click your BYOS option.
+    ... Enter the information you previously gathered for your BYOS option.
+    ... Click *Test Connection*.
+    ... Click *Next*.
+    ... Review your configuration, and then click *Save*.
+
+=== Signing up for a free trial with a NetApp SSO account
+
+.Steps
+
+.	Enter the SaaS Backup for Office 365 URL into your web browser:
+  https://saasbackup.netapp.com
+.	Click Sign up at the bottom of the landing page.
+.	Accept the End-User License Agreement.
+. Click *Sign Up with NetApp SSO*.
++
+image:sign_up_sso.gif[Screenshot of button clicked to sign for SaaS Backup for Office 365 using a NetApp SSO account]
+. Enter your NetApp SSO and password, and then click *LOGIN*.
+.	Enter the requested user information, and then click *Sign Up*.
+  The free trial activation code you received from your channel partner, sales representative or in the registration email is required.
+. Click the image:bluecircle_icon.gif[Screenshot of SaaS Backup for Office 365 services icon] icon.
+. Click the  image:O365_icon.gif[MS Office 365 icon] to select the SaaS service.
+. Click *Add Microsoft Office 365 Account*.
+.	Enter the email address and password for your Microsoft Office 365 test or trial account, and then click *Sign in*.
+  A list of the permissions requested by SaaS Backup for Office 365 is displayed.
+.	Click *Accept*.
+. Click *Next*.
+  A list of the available Microsoft Office 365 services is displayed.
+.	Select the Microsoft Office 365 services that you want to activate.
+.	Click *Next*.
+. Select *Free Trial* for the subscription type.
+  Enter the activation code provided by your channel partner or sales representative, or obtained from a marketing representative through email.
+. Click *Next*.
+.	Select your backup storage option.
+  You can use storage provided by SaaS Backup or the Bring Your Own Storage (BYOS) option.
+  .. If you are using storage provided by SaaS Backup do the following:
+    ... Click *SaaS Backup Provided Storage*.
+    ... Select the *Amazon S3* or *Azure Blob* storage option.
+    ... Click *Next*.
+    ... Review your configuration, and then click *Save*.
+  .. If you are using the BYOS option do the following:
+    ... Click *Bring Your Own Storage (BYOS)*.
+    ... Click your BYOS option.
+    ... Enter the information you previously gathered for your BYOS option.
+    ... Click *Test Connection*.
+    ... Click *Next*.
+    ... Review your configuration, and then click *Save*.

@@ -1,0 +1,36 @@
+---
+sidebar: sidebar
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html
+keywords: netapp, saas backup, office 365, granting, permissions, enabling, shared, mailboxes, azure, grant, shared
+summary: Within NetApp SaaS Backup for Office 365 you can grant permissions to enable shared mailboxes.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Granting permissions to enable shared mailboxes
+
+.Steps
+
+.	Click image:services.gif[Screenshot of services button] from the left navigation pane.
+.	Click the Microsoft Office 365 link.
++
+image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+. Click *Grant Consent*.
++
+image:grant_consent.gif[Screenshot of grant consent icon]
++
+You are redirected to the Azure authorization page for authentication.
+. Select your tenant account.
+. *Accept* the permissions.
+  Your shared mailboxes will be discovered during the next scheduled *Auto Sync* or you can perform a *Sync Now*.  If you *Sync Now*, it will take a few minutes for your shared mailboxes to be discovered.
+. To access shared mailboxes after an *Auto Sync* or a *Sync Now* do the following:
+  .. Click image:services.gif[Screenshot of services button] from the left navigation pane.
+  .. Click *Microsoft Exchange Online*.
+  .. Click the number of unprotected mailboxes.
+  .. Click the *Shared* tab.

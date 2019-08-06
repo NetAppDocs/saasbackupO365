@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: task_purging.html
+keywords: netapp, saas backup, office 365, purge, purging, site collection, groups
+summary: You can manage your service in various ways within NetApp SaaS Backup including activating a new services, deactivating a existing services, purging data, and canceling a job.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Purging a user, site collection, or Office 365 group
+You can completely remove all the data associated with a user, site collection, or Office 365 group. Purged data is recoverable for seven days.  After seven days, the data is permanently deleted.
+
+.Steps
+
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
+. Select *ACCOUNT SERVICE*.
+. Click *RETAIN AND PURGE*.
+. Under *Purge Data*, select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.
+. Search for the user, site collection, or Office 365 group that you want to purge.
+  For Microsoft Exchange Online or OneDrive for Business, enter the user or Office 365 group name.  For SharePoint Online, enter the site collection name.
+  *Note*:  If you the user has an archive mailbox, the username of the archive mailbox is prefixed by "In-Place Archive".
+. When the search result returns, click the image:bluecircle_icon.gif[Blue plus sign icon] to select the user, site collection, or Office 365 group.
+. Click *Save*.
+. Click *Yes* to confirm that you want purge the data.

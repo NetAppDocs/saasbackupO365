@@ -1,0 +1,54 @@
+---
+sidebar: sidebar
+permalink: task_managing_permissions.html
+keywords: netapp, saas backup, office 365, synchronizing, granting, permissions, enabling shared mailboxes, azure, active directory
+summary: Within NetApp SaaS Backup for Office 365 you can manage permissions with Azure Active Directory and you can grant permissions to enable shared mailboxes.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Within NetApp SaaS Backup for Office 365 you can manage permissions with Azure Active Directory and you can grant permissions to enable shared mailboxes.
+
+toc::[]
+
+== Synchronizing user permissions with Azure Active Directory
+You can manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Office 365.
+
+.Steps
+
+.	Click Services from the left navigation pane.
+  image:services.gif[Screenshot of services button]
+.	Click the Microsoft Office 365 link.
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+. Click *Rediscover Permissions*.
+  image:rediscover_permissions.jpg[]
+  If permissions for a services are discovered, the service is displayed with the option to active.
+
+== Granting permissions to enable shared mailboxes
+
+.Steps
+
+.	Click Services from the left navigation pane.
+  image:services.gif[Screenshot of services button]
+.	Click the Microsoft Office 365 link.
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+. Click *Grant Consent*.
+  image:grant_consent.jpg[]
+  You are redirected to the Azure authorization page for authentication.
+. Select your tenant account.
+. *Accept* the permissions.
+  Your shared mailboxes will be discovered during the next scheduled *Auto Sync* or you can perform a *Sync Now*.  If you *Sync Now*, it will take a few minutes for your shared mailboxes to be discovered.
+
+. To access shared mailboxes after an *Auto Sync* or a *Sync Now* do the following:
+  .. Click *Services* from the left navigation pane.
+     image:services.gif[Screenshot of services button]
+  .. Click Microsoft Exchange Online.
+  .. Click the number of unprotected mailboxes.
+  .. Click the *Shared* tab.

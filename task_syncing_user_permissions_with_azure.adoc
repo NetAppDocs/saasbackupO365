@@ -1,0 +1,29 @@
+---
+sidebar: sidebar
+permalink: task_syncing_user_permissions_with_azure.html
+keywords: netapp, saas backup, office 365, synchronizing, granting, permissions, azure, active directory
+summary: Within NetApp SaaS Backup for Office 365 you can manage permissions with Azure Active Directory.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Synchronizing user permissions with Azure Active Directory
+You can manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Office 365.
+
+.Steps
+
+.	Click image:services.gif[Screenshot of services button] from the left navigation pane.
+.	Click the Microsoft Office 365 link.
++
+image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+. Click *Rediscover Permissions*.
++
+image:rediscover_permissions.gif[Rediscover permissions icon]
++
+If permissions for a services are discovered, the service is displayed with the option to active.

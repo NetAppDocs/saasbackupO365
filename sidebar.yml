@@ -1,36 +1,139 @@
 entries:
   - title: NetApp SaaS Backup for Office 365
     url: /index.html
-  - title: What's new in SaaS Backup for Office 365
-    url: /reference_new_saasbackupO365.html
-  - title: SaaS Backup for Office 365 Overview
-    url: /concept_overview.html
-  - title: Getting Started with a Free Trial
-    url: /task_getting_started_free_trial.html
-  - title: Getting Started with a Paid Subscription
-    url: /task_getting_started.html
-  - title: Managing backups with SaaS Backup for Office 365
-    url: /task_managing_backups.html
-  - title: Managing restores with SaaS Backup for Office 365
-    url: /task_managing_restores.html
-  - title: Viewing data for SaaS Backup for Office 365
-    url: /task_viewing_data.html
-  - title: Creating and managing rules
-    url: /task_managing_creating_rules.html
-  - title: Managing services
-    url: /task_managing_services.html
-  - title: Managing security groups
-    url: /task_managing_security_groups.html
-  - title: Managing permissions
-    url: /task_managing_permissions.html
-  - title: Managing licenses
-    url: /task_managing_licenses.html
-  - title: Managing accounts
-    url: /task_managing_accounts.html
-  - title: Managing role-based account access
-    url: /task_managing_role_based_account_access.html
-  - title: Upgrading from a trial subscription
-    url: /task_upgrading_from_trial.html
+  - title: Release notes
+    entries:
+    - title: What's new
+      url: /reference_new_saasbackupO365.html
+    - title: Known problems and limitations
+      url: /reference_kpls.html
+  - title: Concepts
+    entries:
+    - title: Overview
+      url: /concept_overview.html
+    - title: Storage types you can use with SaaS Backup
+      url: /concept_storage_types.html
+    - title: Information to gather about your BYOS option
+      url: /concept_information_to_gather_for_byos.html
+  - title: Getting started
+    entries:
+      - title: Getting started with a free trial
+        entries:
+          - title: Workflow
+            url: /concept_free_trial_workflow.html
+          - title: Free trial restrictions
+            url: /concept_free_trial_restrictions.html
+          - title: Registering for a free trial activation code
+            url: /task_registering_for_free_trial_activation_code.html
+          - title: Signing up for a Microsoft Office 365 free trial account
+            url: /task_signing_up_for_o365_free_trial.html
+          - title: Signing up for a free trial of SaaS Backup for Office 365
+            url: /task_signing_up_for_saasbkup_free_trial.html
+          - title: Upgrading from a trial subscription
+            url: /task_upgrading_from_trial.html
+      - title: Getting Started with a Paid Subscription
+        entries:
+          - title: Workflow
+            url: /concept_paid_subscription_workflow.html
+          - title: Information to gather about your BYOS option
+          - title: Creating a MS Office service account with global permissions
+            url: /task_creating_msservice_account_with_global_permissions.html
+          - title: Configuring Impersonation for Microsoft Exchange Online
+            url: /task_configuring_impersonation.html
+          - title: Signing up for a paid subscription of SaaS Backup for Office 365
+            url: /task_signing_up_for_saasbkup_paid_subscription.html
+          - title: Scheduling your first backup
+            url: /task_scheduling_first_backup.html
+          - title: Performing an immedate backup
+            url: /task_performing_immediate_backup_of_policy.html
+  - title: Managing SaaS Backup
+    entries:
+    - title: Managing backups
+      entries:
+      - title: Backup policies
+        url: /concept_backup_policies.html
+      - title: Backup settings
+        url: /concept_backup_settings.html
+      - title: Scheduling a backup or changing backup frequency
+        url: /task_scheduling_backup_or_changing_frequency.html
+      - title: Performing an immediate backup
+        url: /task_performing_immediate_backup_of_service.html
+      - title: Updating the backup retention period
+        url: /task_updating_backup_retention_period.html
+      - title: Updating backup settings
+        url: /task_updating_backup_settings.html
+      - title: Templates and apps supported for backup in Microsoft SharePoint Online
+        url: /concept_supported_templates_and_apps.html
+    - title: Managing restores
+      entries:
+      - title: Performing a high-level restore
+        url: /task_performing_high_level_restore.html
+      - title: Performing a granular-level restore
+        url: /task_performing_granular_level_restore.html
+      - title: Restoring from a previous backup
+        url: /task_restoring_from_previous_backup.html
+    - title: Managing permissions
+      entries:
+      - title: Adding permissions to a service account
+        url: /task_adding_permissions_to_service_accounts.html
+      - title: Synchronizing user permissions with Azure Active Directory
+        url: /task_syncing_user_permissions_with_azure.html
+      - title: Granting permissions to enable shared mailboxes
+        url: /task_granting_permissions_to_enable_shared_mailboxes.html
+    - title: Managing licenses
+      entries:
+      - title: Adding a license
+        url: /task_adding_a_license.html
+      - title: Activating an add-on license
+        url: /task_activating_an_add_on_license.html
+      - title: Releasing a user license
+        url: /task_releasing_a_user_license.html
+    - title: Managing rules
+      entries:
+      - title: Creating new rules
+        url: /task_creating_rules.html
+      - title: Applying existing rules
+        url: /task_applying_rules.html
+      - title: Deleting rules
+        url: /task_deleting_rules.html
+    - title: Managing services
+      entries:
+      - title: Activating a service
+        url: /task_activating_a_service.html
+      - title: Deactivating a service
+        url: /task_deactivating_a_service.html
+      - title: Canceling a job
+        url: /task_canceling_job.html
+      - title: Setting notifications
+        url: /task_setting_account_notifications.html
+      - title: Discovering new mailboxes, sites, and groups
+        url: /task_discovering_new.html
+      - title: Purging a user, site collection, or Office 365 group
+        url: /task_purging.html
+    - title: Managing role-based account access
+      entries:
+      - title: Assigning administrative roles to user accounts
+        url: /task_assigning_admin_roles_to_user_accounts.html
+      - title: Updating administrative roles assigned to user accounts
+        url: /task_updating_admin_roles_assigned_to_user_accounts.html
+      - title: Deleting all administrative roles from a user account
+        url: /task_deleting_admin_roles_from_a_user_account.html
+    - title: Managing security groups
+      entries:
+      - title: Adding security groups
+        url: /task_adding_security_groups.html
+      - title: Deleting security groups
+        url: /task_deleting_security_groups.html
+  - title: Viewing data
+    entries:
+    - title: Creating a user defined filter
+      url: /task_creating_user_defined_filter.html
+    - title: Performing a search
+      url: /task_performing_search.html
+    - title: Viewing job history and activity log
+      url: /task_viewing_history_and_activity.html
+    - title: Downloading data
+      url: /task_downloading_data.html
   - title: Providing feedback
     url: /task_providing_feedback.html
   - title: Where to get help and find more information

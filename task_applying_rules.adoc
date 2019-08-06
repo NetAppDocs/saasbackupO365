@@ -1,0 +1,31 @@
+---
+sidebar: sidebar
+permalink: task_applying_rules.html
+keywords: netapp, saas backup, office 365, creating, rules, managing, adding, applying
+summary: You can apply existing rules to unprotected items, change the order in which rules are applied, and delete rules.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Applying existing rules
+Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
+
+You can apply existing rules to unprotected items, change the order in which rules are applied, and delete rules.
+
+.Steps
+
+. From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
++
+image:number_protected_unprotected.gif[]
+. Click *Filter*.
++
+image:filter.gif[Screenshot of filter dropdown menu button]
+. Click *Rules*.
+  The existing rules are displayed.
+. Click *Apply Now* to apply the rule to existing unprotected items.

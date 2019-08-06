@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: task_scheduling_first_backup.html
+keywords: netapp, saas backup, office 365, getting started, scheduling, first, performing
+summary: When you set up SaaS Backup for Office 365, by default, your data is unprotected and not scheduled for a backup. You must move your data to a protected tier to initiate the first backup.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Scheduling your first backup
+When you set up SaaS Backup for Office 365, by default, your data is unprotected.  You must move your data from the unprotected tier to one of the protected tiers to so that your data will be backed up during the next scheduled back up of the selected tier.
+
+.Steps
+
+. From the Dashboard, select the service containing the unprotected data.
+. Click *view* next to the number of unprotected mailboxes, MySites, sites or groups.
+. Select the items that you want to protect.
+. Click the *Groups* menu.
+  image:groups_menu.gif[Screenshot of the SaaS Backup Groups Menu button]
+. Select the *tier* for the backup policy that you want to assign.
+  See   <<task_concept_backup_policies.adoc#backup-policies,Backup Policies>> for a description of the backup policy tiers.
+. Click *Apply*.

@@ -1,0 +1,71 @@
+---
+sidebar: sidebar
+permalink: task_managing_services.html
+keywords: netapp, saas backup, office 365, activating service, deactivating, purge, purging, site collection, office 365 group, cancelling, jobs
+summary: You can manage your service in various ways within NetApp SaaS Backup including activating a new services, deactivating a existing services, purging data, and canceling a job.
+---
+
+= Managing services
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can manage your service in various ways within NetApp SaaS Backup including activating a new services, deactivating a existing services, purging data, and canceling a job.
+
+toc::[]
+
+== Activating a service
+If needed, you can activate one or more SaaS Backup for Office 365 services. Microsoft Exchange Online or Microsoft SharePoint Online must be activated before you can activate Microsoft Office 365 Groups.
+
+.Steps
+
+.	Click *Services* from the left navigation pane.
+  image:services.gif[Screenshot of services button]
+. Click the Microsoft Office 365 link.
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+.	Click *Activate* next to the service that you want to activate.
+.	Click *Confirm*.
+
+== Deactivating a service
+If needed, you can deactivate one or more of your SaaS Backup for Office 365 services.  If you deactivate a service, all of the schedules associated with that service are removed and no further backup is performed.  You can still view the last backup that occurred before deactivation and you can still perform restores.
+
+.Steps
+
+.	Click *Services* from the left navigation pane.
+  image:services.gif[Screenshot of services button]
+. Click the Microsoft Office 365 link.
+  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+.	Click *Deactivate* next to the service that you want to deactivate.
+.	Click *Confirm*.
+
+== Purging a user, site collection, or Office 365 group
+You can completely remove all the data associated with a user, site collection, or Office 365 group. Purged data is recoverable for seven days.  After seven days, the data is permanently deleted.
+
+.Steps
+
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
+. Select *ACCOUNT SERVICE*.
+. Click *RETAIN AND PURGE*.
+. Under *Purge Data*, select the *Type of Service* (Exchange, OneDrive, or SharePoint) from the dropdown menu.
+. Search for the user, site collection, or Office 365 group that you want to purge.
+  For Microsoft Exchange Online or OneDrive for Business, enter the user or Office 365 group name.  For SharePoint Online, enter the site collection name.
+  Note:  If you the user has an archive mailbox, the username of the archive mailbox is prefixed by "In-Place Archive".
+. When the search result returns, click the image:bluecircle_icon.gif[] to select the user, site collection, or Office 365 group.
+. Click *Save*.
+. Click *Yes* to confirm that you want purge the data.
+
+== Canceling a job
+If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
+
+.Steps
+
+. Click *Jobs* from the left navigation pane.
+  image:jobs_button.gif[Screenshot of jobs button]
+. Under *Recent Running Jobs*, click the job that you want to cancel.
+. Click *Cancel*.
+  The progress of the cancelled job is displayed under *Recent Completed Jobs*.

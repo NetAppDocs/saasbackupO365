@@ -1,0 +1,30 @@
+---
+sidebar: sidebar
+permalink: task_deleting_rules.html
+keywords: netapp, saas backup, office 365, deleting, removing, rules
+summary: If you no longer need a existing rule, you can delete it.  Also, if you need to delete a security group that is used in a rule, you must delete the rule using the security group before the security group can be removed.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Deleting rules
+If you no longer need a existing rule, you can delete it.  Also, if you need to delete a security group that is used in a rule, you must delete the rule using the security group before the security group can be removed.
+
+.Steps
+
+. From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.
++
+image:number_protected_unprotected.gif[]
+. Click *Filter*.
++
+image:filter.gif[Screenshot of filter dropdown menu button]
+. Click *Rules*.
+  The existing rules are displayed.
+. Click the trash can image:trash_can_icon.gif[Screenshot of delete icon] to delete the rule.
+  The status of the items to which the rule was previously applies is not changed when the rule is deleted.

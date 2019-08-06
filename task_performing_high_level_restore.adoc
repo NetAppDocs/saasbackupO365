@@ -1,0 +1,53 @@
+---
+sidebar: sidebar
+permalink: task_performing_high_level_restore.html
+keywords: netapp, saas restores, office 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+summary: You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Performing a high-level service restore
+You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
+
+By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform the restore.
++
+image:number_protected_unprotected.gif[screenshot of number of protected and unprotected users]
+. Select a restore option.
+..  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+..  If you are restoring archive mailboxes for Microsoft Exchange Online, click the *ARCHIVE* tab. Note: Archive mailboxes are restored to the user's regular mailbox.
+..  If you are restoring mailboxes that are not shared, remain on the *USER* tab.
+. Select the items that you want to restore.
+. Click *Restore*.
++
+image:restore.gif[image of restore button]
+. Select a restore option:
+.. If you are restoring mailboxes for *Microsoft Exchange Online* select one of the following options:
+   * Restore to the same mailbox
+   * Export to PST
+     If you export to PST, you will receive a notification email with the location of the PST file when the export is completed.
+   * Restore to a another mailbox
+     If you restore to another mailbox, you must enter the destination mailbox in the search field. You can type in a portion of the destination email address in the search field to initiate an automatic search for matching destination mailboxes.
+.. If you are restoring groups for *Microsoft Office 365 Groups* select one of the following options:
+   * Restore to the same group
+   * Export
+     If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created with your Microsoft SharePoint sites.  You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
+.. If you are restoring MySites for *Microsoft OneDrive for Business*, select one of the following options:
+   * Restore to the same MySite
+   * Restore to a different MySite
+     If you restore to a different MySite, you must enter the destination MySite in the search field. You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
+   * Export
+      If you export, a .zip file is created with your MySites.  You will receive a notification email containing an authenticated URL to the location of the .zip file.
+. Click *Confirm*.
+  A message is displayed indicating that the restore job was created.
+. Click *View the job progress* to monitor the progress of the restore.

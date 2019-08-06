@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: task_deleting_admin_roles_from_a_user_account.html
+keywords: netapp, saas backup, office 365, role-based accounts, administrative roles, privileges, deleting, removing
+summary: If all administrative roles are deleted from a user's account, the user is automatically logged out of SaaS Backup for Office 365.
+---
+
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+== Deleting all administrative roles from a user account
+If all administrative roles are deleted from a user's account, the user is automatically logged out of SaaS Backup for Office 365.
+
+.Steps
+
+. Click the settings icon image:configure_icon.gif[Screenshot of configuration icon] next to your user ID in the top left of the screen.
+. Click *ACCOUNT SETTINGS*.
+. Click *ROLE MANAGEMENT*.
+. Click  *Delete User* next to the user name that you want to remove.
+. Click *Yes*.

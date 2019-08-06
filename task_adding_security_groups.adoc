@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, security, groups, adding, creating
 summary: Security groups can be used as filtering options to view your data and to create rules.
 ---
 
+= Adding security groups
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: Security groups can be used as filtering options to view your data and 
 :linkattrs:
 :imagesdir: ./media/
 
-== Adding security groups
+[.lead]
 Security groups can be used as filtering options to view your data and to create rules.
 
 You can add up to 3 security groups.  You can then use your security groups as filtering options in SaaS Backup.

@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, getting started, BYOS, bring, your, o
 summary: If you choose a BYOS option to store your data, you must gather pertinent information about your storage before signing up.
 ---
 
+= Information to gather about your Bring Your Own Storage (BYOS) option
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: If you choose a BYOS option to store your data, you must gather pertine
 :linkattrs:
 :imagesdir: ./media/
 
-== Information to gather about your Bring Your Own Storage (BYOS) option
+[.lead]
 If you choose to use Amazon S3 or Azure Blob storage provided by SaaS Backup, you do not need to gather any information before signing up.  If you are providing your own Amazon S3, Azure Blob or StorageGRID Webscale bucket, you must gather the following information about your storage before signing up.
 
 - Amazon S3

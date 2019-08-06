@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, viewing, jobs, history, activity, log
 summary: You can view or download a log of the SaaS Backup activities and job history.
 ---
 
+== Viewing Job History and Activity Log
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,10 +14,10 @@ summary: You can view or download a log of the SaaS Backup activities and job hi
 :linkattrs:
 :imagesdir: ./media/
 
-== Viewing Job History and activity Log
+[.lead]
 SaaS Backup for Office 365 stores a log of your job history and a log of all activities performed inside SaaS Backup.
 
-=== Viewing Job History
+== Viewing Job History
 NetApp SaaS Backup for Office 365 stores a log of all jobs that includes the job type, service, start time, end time, and completion status.
 
 .Steps
@@ -32,7 +33,7 @@ A list of all SaaS Backup jobs is displayed under the *Job History* tab.
 Filter results are displayed.
 .	Click any job to expand the view for additional job details.
 
-=== Viewing the Activity Log
+== Viewing the Activity Log
 A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can filter the activity log by service and event. For example, if you need to see all of the restore operations that have occurred for Microsoft Exchange Online, you can filter the activity log to view those specific results.
 
 .Steps

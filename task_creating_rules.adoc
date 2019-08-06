@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, creating, rules, adding, applying
 summary: Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
 ---
 
+= Creating new rules
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: Rules allow you to automatically move users to a preselected backup tie
 :linkattrs:
 :imagesdir: ./media/
 
-== Creating new rules
+[.lead]
 Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
 
 You can create rules for Microsoft Exchange Online and Microsoft OneDrive for Business.  Rules for Microsoft Exchange Online are applied before rules for Microsoft OneDrive for Business.  You cannot create rules for Microsoft SharePoint Online.

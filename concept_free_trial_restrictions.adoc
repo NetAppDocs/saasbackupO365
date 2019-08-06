@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, getting started, free trial, restrict
 summary: You should be aware of certain restrictions that apply to free trial accounts.
 ---
 
+= Free trial restrictions
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,8 +14,7 @@ summary: You should be aware of certain restrictions that apply to free trial ac
 :linkattrs:
 :imagesdir: ./media/
 
-== Free trial restrictions
-
+[.lead]
 The following restrictions apply to free trial accounts:
 
 * A maximum of 25 users and 25 site collections for Microsoft OneDrive for Business

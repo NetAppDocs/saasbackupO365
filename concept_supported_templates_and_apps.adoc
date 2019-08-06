@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, backup, supported, templates, apps
 summary: Only certain templates and apps are supported for Microsoft SharePoint Online.
 ---
 
+= Templates and apps supported for backup in Microsoft SharePoint Online
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,10 +14,10 @@ summary: Only certain templates and apps are supported for Microsoft SharePoint 
 :linkattrs:
 :imagesdir: ./media/
 
-== Templates and apps supported for backup in Microsoft SharePoint Online
+[.lead]
 Only certain templates and certain apps are supported for Microsoft SharePoint Online backups.
 
-=== Supported templates
+== Supported templates
 
 Only the following templates are supported for Microsoft SharePoint Online backups.
 
@@ -37,7 +38,7 @@ Only the following templates are supported for Microsoft SharePoint Online backu
 * STS#3 (Modern Team Site)
 * APP#0 (App Template)
 
-=== Supported apps
+== Supported apps
 The following apps are supported for Microsoft SharePoint Online backups.
 
 * Custom List

@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, security, groups
 summary: If a security group is being utilized in a user-defined rule, it cannot be deleted.  You must remove the user-defined rule, then delete the security group.
 ---
 
+= Deleting security groups
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: If a security group is being utilized in a user-defined rule, it cannot
 :linkattrs:
 :imagesdir: ./media/
 
-== Deleting security groups
+[.lead]
 If a security group is being utilized in a user-defined rule, it cannot be deleted.  You must remove the user-defined rule, then delete the security group.
 <<task_deleting_rules.adoc#deleting-rules, Deleting rules>>
 

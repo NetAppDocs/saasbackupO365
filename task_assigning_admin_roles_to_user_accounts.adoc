@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, role-based accounts, administrative r
 summary: You can assign administrative roles to user accounts to grant administrative privileges to selected users for one or more services.
 ---
 
+= Assigning administrative roles to user accounts
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: You can assign administrative roles to user accounts to grant administr
 :linkattrs:
 :imagesdir: ./media/
 
-== Assigning administrative roles to user accounts
+[.lead]
 You can assign administrative roles to user accounts to grant administrative privileges to selected users for one or more services.
 
 You can assign the following roles to users:

@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, getting started, free trial, signing 
 summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
 ---
 
+= Signing up for a free trial of SaaS Backup for Office 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,12 +14,10 @@ summary: Getting started with SaaS Backup for Office 365 includes deciding what 
 :linkattrs:
 :imagesdir: ./media/
 
-
-== Signing up for a free trial of SaaS Backup for Office 365
-
+[.lead]
 You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 service account or with your NetApp SSO account.
 
-=== Signing up for a free trial with a Microsoft Office 365 service account
+== Signing up for a free trial with a Microsoft Office 365 service account
 
 .Steps
 
@@ -58,7 +57,7 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
     ... Click *Next*.
     ... Review your configuration, and then click *Save*.
 
-=== Signing up for a free trial with a NetApp SSO account
+== Signing up for a free trial with a NetApp SSO account
 
 .Steps
 

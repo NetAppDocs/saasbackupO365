@@ -5,6 +5,7 @@ keywords: netapp, saas restores, office 365, high-level restores, granular resto
 summary: You can use SaaS Backup for Office 365 to perform high-level and granular level restores for Microsoft Office 365.
 ---
 
+= Performing a granular-level restore
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,10 +14,10 @@ summary: You can use SaaS Backup for Office 365 to perform high-level and granul
 :linkattrs:
 :imagesdir: ./media/
 
-== Performing a granular-level restore
+[.lead]
 By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
-=== For Microsoft Exchange Online
+== For Microsoft Exchange Online
 Within Microsoft Exchange Online, you can restore granular-level items for a single user, such as individual emails, tasks, contacts, and calendar events. You can also restore granular-level items for a Microsoft Office 365 group mailbox.
 
 .Steps
@@ -78,7 +79,7 @@ If you restore to a another mailbox, you must enter the destination mailbox in t
 A message is displayed indicating that the restore job was created.
      ... Click *View the job progress* to monitor the progress of the restore.
 
-=== For Microsoft OneDrive for Business
+== For Microsoft OneDrive for Business
 Within Microsoft OneDrive for Business, you can restore granular-level items, such as individual folders or files, for a list or library.
 
 .Steps
@@ -123,7 +124,7 @@ If you restore to another MySite, you must enter the destination MySite in the s
 A message is displayed indicating that the restore job was created.
      ... Click *View the job progress* to monitor the progress of the restore.
 
-=== For Microsoft SharePoint Online
+== For Microsoft SharePoint Online
 Within Microsoft SharePoint Online, you can restore granular-level items for a single user, such as individual folders or files. You can also restore granular-level items for a Microsoft Office 365 group site.
 
 .Steps

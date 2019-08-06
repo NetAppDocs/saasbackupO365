@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, granting, permissions, enabling, shar
 summary: Within NetApp SaaS Backup for Office 365 you can grant permissions to enable shared mailboxes.
 ---
 
+= Granting permissions to enable shared mailboxes
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -12,8 +13,6 @@ summary: Within NetApp SaaS Backup for Office 365 you can grant permissions to e
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-
-== Granting permissions to enable shared mailboxes
 
 .Steps
 

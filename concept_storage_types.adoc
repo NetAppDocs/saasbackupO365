@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, getting started, storage, types, amaz
 summary: You can provide your own storage or you can use storage provided by SaaS Backup.
 ---
 
+= Storage types you can use with SaaS Backup
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,16 +14,13 @@ summary: You can provide your own storage or you can use storage provided by Saa
 :linkattrs:
 :imagesdir: ./media/
 
-
-== Storage types you can use with SaaS Backup
-
-=== SaaS Backup provided storage
+== SaaS Backup provided storage
 SaaS Backup offers the following storage options:
 
 * Amazon S3
 * Azure Blob
 
-=== Bring Your Own Storage (BYOS)
+== Bring Your Own Storage (BYOS)
 SaaS Backup also allows you to use any of the following Bring Your Own Storage (BYOS) options:
 
 * Amazon S3

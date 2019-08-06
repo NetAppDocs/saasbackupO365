@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, canceling, jobs, backup, restore, imm
 summary: If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
 ---
 
+= Canceling a job
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: If you have initiated an immediate backup or an immediate restore, but 
 :linkattrs:
 :imagesdir: ./media/
 
-== Canceling a job
+[.lead]
 If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
 
 .Steps

@@ -5,7 +5,7 @@ keywords: netapp, saas backup, office 365, getting started, free, trial, free-tr
 summary: To get started with a free trial account for SaaS Backup for Office 365, you must have a free trial activation code and a Microsoft Office 365 test account, and you must complete the sign up process.
 ---
 
-
+= Workflow for getting started with a free trial of SaaS Backup for Office 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -14,8 +14,7 @@ summary: To get started with a free trial account for SaaS Backup for Office 365
 :linkattrs:
 :imagesdir: ./media/
 
-== Workflow for getting started with a free trial of SaaS Backup for Office 365
-
+[.lead]
 To get started with a free trial of SaaS Backup for Office 365, you must do the following:
 
 . Be aware of the <<concept_free_trial_restrictions.adoc#free-trial-restrictions, free trial restrictions>>.

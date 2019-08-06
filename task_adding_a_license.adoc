@@ -5,6 +5,7 @@ keywords: netapp, saas backup, adding, license
 summary: You can add or release a license.
 ---
 
+= Adding a license
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: You can add or release a license.
 :linkattrs:
 :imagesdir: ./media/
 
-== Adding a license
+[.lead]
 If you have just received a license for a paid subscription, please follow <<concept_paid_subscription_workflow.adoc#workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365, workflow for getting started with a paid subscription>>.  You will enter your license key as part of the workflow.
 
 If you are already using SaaS Backup, you can follow these steps to add additional licenses.

@@ -4,6 +4,8 @@ permalink: task_setting_account_notifications.html
 keywords: netapp, saas backup, office 365, setting, account, notifications, notification, management, adding
 summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
+
+= Setting notifications
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -12,7 +14,7 @@ summary: Within NetApp SaaS Backup for Office 365 you can manage your service ac
 :linkattrs:
 :imagesdir: ./media/
 
-== Setting notifications
+[.lead]
 You can add users to account notifications and then select the specific notifications you want each user to receive.  For example, you can select to have a user receive an email notification each time there is a restore failure.
 
 .Steps

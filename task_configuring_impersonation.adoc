@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, getting started, configuring, imperso
 summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
 ---
 
+= Configuring Impersonation for  Microsoft Exchange Online
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,14 +14,13 @@ summary: Getting started with SaaS Backup for Office 365 includes deciding what 
 :linkattrs:
 :imagesdir: ./media/
 
-
-== Configuring Impersonation for  Microsoft Exchange Online
+[.lead]
 If you plan to use SaaS Backup with Microsoft Exchange Online, you must configure impersonation.  Impersonation allows your Microsoft Office 365 service account to impersonate user accounts and access associated permissions.
 
-=== Automatically configuring Impersonation
+== Automatically configuring Impersonation
 To automatically configure impersonation, run https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx[MSDN PowerShell Commands].
 
-=== Manually configuring impersonation
+== Manually configuring impersonation
 To manually configure impersonation do the following:
 
 .Steps

@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, role-based accounts, administrative r
 summary: If all administrative roles are deleted from a user's account, the user is automatically logged out of SaaS Backup for Office 365.
 ---
 
+= Deleting all administrative roles from a user account
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: If all administrative roles are deleted from a user's account, the user
 :linkattrs:
 :imagesdir: ./media/
 
-== Deleting all administrative roles from a user account
+[.lead]
 If all administrative roles are deleted from a user's account, the user is automatically logged out of SaaS Backup for Office 365.
 
 .Steps

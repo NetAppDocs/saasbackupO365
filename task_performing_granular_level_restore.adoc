@@ -30,15 +30,13 @@ image:number_protected_exchange.gif[screen shot of number of protected instances
 ..  For regular mailboxes, remain on the *USER* tab.
 .	Click the mailbox for which you need to perform the granular-level restore.
 .	Restore an entire Microsoft Office Exchange category or restore a specific item within a category.
-+
-For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
+  For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
  .. To restore an entire category:
     ... Select the category that you need to restore.
     ... Click image:restore.gif[image of restore button]
     ... Select a restore option.
       * Restore to the same mailbox
-+
-If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.
+        If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.
 +
 For Microsoft Office 365 Groups, you only have the option to restore to the same mailbox and you cannot replace the existing content.  For Microsoft Exchange Online, you can restore to the same mailbox and replace the existing content or you can restore to another mailbox.
       * For Microsoft Exchange only: Restore to another mailbox
@@ -63,11 +61,9 @@ If you export, a PST file is created with your Microsoft Exchange files and a .z
 For mail, you can restore an entire folder or specific emails within the folder.  To restore the entire folder, you select the folder.  To restore individual emails, you select the folder containing the email, and then select the individual emails within the folder.
     ... Click image:restore.gif[image of restore button]
     ... Select a restore option:
-+
-For Microsoft Office 365 Groups, you only have the option to restore to the same mailbox and you cannot replace the existing content. For Microsoft Exchange Online, you can restore to the same mailbox and replace the existing content or you can restore to a another mailbox.
+        For Microsoft Office 365 Groups, you only have the option to restore to the same mailbox and you cannot replace the existing content. For Microsoft Exchange Online, you can restore to the same mailbox and replace the existing content or you can restore to a another mailbox.
          * Restore to the same mailbox
-+
-If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.
+           If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.
          * Export to PST
 +
 You can select to include all the category subfolders.
@@ -116,11 +112,9 @@ You can restore an entire folder, or specific files within the folder.  To resto
 +
 image:restore.gif[image of restore button]
      ... Select a restore option.
-+
-You can choose one of the following restore options:
+          You can choose one of the following restore options:
        * Restore to the same MySite
-+
-If you are restoring individual files to the same MySite, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
+         If you are restoring individual files to the same MySite, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
        * Restore to another MySite
 +
 If you restore to another MySite, you must enter the destination MySite in the search field.  You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
@@ -141,8 +135,7 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
      ... Select the category that you need to restore.
      ... Click image:restore.gif[image of restore button]
      ... Select a restore option:
-+
-For Microsoft Office 365 Groups, you only have the option to restore to the same site.  For Microsoft SharePoint Online, you can restore to the same site or to another site.
+         For Microsoft Office 365 Groups, you only have the option to restore to the same site.  For Microsoft SharePoint Online, you can restore to the same site or to another site.
        * Restore to the same site
 +
 If you restore to the same site, then by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.

@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, deleting, removing, rules
 summary: If you no longer need a existing rule, you can delete it.  Also, if you need to delete a security group that is used in a rule, you must delete the rule using the security group before the security group can be removed.
 ---
 
+= Deleting rules
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: If you no longer need a existing rule, you can delete it.  Also, if you
 :linkattrs:
 :imagesdir: ./media/
 
-== Deleting rules
+[.lead]
 If you no longer need a existing rule, you can delete it.  Also, if you need to delete a security group that is used in a rule, you must delete the rule using the security group before the security group can be removed.
 
 .Steps

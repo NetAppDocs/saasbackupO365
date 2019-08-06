@@ -4,6 +4,8 @@ permalink: task_discovering_new.html
 keywords: netapp, saas backup, office 365, discovering, new, mailboxes, sites, groups, shared, archive
 summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
+
+= Discovering new mailboxes, sites, and groups
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -12,7 +14,7 @@ summary: Within NetApp SaaS Backup for Office 365 you can manage your service ac
 :linkattrs:
 :imagesdir: ./media/
 
-== Discovering new mailboxes, sites, and groups
+[.lead]
 A synchronization must occur between SaaS Backup and your Microsoft Office 365 account for new mailboxes (including shared and archive mailboxes), sites, and groups to be discovered by SaaS Backup.  By default, synchronization automatically occurs once every 24 hours.  However, if you make changes and you want discovery to occur before the next scheduled *Auto Sync*, you can initiate an immediate synchronization.
 
 .Steps

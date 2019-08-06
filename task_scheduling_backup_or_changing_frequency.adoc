@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, backup policies, changing backup poli
 summary: You follow the same process to schedule a new backup or change it to the frequency of a current backup.
 ---
 
+= Scheduling a backup or changing backup frequency
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: You follow the same process to schedule a new backup or change it to th
 :linkattrs:
 :imagesdir: ./media/
 
-== Scheduling a backup or changing backup frequency
+[.lead]
 You can back up your unprotected data by assigning it to a backup policy. When unprotected data is assigned to a backup policy, it moves to a *PENDING* state until the next scheduled backup for the assigned policy occurs, after which it is moved to a *PROTECTED* state.
 If you want to change the backup frequency of protected data, you can assign the data to a different backup policy tier.
 

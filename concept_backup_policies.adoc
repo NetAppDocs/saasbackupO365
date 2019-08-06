@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, backup, policies, byos, provides, sto
 summary: SaaS Backup for Office 365 has three predefined tiers of backup policies.  These policy tiers vary in backup frequency and data retention period, depending upon whether you are using SaaS Backup provided storage or BYOS.
 ---
 
+= Backup policies
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: SaaS Backup for Office 365 has three predefined tiers of backup policie
 :linkattrs:
 :imagesdir: ./media/
 
-= Backup policies
+[.lead]
 SaaS Backup for Office 365 has three predefined tiers of backup policies.  These policy tiers vary in backup frequency and data retention period, depending upon whether you are using SaaS Backup provided storage or BYOS.
 
 You can move data between the three policies, but you cannot create new policies or change the parameters of the predefined tiers.

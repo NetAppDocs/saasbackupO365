@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, synchronizing, granting, permissions,
 summary: Within NetApp SaaS Backup for Office 365 you can manage permissions with Azure Active Directory.
 ---
 
+= Synchronizing user permissions with Azure Active Directory
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: Within NetApp SaaS Backup for Office 365 you can manage permissions wit
 :linkattrs:
 :imagesdir: ./media/
 
-== Synchronizing user permissions with Azure Active Directory
+[.lead]
 You can manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Office 365.
 
 .Steps

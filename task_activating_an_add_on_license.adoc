@@ -5,6 +5,7 @@ keywords: netapp, saas backup, activating, add-on, add, on, license
 summary: You can add or release a license.
 ---
 
+= Activating an add-on license
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,8 +14,7 @@ summary: You can add or release a license.
 :linkattrs:
 :imagesdir: ./media/
 
-
-== Activating an add-on license
+[.lead]
 After purchasing an add-on license, you must renew your subscription details inside of SaaS Backup in order to activate the license.
 
 *Note:* Any regular user mailbox, whether protected or unprotected, consumes a license.  Shared mailboxes do not consume a license.

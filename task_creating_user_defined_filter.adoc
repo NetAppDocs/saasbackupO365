@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, viewing, filtering, data, information
 summary: You can filter the view of your mailboxes, sites, or MySites to only show results that fit specific criteria.
 ---
 
+= Creating a user defined filter
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: You can filter the view of your mailboxes, sites, or MySites to only sh
 :linkattrs:
 :imagesdir: ./media/
 
-== Creating a user defined filter
+[.lead]
 You can filter the view of your mailboxes, sites, or MySites to only show results that fit specific criteria.  For example, you can set your filters to only see mailboxes in a certain country and a certain department within that country.
 
 .Steps

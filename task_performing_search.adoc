@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, search, searching, performing, exchan
 summary: You can use inline search to find specific content.
 ---
 
+= Performing a search
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,10 +14,10 @@ summary: You can use inline search to find specific content.
 :linkattrs:
 :imagesdir: ./media/
 
-== Performing a search
+[.lead]
 You can use inline search for Microsoft Exchange Online, Microsoft OneDrive for Business, and Microsoft SharePoint Online to find specific content.
 
-=== Searching Microsoft Exchange Online
+== Searching Microsoft Exchange Online
 You can perform an inline search within an individual mailbox for specific content.  This also applies to mailboxes that are part of an Office 365 Group.
 
 .Steps
@@ -32,7 +33,7 @@ You can perform an inline search within an individual mailbox for specific conte
   .. Type a search string in the search field.
      The search is automatically performed and results are displayed after the search string is entered.
 
-=== Searching inside Microsoft OneDrive for Business
+== Searching inside Microsoft OneDrive for Business
 You can perform an inline search within an individual MySite for specific content.
 
 .Steps
@@ -43,7 +44,7 @@ You can perform an inline search within an individual MySite for specific conten
 .	Type a search string in the search field.
   The search is automatically performed and results are displayed after the search string is entered.
 
-=== Searching inside Microsoft SharePoint Online
+== Searching inside Microsoft SharePoint Online
 You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Office 365 Group.
 
 .Steps

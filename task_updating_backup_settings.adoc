@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, backup, setting, updating, autosync, 
 summary: You can update your backup settings to control various backup options. Available backup settings vary based on service.
 ---
 
+= Updating backup settings
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: You can update your backup settings to control various backup options. 
 :linkattrs:
 :imagesdir: ./media/
 
-== Updating backup settings
+[.lead]
 You can update your <<concept_backup_settings.adoc#backup-settings, backup settings>> to control various backup options. Available <<concept_backup_settings.adoc#backup-settings, backup settings>> vary based on service.
 
 .Steps

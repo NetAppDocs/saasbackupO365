@@ -5,6 +5,7 @@ keywords: netapp, saas backup, office 365, performing, immediate, backup, servic
 summary: As needed, you can perform an immediate backup of any Microsoft Office 365 service.
 ---
 
+= Performing an immediate backup of a service
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -13,7 +14,7 @@ summary: As needed, you can perform an immediate backup of any Microsoft Office 
 :linkattrs:
 :imagesdir: ./media/
 
-== Performing an immediate backup of a service
+[.lead]
 As needed, you can perform an immediate backup of any Microsoft Office 365 service.
 
 .Steps

@@ -21,7 +21,7 @@ To get started with a free trial of SaaS Backup for Office 365, you must do the 
 . Have a link:task_registering_for_free_trial_activation_code.html[free trial activation code].
 . Have a Microsoft Office 365 test account.
 . link:task_signing_up_for_saasbkup_free_trial.html[Sign up for SaaS Backup for Office 365] using your Microsoft Office 365 account or your NetApp SSO account.
-. link:task_scheduling_first_backup.html[Schedule for first backup]
+. link:task_scheduling_first_backup.html[Schedule your first backup]
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
 image:workflow_free_trial_signup.gif[workflow of free trial sign up process]

@@ -155,6 +155,7 @@ A message is displayed indicating that the restore job was created.
        * If you want to restore the most recent version of the item, click image:restore.gif[image of restore button], and then select a restore option.
 +
 For Microsoft Office 365 Groups, you only have the option to restore to the same site. For Microsoft SharePoint Online, you can restore to the same site or to another site.
+
             ** Restore to the same site
 +
 If you restore to the same site, then by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.

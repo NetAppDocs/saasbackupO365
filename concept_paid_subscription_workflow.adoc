@@ -19,13 +19,18 @@ To get started with a paid subscription to SaaS Backup for Office 365, you must 
 
 . Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup or if you will use a Bring Your Own Storage (BYOS) option.
 +
-<<concept_storage_types.adoc#storage-types-you-can-use-with-saas-backup, Storage types you can use with SaaS Backup>>.
-. If necessary, gathering information for your BYOS storage option.
-<<concept_information_to_gather_for_byos.adoc#information-to-gather-about-your-bring-your-own-storage-(byos)-option, Information to gather about your Bring Your Own Storage (BYOS) option>>.
-. <<task_creating_msservice_account_with_global_permissions.adoc#creating-a-new-ms-office-365-service-account-with-global-permissions, Create a new Microsoft Office 365 service account with global administrator permissions>>.
-. If necessary, <<task_configuring_impersonation.adoc#configuring-impersonation-for-microsoft-exchange-online, Configure Impersonation for Microsoft Exchange Online>>.
-. <<task_signing_up_for_saasbkup_paid_subscription.adoc#signing-up-for-a-paid-subscription-of-saaS-backup-for-office-365, Sign up for SaaS Backup for Office 365 with a NetApp SSO account or a Microsoft Office 365 service account>>.
-. <<task_scheduling_first_backup.adoc#scheduling-your-first-backup, Schedule your first backup>>.
-. <<task_performing_immediate_backup_of_policy.adoc#performing-an-immediate-backup-of-a-specific-backup-policy, Optional: Immediately back up your data>>.
+link:concept_storage_types.html[Storage types you can use with SaaS Backup].
+
+. If necessary, link:concept_information_to_gather_for_byos.html[gather information about your BYOS storage].
+
+. link:task_creating_msservice_account_with_global_permissions.html[Create a MS Office service account with global permissions].
+
+. If needed, link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
+
+. link:task_signing_up_for_saasbkup_free_trial.html[Sign up for SaaS Backup for Office 365] using your Microsoft Office 365 account or your NetApp SSO account.
+
+. link:task_scheduling_first_backup.html[Schedule your first backup]
+
+. link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
 image:workflow_paid_subscription_signup.gif[workflow of paid subscription sign up process]

@@ -18,10 +18,21 @@ summary: To get started with a free trial account for SaaS Backup for Office 365
 To get started with a free trial of SaaS Backup for Office 365, you must do the following:
 
 . Be aware of the link:concept_free_trial_restrictions.html[free trial restrictions].
+
 . Have a link:task_registering_for_free_trial_activation_code.html[free trial activation code].
-. Have a Microsoft Office 365 test account.
+
+. If needed, link:task_signing_up_for_o365_free_trial.html[sign up for a Microsoft Office 365 test account].
+
+. link:task_creating_msservice_account_with_global_permissions.html[Create a MS Office service account with global permissions].
+
+. Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup or if you will use a Bring Your Own Storage (BYOS) option; then, if needed, link:concept_information_to_gather_for_byos.html[gather information about your storage].
+
+. If needed, link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
+
 . link:task_signing_up_for_saasbkup_free_trial.html[Sign up for SaaS Backup for Office 365] using your Microsoft Office 365 account or your NetApp SSO account.
+
 . link:task_scheduling_first_backup.html[Schedule your first backup]
+
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
 image:workflow_free_trial_signup.gif[workflow of free trial sign up process]

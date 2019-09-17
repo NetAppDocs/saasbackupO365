@@ -69,4 +69,4 @@ image:configure_icon.gif[Screenshot of configuration icon]
 image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]
      NOTE: If you select to have fewer users in your licensed subscription than in your trial subscription, all user accounts are moved to the unprotected tier when the licensed subscription is activated.  After activation, you must manually move the desired accounts into a protected tier.
   .. Click *Save*.
-. link:task_activate_support.html[Activate support]. 
+. If you haven't already done so, link:task_activate_support.html[activate support]. 

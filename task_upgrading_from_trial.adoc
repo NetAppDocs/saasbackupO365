@@ -17,7 +17,7 @@ summary: When you upgrade from a trial subscription to a licensed subscription, 
 [.lead]
 When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you keep the same backup storage destination type and the same backup storage region.
 
-toc::[]
+*If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
 [options="header" width="90%"]
 |=======
@@ -31,8 +31,6 @@ toc::[]
 |BYOS | Amazon S3 provided by SaaS Backup | Not migrated
 |BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
-
-*If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
 .Steps
 
@@ -71,3 +69,4 @@ image:configure_icon.gif[Screenshot of configuration icon]
 image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]
      NOTE: If you select to have fewer users in your licensed subscription than in your trial subscription, all user accounts are moved to the unprotected tier when the licensed subscription is activated.  After activation, you must manually move the desired accounts into a protected tier.
   .. Click *Save*.
+. link:task_activate_support.html[Activate support]. 

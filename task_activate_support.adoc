@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: task_activate_support.html
+keywords: netapp, saas backup, office 365, activating, activate, support, entitlement
+summary: After purchasing a licensed version of SaaS Backup, you can activate support which enables you to access technical support over online chat, web ticketing system and phone.
+---
+
+= Activating support
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Once you have purchased a licensed version of SaaS Backup, you can activate support.  Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
+
+.Before you Begin
+In order to activate support, you must have a NetApp SSO userid and password.  If you do not have a NetApp SSO account, go to http://register.netapp.com to register for one.  After your request has been processed, you will receive and email notification containing your NetApp SSO credentials.  It will take approximately 24 hours to process the request and send the notification email.
+
+.Steps
+
+. Click image:services.gif[Screenshot of services button] from the left navigation pane.
+
+. Click the settings icon image:configure_icon.gif[MS services settings icon].
+
+. In the *Activate Support* box, click *Activate*.
+
+. Enter your NetApp SSO username and password.
+
+. Click *Activate*.
+
+The support status is now active.

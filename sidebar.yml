@@ -40,7 +40,11 @@ entries:
           - title: Performing an immedate backup
             url: /task_performing_immediate_backup_of_policy.html
           - title: Upgrading from a trial subscription
-            url: /task_upgrading_from_trial.html
+            entries:
+            - title: Upgrade
+              url: /task_upgrading_from_trial.html
+            - title: Activate support after upgrade
+              url: /task_activate_support.html
           - title: Free trial data deletion
             url: /reference_free_trial_data.html
       - title: Getting Started with a Paid Subscription
@@ -48,7 +52,7 @@ entries:
           - title: Workflow
             url: /concept_paid_subscription_workflow.html
           - title: Information to gather about your BYOS option
-            url: /concept_information_to_gather_for_byos.html           
+            url: /concept_information_to_gather_for_byos.html
           - title: Creating a MS Office service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
           - title: Configuring Impersonation for Microsoft Exchange Online
@@ -115,6 +119,8 @@ entries:
         url: /task_activating_a_service.html
       - title: Deactivating a service
         url: /task_deactivating_a_service.html
+      - title: Activate support   
+        url: /task_activate_support.html
       - title: Canceling a job
         url: /task_canceling_job.html
       - title: Setting notifications

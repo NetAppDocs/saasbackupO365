@@ -32,4 +32,4 @@ In order to activate support, you must have a NetApp SSO userid and password.  I
 
 . Click *Activate*.
 
-The support status is now active.
+The support status is now *Active*.

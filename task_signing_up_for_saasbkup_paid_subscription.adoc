@@ -101,4 +101,3 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
     ... Click *Test Connection*.
     ... Click *Next*.
     ... Review your configuration, and then click *Save*.
-. link:task_activate_support.html[Activate support]. 

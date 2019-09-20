@@ -62,7 +62,7 @@ NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 
   .. Sign in to SaaS Backup for Office 365 with your Microsoft Office 365 account.
   .. Click the Microsoft Office 365 settings icon image:configure_icon.gif[Screenshot of configuration icon].
   .. Under Subscription details, click image:activate.gif[Screenshot of activate button].
-     If you used a BYOS option for your trial subscription a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.
+     If you selected a backup storage that is different from your trial subscription, a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.
 +
 NOTE: If you select to have fewer users in your licensed subscription than in your trial subscription, all user accounts are moved to the unprotected tier when the licensed subscription is activated.  After activation, you must manually move the desired accounts into a protected tier.
 

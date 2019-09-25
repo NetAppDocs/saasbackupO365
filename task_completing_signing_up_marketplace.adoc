@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: task_completing_signing_up_marketplace.html
+keywords: netapp, saas backup, office 365, getting started, signing up, paid, subscription, licensed, version
+summary: You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 service account or with your NetApp SSO account.
+---
+
+= Signing up with paid subscription through a Markeplace
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+If you purchased your license through a Marketplace your license information is displayed.  Complete the sign up process by following these steps.
+
+.Steps
+
+. Click *Next*.
+. Select your *Amazon S3* or *Azure Blob* as your storage type.
+. Select the storage region for your backup.
+ You should select the region that is the closest to the physical location of the data you are backing up. The *Preferred* region is  marked as such.
+. Click *Next*.
+. Review your configuration, and then click *Save*.
+. If you haven't already done so, link:task_activate_support.html[activate support].

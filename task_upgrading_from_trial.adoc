@@ -17,7 +17,7 @@ summary: When you upgrade from a trial subscription to a licensed subscription, 
 [.lead]
 When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you keep the same backup storage destination type and the same backup storage region.
 
-toc::[]
+*If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
 [options="header" width="90%"]
 |=======
@@ -31,8 +31,6 @@ toc::[]
 |BYOS | Amazon S3 provided by SaaS Backup | Not migrated
 |BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
-
-*If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
 .Steps
 
@@ -51,23 +49,22 @@ image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
   .. If you want to change your destination storage type or destination storage region, do the following:
     ... Select your new destination storage type and/or region.
         *Note*: If you change the destination of your storage or your destination region, NetApp SaaS Backup for Office 365 does not migrate the trial data.  You must agree to proceed.
-+
-image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]
     ... If you are changing the destination storage type, enter the required information and click *Test Connection*.
     ... Click *Next*.
     ... Review your configuration, and then click *Save*.
   .. If you want to keep the same destination storage type and destination storage region, review your configuration and click *Save*.
-. If you selected *AWS Marketplace*:
-  NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.  If you used a BYOS storage option for your trial subscription, your trial data is not migrated.
-  .. Click the link to *Go to the AWS Marketplace*.
+. If you selected *AWS*, *AppDirect*, or *StreamOne*:
+  .. Click the link to go to the selected Marketplace.
   .. Follow the Marketplace instructions.
++
+NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.  If you used a BYOS storage option for your trial subscription, your trial data is not migrated.
+
   .. Sign in to SaaS Backup for Office 365 with your Microsoft Office 365 account.
-  .. Click the Microsoft Office 365 settings icon.
-+
-image:configure_icon.gif[Screenshot of configuration icon]
+  .. Click the Microsoft Office 365 settings icon image:configure_icon.gif[Screenshot of configuration icon].
   .. Under Subscription details, click image:activate.gif[Screenshot of activate button].
-     If you used a BYOS option for your trial subscription a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.
+     If you selected a backup storage that is different from your trial subscription, a warning is displayed. SaaS Backup for Office 365 does not migrate the trial data to the new destination.  You must agree to proceed.
 +
-image:iAgree.gif[Screen for user acceptance that data is not migrated with change of destination storage]
-     NOTE: If you select to have fewer users in your licensed subscription than in your trial subscription, all user accounts are moved to the unprotected tier when the licensed subscription is activated.  After activation, you must manually move the desired accounts into a protected tier.
+NOTE: If you select to have fewer users in your licensed subscription than in your trial subscription, all user accounts are moved to the unprotected tier when the licensed subscription is activated.  After activation, you must manually move the desired accounts into a protected tier.
+
   .. Click *Save*.
+  .. If you haven't already done so, link:task_activate_support.html[activate support].

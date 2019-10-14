@@ -27,7 +27,7 @@ link:concept_storage_types.html[Storage types you can use with SaaS Backup].
 
 . If needed, link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
 
-. link:task_signing_up_for_saasbkup_free_trial.html[Sign up for SaaS Backup for Office 365] using your Microsoft Office 365 account or your NetApp SSO account.
+. link:task_signing_up_for_saasbkup_paid_subscription.html[Sign up for SaaS Backup for Office 365] using your Microsoft Office 365 account or your NetApp SSO account.
 
 . link:task_scheduling_first_backup.html[Schedule your first backup]
 

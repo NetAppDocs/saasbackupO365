@@ -40,10 +40,10 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
 .	Select the Microsoft Office 365 services that you want to activate.
 .	Click *Next*.
 
-. If you have purchased an IPA license the subscription types are displayed.
+. If you purchased your license through NetApp, your subscription types are displayed
   Click link:task_completing_signing_up_ipa.html[here] for additional steps.
 
-. If you purchased your license through a Marketplace your license information is displayed.
+. If you purchased your license through a Cloud Marketplace, such as AWS, your license information is displayed.
   Click link:task_completing_signing_up_marketplace.html[here] for additional steps.
 
 

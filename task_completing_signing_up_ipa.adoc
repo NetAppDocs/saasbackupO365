@@ -15,7 +15,7 @@ summary: You can sign up for SaaS Backup for Office 365 with your Microsoft Offi
 :imagesdir: ./media/
 
 [.lead]
-If you have purchased an IPA license the subscription types are displayed. Complete the sign up process by following these steps.
+If you purchased your license through NetApp, your subscription types are displayed. Complete the sign up process by following these steps.
 
 .Steps
 

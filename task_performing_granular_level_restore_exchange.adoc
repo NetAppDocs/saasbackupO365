@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task_performing_granular_level_restore.html
+permalink: task_performing_granular_level_restore_exchange.html
 keywords: netapp, saas restores, office 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes
 summary: You can use SaaS Backup for Office 365 to perform granular level restores for Microsoft Exchange Online 365.
 ---

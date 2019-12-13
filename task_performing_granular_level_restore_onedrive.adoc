@@ -27,7 +27,7 @@ By default, only the most recent backup is available for restore.  You can updat
 .	Click the MySite for which you need to perform the restore.
 . Select the group of files.
 +
-.Note:  If you want to restore individual folders or files within a group, click on the group of files. To restore an entire folder, select the folder. To restore individual files within a folder, select the folder containing the files, and then select the individual files.
+*Note*: If you want to restore individual folders or files within a group, click on the group of files. To restore an entire folder, select the folder. To restore individual files within a folder, select the folder containing the files, and then select the individual files.
 . Click *Restore*.
 . Select a restore option:
 * Restore to the same MySite
@@ -56,7 +56,7 @@ When you export, a PST file is created with your Microsoft Exchange files and a 
 . Click on the group of files.
 . Select the notebooks you want to restore.
 +
-.Note:  If you want to restore a specific section within the notebook, click on the notebook and select the sections.
+*Note*: If you want to restore a specific section within the notebook, click on the notebook and select the sections.
 . Click *Restore*.
 . Select a restore option:
 * Restore to the same MySite

@@ -33,8 +33,7 @@ image:number_protected_exchange.gif[screen shot of number of protected instances
   For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
 . Select the category (Mail, Tasks, Contacts, or Other) that you need to restore.
 +
-.Note
-If you want to restore a single item inside the category, click the category, and then select the items that you want to restore.
+*Note*: If you want to restore a single item inside the category, click the category, and then select the items that you want to restore.
 . Click image:restore.gif[image of restore button]
 . Select a restore option.
 * Restore to the same mailbox

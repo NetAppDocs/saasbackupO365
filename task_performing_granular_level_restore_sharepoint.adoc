@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: task_performing_granular_level_restore.html
+permalink: task_performing_granular_level_restore_sharepoint.html
 keywords: netapp, saas restores, office 365, granular restores, Microsoft SharePoint Online, sites
 summary: You can use SaaS Backup for Office 365 to perform granular level restores for Microsoft SharePoint Online.
 ---
@@ -27,15 +27,13 @@ By default, only the most recent backup is available for restore.  You can updat
 .	Click the site for which you need to perform the granular-level restore.
 . Select the category that you need to restore.
 +
-.Note
-If you want to restore specific individual items inside a category, click the content category and then select the individual items.
+*Note*: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
 
 . To restore from the most recent backup, click image:restore.gif[image of restore button].  To restore a previous version of the item, click *Show versions*, select the version that you want to restore and then click image:restore.gif[image of restore button].
 
 . Select a restore option:
 +
-.Note
-For Microsoft Office 365 Groups, you only have the option to restore to the same site.  For Microsoft SharePoint Online, you can restore to the same site or to another site.
+*Note*: For Microsoft Office 365 Groups, you only have the option to restore to the same site.  For Microsoft SharePoint Online, you can restore to the same site or to another site.
 +
 * Restore to the same site
 +
@@ -66,8 +64,7 @@ A message is displayed indicating that the restore job was created.
 . Click *Documents*.
 . Select the notebooks you want to restore.
 +
-.Note
-If you want to restore a specific group or section within the notebook, click on the notebook to select the groups.  Click on the group to select the sections.
+*Note*: If you want to restore a specific group or section within the notebook, click on the notebook to select the groups.  Click on the group to select the sections.
 . Click image:restore.gif[image of restore button]
 . Select a restore option:
 * Restore to the same MySite

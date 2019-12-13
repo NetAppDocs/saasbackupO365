@@ -5,7 +5,7 @@ keywords: what's new, features, new, release notes, enhancements
 summary: SaaS Backup for Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 
-== New features and updates
+= New features and updates
 :toc: macro
 :hardbreaks:
 :toclevels: 2
@@ -17,13 +17,19 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 [.lead]
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
-=== September 2019
+== December 2019
+* You can now view mailboxes, sites, mysites, groups, or accounts that have been deprovisioned.
+* User licenses are now automatically release seven days after the accounts are purged. You can view a list of items scheduled to be purged within seven days and list of items that have already been purged.
+* Backup for Microsoft OneNote notebooks is now supported for all Microsoft Exchange Online, SharePoint Online and OneDrive for Business.
+link:task_enabling_onenote_backups.html[Enabling backups for OneNote]
+
+== September 2019
 * You can now activate support for paid subscriptions of SaaS Backup.
 Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
 +
 <<task_activate_support.adoc#activating-support, Activating support>>
 
-=== June 2019
+== June 2019
 * SaaS Backup for Office 365 now supports the backup and restore of items created using the copy-to feature in Microsoft SharePoint Online and Microsoft OneDrive for Business.
 * Enhancements have been made to include additional details in the restore statistics including restore size, restore location, and additional comments.
 

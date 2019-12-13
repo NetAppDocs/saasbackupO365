@@ -55,7 +55,7 @@ If you select to export individual items to PST, you will receive a notification
 A message is displayed indicating that the restore job was created.
 . Click *View the job progress* to monitor the progress of the restore.
 
-== Restore OneNote notebooks and groups
+== Restore OneNote notebooks and groups for SharePoint
 
 .Steps
 

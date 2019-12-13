@@ -47,7 +47,7 @@ When you export, a PST file is created with your Microsoft Exchange files and a 
 . Click *View the job progress* to monitor the progress of the restore.
 
 
-== Restore OneNote notebooks and groups
+== Restore OneNote notebooks and groups for OneDrive
 
 .Steps
 

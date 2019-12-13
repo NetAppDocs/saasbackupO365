@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: index.html
-summary: Welcome to the documentation portal for NetApp SaaS Backup for Office 365.
+summary: Welcome to the documentation portal for NetApp SaaS Backup for Office 365..
 ---
 
 = NetApp SaaS Backup for Office 365 documentation

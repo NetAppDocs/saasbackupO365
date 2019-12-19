@@ -22,7 +22,7 @@ The following new features and updates have been added to this release of NetApp
 link:task_viewing_deprovisioned.html[Viewing deprovisioned items]
 * User licenses are now automatically release seven days after the accounts are purged. You can view a list of items scheduled to be purged within seven days and list of items that have already been purged.
 link:task_viewing_deprovisioned.html[Viewing a list of purged data]
-* Backup for Microsoft OneNote notebooks is now supported for all Microsoft Exchange Online, SharePoint Online and OneDrive for Business.
+* Backup for Microsoft OneNote notebooks is now supported for Microsoft SharePoint Online and OneDrive for Business.
 link:task_enabling_onenote_backups.html[Enabling backups for OneNote]
 
 == September 2019

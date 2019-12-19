@@ -24,6 +24,8 @@ You can update your backup settings to control various backup options. Available
 Microsoft SharePoint Online
 Microsoft OneDrive for Business
 Microsoft Office 365 Groups
+|Enable OneNote Backup |Enables the backup of OneNote notebooks |Manually |Microsoft SharePoint Online
+Microsoft OneDrive for Business
 |Enable Restore of Recoverable Items |Enables the user to restore Microsoft Exchange recoverable items |Manually |Microsoft Exchange Online
 |Enable Backup of Recoverable Items |Enables the backup of Microsoft Exchange recoverable items.  Only the tier 1 backup policy allows for the backup of recoverable items. |Manually |Microsoft Exchange Online
 |Include Workflows| Includes workflows in the backup |Manually |Microsoft SharePoint Online

@@ -38,11 +38,6 @@ If you are restoring individual files to the same MySite, by default, a restore 
 +
 If you restore to another MySite, you must enter the destination MySite in the search field.  You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
 
-  * Export
-+
-This option is only available at the folder level.  It is not available for individual files.  If you select to export a folder, an option appears to include subfolders, if desired.
-+
-When you export, a PST file is created with your Microsoft Exchange files and a .zip file is created with your Microsoft SharePoint sites.  You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
 . Click *Confirm*.
 . Click *View the job progress* to monitor the progress of the restore.
 

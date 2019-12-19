@@ -26,6 +26,8 @@ image:services.gif[Screenshot of services button]
 +
 image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 .	Under *Manage Services*, click the backup settings icon image:configure_icon.gif[Screenshot of configuration icon] next to the service that you need to update.
++
+OneNote backups are available for 
   A list of your backup settings available for the selected service is displayed.
 . Select *ENABLE ONENOTE BACKUP*.
 . Click *Confirm*.

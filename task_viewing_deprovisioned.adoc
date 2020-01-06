@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: task_viewing_deprovisioned.html
+keywords: netapp, saas backup, office 365, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites
+summary: You can view a list of mailboxes or user accounts that have been deleted.
+---
+
+= Viewing deprovisioned and purged data
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can view a list of mailboxes or user accounts that have been deprovisioned.
+
+
+== Viewing a list deprovisioned accounts
+
+.Steps
+
+.	Click *Services* on the left navigation pane.
+. Click the number of mailboxes.
+. Click the *DEPROVISIONED* tab.
+
+== Viewing a list of purged data
+
+.Steps
+
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
+. Select *ACCOUNT SERVICE*.
+. Click *RETAIN AND PURGE*.
+. Under *Purge Data*, click *Show Purged List*
++
+You can view a list of items scheduled to be purged and a list of items that have already been purged.

@@ -17,7 +17,7 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 [.lead]
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
-== December 2019
+== January 2020
 * You can now view mailboxes, sites, mysites, groups, or accounts that have been deprovisioned.
 link:task_viewing_deprovisioned.html[Viewing deprovisioned items]
 * User licenses are now automatically release seven days after the accounts are purged. You can view a list of items scheduled to be purged within seven days and list of items that have already been purged.

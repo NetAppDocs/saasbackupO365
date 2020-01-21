@@ -15,5 +15,12 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :imagesdir: ./media/
 
 
+* The following features ae not available for OneNote:
+** Export to data
+** Data purge 
 * Partially failed job status for restore of site collection group
   If an entire site collection group is deleted, the restore of private groups in the collection fails, resulting in a restore job status of “partially failed.”  If this happens, the site is not accessible from the GUI.
+* The following are not supported for OneNote:
+** Data export
+** Data purge
+* “Partial Failure. Failed to back up few Onenote Sections”

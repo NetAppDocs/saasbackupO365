@@ -15,7 +15,7 @@ summary: Activating support enables you to access technical support over the pho
 :imagesdir: ./media/
 
 [.lead]
-If you purchased SaaS Backup through NetApp, support is activated by default.  If you purchased SaaS Backup through a Cloud Marketplace such as AWA, you must activate support.  Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
+If you purchased SaaS Backup through NetApp, support is activated by default.  If you purchased SaaS Backup through a Cloud Marketplace such as AWS, you must activate support.  Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
 
 If you are upgrading from a trial version of SaaS Backup, you can activate support either before or after you complete the upgrade process.
 

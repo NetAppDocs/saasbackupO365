@@ -20,6 +20,6 @@ If you do not upgrade to a licensed version of SaaS Backup for Office 365, the d
 [options="header" width="70%"]
 |======
 |If your SaaS Backup free trial is... |Number of days after end of trial |Your data is...
-|Expired |1-15 days |Available: The administrator has normal access and can perform manual backups and restores.  SaaS Backup continues to display alerts and sent out notifications.
+|Expired |1-15 days |Available: The administrator has normal access and can perform manual backups and restores.  SaaS Backup continues to display alerts and send out notifications.
 |Disabled |16-30 days |Deactivated: The administrator does not have access to the SaaS Backup portal.  If subscription is updated during this period, data can be reactivated.
 |Deprovisioned |31 or more days |Deleted: All data is deleted and your tenant account is removed.

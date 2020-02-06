@@ -163,6 +163,8 @@ entries:
       url: /task_viewing_history_and_activity.html
     - title: Viewing deprovisioned items
       url: /task_viewing_deprovisioned.html
+    - title: Viewing purged data
+      url: /task_viewing_purged.html  
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

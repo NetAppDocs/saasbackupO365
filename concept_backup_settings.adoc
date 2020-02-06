@@ -30,7 +30,7 @@ Microsoft OneDrive for Business
 |Enable Backup of Recoverable Items |Enables the backup of Microsoft Exchange recoverable items.  Only the tier 1 backup policy allows for the backup of recoverable items. |Manually |Microsoft Exchange Online
 |Include Workflows| Includes workflows in the backup |Manually |Microsoft SharePoint Online
 Microsoft Office 365 Groups
-|Include List Views| Includes view of list in backup |Manually |Microsoft SharePoint Online
+|Include List Views| Includes list views in backup |Manually |Microsoft SharePoint Online
 Microsoft Office 365 Groups
 |Include Version History| Enables maintenance of multiple file versions in the backup.
 *Note*: This setting only applies to individual files.  It does not apply to entire folders, tiers, or services. |By default |Microsoft SharePoint Online

@@ -19,6 +19,6 @@ You can view a list of items that have been deprovisioned.
 
 .Steps
 
-.	Click *Services* on the left navigation pane.
+.	Click *SERVICES* on the left navigation pane.
 . In the desired service, click the number of unprotected items.
 . Click the *DEPROVISIONED* tab.

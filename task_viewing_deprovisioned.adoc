@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_viewing_deprovisioned.html
-keywords: netapp, saas backup, office 365, viewing, jobs, deprovisioned, deleted, items, accounts, mailboxes, sites, mysites
-summary: You can view a list of items (mailboxes or user accounts) that have been deleted.
+keywords: netapp, saas backup, office 365, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites
+summary: You can view a list of mailboxes or user accounts that have been deleted.
 ---
 
 = Viewing a list of deprovisioned items
@@ -15,7 +15,7 @@ summary: You can view a list of items (mailboxes or user accounts) that have bee
 :imagesdir: ./media/
 
 [.lead]
-You can view a list of items that have been deprovisioned.
+You can view a list of mailboxes or user accounts that have been deprovisioned.
 
 .Steps
 

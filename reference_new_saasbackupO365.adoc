@@ -51,7 +51,7 @@ Activating support enables you to access technical support over the phone, onlin
 +
 You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
 +
-*Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trail data is not preserved.
+*Note*:  If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trial data is not preserved.
 +
 <<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription, Upgrading from a trial subscription>>
 

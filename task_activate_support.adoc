@@ -15,12 +15,12 @@ summary: Activating support enables you to access technical support over the pho
 :imagesdir: ./media/
 
 [.lead]
-If you purchased SaaS Backup through NetApp, support is activated by default.  If you purchased SaaS Backup through a Cloud Marketplace such as AWA, you must activate support.  Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
+If you purchased SaaS Backup through NetApp, support is activated by default.  If you purchased SaaS Backup through a Cloud Marketplace such as AWS, you must activate support.  Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
 
 If you are upgrading from a trial version of SaaS Backup, you can activate support either before or after you complete the upgrade process.
 
 .Before you Begin
-In order to activate support, you must have a NetApp SSO user ID and password.  If you do not have a NetApp SSO account, go to http://register.netapp.com to register for one.  After your request has been processed, you will receive and email notification containing your NetApp SSO credentials.  It will take approximately 24 hours to process the request and send the notification email.
+In order to activate support, you must have a NetApp SSO user ID and password.  If you do not have a NetApp SSO account, go to http://register.netapp.com to register for one.  After your request has been processed, you will receive an email notification containing your NetApp SSO credentials.  It will take approximately 24 hours to process the request and send the notification email.
 
 .Steps
 

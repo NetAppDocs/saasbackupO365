@@ -14,7 +14,7 @@ summary: You follow the same process to schedule a new backup or change it to th
 :linkattrs:
 :imagesdir: ./media/
 
-[.lead]
+//[.lead]
 You can back up your unprotected data by assigning it to a backup policy. When unprotected data is assigned to a backup policy, it moves to a *PENDING* state until the next scheduled backup for the assigned policy occurs, after which it is moved to a *PROTECTED* state.
 If you want to change the backup frequency of protected data, you can assign the data to a different backup policy tier.
 
@@ -26,25 +26,25 @@ If you want to change the backup frequency of protected data, you can assign the
 image:number_protected_unprotected.gif[]
 2. Select your backup options.
 a. For Exchange
-. If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
-. If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
-. If you are backing up or changing regular mailboxes, remain on the *USER* tab.
+* If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
+* If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
+* If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 
 b. For SharePoint
-. If you are backing up or changing the backup policy for
+* If you are backing up or changing the backup policy for
 sites, remain on the *SITES* tab.
 
 c. For OneDrive
-. If you are backing up or changing the backup policy for users, remain on the *USER* tab.
+* If you are backing up or changing the backup policy for users, remain on the *USER* tab.
 
 d. For Office 365 groups
-. If you are backing up or changing the backup policy for groups, remain on the *GROUPS* tab.
-. If you are backing up or changing the backup policy for teams, click the *TEAMS* tab. Note: Teams is EU only.
+* If you are backing up or changing the backup policy for groups, remain on the *GROUPS* tab.
+* If you are backing up or changing the backup policy for teams, click the *TEAMS* tab. Note: Teams is EU only.
 
 3. Select the items you want to backup.
 . Click the *Groups* menu.
 +
 image:groups_menu.gif[Groups Menu]
-. Select the new policy tier for the backup.
+4. Select the new policy tier for the backup.
   *Note*:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
-.	Click *Apply*.
+5.	Click *Apply*.

@@ -22,19 +22,19 @@ As needed, you can perform an immediate backup of any Microsoft Office 365 servi
 1. From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform an immediate backup.
 2. Select your backup option.
 a. For Exchange
-. If you are backing up shared mailboxes, click the *SHARED* tab.
-. If you are backing up archive mailboxes, click the *ARCHIVE* tab.
-. If you are backing up regular mailboxes, remain on the *USER* tab.
+* If you are backing up shared mailboxes, click the *SHARED* tab.
+* If you are backing up archive mailboxes, click the *ARCHIVE* tab.
+* If you are backing up regular mailboxes, remain on the *USER* tab.
 
 b. For SharePoint
-. If you are backing up sites, remain on the *SITES* tab.
+* If you are backing up sites, remain on the *SITES* tab.
 
 c. For OneDrive
-. If you are backing up users, remain on the *USER* tab.
+* If you are backing up users, remain on the *USER* tab.
 
 d. For Office 365 groups
-. If you are backing up groups, remain on the *GROUPS* tab.
-. If you are backing up teams, click the *TEAMS* tab. Note: Teams is EU only.
+* If you are backing up groups, remain on the *GROUPS* tab.
+* If you are backing up teams, click the *TEAMS* tab. Note: Teams is EU only.
 
 3. Select the items that you want to back up.
 4. Click *Backup Now*.

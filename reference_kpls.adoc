@@ -14,14 +14,14 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
-* The following limitations exist for TeamsChat:
+* The following limitations exist for TeamsChat (EU region only):
 
 ** Team Level Restore Limitations
 ***	Restore of content to same team is not supported.
 *** Restore of Tabs is possible but restore of tab content is not.
 *** Restore to different team is not supported.
 *** Restore of Mailbox & SharePoint data only, not conversations.
-*** Restore of deprovisioned (deleted) items to the same team option always fails. Only Export to Data is supported. 
+*** Restore of deprovisioned (deleted) items to the same team option always fails. Only Export to Data is supported.
 
 ** Channel Level Restore Limitations
 *** Tab content restore is not supported.

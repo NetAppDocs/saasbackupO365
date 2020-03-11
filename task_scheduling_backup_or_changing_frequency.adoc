@@ -20,15 +20,28 @@ If you want to change the backup frequency of protected data, you can assign the
 
 .Steps
 
-. From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service you want to change.
+1. From the Dashboard, click the number above *PROTECTED* or *UNPROTECTED* in the box of the service you want to change.
   If you want to change the backup frequency of protected data, click *PROTECTED*. If you want to backup newly discovered mailboxes, sites, or MySites, select *UNPROTECTED*.
 +
 image:number_protected_unprotected.gif[]
-.	Select your backup options.
-.. If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
-.. If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
-.. If you are backing up or changing regular mailboxes, remain on the *USER* tab.
-. Select the items you want to backup.
+2. Select your backup options.
+a. For Exchange
+. If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
+. If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
+. If you are backing up or changing regular mailboxes, remain on the *USER* tab.
+
+b. For SharePoint
+. If you are backing up or changing the backup policy for
+sites, remain on the *SITES* tab.
+
+c. For OneDrive
+. If you are backing up or changing the backup policy for users, remain on the *USER* tab.
+
+d. For Office 365 groups
+. If you are backing up or changing the backup policy for groups, remain on the *GROUPS* tab.
+. If you are backing up or changing the backup policy for teams, click the *TEAMS* tab. Note: Teams is EU only.
+
+3. Select the items you want to backup.
 . Click the *Groups* menu.
 +
 image:groups_menu.gif[Groups Menu]

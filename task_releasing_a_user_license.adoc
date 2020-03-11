@@ -21,8 +21,8 @@ Any regular user mailbox, whether protected or unprotected, consumes a license. 
 
 .Steps
 
-. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
-. Select *ACCOUNT SERVICE*.
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup user id in the top left corner.
+. Select *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
 . Under *Release License*, begin typing the account name for the user whose license you want to release.
 . When the account is found, select it from the auto-populated list and click image:bluecircle_icon.gif[Blue plus sign icon].

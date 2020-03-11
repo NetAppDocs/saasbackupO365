@@ -14,8 +14,37 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
+* The following limitations exist for TeamsChat:
 
-* The following limitations exists for OneNote:
+** Team Level Restore Limitations
+a.	Restore of content to same team is not supported.
+b.	Restore of Tabs is possible but restore of tab content is not.
+c.	Restore to different team is not supported. (original)
+d.	Restore of Mailbox & SharePoint data only, not conversations. (6)
+e.	Restore of deleted teams (deprovisioned items) is not supported.
+
+** Channel Level Restore Limitations
+a.	Tab content restore is not supported. (Contents of tab is not supported)
+b.	Export to Data is not supported
+
+** Conversation Level Restore Limitations
+a.	Only export option is Export to HTML.
+	. Exported HTML generates conversation ID instead of conversation name.
+	. Unable to identify sender and receiver in the exported html document.
+	. Unable to view attachment links posted in conversations in the html document.
+b.	Ability to choose a specific conversation isn’t supported.
+c.	Chronological order of multiple conversations based on timestamps is not supported.
+
+** Product features that are not supported because of API limitations
+a.	restore one or more conversations to the same channel or another channel
+b.	restore a channel to another channel from SaaS Backup Portal
+c.	no Microsoft notifications for deleted or updated events, such as no notification for a deleted mailbox
+d.	emojis & gifs in Backup & Restore
+e.	unable to identify and showcase that channels are private or public like in Microsoft
+f.	during a purge, unable to remove sync state information, conversation data, such as json or .pst files. 
+
+
+* The following limitations exist for OneNote:
 ** Export to data is not available.
 ** Incremental backup job might fail with the following error message:  `Partial Failure.  Failed to back up few OneNote Sections`
 ** OneDrive backup includes the backup of .onebak files.

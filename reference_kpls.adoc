@@ -17,31 +17,29 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 * The following limitations exist for TeamsChat:
 
 ** Team Level Restore Limitations
-a.	Restore of content to same team is not supported.
-b.	Restore of Tabs is possible but restore of tab content is not.
-c.	Restore to different team is not supported. (original)
-d.	Restore of Mailbox & SharePoint data only, not conversations. (6)
-e.	Restore of deleted teams (deprovisioned items) is not supported.
+***	Restore of content to same team is not supported.
+*** Restore of Tabs is possible but restore of tab content is not.
+*** Restore to different team is not supported.
+*** Restore of Mailbox & SharePoint data only, not conversations.
+*** Restore of deprovisioned (deleted) items to the same team option always fails. Only Export to Data is supported. 
 
 ** Channel Level Restore Limitations
-a.	Tab content restore is not supported. (Contents of tab is not supported)
-b.	Export to Data is not supported
+*** Tab content restore is not supported.
+*** Export to Data restore is not supported.
 
 ** Conversation Level Restore Limitations
-a.	Only export option is Export to HTML.
-	. Exported HTML generates conversation ID instead of conversation name.
-	. Unable to identify sender and receiver in the exported html document.
-	. Unable to view attachment links posted in conversations in the html document.
-b.	Ability to choose a specific conversation isn’t supported.
-c.	Chronological order of multiple conversations based on timestamps is not supported.
+*** Only export option is Export to HTML.
+**** Exported HTML generates conversation ID instead of conversation name.
+**** Unable to view attachment links posted in conversations in the html document.
 
 ** Product features that are not supported because of API limitations
-a.	restore one or more conversations to the same channel or another channel
-b.	restore a channel to another channel from SaaS Backup Portal
-c.	no Microsoft notifications for deleted or updated events, such as no notification for a deleted mailbox
-d.	emojis & gifs in Backup & Restore
-e.	unable to identify and showcase that channels are private or public like in Microsoft
-f.	during a purge, unable to remove sync state information, conversation data, such as json or .pst files. 
+*** Restore of one or more conversations to the same channel or another channel.
+*** Restore of one channel to another channel from SaaS Backup Portal.
+*** Microsoft notifications for deleted or updated events, such as notification for a deleted mailbox.
+*** Backup or restore of emojis & gifs.
+*** Identification of private or public channels like in Microsoft
+*** Export to Data failure for teams with team names containing special characters.
+*** Inability to remove sync state information and conversation data, such as json or .pst files, during a purge.
 
 
 * The following limitations exist for OneNote:

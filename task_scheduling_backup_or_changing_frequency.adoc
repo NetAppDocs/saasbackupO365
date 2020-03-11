@@ -42,9 +42,9 @@ d. For Office 365 groups
 * If you are backing up or changing the backup policy for teams, click the *TEAMS* tab. Note: Teams is EU only.
 
 3. Select the items you want to backup.
-. Click the *Groups* menu.
+4. Click the *Groups* menu.
 +
 image:groups_menu.gif[Groups Menu]
-4. Select the new policy tier for the backup.
+5. Select the new policy tier for the backup.
   *Note*:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
-5.	Click *Apply*.
+6.	Click *Apply*.

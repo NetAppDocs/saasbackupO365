@@ -18,10 +18,13 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
 == March 2020
-* We have enhanced the Teams backup feature by adding protection for chat, channels, tabs, and group memberships. This feature is available to EU only. Stay tuned for wider access to the Teams Chat feature. 
-* To enable this feature, go to link:https://mysupport.netapp.com/[Support] and submit a request.
+* SaaS Backup now supports backup to Teams. This feature is only available to customers in Europe and must be requested through Support. The TeamsChat backup feature has protection for chat, channels, tabs, and group memberships.
+
+To enable this feature, go to link:https://mysupport.netapp.com/[Support] and submit a request.
 
 You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
+
+link:task_performing_immediate_backup_of_service.html[Performing an immediate backup of a service]
 
 == January 2020
 * You can now view mailboxes, sites, mysites, groups, or accounts that have been deprovisioned.

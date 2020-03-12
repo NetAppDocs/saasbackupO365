@@ -39,7 +39,8 @@ c. For OneDrive
 
 d. For Office 365 groups
 * If you are backing up or changing the backup policy for groups, remain on the *GROUPS* tab.
-* If you are backing up or changing the backup policy for teams, click the *TEAMS* tab. Note: Teams is EU only.
+* If you are backing up or changing the backup policy for teams, click the *TEAMS* tab.
+  *Note*: Teams backup is for customers in the European region only.
 
 3. Select the items you want to backup.
 4. Click the *Groups* menu.

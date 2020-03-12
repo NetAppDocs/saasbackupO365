@@ -14,7 +14,7 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
-* The following limitations exist for TeamsChat (EU region only):
+* The following limitations exist for TeamsChat (European region only):
 ** Export to Data failure for teams with team names containing special characters.
 ** Inability to backup or restore emojis and gifs.
 ** Inability to remove sync state information and conversation data, such as json or .pst files, during a purge.

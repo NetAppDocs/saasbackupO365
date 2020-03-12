@@ -20,7 +20,7 @@ Within Microsoft Office 365 Groups, you can restore granular-level items for Tea
 By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
 == Restore mailboxes
-Select this granular-level restore to restore inbox, calendar, and conversation history.
+Select this granular-level restore to restore inboxes, calendars, and conversation history.
 
 .Steps
 
@@ -31,20 +31,30 @@ Select this granular-level restore to restore inbox, calendar, and conversation 
 image:granular_level_restore_mailbox_option.gif[image of highlighted mailbox option]
 +
 * Select the *Mail* option to restore inbox or conversation history to the same mailbox or export data.
+image:granular_level_restore_mailbox_mail_option.gif[image of highlighted mail option]
++
 .. To restore an inbox, select *Inbox* and click *Restore*.
 ... Select *Restore to the same mailbox* or *Export Data*.
 ... Click *Confirm*.
+//... You can see job progress under *Jobs* on the left menu. 
+//.... After *Restore to the same mailbox*
+//.... After the *Export Data* job completes, go to *Reporting* in the left menu. Seelect *Total Folders*
+
 
 .. To restore conversations, select *Conversation History*.
 ... Select the conversations you want to restore and click *Restore*. The only option for restore is export to HTML.
 ... Click *Confirm*.
 
 * Select the *Calendar* option to restore the calendar to the same mailbox or export data.
+image:granular_level_restore_mailbox_calendar_option.gif[image of highlighted calendar option]
++
 .. Select *Calendar* and click *Restore*.
 .. Select *Restore to the same mailbox* or *Export Data*.
 .. Click *Confirm*.
 
 * Select the *Conversations* option to restore conversations. The only option for restore is export to HTML.
+image:granular_level_restore_mailbox_conversations_option.gif[image of highlighted conversations option]
++
 .. Select the conversations you want to restore and click *Restore*. The only option for restore is export to HTML.
 .. Click *Confirm*.
 

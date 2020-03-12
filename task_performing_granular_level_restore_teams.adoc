@@ -5,7 +5,7 @@ keywords: netapp, saas restores, office 365, granular restores, Microsoft TeamsC
 summary: You can use SaaS Backup for Office 365 to perform granular level restores for Microsoft TeamsChat.
 ---
 
-= Performing a granular-level restore for Microsoft Office 365 Groups TeamsChat
+= Performing a granular-level restore for Microsoft TeamsChat
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -15,7 +15,7 @@ summary: You can use SaaS Backup for Office 365 to perform granular level restor
 :imagesdir: ./media/
 
 [.lead]
-Within Microsoft Office 365 Groups, you can restore granular-level items like conversations, tabs, and attachments in TeamsChat. This feature is available to Europe region customers only.
+Within Microsoft Office 365 Groups, you can restore granular-level items for TeamsChat like conversations, tabs, and attachments. This feature is available to customers in the European region only.
 
 By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
@@ -28,23 +28,22 @@ Select this granular-level restore to restore inbox, calendar, and conversation 
 . Select the *Teams* tab.
 . Click the team for which you need to perform the granular-level restore.
 . Select the mailbox category.
-+
 image:granular_level_restore_mailbox_option.gif[image of highlighted mailbox option]
++
 * Select the *Mail* option to restore inbox or conversation history to the same mailbox or export data.
-.. To restore an inbox, select *Inbox*.
-... Select *Inbox* and click *Restore*.
+.. To restore an inbox, select *Inbox* and click *Restore*.
 ... Select *Restore to the same mailbox* or *Export Data*.
 ... Click *Confirm*.
-+
+
 .. To restore conversations, select *Conversation History*.
 ... Select the conversations you want to restore and click *Restore*. The only option for restore is export to HTML.
 ... Click *Confirm*.
-+
+
 * Select the *Calendar* option to restore the calendar to the same mailbox or export data.
 .. Select *Calendar* and click *Restore*.
 .. Select *Restore to the same mailbox* or *Export Data*.
 .. Click *Confirm*.
-+
+
 * Select the *Conversations* option to restore conversations. The only option for restore is export to HTML.
 .. Select the conversations you want to restore and click *Restore*. The only option for restore is export to HTML.
 .. Click *Confirm*.
@@ -58,8 +57,8 @@ Select this granular-level restore to restore tabs and attachments.
 . Select the *Teams* tab.
 . Click the team for which you need to perform the granular-level restore.
 . Select *Channels*.
-+
 image:granular_level_restore_sharepoint_site_option.gif[image of highlighted sites option]
++
 . Select the channel to restore the chats inside that channel.
 . Click *Restore* to restore to same teams.
 . Click *Confirm*.
@@ -73,8 +72,8 @@ Select this granular-level restore to restore conversations inside channels.
 . Select the *Teams* tab.
 . Click the team for which you need to perform the granular-level restore.
 . Select *Channels*.
-+
 image:granular_level_restore_channel_option.gif[image of highlighted channels option]
++
 . Select the channel to restore the conversations inside that channel.
 . Click *Restore* to restore to same teams.
 . Click *Confirm*.

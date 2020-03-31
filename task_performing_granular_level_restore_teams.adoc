@@ -39,8 +39,12 @@ image:granular_level_restore_mailbox_mail_option.gif[image of highlighted mail o
 If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
 ... Click *Confirm*.
 
-.. To restore conversations, select *Conversation History*.
+.. To restore conversations, select *Conversation History*. The only option for restore is export to HTML.
+NOTE: This feature is available in the European region only.
+
 ... Select the conversations you want to restore and click *Restore*. The only option for restore is export to HTML.
++
+Click *View Conversations* to see a list of all conversations from the last five backups in order by date.
 ... Click *Confirm*.
 
 * Select the *Calendar* option to restore the calendar to the same mailbox or export data.
@@ -53,9 +57,12 @@ If you export data, you need to download it. Go to Reporting on the left menu. F
 .. Click *Confirm*.
 
 * Select the *Conversations* option to restore conversations. The only option for restore is export to HTML.
+Note: This feature is available in the European region only.
 image:granular_level_restore_mailbox_conversations_option.gif[image of highlighted conversations option]
 +
-.. Select the conversations you want to restore and click *Restore*. The only option for restore is export to HTML.
+.. Select the conversations you want to restore and click *Restore*.
++
+Click *View Conversations* to see a list of all conversations from the last five backups in order by date.
 .. Click *Confirm*.
 
 == Restore SharePoint sites
@@ -94,5 +101,7 @@ Select this granular-level restore to restore conversations inside channels.
 image:granular_level_restore_channel_option.gif[image of highlighted channels option]
 +
 . Select the channel to restore the conversations inside that channel.
-. Click *Restore* to restore to same teams.
+. Select the restore option:
+.. Click *Restore to the same team*.
+.. Click *Restore to another team*. To select the other team for the restore to another team option, search for the other team in the search box.
 . Click *Confirm*.

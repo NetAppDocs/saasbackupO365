@@ -35,7 +35,7 @@ c. For OneDrive
 d. For Office 365 groups
 * If you are backing up groups, remain on the *GROUPS* tab.
 * If you are backing up teams, click the *TEAMS* tab.
-  *Note*: Teams is for customers in the European region only.
+NOTE: Due to API limitations, SaaS backup cannot differentiate between public and private channels.
 
 3. Select the items that you want to back up.
 4. Click *Backup Now*.

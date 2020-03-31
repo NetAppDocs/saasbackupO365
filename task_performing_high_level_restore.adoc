@@ -42,9 +42,11 @@ image:restore.gif[image of restore button]
 .. If you are restoring groups for *Microsoft Office 365 Groups* select one of the following options:
    * Restore to the same group
    * Export
-     If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created with your Microsoft SharePoint sites.  You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
+     If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created with your Microsoft SharePoint sites. You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
 .. If you are restoring teams under *Microsoft Office 365 Groups* select one of the following options:
-   * Restore to the same teams
+   * Restore to the same team
+   * Restore to another team
+     To restore to another team, the other team must already exist in SaaS Backup. If you have recently created the team in MS Teams, discover the new team by syncing the service. Go to *Services Settings* on the left. Click *Office 365*. Under *Manage Services*, click *Sync Now* for Microsoft Office 365 Groups.
    * Export data
      If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
 .. If you are restoring MySites for *Microsoft OneDrive for Business*, select one of the following options:

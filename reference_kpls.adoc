@@ -14,29 +14,34 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
-* The following limitations exist for TeamsChat (European region only):
-** Export to Data failure for teams with team names containing special characters.
-** Inability to backup or restore emojis and gifs.
-** Inability to remove sync state information and conversation data, such as json or .pst files, during a purge.
-** No differentiation between public and private channels in SaaS Backup.
-** Team Level Restore
-//***	Restore of content to same team is not supported.
-*** Restore of Tabs is possible but restore of tab content is not.
-//*** Restore to different team is not supported.
-*** Restore of Mailbox & SharePoint data only, not conversations.
-*** Restore of deprovisioned (deleted) items to the same team option always fails. Only Export to Data is supported.
+* The following limitations exist for TeamsChat:
+** Backup or restore for emojis and gifs is not supported.
+** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
+** The high-level restore task restores Mailbox & SharePoint data only, not conversations.
+** Team chat conversations only export option is Export to HTML.
++
+Attachment links posted in conversations are not visible in the html document.
+** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
 
-** Channel Level Restore Limitations
-*** Restore of one or more conversations to the same channel or another channel.
-*** Restore of one channel to another channel from SaaS Backup Portal.
+//** Inability to remove sync state information and conversation data, such as json or .pst files, during a purge.
+//** Restore of Mailbox & SharePoint restores data only, not conversations.
+//** Export to Data failure for teams with team names containing special characters.
+
+//** Team Level Restore
+//*** Restore of deprovisioned (deleted) items to the same team option always fails. Only Export to Data is supported.
+//***	Restore of content to same team is not supported.
+//*** Restore of Tabs is possible but restore of tab content is not.
+//*** Restore to different team is not supported.
+
+
+//** Channel Level Restore Limitations
+//*** Restore of one or more conversations to the same channel or another channel.
+//*** Restore of one channel to another channel from SaaS Backup Portal.
 //*** Tab content restore is not supported.
 //*** Export to Data restore is not supported.
 
-** Conversation Level Restore
-*** Only export option is Export to HTML.
-+
-Exported HTML generates conversation ID instead of conversation name.
-Attachment links posted in conversations are not visible in the html document.
+//** Conversation Level Restore
+//Exported HTML generates conversation ID instead of conversation name.
 
 * The following limitations exist for OneNote:
 ** Export to data is not available.

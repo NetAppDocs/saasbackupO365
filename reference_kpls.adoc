@@ -17,7 +17,7 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 * The following limitations exist for TeamsChat:
 ** Backup or restore for emojis and gifs is not supported.
 ** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
-** The high-level restore task restores Mailbox & SharePoint data only, not conversations.
+** High-level restore restores Mailbox & SharePoint data only, not conversations.
 ** Team chat conversations only export option is Export to HTML.
 +
 Attachment links posted in conversations are not visible in the html document.

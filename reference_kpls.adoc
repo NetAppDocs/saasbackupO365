@@ -21,7 +21,6 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 ** Team chat conversations only export option is Export to HTML.
 +
 Attachment links posted in conversations are not visible in the html document.
-** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
 
 //** Inability to remove sync state information and conversation data, such as json or .pst files, during a purge.
 //** Restore of Mailbox & SharePoint restores data only, not conversations.

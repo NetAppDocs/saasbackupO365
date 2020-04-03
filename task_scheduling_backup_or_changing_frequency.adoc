@@ -26,8 +26,8 @@ If you want to change the backup frequency of protected data, you can assign the
 image:number_protected_unprotected.gif[]
 2. Select your backup options.
 a. For Exchange
-* If you are backing up for shared mailboxes, click the *SHARED* tab (Tier 3 only).
-* If you are backing up for archive mailboxes, click the *ARCHIVE* tab (Tier 3 only).
+* If you are backing up shared mailboxes (Tier 3 only), click the *SHARED* tab. 
+* If you are backing up archive mailboxes (Tier 3 only), click the *ARCHIVE* tab.
 * If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 
 b. For SharePoint

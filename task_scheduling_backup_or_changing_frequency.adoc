@@ -26,8 +26,8 @@ If you want to change the backup frequency of protected data, you can assign the
 image:number_protected_unprotected.gif[]
 2. Select your backup options.
 a. For Exchange
-* If you are backing up or changing the backup policy for shared mailboxes, click the *SHARED* tab.
-* If you are backing up or changing the backup policy for archive mailboxes, click the *ARCHIVE* tab.
+* If you are backing up for shared mailboxes, click the *SHARED* tab (Tier 3 only).
+* If you are backing up for archive mailboxes, click the *ARCHIVE* tab (Tier 3 only).
 * If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 
 b. For SharePoint
@@ -38,9 +38,8 @@ c. For OneDrive
 * If you are backing up or changing the backup policy for users, remain on the *USER* tab.
 
 d. For Office 365 groups
-* If you are backing up or changing the backup policy for groups, remain on the *GROUPS* tab.
-* If you are backing up or changing the backup policy for teams, click the *TEAMS* tab.
-NOTE: Teams backup is currently available for customers in Europe.
+* If you are backing up groups (Tier 3 only), remain on the *GROUPS* tab.
+* If you are backing up teams (Tier 3 only), click the *TEAMS* tab.
 
 3. Select the items you want to backup.
 4. Click the *Groups* menu.

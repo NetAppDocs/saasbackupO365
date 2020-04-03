@@ -17,8 +17,8 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 [.lead]
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
-== April 2020
-* SaaS Backup for Office 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat. This feature is currently available to customers in Europe and must be requested through Support. 
+== March/April 2020
+* SaaS Backup for Office 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat. 
 link:task_performing_immediate_backup_of_service.html[Performing an immediate backup of a service]
 
 To enable this feature, go to link:https://mysupport.netapp.com/[Support] and submit a request.

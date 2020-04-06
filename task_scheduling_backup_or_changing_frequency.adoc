@@ -26,7 +26,7 @@ If you want to change the backup frequency of protected data, you can assign the
 image:number_protected_unprotected.gif[]
 2. Select your backup options.
 a. For Exchange
-* If you are backing up shared mailboxes (Tier 3 only), click the *SHARED* tab. 
+* If you are backing up shared mailboxes (Tier 3 only), click the *SHARED* tab.
 * If you are backing up archive mailboxes (Tier 3 only), click the *ARCHIVE* tab.
 * If you are backing up or changing regular mailboxes, remain on the *USER* tab.
 
@@ -46,5 +46,6 @@ d. For Office 365 groups
 +
 image:groups_menu.gif[Groups Menu]
 5. Select the new policy tier for the backup.
-  *Note*:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
+NOTE:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
+
 6.	Click *Apply*.

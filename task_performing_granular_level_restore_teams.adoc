@@ -70,7 +70,7 @@ image:granular_level_restore_sharepoint_site_option.gif[image of highlighted sit
 .	Click the site for which you need to perform the granular-level restore.
 . Select the category that you need to restore.
 +
-*Note*: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
+NOTE: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
 
 . Select a restore option:
 +

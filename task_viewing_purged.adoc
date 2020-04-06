@@ -22,6 +22,6 @@ You can view a list of mailboxes or user accounts that have been purged.
 . Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup user id in the top left corner.
 . Select *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
-. Under *Purge Data*, click *Show Purged List*
+. Under *Purge Data*, click *Show Purged List*.
 +
 You can view a list of items scheduled to be purged and a list of items that have already been purged.

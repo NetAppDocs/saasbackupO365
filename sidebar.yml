@@ -5,6 +5,8 @@ entries:
     entries:
     - title: What's new
       url: /reference_new_saasbackupO365.html
+    - title: What's new archive
+      url: /reference_new_archived.html  
     - title: Known problems and limitations
       url: /reference_kpls.html
   - title: Concepts
@@ -95,6 +97,8 @@ entries:
           url: /task_performing_granular_level_restore_sharepoint.html
         - title: For OneDrive
           url: /task_performing_granular_level_restore_onedrive.html
+        - title: For TeamsChat
+          url: task_performing_granular_level_restore_teams.html
       - title: Restoring from a previous backup
         url: /task_restoring_from_previous_backup.html
       - title: Finding restored files
@@ -164,7 +168,7 @@ entries:
     - title: Viewing deprovisioned items
       url: /task_viewing_deprovisioned.html
     - title: Viewing purged data
-      url: /task_viewing_purged.html  
+      url: /task_viewing_purged.html
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

@@ -36,7 +36,7 @@ image:granular_level_restore_mailbox_mail_option.gif[image of highlighted mail o
 .. To restore an inbox, select *Inbox* and click *Restore*.
 ... Select *Restore to the same mailbox* or *Export Data*.
 +
-If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
+If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
 ... Click *Confirm*.
 
 * Select the *Calendar* option to restore the calendar to the same mailbox or export data.

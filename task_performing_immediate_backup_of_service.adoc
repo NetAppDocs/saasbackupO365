@@ -36,7 +36,7 @@ d. For Office 365 groups
 * If you are backing up groups, remain on the *GROUPS* tab.
 * If you are backing up teams, click the *TEAMS* tab.
 +
-NOTE: TeamsChat messages are only backed up if TeamsChat is enabled under settings. Reach out to link:https://mysupport.netapp.com/[Support] to enable this feature.
+NOTE: TeamsChat messages are only backed up if TeamsChat is enabled under settings. Contact link:https://mysupport.netapp.com/[Support] to enable this feature.
 +
 
 NOTE: Due to API limitations, SaaS backup cannot differentiate between public and private channels.

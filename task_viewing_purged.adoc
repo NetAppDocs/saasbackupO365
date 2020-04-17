@@ -17,8 +17,6 @@ summary: You can view a list of mailboxes or user accounts that have been purged
 [.lead]
 You can view a list of mailboxes or user accounts that have been purged.
 
-video::9Gl6r-d-VP4[youtube, width=848, height=480]
-
 .Steps
 
 . Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup user id in the top left corner.

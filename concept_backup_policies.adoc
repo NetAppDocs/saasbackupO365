@@ -23,11 +23,12 @@ You can move data between the three policies, but you cannot create new policies
 
 [options="header" width="80%"]
 |=======
-|Backup policy |Backup frequency |Data retention period
-|Tier 1 |Once every 12 hours |Unlimited
-|Tier 2 |Once every 18 hours |Unlimited
-|Tier 3 |Once every 24 hours |Unlimited
+|Backup policy |Backup frequency |Default data retention period
+|Tier 1 |Once every 12 hours |3 years
+|Tier 2 |Once every 18 hours |3 years
+|Tier 3 |Once every 24 hours |3 years
 |=======
+NOTE: As an administrator, you can change the data retention period for SaaS Backup provided storage up to an unlimited period of time.
 
 == Backup policies for BYOS
 

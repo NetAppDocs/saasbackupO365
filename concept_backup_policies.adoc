@@ -28,6 +28,7 @@ You can move data between the three policies, but you cannot create new policies
 |Tier 2 |Once every 18 hours |3 years
 |Tier 3 |Once every 24 hours |3 years
 |=======
+
 NOTE: As an administrator, you can change the data retention period for SaaS Backup provided storage up to an unlimited period of time.
 
 == Backup policies for BYOS

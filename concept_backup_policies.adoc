@@ -24,9 +24,9 @@ You can move data between the three policies, but you cannot create new policies
 [options="header" width="80%"]
 |=======
 |Backup policy |Backup frequency |Data retention period
-|Tier 1 |Once every 12 hours |up to 10 years / Unlimited
-|Tier 2 |Once every 18 hours |up to 10 years / Unlimited
-|Tier 3 |Once every 24 hours |up to 10 years / Unlimited
+|Tier 1 |Once every 12 hours |Up to 10 years / Unlimited
+|Tier 2 |Once every 18 hours |Up to 10 years / Unlimited
+|Tier 3 |Once every 24 hours |Up to 10 years / Unlimited
 |=======
 
 == Backup policies for BYOS

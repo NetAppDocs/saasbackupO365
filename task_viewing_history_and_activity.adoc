@@ -17,6 +17,8 @@ summary: You can view or download a log of the SaaS Backup activities and job hi
 [.lead]
 SaaS Backup for Office 365 stores a log of your job history and a log of all activities performed inside SaaS Backup.
 
+video::xGVHUZdfJFM[youtube, width=848, height=480]
+
 == Viewing Job History
 NetApp SaaS Backup for Office 365 stores a log of all jobs that includes the job type, service, start time, end time, and completion status.
 

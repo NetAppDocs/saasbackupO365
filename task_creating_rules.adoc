@@ -26,6 +26,8 @@ image:rules.gif[Example of user defined filter and SaaS Backup defined filter fo
 
 You can create multiple rules.  The rules are applied in the order they appear in the *Manage Rules* list.
 
+video::jYopYhUk8NA[youtube, width=848, height=480]
+
 .Steps
 
 . From the Dashboard, click the number above *UNPROTECTED* in the box of the service for which you want to create rules.

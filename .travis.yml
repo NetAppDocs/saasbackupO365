@@ -8,8 +8,10 @@ before_install:
 - echo -e "machine github.com\n login $GH_TOKEN" > ~/.netrc && chmod 600 ~/.netrc
 - git submodule add https://github.com/NetAppDocs/jekyll dependencies/jekyll
 - gem update --system && gem install bundler && gem update bundler
-- if [[ "$TRAVIS_BRANCH" =~ master ]]; then
-  mv -f dependencies/jekyll/_config.stage.yml dependencies/jekyll/_config.yml;
+- if [[ "$TRAVIS_BRANCH" =~ master && $TRAVIS_PULL_REQUEST -eq 0 && -z "$TRAVIS_PULL_REQUEST_BRANCH" ]]; then
+  echo "Site Translation Enabled";
+  else
+  unset MT_TOKEN;
   fi
 - mv dependencies/jekyll/prod-build.sh ./ && ./prod-build.sh
 - sudo apt-get -y install graphicsmagick graphicsmagick-libmagick-dev-compat libmagickwand-dev

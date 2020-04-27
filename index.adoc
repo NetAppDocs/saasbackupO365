@@ -10,7 +10,7 @@ summary: Welcome to the documentation portal for NetApp SaaS Backup for Office 3
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords: ontap, cloud, amazon web services, saas backup, microsoft office 365, microsoft office exchange, onedrive for business, sharepoint online, teams, saas restore, documentation
+:keywords: ontap, cloud, amazon web services, saas backup, microsoft office 365, microsoft office exchange, onedrive for business, sharepoint online, groups, teams, saas restore, documentation
 
 NetApp SaaS Backup is a secure, web-based, software-as-a-service (SaaS) offering that backs up your Microsoft Office 365 data to Amazon S3 storage, Microsoft Azure Blob storage, or StorageGRID Webscale object storage.
 

@@ -17,7 +17,7 @@ summary: You can manage your service in various ways within NetApp SaaS Backup i
 [.lead]
 You can completely remove all the data associated with a user, site collection, or Office 365 group. Purged data is recoverable for seven days.  After seven days, the data is permanently deleted and the user license is automatically released.
 
-video::9Gl6r-d-VP4[youtube, width=848, height=480]
+//video::9Gl6r-d-VP4[youtube, width=848, height=480]
 
 .Steps
 

@@ -17,6 +17,6 @@ You can get help and find more information in the NetApp SaaS Backup for Office 
 
 These resources can be accessed inside SaaS Backup through the *Support* link on the navigation menu.
 
-video::pVmxNj1ClKo[youtube, width=848, height=480]
+//video::pVmxNj1ClKo[youtube, width=848, height=480]
 
 You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.

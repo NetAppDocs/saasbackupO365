@@ -6,7 +6,7 @@ entries:
     - title: What's new
       url: /reference_new_saasbackupO365.html
     - title: What's new archive
-      url: /reference_new_archived.html  
+      url: /reference_new_archived.html
     - title: Known problems and limitations
       url: /reference_kpls.html
   - title: Concepts
@@ -97,7 +97,7 @@ entries:
           url: /task_performing_granular_level_restore_sharepoint.html
         - title: For OneDrive
           url: /task_performing_granular_level_restore_onedrive.html
-        - title: For TeamsChat
+        - title: For Groups/Teams
           url: task_performing_granular_level_restore_teams.html
       - title: Restoring from a previous backup
         url: /task_restoring_from_previous_backup.html

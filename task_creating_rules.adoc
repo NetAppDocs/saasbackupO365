@@ -26,7 +26,7 @@ image:rules.gif[Example of user defined filter and SaaS Backup defined filter fo
 
 You can create multiple rules.  The rules are applied in the order they appear in the *Manage Rules* list.
 
-video::jYopYhUk8NA[youtube, width=848, height=480]
+//video::jYopYhUk8NA[youtube, width=848, height=480]
 
 .Steps
 

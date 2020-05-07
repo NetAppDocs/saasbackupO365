@@ -36,7 +36,7 @@ image:number_protected_exchange.gif[screen shot of number of protected instances
 . Select the category (Mail, Tasks, Contacts, or Other) that you need to restore.
 +
 *Note*: If you want to restore a single item inside the category, click the category, and then select the items that you want to restore.
-. Click image:restore.gif[image of restore button]
+. Click *Restore*.
 . Select a restore option.
 * Restore to the same mailbox
 +
@@ -56,7 +56,7 @@ If you export to PST, you will receive a notification email with the location of
 
 * Export (Available for Office 365 groups only):
 +
-If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created is your Microsoft SharePoint sites.  You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
+If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created in your Microsoft SharePoint sites.  You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
 
 . Click *Confirm*.
 +

@@ -1,0 +1,33 @@
+---
+sidebar: sidebar
+permalink: task_viewing_deleted.html
+keywords: netapp, saas backup, office 365, viewing, jobs, deleted, items, SharePoint
+summary: You can view deleted items from SharePoint services if you switch on deleted items from Service Settings.
+---
+
+= Viewing deleted items in SharePoint Online
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can view deleted items from SharePoint services at any time by switching on *Show deleted items* in Service Settings. This helps you save time; instead of browsing through different backups for deleted items, turn on the switch to find the deleted items immediately.
+
+We recommend turning off the switch when you've found what you're looking for.
+
+.Steps
+
+.	Click *SERVICES* on the left navigation pane.
+. Click the Settings icon image:settings_icon.gif[Image shows the settings icon].
++
+image:show_deleted_items_switch_off.gif[Image shows the deleted items switch off]
+. Turn on the *Show Deleted Items* switch.
++
+image:show_deleted_items_switch_on.gif[Image shows the deleted items switch on and backup settings updated]
+
+. Click *Jobs* on the left navigation pane.
+. Open the most recent backup to see the deleted items.

@@ -53,7 +53,8 @@ image:granular_level_restore_mailbox_conversations_option.gif[image of highlight
 +
 .. Select the conversations you want to restore and click *Restore*.
 +
-Click *View Conversations* to see a list of all conversations from the last five backups in order by date.
+NOTE: *View Conversations* shows you a list of all conversations from the last five backups only even if you set the range to more than five backups.
+
 .. Click *Confirm*.
 
 == Restore SharePoint sites
@@ -72,6 +73,7 @@ image:granular_level_restore_sharepoint_site_option.gif[image of highlighted sit
 +
 NOTE: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
 
+. Click *Restore*.
 . Select a restore option:
 +
 * Restore to the same site
@@ -92,6 +94,7 @@ Select this granular-level restore to restore channels.
 image:granular_level_restore_channel_option.gif[image of highlighted channels option]
 +
 . Select the channel to restore.
+. Click *Restore*.
 . Select the restore option:
 .. Click *Restore to the same team*.
 .. Click *Restore to another team*. To select the other team for the restore to another team option, search for the other team in the search box.

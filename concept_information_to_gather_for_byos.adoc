@@ -26,8 +26,7 @@ If you choose to use Amazon S3 or Azure Blob storage provided by SaaS Backup, yo
 
 - StorageGRID Webscale
 +
-.Note
-SaaS Backup does not create the StorageGRID Webscale bucket.  It must already exist.
+NOTE: SaaS Backup does not create the StorageGRID Webscale bucket.  It must already exist.
 
   * Host/IP address
     You must have a public IP address and a domain name with a certificate, for example, webscale.netapp.com. You must also be using Transport Layer Security (TLS) protocol 1.2.

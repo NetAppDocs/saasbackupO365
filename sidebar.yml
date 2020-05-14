@@ -169,6 +169,8 @@ entries:
       url: /task_viewing_deprovisioned.html
     - title: Viewing purged data
       url: /task_viewing_purged.html
+    - title: Viewing deleted items
+      url: /task_viewing_deleted.html
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

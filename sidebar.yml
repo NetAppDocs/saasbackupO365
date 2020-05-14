@@ -97,7 +97,7 @@ entries:
           url: /task_performing_granular_level_restore_sharepoint.html
         - title: For OneDrive
           url: /task_performing_granular_level_restore_onedrive.html
-        - title: For Groups/Teams
+        - title: For TeamsChat
           url: task_performing_granular_level_restore_teams.html
       - title: Restoring from a previous backup
         url: /task_restoring_from_previous_backup.html
@@ -170,7 +170,7 @@ entries:
     - title: Viewing purged data
       url: /task_viewing_purged.html
     - title: Viewing deleted items
-      url: /task_viewing_deleted.html
+      url: /task_viewing_deleted.html 
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

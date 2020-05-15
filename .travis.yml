@@ -8,6 +8,7 @@ before_install:
 - echo -e "machine github.com\n login $GH_TOKEN" > ~/.netrc && chmod 600 ~/.netrc
 - git submodule add https://github.com/NetAppDocs/jekyll dependencies/jekyll
 - gem update --system && gem install bundler && gem update bundler
+- if [[ -z "$DEPLOY_BRANCH" ]]; then export DEPLOY_BRANCH=gh-pages; fi
 - if [[ "$TRAVIS_BRANCH" =~ master && $TRAVIS_PULL_REQUEST -eq 0 && -z "$TRAVIS_PULL_REQUEST_BRANCH" ]]; then
   echo "Site Translation Enabled";
   else
@@ -17,4 +18,14 @@ before_install:
 - sudo apt-get -y install graphicsmagick graphicsmagick-libmagick-dev-compat libmagickwand-dev
 script:
 - if [[ ! -z "$FEATURE_FLAG" ]]; then bundle exec rake buildAll; fi
-- bundle exec rake deploy
+- mkdir -p /tmp/output && bundle exec jekyll build --destination /tmp/output
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  keep_history: false
+  local_dir: /tmp/output
+  target_branch: $DEPLOY_BRANCH
+  verbose: true
+  on:
+    all_branches: true

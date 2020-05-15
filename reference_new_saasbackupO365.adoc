@@ -25,8 +25,9 @@ image:date_range_browse_feature.gif[Image shows how to set the date range for br
 * SaaS Backup for Office 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat.
 +
 link:task_performing_immediate_backup_of_service.html[Performing an immediate backup of a service]
-
++
 To enable this feature, go to link:https://mysupport.netapp.com/[Support] and submit a request.
++
 
 You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 

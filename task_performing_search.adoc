@@ -20,8 +20,8 @@ You can use inline search for Microsoft Exchange Online, Microsoft OneDrive for 
 == Searching options for Microsoft Exchange Online
 You can perform an inline search or an advanced search.
 
-<<Performing an inline search inside Microsoft Exchange Online>>
-<<Using Advanced Search for Microsoft Exchange Online>>
+* <<Performing an inline search inside Microsoft Exchange Online>>
+* <<Using Advanced Search for Microsoft Exchange Online>>
 
 === Performing an inline search inside Microsoft Exchange Online
 You can perform an inline search within an individual mailbox for specific content. This also applies to mailboxes that are part of an Office 365 Group.

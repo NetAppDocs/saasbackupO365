@@ -14,6 +14,11 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
+* The following limitations exist for the backup setting Enabled Advanced Search:
+** The feature is only available for Microsoft Exchange Online.
+** The setting is disabled by default. A customer must request to enable this feature.
+    After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
+
 * The following limitations exist for TeamsChat:
 ** Backup or restore for emojis and gifs is not supported.
 ** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
@@ -21,26 +26,6 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 ** Team chat conversations only export option is Export to HTML.
 +
 Attachment links posted in conversations are not visible in the html document.
-
-//** Inability to remove sync state information and conversation data, such as json or .pst files, during a purge.
-//** Restore of Mailbox & SharePoint restores data only, not conversations.
-//** Export to Data failure for teams with team names containing special characters.
-
-//** Team Level Restore
-//*** Restore of deprovisioned (deleted) items to the same team option always fails. Only Export to Data is supported.
-//***	Restore of content to same team is not supported.
-//*** Restore of Tabs is possible but restore of tab content is not.
-//*** Restore to different team is not supported.
-
-
-//** Channel Level Restore Limitations
-//*** Restore of one or more conversations to the same channel or another channel.
-//*** Restore of one channel to another channel from SaaS Backup Portal.
-//*** Tab content restore is not supported.
-//*** Export to Data restore is not supported.
-
-//** Conversation Level Restore
-//Exported HTML generates conversation ID instead of conversation name.
 
 * The following limitations exist for OneNote:
 ** Export to data is not available.

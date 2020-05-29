@@ -24,6 +24,13 @@ You can update your backup settings to control various backup options. Available
 |Enabled
 |Available in...
 
+// |Enabled Advanced Search a|
+//Enables the user to
+
+// |Disabled a|
+
+//* Microsoft Exchange Online
+
 |Auto Sync a|
 Enables the automatic scheduled synchronization of newly added or deleted users, OneDrives, or site collections once every 24 hours.
 |By default a|

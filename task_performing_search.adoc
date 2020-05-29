@@ -20,7 +20,7 @@ You can use inline search for Microsoft Exchange Online, Microsoft OneDrive for 
 == Searching options for Microsoft Exchange Online
 You can perform an inline search or an advanced search.
 
-<<Searching inside Microsoft Exchange Online>>
+<<Performing an inline search inside Microsoft Exchange Online>>
 <<Using Advanced Search for Microsoft Exchange Online>>
 
 === Performing an inline search inside Microsoft Exchange Online

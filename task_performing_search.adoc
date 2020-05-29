@@ -23,7 +23,7 @@ You can perform an inline search or an advanced search.
 <<Searching inside Microsoft Exchange Online>>
 <<Using Advanced Search for Microsoft Exchange Online>>
 
-=== Searching inside Microsoft Exchange Online
+=== Performing an inline search inside Microsoft Exchange Online
 You can perform an inline search within an individual mailbox for specific content. This also applies to mailboxes that are part of an Office 365 Group.
 
 .Steps
@@ -40,19 +40,21 @@ You can perform an inline search within an individual mailbox for specific conte
      The search is automatically performed and results are displayed after the search string is entered.
 
 === Using Advanced Search for Microsoft Exchange Online
-You can search for individual or shared mailbox items. If you have not contacted us to enable this feature, follow the instructions in the June 2020 link:reference_new_saasbackupO365.html[New features and updates].
+You can search for individual or shared mailbox items and restore these items to their original mailbox. To enable this setting, refer to the June 2020 link:reference_new_saasbackupO365.html[New features and updates] release notes.
 
 //You can enable advanced search in settings for Microsoft Exchange Online. Once enabled, you can search for individual or shared mailbox items.
 
-Advanced Search gives users the option to perform a search for individual or shared mailbox items under *Perform Search*, find previous search jobs under *Previous Search Jobs*, and enable/disable the search feature under *Advanced Search Settings*.
+* <<Setting advanced search settings>>
+* <<Performing a search>>
+* <<Finding previous search jobs>>
 
-Setting Advanced Search Settings
+==== Setting advanced search settings
+*Advanced Search Settings* gives users the option to enable or disable the search feature.
 
 .Steps
 . From the dashboard, click *Advanced Search* in the left menu.
 . Click *Advanced Search Settings*.
-  By default, the list displays all licensed users.
-  Toggle between *Show All Users* and *Show Only Licensed Users* to filter the user type in the list.
+  By default, the list displays all licensed users. Toggle between *Show All Users* and *Show Only Licensed Users* to filter the user type in the list.
   Use the Search tool and type at least three characters to find a unique user.
 +
 
@@ -63,7 +65,8 @@ NOTE: Licensed and unlicensed users can use the advanced search feature if enabl
 . To save your changes to the settings, click *Save Settings*.
 . To backup the enabled users, go to link:task_scheduling_backup_or_changing_frequency.html[Scheduling a backup or changing backup frequency] and remain on the *User* tab to select the users for backup.
 
-Performing a Search
+==== Performing a search
+Advanced Search gives users the option to perform a search for individual or shared mailbox items and restore these items to their original mailbox under *Perform Search*.
 
 .Steps
 . From the dashboard, click *Advanced Search* in the left menu.
@@ -87,7 +90,8 @@ Performing a Search
 .	Click *Search*.
 .	To find your search job, go to Finding Previous Search Jobs below.
 
-Finding Previous Search Jobs
+==== Finding previous search jobs
+Advanced Search gives users the option to find previous search jobs under *Previous Search Jobs*
 
 .Steps
 . From the dashboard, click *Advanced Search* in the left menu.

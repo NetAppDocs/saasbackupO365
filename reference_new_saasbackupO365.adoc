@@ -18,7 +18,7 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
 == June 2020
-* SaaS Backup for Microsoft Office 365 now supports advanced search capabilities for Exchange Online users for up to six months. Once enabled, a user can search for individual or shared mailbox items and restore those items to the original mailbox.
+* SaaS Backup for Microsoft Office 365 now supports advanced search capabilities for Exchange Online users for up to six months. Once enabled, a user can search for individual, shared, and archive mailbox items and restore those items to the original mailbox.
 +
 link:task_performing_search.html[Performing a search]
 +

@@ -52,9 +52,17 @@ image:restore.gif[image of restore button]
 .. If you are restoring MySites for *Microsoft OneDrive for Business*, select one of the following options:
    * Restore to the same MySite
    * Restore to a different MySite
-     If you restore to a different MySite, you must enter the destination MySite in the search field. You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
+     If you restore to a different MySite, enter the destination MySite in the search field. You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
    * Export
       If you export, a .zip file is created with your MySites.  You will receive a notification email containing an authenticated URL to the location of the .zip file.
+.. If you are restoring sites for *Microsoft SharePoint Online*, select one of the following options:
+  * Restore to the same site
+    If you select *Restore Only Roles*, only the roles and permissions restore.
+    image:sharepoint_restore_only_roles.png[Image shows restore window with restore only roles option selected]
+  * Restore to another site
+    If you restore to another site, enter the destination site in the search field. You can type in a portion of the destination site in the search field to initiate an automatic search for matching destination sites.
+  * Export data
+    If you export, a .zip file is created with your site collection.  You will receive a notification email containing an authenticated URL to the location of the .zip file.
 . Click *Confirm*.
   A message is displayed indicating that the restore job was created.
 . Click *View the job progress* to monitor the progress of the restore.

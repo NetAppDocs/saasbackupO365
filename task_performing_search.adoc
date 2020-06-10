@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_performing_search.html
-keywords: netapp, saas backup, office 365, search, searching, performing, exchange, sharePoint, oneDrive, online
+keywords: netapp, saas backup, office 365, search, searching, advanced search, performing, exchange, sharePoint, oneDrive, online
 summary: You can use inline search to find specific content.
 ---
 
@@ -56,7 +56,10 @@ You can search for individual or shared mailbox items and restore these items to
 . Click *Advanced Search Settings*.
   By default, the list displays all licensed users. Toggle between *Show All Users* and *Show Only Licensed Users* to filter the user type in the list.
   Use the Search tool and type at least three characters to find a unique user.
+  Open *Advanced Settings* to enable search for archive mailbox items.
+  image:advanced_search_settings.png[image shows advanced search settings]
 +
+NOTE: By default, advanced search is disabled for all users. This feature can only be enabled at the individual user level in *Advanced Search Settings* under the *Advanced Search* column.  
 
 NOTE: Licensed and unlicensed users can use the advanced search feature if enabled.
 
@@ -73,10 +76,11 @@ Advanced Search gives users the option to perform a search for individual or sha
 .	Click *Perform Search*.
 .	Enter information into the required fields with a red asterisk.
   Optional fields: Conditions and Query Conditions.
-  image:perform_search_options.png[Image shows perform search options with two required items]
+  image:advanced_search_box.png[Image shows perform search options with two required items]
 
 * Select User*: Type at least three letters in the user’s name to find the user you want to select.
-* Search*: Type at least three characters in a keyword. If you want to search a phrase, place the   words in the phrase inside quotations (example: “Hello world”). If the words can be searched separately, quotes are not needed.
+* Search*: Type at least three characters in a keyword. If you want to search a phrase, place the words in the phrase inside quotations (example: “Hello world”). If the words can be searched separately, quotes are not needed.
+* Exact match:
 * Conditions:
 ** Items: Select items to search for all items in the mailbox.
 ** Folder Name:  Select folder name to search for items in a specific folder in the mailbox. Type the folder name in the text box provided.
@@ -84,7 +88,7 @@ Advanced Search gives users the option to perform a search for individual or sha
 * Size in bytes: From the size in bytes drop down menu select either *Greater Than (>)* or *Lesser Than (<)*. Then enter the size in bytes.
 * From: Enter the email address for the sender.
 * To: Enter the email address for the receiver.
-* Subject: Check this box to?
+* Subject: Check this box search by subject only.
 * Has attachment: Check this box if the email item or items have attachments.
 +
 .	Click *Search*.

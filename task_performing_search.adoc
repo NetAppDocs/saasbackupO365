@@ -59,7 +59,7 @@ NOTE: Licensed and unlicensed users can use the advanced search feature if enabl
   * By default, the list displays all licensed users. Toggle between *Show All Users* and *Show Only Licensed Users* to filter the user type in the list.
   * Use the Search tool and type at least three characters to find a unique user.
   * Open *Advanced Settings* to enable search for archive mailbox items.
-  image:advanced_search_settings.png[image shows advanced search settings.
+  image:advanced_search_settings.png[image shows advanced search settings].
 . To enable a user, under the *Advanced Search* column, select *On*.
   The next time you protect that enabled user in a full or incremental backup, you can perform a search of any new email items.
 . To save your changes to the settings, click *Save Settings*.

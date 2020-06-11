@@ -77,16 +77,16 @@ Advanced Search gives users the option to perform a search for individual or sha
 
 * Select User*: Type at least three letters in the user’s name to find the user you want to select.
 * Search*: Type at least three characters in a keyword. If you want to search a phrase, place the words in the phrase inside quotations (example: “Hello world”). If the words can be searched separately, quotes are not needed.
-* Exact match:
+* Exact match: Select if you want to search only for the exact keywords.
 * Conditions:
 ** Items: Select items to search for all items in the mailbox.
 ** Folder Name:  Select folder name to search for items in a specific folder in the mailbox. Type the folder name in the text box provided.
-* Date range: From the date range drop down menu select either *Last 7 Days* or *Custom Range* to input start and end date for the search.
-* Size in bytes: From the size in bytes drop down menu select either *Greater Than (>)* or *Lesser Than (<)*. Then enter the size in bytes.
+* Date range: From the date range drop down menu, select either *Last 7 Days* or *Custom Range* to input start and end date for the search.
+* Size in bytes: From the size in bytes drop down menu, select either *Greater Than (>)* or *Lesser Than (<)*. Then enter the size in bytes.
 * From: Enter the email address for the sender.
 * To: Enter the email address for the receiver.
-* Subject: Check this box search by subject only.
-* Has attachment: Check this box if the email item or items have attachments.
+* Subject: Select to search only by subject.
+* Has attachment: Select if the email item or items have attachments.
 +
 .	Click *Search*.
 .	To find your search job, go to Finding Previous Search Jobs below.

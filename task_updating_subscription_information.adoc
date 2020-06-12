@@ -5,7 +5,7 @@ keywords: netapp, saas backup, renew, updating, add-on, add, on, license, subscr
 summary: You can update, add, or renew a license.
 ---
 
-= Update subscription information
+= Updating subscription information
 :toc: macro
 :toclevels: 1
 :hardbreaks:

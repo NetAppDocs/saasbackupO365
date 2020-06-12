@@ -115,8 +115,8 @@ entries:
       entries:
       - title: Adding a license
         url: /task_adding_a_license.html
-      - title: Activating an add-on license
-        url: /task_activating_an_add_on_license.html
+      - title: Updating subscription information
+        url: /task_updating_subscription_information.html
       - title: Releasing a user license
         url: /task_releasing_a_user_license.html
     - title: Managing rules
@@ -170,7 +170,7 @@ entries:
     - title: Viewing purged data
       url: /task_viewing_purged.html
     - title: Viewing deleted items
-      url: /task_viewing_deleted.html 
+      url: /task_viewing_deleted.html
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

@@ -33,6 +33,9 @@ image:number_protected_unprotected.gif[screenshot of number of protected and unp
 +
 image:restore.gif[image of restore button]
 . Select a restore option:
++
+NOTE: If you select the export to PST restore option, the provided link is valid for 7 days and is pre-authenticated.
+
 .. If you are restoring mailboxes for *Microsoft Exchange Online* select one of the following options:
    * Restore to the same mailbox
    * Export to PST

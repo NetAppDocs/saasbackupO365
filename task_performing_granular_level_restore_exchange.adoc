@@ -40,7 +40,7 @@ NOTE: If you want to restore a single item inside the category, click the catego
 . Click *Restore*.
 . Select a restore option.
 +
-NOTE: If you select the export to PST restore option, the provided link is valid for 7 days and is pre-authenticated.
+NOTE: If you select the export to PST restore option, the provided link is valid for seven days and is pre-authenticated.
 
 * Restore to the same mailbox
 +

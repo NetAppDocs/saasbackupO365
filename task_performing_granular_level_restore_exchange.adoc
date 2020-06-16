@@ -35,9 +35,13 @@ image:number_protected_exchange.gif[screen shot of number of protected instances
   For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
 . Select the category (Mail, Tasks, Contacts, or Other) that you need to restore.
 +
-*Note*: If you want to restore a single item inside the category, click the category, and then select the items that you want to restore.
+NOTE: If you want to restore a single item inside the category, click the category, and then select the items that you want to restore.
+
 . Click *Restore*.
 . Select a restore option.
++
+NOTE: If you select the export to PST restore option, the provided link is valid for seven days and is pre-authenticated.
+
 * Restore to the same mailbox
 +
 If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.

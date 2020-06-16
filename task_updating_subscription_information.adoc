@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: task_activating_an_add_on_license.html
-keywords: netapp, saas backup, activating, add-on, add, on, license
-summary: You can add or release a license.
+permalink: task_updating_subscription_information.html
+keywords: netapp, saas backup, renew, updating, add-on, add, on, license, subscription, extension
+summary: You can update, add, or renew a license.
 ---
 
-= Activating an add-on license
+= Updating subscription information
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -15,7 +15,7 @@ summary: You can add or release a license.
 :imagesdir: ./media/
 
 [.lead]
-After purchasing an add-on license, you must renew your subscription details inside of SaaS Backup in order to activate the license.
+After you purchase an add-on license or subscription extension, renew your subscription details inside of SaaS Backup in order to update the subscription information.
 
 *Note:* Any regular user mailbox, whether protected or unprotected, consumes a license.  Shared mailboxes do not consume a license.
 

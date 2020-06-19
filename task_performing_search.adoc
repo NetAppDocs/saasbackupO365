@@ -80,7 +80,7 @@ Advanced Search gives users the option to perform a search for individual or sha
 * Exact match: Select if you want to search only for the exact keywords.
 * Conditions:
 ** Items: Select items to search for all items in the mailbox.
-** Folder Name:  Select folder name to search for items in a specific folder in the mailbox. Type the folder name in the text box provided.
+** Folder Name: Select folder name to search for items in a specific folder in the mailbox. Type the folder name in the text box provided.
 * Date range: From the date range drop down menu, select either *Last 7 Days* or *Custom Range* to input start and end date for the search.
 * Size in bytes: From the size in bytes drop down menu, select either *Greater Than (>)* or *Lesser Than (<)*. Then enter the size in bytes.
 * From: Enter the email address for the sender.

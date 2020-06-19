@@ -14,10 +14,10 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
-//* The following limitations exist for the backup setting Enabled Advanced Search:
-//** The feature is only available for Microsoft Exchange Online.
-//** The setting is disabled by default. A customer must request to enable this feature.
-//After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
+* The following limitations exist for the backup setting Enabled Advanced Search:
+** The feature is only available for Microsoft Exchange Online.
+** The setting is disabled by default. A customer must request to enable this feature.
+After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
 
 * The following limitations exist for TeamsChat:
 ** Backup or restore for emojis and gifs is not supported.

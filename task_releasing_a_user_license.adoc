@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_releasing_a_user_license.html
-keywords: netapp, saas backup, releasing, reassigning, user, license
+keywords: netapp, saas backup, releasing, reassigning, user, license, shared, mailbox
 summary: Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.
 ---
 
@@ -17,7 +17,8 @@ summary: Any regular user mailbox, whether protected or unprotected, consumes a 
 [.lead]
 Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.  When a user license is released, the user is moved to the unprotected tier and backups for that user are discontinued.
 
-NOTE: Share mailboxes do not consume a license.
+NOTE: Shared mailboxes do not consume a license.
+//updated for GitHub Issue 76
 
 .Steps
 

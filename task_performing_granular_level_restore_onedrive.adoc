@@ -1,0 +1,63 @@
+---
+sidebar: sidebar
+permalink: task_performing_granular_level_restore_onedrive.html
+keywords: netapp, saas restores, office 365, high-level restores, granular restores, Microsoft OneDrive for Business
+summary: You can use SaaS Backup for Office 365 to perform high-level and granular level restores for Microsoft OneDrive for Business.
+---
+
+= Performing a granular-level restore for Microsoft OneDrive for Business
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Within Microsoft OneDrive for Business, you can restore granular-level items, such as individual folders or files, for a list or library. You can also restore OneNote notebooks or groups.
+
+By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+
+== Restore OneDrive files and folders
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in the OneDrive box.
+.	Click the MySite for which you need to perform the restore.
+. Select the group of files.
++
+*Note*: If you want to restore individual folders or files within a group, click on the group of files. To restore an entire folder, select the folder. To restore individual files within a folder, select the folder containing the files, and then select the individual files.
+. Click *Restore*.
+. Select a restore option:
+* Restore to the same MySite
++
+If you are restoring individual files to the same MySite, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
+
+* Restore to another MySite
++
+If you restore to another MySite, you must enter the destination MySite in the search field.  You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
+
+. Click *Confirm*.
+. Click *View the job progress* to monitor the progress of the restore.
+
+
+== Restore OneNote notebooks and groups for OneDrive
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in the OneDrive box.
+.	Click the MySite for which you need to perform the restore.
+. Click on the group of files.
+. Select the notebooks you want to restore.
++
+*Note*: If you want to restore a specific section within the notebook, click on the notebook and select the sections.
+. Click *Restore*.
+. Select a restore option:
+* Restore to the same MySite
++
+If you restore to the same MySite a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
+
+* Restore to another MySite
++
+If you restore to another MySite, you must enter the destination MySite in the search field.  You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites. A restore folder named CC_username_timestamp is created containing the backup copy.

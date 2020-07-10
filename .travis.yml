@@ -1,6 +1,5 @@
 sudo: false
-dist: trusty
-group: deprecated-2017Q4 # To fix NPM timeout errors
+dist: xenial
 language: ruby
 rvm:
 - 2.4.3
@@ -9,9 +8,24 @@ before_install:
 - echo -e "machine github.com\n login $GH_TOKEN" > ~/.netrc && chmod 600 ~/.netrc
 - git submodule add https://github.com/NetAppDocs/jekyll dependencies/jekyll
 - gem update --system && gem install bundler && gem update bundler
-- if [[ "$TRAVIS_BRANCH" =~ master ]]; then
-  mv -f dependencies/jekyll/_config.stage.yml dependencies/jekyll/_config.yml;
+- if [[ -z "$DEPLOY_BRANCH" ]]; then export DEPLOY_BRANCH=gh-pages; fi
+- if [[ "$TRAVIS_BRANCH" =~ master && $TRAVIS_PULL_REQUEST -eq 0 && -z "$TRAVIS_PULL_REQUEST_BRANCH" ]]; then
+  echo "Site Translation Enabled";
+  else
+  unset MT_TOKEN;
   fi
 - mv dependencies/jekyll/prod-build.sh ./ && ./prod-build.sh
+- sudo apt-get -y install graphicsmagick graphicsmagick-libmagick-dev-compat libmagickwand-dev
 script:
-- bundle exec rake deploy
+- if [[ ! -z "$FEATURE_FLAG" ]]; then bundle exec rake buildAll; fi
+- mkdir -p /tmp/output && bundle exec jekyll build --destination /tmp/output
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  keep_history: false
+  local_dir: /tmp/output
+  target_branch: $DEPLOY_BRANCH
+  verbose: true
+  on:
+    all_branches: true

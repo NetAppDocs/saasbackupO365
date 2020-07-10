@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: task_viewing_restore_file_locations.html
+keywords: netapp, saas backup, office 365, viewing, jobs, log, restore, file, locations
+summary: You can download a log of the title and location of restored files and folders.
+---
+
+= Locating restored files
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+When some files or folders are restored, they are contained inside a newly created restore folder.  To help you easily identify your restored items, you can download an Excel file with the names and locations of your restored files and folders.
+
+.Steps
+
+.	Click image:jobs_button.gif[Screenshot of jobs button] on the left navigation pane.
+. Under *Recent Completed Jobs*, click the job for which you want to find restored files.
+. Click *Download* in the upper right.
+An Excel file is downloaded locally containing the names and locations of restored files for the specific job.

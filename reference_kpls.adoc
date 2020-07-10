@@ -14,6 +14,27 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
+* The following limitations exist for the backup setting Enabled Advanced Search:
+** The feature is only available for Microsoft Exchange Online.
+** The setting is disabled by default. A customer must request to enable this feature.
+After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
 
+* The following limitations exist for TeamsChat:
+** Backup or restore for emojis and gifs is not supported.
+** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
+** High-level restore restores Mailbox & SharePoint data only, not conversations.
+** Team chat conversations only export option is Export to HTML.
++
+Attachment links posted in conversations are not visible in the html document.
+
+* The following limitations exist for OneNote:
+** Export to data is not available.
+** Incremental backup job might fail with the following error message:  `Partial Failure.  Failed to back up few OneNote Sections`
+** OneDrive backup includes the backup of .onebak files.
+** Restore statistics are not available for download.
 * Partially failed job status for restore of site collection group
   If an entire site collection group is deleted, the restore of private groups in the collection fails, resulting in a restore job status of “partially failed.”  If this happens, the site is not accessible from the GUI.
+* The following are not supported for OneNote:
+** Data export
+** Data purge
+* “Partial Failure. Failed to back up few Onenote Sections”

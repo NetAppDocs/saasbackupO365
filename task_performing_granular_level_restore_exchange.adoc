@@ -1,0 +1,69 @@
+---
+sidebar: sidebar
+permalink: task_performing_granular_level_restore_exchange.html
+keywords: netapp, saas restores, office 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes
+summary: You can use SaaS Backup for Office 365 to perform granular level restores for Microsoft Exchange Online 365.
+---
+
+= Performing a granular-level restore for Microsoft Exchange Online
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Within Microsoft Exchange Online, you can restore granular-level items for a single user, such as individual emails, tasks, contacts, and calendar events. You can also restore granular-level items for a Microsoft Office 365 group mailbox.
+
+By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+
+//video::yG-n3bm4DW8[youtube, width=848, height=480]
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in the Exchange box.
++
+image:number_protected_exchange.gif[screen shot of number of protected instances in Exchange]
+. Select your restore option.
+..  For shared mailboxes, click the *SHARED* tab.
+..  For archive mailboxes, click the *ARCHIVE* tab.
+..  For regular mailboxes, remain on the *USER* tab.
+.	Click the mailbox for which you need to perform the granular-level restore.
+.	Restore an entire Microsoft Office Exchange category or restore a specific item within a category.
+  For a Microsoft Office 365 Group mailbox, you only have the option to restore from the mail category or the calendar category.
+. Select the category (Mail, Tasks, Contacts, or Other) that you need to restore.
++
+NOTE: If you want to restore a single item inside the category, click the category, and then select the items that you want to restore.
+
+. Click *Restore*.
+. Select a restore option.
++
+NOTE: If you select the export to PST restore option, the provided link is valid for seven days and is pre-authenticated.
+
+* Restore to the same mailbox
++
+If you restore to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy. If you select *Replace the existing content*, then your current data is completely replaced by the backup.
++
+For Microsoft Office 365 Groups, you only have the option to restore to the same mailbox and you cannot replace the existing content.  For Microsoft Exchange Online, you can restore to the same mailbox and replace the existing content or you can restore to another mailbox.
+
+* Restore to another mailbox (Available for Microsoft Exchange only)
++
+If you restore to another mailbox, you must enter the destination mailbox in the search field.  You can type in a portion of the destination email address in the search field to initiate an automatic search for matching destination mailboxes.
+
+* Export to PST
++
+You can select to include all the category subfolders.
++
+If you export to PST, you will receive a notification email with the location of the PST file when the export is completed.  Note: This option is not available for Microsoft Office 365 Groups.
+
+* Export (Available for Office 365 groups only):
++
+If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created in your Microsoft SharePoint sites.  You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
+
+. Click *Confirm*.
++
+A message is displayed indicating that the restore job was created.
+. Click *View the job progress* to monitor the progress of the restore.
+. Click *View the job progress* to monitor the progress of the restore.

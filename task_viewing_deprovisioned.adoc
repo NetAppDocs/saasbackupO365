@@ -1,0 +1,24 @@
+---
+sidebar: sidebar
+permalink: task_viewing_deprovisioned.html
+keywords: netapp, saas backup, office 365, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites
+summary: You can view a list of mailboxes or user accounts that have been deleted.
+---
+
+= Viewing a list of deprovisioned items
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can view a list of mailboxes or user accounts that have been deprovisioned.
+
+.Steps
+
+.	Click *SERVICES* on the left navigation pane.
+. In the desired service, click the number of unprotected items.
+. Click the *DEPROVISIONED* tab.

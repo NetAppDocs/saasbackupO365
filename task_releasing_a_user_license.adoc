@@ -17,13 +17,13 @@ summary: Any regular user mailbox, whether protected or unprotected, consumes a 
 [.lead]
 Any regular user mailbox, whether protected or unprotected, consumes a license.  If a license is no longer needed for a particular user, you can release the license so that it can be reassigned.  When a user license is released, the user is moved to the unprotected tier and backups for that user are discontinued.
 
-*Note:* Shared mailboxes do not consume a license.
+NOTE: Shared mailboxes do not consume a license.
 //updated for GitHub Issue 76
 
 .Steps
 
-. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup userid in the top left corner.
-. Select *ACCOUNT SERVICE*.
+. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup user id in the top left corner.
+. Select *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
 . Under *Release License*, begin typing the account name for the user whose license you want to release.
 . When the account is found, select it from the auto-populated list and click image:bluecircle_icon.gif[Blue plus sign icon].
@@ -32,4 +32,4 @@ Any regular user mailbox, whether protected or unprotected, consumes a license. 
 . Click *Yes, please release license(s)*.
 . Click *Confirm*.
 
-*Note:* If you need to restore data for a user whose license has been released, you must contact the SaaS Backup Support team.
+NOTE: If you need to restore data for a user whose license has been released, you must contact the SaaS Backup Support team.

@@ -1,0 +1,103 @@
+---
+sidebar: sidebar
+permalink: task_performing_granular_level_restore_teams.html
+keywords: netapp, saas restores, office 365, granular restores, Microsoft TeamsChat, conversations, channels
+summary: You can use SaaS Backup for Office 365 Groups/Teams to perform granular level restores.
+---
+
+= Performing a granular-level restore for Microsoft Office 365 Groups/Teams
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Within Microsoft Office 365 Groups/Teams, you can restore granular-level items like mailboxes, SharePoint, conversations, channels, tabs, and attachments.
+
+By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+
+== Restore mailboxes
+Select this granular-level restore to restore inboxes, calendars, and conversation history.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in *Microsoft 365 Groups*.
+. Select the *Teams* tab.
+. Click the team for which you need to perform the granular-level restore.
+. Select the mailbox category.
+image:granular_level_restore_mailbox_option.gif[image of highlighted mailbox option]
++
+* Select the *Mail* option to restore inbox or conversation history to the same mailbox or export data.
+image:granular_level_restore_mailbox_mail_option.gif[image of highlighted mail option]
++
+.. To restore an inbox, select *Inbox* and click *Restore*.
+... Select *Restore to the same mailbox* or *Export Data*.
++
+If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
+... Click *Confirm*.
+
+* Select the *Calendar* option to restore the calendar to the same mailbox or export data.
+image:granular_level_restore_mailbox_calendar_option.gif[image of highlighted calendar option]
++
+.. Select *Calendar* and click *Restore*.
+.. Select *Restore to the same mailbox* or *Export Data*.
++
+If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
+.. Click *Confirm*.
+
+* Select the *Conversations* option to restore conversations. The only option for restore is export to HTML.
+image:granular_level_restore_mailbox_conversations_option.gif[image of highlighted conversations option]
++
+.. Select the conversations you want to restore and click *Restore*.
++
+NOTE: *View Conversations* shows you a list of all conversations from the last five backups only even if you set the range to more than five backups.
+
+.. Click *Confirm*.
+
+== Restore SharePoint sites
+Select this granular-level restore to restore tabs and attachments.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in *Microsoft 365 Groups*.
+. Select the *Groups* or *Teams* tab.
+. Click the group or team for which you need to perform the granular-level restore.
+. Select SharePoint site option.
+image:granular_level_restore_sharepoint_site_option.gif[image of highlighted sites option]
++
+.	Click the site for which you need to perform the granular-level restore.
+. Select the category that you need to restore.
++
+NOTE: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
+
+. Click *Restore*.
+. Select a restore option:
++
+* Restore to the same site
++
+If you restore to the same site, by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
++
+* Export Data
++
+If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
+
+== Restore channels
+Select this granular-level restore to restore channels.
+
+.Steps
+
+. From the Dashboard, click the number above *PROTECTED* in *Microsoft 365 Groups*.
+. Select the *Teams* tab.
+. Click the team for which you need to perform the granular-level restore.
+. Select *Channels*.
+image:granular_level_restore_channel_option.gif[image of highlighted channels option]
++
+. Select the channel to restore.
+. Click *Restore*.
+. Select the restore option:
+.. Click *Restore to the same team*.
+.. Click *Restore to another team*. To select the other team for the restore to another team option, search for the other team in the search box.
+. Click *Confirm*.

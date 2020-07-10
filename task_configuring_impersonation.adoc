@@ -17,7 +17,7 @@ summary: Getting started with SaaS Backup for Office 365 includes deciding what 
 [.lead]
 If you plan to use SaaS Backup with Microsoft Exchange Online, you must configure impersonation.  Impersonation allows your Microsoft Office 365 service account to impersonate user accounts and access associated permissions.
 
-== Automatically configuring Impersonation
+== Automatically configuring impersonation
 To automatically configure impersonation, run https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx[MSDN PowerShell Commands].
 
 == Manually configuring impersonation
@@ -27,7 +27,7 @@ To manually configure impersonation do the following:
 
 . Use Exchange Admin Center or an administrator account to log in to your Microsoft Office 365 service account.
 . Select the *Exchange* tab.
-. In the left navigation pane, under Dashboard, select *Permissions*.
+. On the left, under Dashboard, select *Permissions*.
 . Click *Admin roles*.
 . Double-click in the right pane to select *Discovery management*.
 . Under *Roles*, click the *+* symbol.

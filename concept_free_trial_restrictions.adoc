@@ -22,3 +22,4 @@ The following restrictions apply to free trial accounts:
 * A maximum of 3 immediate backups per day.
 * Automated backups for only the first 30 days.
 * No scheduled backups are allowed during the 15 day grace period after the free trial ends.
+* You cannot backup Microsoft Teams.

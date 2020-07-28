@@ -28,15 +28,16 @@ You can update the length of time, in number of years, that data is retained for
 . Select the desired retention period from the pre-defined list.
 . Click *UPDATE RETENTION PERIOD*.
 
-== Updating the backup retention period for tenants
+== Updating the backup retention period for individual users and tenants
 .Steps
 
 . Click the configuration icon image:configure_icon.gif[Configuration Icon] next to your SaaS Backup userid in the top left corner.
 . Click *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
 . To update the data retention policy for a specific user in a specific service, do the following:
-.. Under *Data Retention Policies*, click the dropdown menu next to *RETENTION PERIOD* and select the period you want from the list of preset times.
-.. Click the dropdown menu next to *TYPE OF SERVICE* and select the service you are updating.
+.. Under *Data Retention Policies*, click the dropdown menu next to *TYPE OF PROVIDER* and select the provider.
+.. Click the dropdown menu next to *SERVICE NAME* and select the service.
+.. Click the dropdown menu next to *RETENTION PERIOD* and select the period you want from the list of preset times.
 .. In the search box, begin entering the user, site, or MySite you want to update.
 .. Select the user, site, or MySite you want from the matching results.
 .. Click image:bluecircle_icon.gif[Plus sign].

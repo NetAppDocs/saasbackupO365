@@ -17,8 +17,7 @@ summary: You should be aware of certain restrictions that apply to free trial ac
 [.lead]
 The following restrictions apply to free trial accounts:
 
-* A maximum of 25 users and 25 site collections for Microsoft OneDrive for Business
-* A maximum of 25 users for Microsoft Office Exchange Online and Microsoft Office 365 groups
+* A maximum of 25 users for Microsoft Exchange Online and 25 site collections for Microsoft SharePoint Online.
 * A maximum of 3 immediate backups per day.
 * Automated backups for only the first 30 days.
 * No scheduled backups are allowed during the 15 day grace period after the free trial ends.

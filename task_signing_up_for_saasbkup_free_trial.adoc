@@ -45,19 +45,10 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
 . Enter your free trial activation code provided by your channel partner or sales representative, or obtained through the registration email.
 . Click *Next*.
 .	Select your backup storage option.
-  You can use storage provided by SaaS Backup or the Bring Your Own Storage (BYOS) option.
-  .. If you are using storage provided by SaaS Backup do the following:
-    ... Click *SaaS Backup Provided Storage*.
-    ... Select the *Amazon S3* or *Azure Blob* storage option.
-    ... Click *Next*.
-    ... Review your configuration, and then click *Save*.
-  .. If you are using the BYOS option do the following:
-    ... Click *Bring Your Own Storage (BYOS)*.
-    ... Click your BYOS option.
-    ... Enter the information you previously gathered for your BYOS option.
-    ... Click *Test Connection*.
-    ... Click *Next*.
-    ... Review your configuration, and then click *Save*.
+  .. Click *SaaS Backup Provided Storage*.
+  .. Select the *Amazon S3* or *Azure Blob* storage option.
+  .. Click *Next*.
+  .. Review your configuration, and then click *Save*.
 
 == Signing up for a free trial with a NetApp SSO account
 
@@ -87,16 +78,7 @@ image:sign_up_sso.gif[Screenshot of button clicked to sign for SaaS Backup for O
   Enter the activation code provided by your channel partner or sales representative, or obtained from a marketing representative through email.
 . Click *Next*.
 .	Select your backup storage option.
-  You can use storage provided by SaaS Backup or the Bring Your Own Storage (BYOS) option.
-  .. If you are using storage provided by SaaS Backup do the following:
-    ... Click *SaaS Backup Provided Storage*.
-    ... Select the *Amazon S3* or *Azure Blob* storage option.
-    ... Click *Next*.
-    ... Review your configuration, and then click *Save*.
-  .. If you are using the BYOS option do the following:
-    ... Click *Bring Your Own Storage (BYOS)*.
-    ... Click your BYOS option.
-    ... Enter the information you previously gathered for your BYOS option.
-    ... Click *Test Connection*.
-    ... Click *Next*.
-    ... Review your configuration, and then click *Save*.
+  .. Click *SaaS Backup Provided Storage*.
+  .. Select the *Amazon S3* or *Azure Blob* storage option.
+  .. Click *Next*.
+  .. Review your configuration, and then click *Save*.

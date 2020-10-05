@@ -25,7 +25,7 @@ To get started with a free trial of SaaS Backup for Office 365, you must do the 
 
 . link:task_creating_msservice_account_with_global_permissions.html[Create a MS Office service account with global permissions].
 
-. Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup or if you will use a Bring Your Own Storage (BYOS) option; then, if needed, link:concept_information_to_gather_for_byos.html[gather information about your storage].
+. Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup.
 
 . If needed, link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
 
@@ -35,4 +35,4 @@ To get started with a free trial of SaaS Backup for Office 365, you must do the 
 
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
-image:workflow_free_trial_signup.gif[workflow of free trial sign up process]
+image:workflow_free_trial.gif[workflow of free trial sign up process]

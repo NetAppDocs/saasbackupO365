@@ -17,11 +17,9 @@ summary: To get started with a paid subscription for SaaS Backup for Office 365,
 [.lead]
 To get started with a paid subscription to SaaS Backup for Office 365, you must do the following:
 
-. Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup or if you will use a Bring Your Own Storage (BYOS) option.
+. Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup.
 +
 link:concept_storage_types.html[Storage types you can use with SaaS Backup].
-
-. If necessary, link:concept_information_to_gather_for_byos.html[gather information about your BYOS storage].
 
 . link:task_creating_msservice_account_with_global_permissions.html[Create a MS Office service account with global permissions].
 
@@ -33,4 +31,4 @@ link:concept_storage_types.html[Storage types you can use with SaaS Backup].
 
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
-image:workflow_paid_subscription_signup.gif[workflow of paid subscription sign up process]
+image:O365_workflow_paid_subscription_signup.gif[workflow of paid subscription sign up process]

@@ -24,12 +24,12 @@ When you upgrade from a trial subscription to a licensed subscription, your tria
 |If the backup destination of your trial subscription is... |And the backup destination of your licensed subscription is... |Your trial data is...
 |Amazon S3 provided by SaaS Backup | Amazon S3 provided by SaaS Backup | Preserved
 |Azure Blob provided by SaaS Backup |Azure Blob provided by SaaS Backup | Preserved
-|BYOS | The same BYOS target | Preserved
-|Amazon S3 provided by SaaS Backup | BYOS | Not migrated
-|Azure Blob provided by SaaS Backup | BYOS | Not migrated
-|BYOS | A different BYOS target | Not migrated
-|BYOS | Amazon S3 provided by SaaS Backup | Not migrated
-|BYOS | Azure Blob provided by SaaS Backup | Not migrated
+//|BYOS | The same BYOS target | Preserved
+//|Amazon S3 provided by SaaS Backup | BYOS | Not migrated
+//|Azure Blob provided by SaaS Backup | BYOS | Not migrated
+//|BYOS | A different BYOS target | Not migrated
+//|BYOS | Amazon S3 provided by SaaS Backup | Not migrated
+//|BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
 
 .Steps
@@ -57,7 +57,7 @@ image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
   .. Click the link to go to the selected Marketplace.
   .. Follow the Marketplace instructions.
 +
-NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.  If you used a BYOS storage option for your trial subscription, your trial data is not migrated.
+NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.
 
   .. Sign in to SaaS Backup for Office 365 with your Microsoft Office 365 account.
   .. Click the Microsoft Office 365 settings icon image:configure_icon.gif[Screenshot of configuration icon].

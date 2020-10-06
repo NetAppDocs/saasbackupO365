@@ -15,8 +15,6 @@ entries:
       url: /concept_overview.html
     - title: Storage types you can use with SaaS Backup
       url: /concept_storage_types.html
-    - title: Information to gather about your BYOS option
-      url: /concept_information_to_gather_for_byos.html
   - title: Getting started
     entries:
       - title: Getting started with a free trial
@@ -31,8 +29,6 @@ entries:
             url: /task_signing_up_for_o365_free_trial.html
           - title: Creating a MS Office service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
-          - title: Information to gather about your BYOS option
-            url: /concept_information_to_gather_for_byos.html
           - title: Configuring Impersonation for Microsoft Exchange Online
             url: /task_configuring_impersonation.html
           - title: Signing up for a free trial of SaaS Backup for Office 365
@@ -53,8 +49,6 @@ entries:
         entries:
           - title: Workflow
             url: /concept_paid_subscription_workflow.html
-          - title: Information to gather about your BYOS option
-            url: /concept_information_to_gather_for_byos.html
           - title: Creating a MS Office service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
           - title: Configuring Impersonation for Microsoft Exchange Online

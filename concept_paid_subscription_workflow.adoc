@@ -31,4 +31,4 @@ link:concept_storage_types.html[Storage types you can use with SaaS Backup].
 
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
-image:workflow_paid.gif[workflow of paid subscription sign up process]
+image:O365_workflow_paid_subscription_signup.gif[workflow of paid subscription sign up process]

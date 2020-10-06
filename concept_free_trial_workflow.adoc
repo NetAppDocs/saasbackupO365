@@ -35,4 +35,4 @@ To get started with a free trial of SaaS Backup for Office 365, you must do the 
 
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
-image:workflow_free_trial.gif[workflow of free trial sign up process]
+image:O365_workflow_free_trial_signup.gif[workflow of free trial sign up process]

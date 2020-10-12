@@ -31,12 +31,9 @@ You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 
 * Now you can select different time ranges to browse backups for Microsoft Office 365 Exchange, SharePoint, OneDrive for Business, and Groups for protected users.
 +
-link:task_browsing_backups.html[Browsing backups]
-+
 image:date_range_browse_feature.gif[Image shows time range options for browsing backups]
-
-NOTE: The default browse setting is *Showing Last 5 days Backup*. If you select 5 days, only items backed up in the last 5 days appear. You can change the time range as needed.
-
++
+link:task_browsing_backups.html[Browsing backups]
 
 * SaaS Backup for Office 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat.
 +

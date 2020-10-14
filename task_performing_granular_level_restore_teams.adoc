@@ -37,6 +37,9 @@ image:granular_level_restore_mailbox_mail_option.gif[image of highlighted mail o
 ... Select *Restore to the same mailbox* or *Export Data*.
 +
 If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
++
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
+
 ... Click *Confirm*.
 
 * Select the *Calendar* option to restore the calendar to the same mailbox or export data.
@@ -46,6 +49,9 @@ image:granular_level_restore_mailbox_calendar_option.gif[image of highlighted ca
 .. Select *Restore to the same mailbox* or *Export Data*.
 +
 If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
++
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
+
 .. Click *Confirm*.
 
 * Select the *Conversations* option to restore conversations. The only option for restore is export to HTML.
@@ -75,14 +81,18 @@ NOTE: If you want to restore specific individual items inside a category, click 
 
 . Click *Restore*.
 . Select a restore option:
-+
-* Restore to the same site
+* *Restore to the same site*
 +
 If you restore to the same site, by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
 +
-* Export Data
+* *Export Data*
 +
 If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
++
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
+
+. Click *Confirm*.
+
 
 == Restore channels
 Select this granular-level restore to restore channels.
@@ -99,5 +109,7 @@ image:granular_level_restore_channel_option.gif[image of highlighted channels op
 . Click *Restore*.
 . Select the restore option:
 .. Click *Restore to the same team*.
-.. Click *Restore to another team*. To select the other team for the restore to another team option, search for the other team in the search box.
+.. Click *Restore to another team*.
++
+To select another team, search for the other team in the search box.
 . Click *Confirm*.

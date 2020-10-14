@@ -23,19 +23,9 @@ If you purchased your license through NetApp, your subscription types are displa
 . Enter the requested information, and then validate the subscription.
 . Click *Next*.
 .	Select your backup storage option.
-  You can use storage provided by SaaS Backup or the Bring Your Own Storage (BYOS) option.
-.. If you are using storage provided by SaaS Backup do the following:
-... Click *SaaS Backup Provided Storage*.
-... Select the *Amazon S3* or *Azure Blob* storage option.
-... Select the *AWS S3* or *Azure Blob* region for your backup.
+.. Click *SaaS Backup Provided Storage*.
+.. Select the *Amazon S3* or *Azure Blob* storage option.
+.. Select the *AWS S3* or *Azure Blob* region for your backup.
     You should select the region that is the closest to the physical location of the data you are backing up.
-... Click *Next*.
-... Review your configuration, and then click *Save*.
-
-.. If you are using a BYOS option do the following:
-... Click *Bring Your Own Storage (BYOS)*.
-... Click your BYOS option.
-... Enter the information you previously gathered for your BYOS option.
-... Click *Test Connection*.
-... Click *Next*.
-... Review your configuration, and then click *Save*.
+.. Click *Next*.
+.. Review your configuration, and then click *Save*.

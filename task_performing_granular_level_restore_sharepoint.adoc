@@ -27,23 +27,25 @@ By default, only the most recent backup is available for restore. You can update
 .	Click the site for which you need to perform the granular-level restore.
 . Select the category that you need to restore.
 +
-*Note*: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
+NOTE: If you want to restore specific individual items inside a category, click the content category and then select the individual items.
 
-. To restore from the most recent backup, click image:restore.gif[image of restore button].  To restore a previous version of the item, click *Show versions*, and select the version that you want to restore and then click *Restore*.
+. To restore from the most recent backup, click *Restore*.  To restore a previous version of the item, click *Show versions*, and select the version that you want to restore and then click *Restore*.
 
 . Select a restore option:
-+
-*Note*: For Microsoft Office 365 Groups, you only have the option to restore to the same site.  For Microsoft SharePoint Online, you can restore to the same site or to another site.
-+
-* Restore to the same site
+* *Restore to the same site*
 +
 If you restore to the same site, by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
 +
 If you select *Restore Only Roles*, only the roles and permissions restore.
 image:sharepoint_granular_restore_only_roles.png[Image shows granular-level restore window with restore only roles option selected]
-* Restore to another site
+* *Restore to another site*
 +
 If you restore to another site, you must enter the destination site in the search field.  You can type a portion of the site in the search field to initiate an automatic search for matching sites.
+* *Export Data*
++
+If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
++
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
 
 . Click *Confirm*.
 +
@@ -59,13 +61,20 @@ A message is displayed indicating that the restore job was created.
 . Click *Documents*.
 . Select the notebooks you want to restore.
 +
-*Note*: If you want to restore a specific group or section within the notebook, click on the notebook to select the groups.  Click on the group to select the sections.
-. Click image:restore.gif[image of restore button]
+NOTE: If you want to restore a specific group or section within the notebook, click on the notebook to select the groups.  Click on the group to select the sections.
+
+. Click *Restore*.
 . Select a restore option:
-* Restore to the same MySite
+* *Restore to the same MySite*
 +
 If you restore to the same MySite a restore folder with the time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
 
-* Restore to another MySite
+* *Restore to another MySite*
 +
 If you restore to another MySite, you must enter the destination MySite in the search field.  You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites. A restore folder with the current timestamp is created containing the backup copy.
+
+* *Export Data*
++
+If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
+
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.

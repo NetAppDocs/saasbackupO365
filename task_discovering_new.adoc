@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_discovering_new.html
-keywords: netapp, saas backup, office 365, discovering, new, mailboxes, sites, groups,teams, shared, archive
+keywords: netapp, saas backup, office 365, discovering, new, mailboxes, sites, groups, teams, shared, archive
 summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
 

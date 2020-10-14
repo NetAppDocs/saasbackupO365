@@ -1,0 +1,39 @@
+---
+sidebar: sidebar
+permalink: task_browsing_backups.html
+keywords: netapp, saas backup, Microsoft, office 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Office 365 Groups, date range, days, items, user, users, group, groups
+summary: You can browse all your backups
+---
+
+= Browsing backups
+:toc: macro
+:toclevels: 1
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+You can browse protected instances in recent backups or in all of your backups for Microsoft Office 365 Exchange, SharePoint, OneDrive for Business, and Groups.
+
+NOTE: The default browse setting is *Showing Last 5 days Backup*. If you select 5 days, only items backed up in the last 5 days appear. You can change the time range as needed.
+
+To be sure you find what you are looking for, check the date to the left of the time range dropdown menu.
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png[image highlights date and count for a browse of a user mailbox]
+
+.Steps
+. In the *Dashboard*, select the service you want to browse for backups, and then select protected instances.
++
+image:number_protected_unprotected_highlight_protected.gif[Protected Exchange instances highlighted]
+. Select the account you want to browse.
+. Select the time range for the backed up items you wish to browse.
++
+image:date_range_browse_feature.gif[Image shows time range options for browsing backups]
++
+NOTE: *View Backup History* shows a calendar view of your backups. If you select *View Backup History*, and you select a date prior to the current day, this changes the time range for the backups you see. For example, if today is 8 October, you select 5 October in the calendar view, then you select to browse the last 5 days starting from 5 October, the items you can browse will be from 1-5 October.
+
+
+. Click on the type of items you wish to view: Mail, Calendar, Tasks, Contacts, Files, Contents, or other.
+. Browse the backed up items.

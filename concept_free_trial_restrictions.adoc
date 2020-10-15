@@ -22,4 +22,4 @@ The following restrictions apply to free trial accounts:
 * Automated backups for only the first 30 days.
 * No scheduled backups are allowed during the 15 day grace period after the free trial ends.
 * You cannot backup Microsoft Teams Chat.
-* A maximum of 10 restores are allowed in a 24-hour period for all services.
+//* A maximum of 10 restores are allowed in a 24-hour period for all services.

@@ -71,8 +71,6 @@ entries:
         url: /task_scheduling_backup_or_changing_frequency.html
       - title: Performing an immediate backup
         url: /task_performing_immediate_backup_of_service.html
-      - title: Browsing backups
-        url: /task_browsing_backups.html
       - title: Updating the backup retention period
         url: /task_updating_backup_retention_period.html
       - title: Enabling backups for OneNote

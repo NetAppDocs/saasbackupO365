@@ -19,7 +19,7 @@ A synchronization must occur between SaaS Backup and your Microsoft Office 365 a
 
 .Steps
 
-.	Click   image:services.gif[Screenshot of services button] from the left navigation pane.
+.	Click image:services.gif[Screenshot of services button] from the left navigation pane.
 .	Click the Microsoft Office 365 settings icon.
   image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
 . Click *Sync Now* next to the service that you want to synchronize.

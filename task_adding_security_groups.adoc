@@ -17,7 +17,7 @@ summary: Security groups can be used as filtering options to view your data and 
 [.lead]
 Security groups can be used as filtering options to view your data and to create rules.
 
-You can add up to 3 security groups.  You can then use your security groups as filtering options in SaaS Backup.
+You can add up to 3 security groups. You can then use your security groups as filtering options in SaaS Backup.
 
 New security groups must be discovered through an AutoSync or a manual synchronization before they can be added.
 https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide[Create, edit, or delete a security group in the Admin Center].

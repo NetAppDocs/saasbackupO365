@@ -92,28 +92,3 @@ By default, the latest version is automatically backed up, even if this setting 
 * Microsoft OneDrive for Business
 * Microsoft Office 365 Groups
 |===
-
-//[options="header" width="85%"]
-//|=======
-//|Backup setting |Description |Enabled |Available in...
-//|Auto Sync |Enables the automatic scheduled synchronization of newly added or deleted users, OneDrives, or site collections once every 24 hours. |By default |Microsoft Exchange Online
-//Microsoft SharePoint Online
-//Microsoft OneDrive for Business
-//Microsoft Office 365 Groups
-//|Enable OneNote Backup |Enables the backup of OneNote notebooks |Manually |Microsoft SharePoint Online
-//Microsoft OneDrive for Business
-//|Enable Restore of Recoverable Items |Enables the user to restore Microsoft Exchange recoverable items |Manually |Microsoft Exchange Online
-//|Enable Backup of Recoverable Items |Enables the backup of Microsoft Exchange recoverable items.  Only the tier 1 backup policy allows for the backup of recoverable items. |Manually |Microsoft Exchange Online
-//|Include Workflows| Includes workflows in the backup |Manually |Microsoft SharePoint Online
-//Microsoft Office 365 Groups
-//|Include List Views| Includes list views in backup |Manually |Microsoft SharePoint Online
-//Microsoft Office 365 Groups
-//|Include Version History| Enables maintenance of multiple file versions in the backup.
-//*Note*: This setting only applies to individual files.  It does not apply to entire folders, tiers, or services. |By default |Microsoft SharePoint Online
-//Microsoft OneDrive for Business
-//Microsoft Office 365 Groups
-//|Number of Versions |Sets the number of backup file versions to maintain.
-//By default, the latest version is automatically backed up, even if this setting is not enabled. |Set to 20 by default |Microsoft SharePoint Online
-//Microsoft OneDrive for Business
-//Microsoft Office 365 Groups
-//|=======

@@ -32,7 +32,6 @@ You can perform an inline search within an individual mailbox for specific conte
   image:number_protected_unprotected.gif[]
 .	If you are searching *PROTECTED* mailboxes, click the email address for which you need to perform the search.
   ..	Select the category (Mail, Tasks, Contacts, Calendar, or Other) that you need to search.
-//  .. Select *file* or *folder* from dropdown menu next to the search field to indicate if you are searching for a file or folder.
   ..	Type a search string in the search field.
       The search is automatically performed and results are displayed after the search string is entered.
 . If you are searching *UNPROTECTED* mailboxes, select the mailbox you want to search.

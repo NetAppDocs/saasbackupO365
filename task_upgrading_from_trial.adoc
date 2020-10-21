@@ -48,7 +48,9 @@ image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
      Your subscription storage information and including your storage destination and region is displayed.
   .. If you want to change your destination storage type or destination storage region, do the following:
     ... Select your new destination storage type and/or region.
-        *Note*: If you change the destination of your storage or your destination region, NetApp SaaS Backup for Office 365 does not migrate the trial data.  You must agree to proceed.
++
+NOTE: If you change the destination of your storage or your destination region, NetApp SaaS Backup for Office 365 does not migrate the trial data. You must agree to proceed.
+
     ... If you are changing the destination storage type, enter the required information and click *Test Connection*.
     ... Click *Next*.
     ... Review your configuration, and then click *Save*.

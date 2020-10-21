@@ -45,7 +45,7 @@ If you restore to another site, you must enter the destination site in the searc
 +
 If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
 +
-//NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
 
 . Click *Confirm*.
 +
@@ -77,7 +77,7 @@ If you restore to another MySite, you must enter the destination MySite in the s
 +
 If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
 +
-//NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
+NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
 
 . Click *Confirm*.
 . Click *View the job progress* to monitor the progress of the restore.

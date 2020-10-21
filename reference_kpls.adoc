@@ -14,8 +14,8 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :linkattrs:
 :imagesdir: ./media/
 
-//* The following limitation exists for both free trial and licensed users for all services:
-//** A maximum of 10 restores are allowed in a 24-hour period.
+* The following limitation exists for both free trial and licensed users for all services:
+** A maximum of 10 restores are allowed in a 24-hour period.
 
 * The following limitation exists for OneDrive for Business:
 ** Newly added drives are not detected until you manually complete a sync for the service.

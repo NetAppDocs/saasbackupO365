@@ -18,7 +18,8 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
 
 == June 2020
-* SaaS Backup for Microsoft Office 365 now supports advanced search capabilities for Exchange Online users. Once enabled, a user can search for individual, shared, and archive mailbox items within the last six months of backup data and restore those items to the original mailbox.
+* SaaS Backup for Microsoft Office 365 now supports advanced search capabilities for Exchange Online users. Once enabled, a user can search for individual, shared, and archive mailbox items within the last six months of backup data.
+// and restore those items to the original mailbox.
 +
 link:task_performing_search.html[Performing a search]
 +
@@ -30,7 +31,7 @@ You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 * Now you can select different time ranges to browse backups for Microsoft Office 365 Exchange, SharePoint, OneDrive for Business, and Groups for protected users.
 +
 image:date_range_browse_feature.gif[Image shows time range options for browsing backups]
-
++
 link:task_browsing_backups.html[Browsing backups]
 
 * SaaS Backup for Office 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat.

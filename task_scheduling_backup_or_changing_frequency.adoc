@@ -14,7 +14,7 @@ summary: You follow the same process to schedule a new backup or change it to th
 :linkattrs:
 :imagesdir: ./media/
 
-//[.lead]
+[.lead]
 You can back up your unprotected data by assigning it to a backup policy. When unprotected data is assigned to a backup policy, it moves to a *PENDING* state until the next scheduled backup for the assigned policy occurs, after which it is moved to a *PROTECTED* state.
 If you want to change the backup frequency of protected data, you can assign the data to a different backup policy tier.
 

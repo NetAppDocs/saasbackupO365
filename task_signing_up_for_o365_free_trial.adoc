@@ -19,9 +19,11 @@ With a free 30-day trial of Microsoft Office 365 for Business, you can discover 
 
 Steps
 
-. Go to this https://products.office.com/en-us/try[site]  to start your trial subscription.
-. Under *Enterprise Plan Trials*, click *Office 365 Enterprise E3-25 users*.
-. Click *Next*.
-. Follow the on-screen instructions to complete the sign-up process.
-. Download and install Microsoft Office 365.
-  You can add up to 25 users to your free trial.
+. Go to the https://www.microsoft.com/en-us/microsoft-365/microsoft-365-business-standard-one-month-trial[Microsoft 365 for business site] to start your trial subscription.
+. Click *Try 1 month free*.
+. Follow the on-screen instructions to create your Microsoft 365 free trial account.
+//. Under *Enterprise Plan Trials*, click *Office 365 Enterprise E3-25 users*.
+//. Click *Next*.
+//. Follow the on-screen instructions to complete the sign-up process.
+//. Download and install Microsoft Office 365.
+//You can add up to 25 users to your free trial.

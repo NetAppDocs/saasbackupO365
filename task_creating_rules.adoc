@@ -17,7 +17,7 @@ summary: Rules allow you to automatically move users to a preselected backup tie
 [.lead]
 Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
 
-You can create rules for Microsoft Exchange Online and Microsoft OneDrive for Business.  Rules for Microsoft Exchange Online are applied before rules for Microsoft OneDrive for Business.  You cannot create rules for Microsoft SharePoint Online.
+You can create rules for Microsoft Exchange Online, OneDrive for Business, SharePoint Online, and Microsoft Office 365 Groups.
 
 You must apply a user defined filter to your data before you can create a rule.  Applied filters are displayed below the *Filter* icon.  NetApp SaaS Backup for Office 365 default filters appear in gray.  User defined filters appear in light blue.
 image:rules.gif[Example of user defined filter and SaaS Backup defined filter for creating rules]

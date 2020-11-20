@@ -21,5 +21,5 @@ The following restrictions apply to free trial accounts:
 * A maximum of 3 immediate backups per day.
 * Automated backups for only the first 30 days.
 * No scheduled backups are allowed during the 15 day grace period after the free trial ends.
-* You cannot backup Microsoft Teams Chat.
 * A maximum of 10 restores are allowed in a 24-hour period for all services.
+*	TeamsChat backup is disabled by default and can be enabled upon request by sending an email to SaaS Backup Support at saasbackupsupport@netapp.com. To enable TeamsChat, all active Teams users must be licensed in SaaS Backup.

@@ -5,9 +5,7 @@ keywords: netapp, saas backup, office 365, viewing, jobs, history, activity, log
 summary: You can view or download reports of your job history and all activities in SaaS Backup for Office 365.
 ---
 
-== Viewing Job History and Activity Log
-:toc: macro
-:toclevels: 1
+= Viewing Job History and Activity Log
 :hardbreaks:
 :nofooter:
 :icons: font

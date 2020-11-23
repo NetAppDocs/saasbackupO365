@@ -20,12 +20,12 @@ The following new features and updates have been added to this release of NetApp
 +
 link:task_performing_high_level_restore.html[Performing a high-level restore]
 
-* Customers who only have OneDrive for Business licenses can release licenses and purge users without restrictions.
+* OneDrive for Business license holders can release licenses and purge users without restrictions.
 +
 link:task_releasing_a_user_license.html[Releasing a user license]
 link:task_purging.html[Purging]
 
-* You can now filter by job completion status in addition to job type, service, start time, and end time when you search in the job history log.
+* When searching in the job history log, you can now filter by job completion status in addition to job type, service, start time, and end time.
 +
 link:task_viewing_history_and_activity.html[Viewing job history]
 

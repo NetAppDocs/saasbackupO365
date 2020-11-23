@@ -6,13 +6,14 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 ---
 
 = Known problems and limitations
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
+
+* The following limitation exists for Microsoft Office 365 Teams channel restores:
+** Channel configuration is restored but content and conversations are not.
 
 * The following limitation exists for both free trial and licensed users for all services:
 ** A maximum of 10 restores are allowed in a 24-hour period.

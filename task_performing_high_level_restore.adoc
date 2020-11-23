@@ -6,8 +6,6 @@ summary: You follow the same procedure to perform high-level restores of mailbox
 ---
 
 = Performing a high-level service restore
-:toc: macro
-:toclevels: 1
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -40,10 +38,11 @@ NOTE: If you select the export to PST restore option, the provided link is valid
    * Restore to the same mailbox
    * Export to PST
      If you export to PST, you will receive a notification email with the location of the PST file when the export is completed.
-   * Restore to a another mailbox
+   * Restore to another mailbox
      If you restore to another mailbox, you must enter the destination mailbox in the search field. You can type in a portion of the destination email address in the search field to initiate an automatic search for matching destination mailboxes.
 .. If you are restoring groups for *Microsoft Office 365 Groups* select one of the following options:
    * Restore to the same group
+   * Restore to another group
    * Export data
      If you export, a PST file is created with your Microsoft Exchange files and a .zip file is created with your Microsoft SharePoint sites. You will receive a notification email containing the location of the PST file and an authenticated URL to the location of the .zip file.
 .. If you are restoring teams under *Microsoft Office 365 Groups* select one of the following options:

@@ -2,24 +2,39 @@
 sidebar: sidebar
 permalink: reference_new_saasbackupO365.html
 keywords: what's new, features, new, release notes, enhancements
-summary: SaaS Backup for Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
+summary: SaaS Backup for Microsoft Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 
 = New features and updates
-:toc: macro
 :hardbreaks:
-:toclevels: 2
 :nofooter:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
 
 [.lead]
-The following new features and updates have been added to this release of NetApp SaaS Backup for Office 365.
+The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft Office 365.
+
+== November 2020
+* Starting this month, you can monitor user data for all services. With this new functionality you can download an Excel file to monitor several user data types like email or url addresses, mailbox types, license use, discovery state, last discovery, backup status, backup tier, and more. 
++
+link:task_monitoring_data.html[Monitoring user data]
+
+* Now you can restore your Microsoft Office 365 Groups to another group.
++
+link:task_performing_high_level_restore.html[Performing a high-level restore]
+
+* OneDrive for Business license holders can release licenses and purge users without restrictions.
++
+link:task_releasing_a_user_license.html[Releasing a user license]
+link:task_purging.html[Purging]
+
+* When searching in the job history log, you can now filter by job completion status in addition to job type, service, start time, and end time.
++
+link:task_viewing_history_and_activity.html[Viewing job history]
 
 == June 2020
 * SaaS Backup for Microsoft Office 365 now supports advanced search capabilities for Exchange Online users. Once enabled, a user can search for individual, shared, and archive mailbox items within the last six months of backup data.
-// and restore those items to the original mailbox.
 +
 link:task_performing_search.html[Performing a search]
 +

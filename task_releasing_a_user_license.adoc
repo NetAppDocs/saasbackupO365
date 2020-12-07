@@ -29,5 +29,3 @@ NOTE: Shared mailboxes do not consume a license.
 . Click *Release*.
 . Click *Yes, please release license(s)*.
 . Click *Confirm*.
-
-NOTE: If you need to restore data for a user whose license has been released, you must contact the SaaS Backup Support team.

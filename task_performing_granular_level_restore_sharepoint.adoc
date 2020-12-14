@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_sharepoint.html
-keywords: netapp, saas restores, office 365, granular restores, Microsoft SharePoint Online, sites
+keywords: netapp, saas backup, restore, restores, office 365, granular, granular level, Microsoft, SharePoint Online, sites
 summary: You can use SaaS Backup for Office 365 to perform granular level restores for Microsoft SharePoint Online.
 ---
 
@@ -19,7 +19,71 @@ Within Microsoft SharePoint Online, you can restore granular-level items for a s
 
 By default, only the most recent backup is available for restore. You can update your backup settings to maintain a specified number of backed-up versions of individual files. If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
-== Restore SharePoint files and folders
+The table indicates the restore options that are supported for granular-level items.
+
+[cols=4*,options="header",cols="64,24a,24a,24a"]
+|===
+|Type of item
+|Restore to the same site
+|Restore to another site
+|Export data
+|single/multiple items|
+yes
+|yes
+|no
+|single/multiple files|
+yes
+|yes
+|no
+|single site|
+yes
+| yes
+|yes
+|multiple sites|
+yes
+|yes
+|no
+|communication sites|
+no
+|no
+|no
+|single/multiple subsite|
+yes
+|yes
+|yes
+|single/multiple folder|
+yes
+|yes
+|yes
+|single/multiple list|
+yes
+|yes
+|yes
+|content|
+yes
+|yes
+|yes
+|OneNote single/multiple notebooks|
+yes
+|yes
+|yes
+|OneNote single/multiple section groups|
+yes
+|yes
+|no
+|OneNote single/multiple sections|
+yes
+|yes
+|no
+|OneNote pages
+
+NOTE: Pages within a section restore at the section level.
+
+|
+no
+|no
+|no
+|===
 
 .Steps
 
@@ -33,11 +97,29 @@ NOTE: If you want to restore specific individual items inside a category, click 
 
 . Select a restore option:
 * *Restore to the same site*
+If you restore to the same site, by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.
 +
-If you restore to the same site, by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.  If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
+If you select *Restore only roles*, *Overwrite with merge*, or *Replace the existing content*, the only restore option is *Restore to the same site*.
++
+[cols=2*,options="header",cols="24a,24a"]
+|===
+|If you select
+|Restore to the same site
+|Restore only roles|
+all types of items
+|Overwrite with merge|
+all items except site level
+|Replace with existing content|
+item level only
+|===
 +
 If you select *Restore Only Roles*, only the roles and permissions restore.
 image:sharepoint_granular_restore_only_roles.png[Image shows granular-level restore window with restore only roles option selected]
++
+If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.
++
+If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.
+
 * *Restore to another site*
 +
 If you restore to another site, you must enter the destination site in the search field.  You can type a portion of the site in the search field to initiate an automatic search for matching sites.
@@ -50,34 +132,4 @@ NOTE: If you select the *Export Data* restore option, the provided link is valid
 . Click *Confirm*.
 +
 A message is displayed indicating that the restore job was created.
-. Click *View the job progress* to monitor the progress of the restore.
-
-== Restore OneNote notebooks and groups for SharePoint
-
-.Steps
-
-. From the Dashboard, click the number above *PROTECTED* in the OneDrive box.
-.	Click the site for which you need to perform the restore.
-. Click *Documents*.
-. Select the notebooks you want to restore.
-+
-NOTE: If you want to restore a specific group or section within the notebook, click on the notebook to select the groups.  Click on the group to select the sections.
-
-. Click *Restore*.
-. Select a restore option:
-* *Restore to the same MySite*
-+
-If you restore to the same MySite a restore folder with the time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
-
-* *Restore to another MySite*
-+
-If you restore to another MySite, you must enter the destination MySite in the search field.  You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites. A restore folder with the current timestamp is created containing the backup copy.
-
-* *Export Data*
-+
-If you export data, you need to download it. Go to *Reporting* on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
-+
-NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
-
-. Click *Confirm*.
 . Click *View the job progress* to monitor the progress of the restore.

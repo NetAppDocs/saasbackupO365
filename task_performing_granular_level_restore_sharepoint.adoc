@@ -66,7 +66,7 @@ yes
 |OneNote single/multiple notebooks|
 yes
 |yes
-|yes
+|no
 |OneNote single/multiple section groups|
 yes
 |yes

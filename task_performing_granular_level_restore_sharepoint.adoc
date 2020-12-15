@@ -47,15 +47,15 @@ yes
 no
 |no
 |no
-|single/multiple subsite|
+|single/multiple subsites|
 yes
 |yes
 |yes
-|single/multiple folder|
+|single/multiple folders|
 yes
 |yes
 |yes
-|single/multiple list|
+|single/multiple lists|
 yes
 |yes
 |yes

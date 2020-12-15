@@ -1,0 +1,47 @@
+---
+sidebar: sidebar
+permalink: reference_teams_data.html
+keywords: netapp, saas backup, office 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files
+summary: A table reference shows where to locate Teams data in SaaS Backup.
+---
+
+= Teams data locations
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Data for Microsoft Teams has different locations in SaaS Backup for Microsoft Office 365.
+
+The table shows you where to locate Teams data in SaaS Backup.
+
+[cols=2*,options="header",cols="12,64a"]
+|===
+|Teams data
+|Where is it in SaaS Backup?
+|Teams email|
+Office 365 Groups > Teams > SampleTeam > Mailbox
+|Teams channels
+|Office 365 Groups > Teams > SampleTeam > Channels
+|Teams Standard Channel Documents|
+Office 365 Groups > Teams > SampleTeam > SharePoint Site > Documents > SampleTeam-StdChannel
+|Teams Standard Channel Chat|
+* Office 365 Groups > Teams > SampleTeam > Mailbox > Conversations > Team Chat
+* Office 365 Groups > Teams > SampleTeam > Mailbox > Mail > Conversation History > Team Chat (actual location)
+|Teams Private Channel Documents|
+SharePoint > SampleTeam – SampleTeam-PrivChannel > Documents > SampleTeam-PrivChannel
+
+NOTE: You will find a separate site collection with name “<Your Team Name – Private Channel Name>”. You can Filter for these site collections with Template ID: TEAMCHANNEL#0
+
+|Teams Private Channel Chat|
+* Exchange > “User in Private Channel” > Mail > Conversations > Team Chat
+* Exchange > “User in Private Channel” > Mail > Conversation History > Team Chat (actual location)
+|Individual User Chat and Group Chats|
+* Exchange > “User” > Mail > Conversations > Team Chat
+* Exchange > “User” > Mail > Conversation History > Team Chat (actual location)
+|Files shared in Individual User Chat and Group Chats|
+OneDrive > “User” > Files > Microsoft Teams Chat Files
+|
+|===

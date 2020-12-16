@@ -46,7 +46,7 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
 . Click *Next*.
 .	Select your backup storage option.
   .. Click *SaaS Backup Provided Storage*.
-  .. Select the *Amazon S3* or *Azure Blob* storage option.
+  .. Select the storage option.
   .. Click *Next*.
   .. Review your configuration, and then click *Save*.
 
@@ -79,6 +79,6 @@ image:sign_up_sso.gif[Screenshot of button clicked to sign for SaaS Backup for O
 . Click *Next*.
 .	Select your backup storage option.
   .. Click *SaaS Backup Provided Storage*.
-  .. Select the *Amazon S3* or *Azure Blob* storage option.
+  .. Select the backup storage option.
   .. Click *Next*.
   .. Review your configuration, and then click *Save*.

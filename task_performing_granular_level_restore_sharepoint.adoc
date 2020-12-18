@@ -27,62 +27,62 @@ The table indicates the restore options that are supported for granular-level it
 |Restore to the same site
 |Restore to another site
 |Export data
-|single/multiple items|
-yes
-|yes
-|no
-|single/multiple files|
-yes
-|yes
-|no
-|single site|
-yes
-| yes
-|yes
-|multiple sites|
-yes
-|yes
-|no
-|communication sites|
-no
-|no
-|no
-|single/multiple subsites|
-yes
-|yes
-|yes
-|single/multiple folders|
-yes
-|yes
-|yes
-|single/multiple lists|
-yes
-|yes
-|yes
-|content|
-yes
-|yes
-|yes
+|Single/multiple items|
+Yes
+|Yes
+|No
+|Single/multiple files|
+Yes
+|Yes
+|No
+|Single site|
+Yes
+|Yes
+|Yes
+|Multiple sites|
+Yes
+|Yes
+|No
+|Communication sites|
+No
+|No
+|No
+|Single/multiple subsites|
+Yes
+|Yes
+|Yes
+|Single/multiple folders|
+Yes
+|Yes
+|Yes
+|Single/multiple lists|
+Yes
+|Yes
+|Yes
+|Content|
+Yes
+|Yes
+|Yes
 |OneNote single/multiple notebooks|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote single/multiple section groups|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote single/multiple sections|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote pages
 
 NOTE: Pages within a section restore at the section level.
 
 |
-no
-|no
-|no
+No
+|No
+|No
 |===
 
 .Steps

@@ -27,37 +27,37 @@ The table indicates the restore options that are supported for granular-level it
 |Restore to another MySite
 |Export data
 |Single drive|
-yes
-|yes
-|yes
+Yes
+|Yes
+|Yes
 |Multiple drives
-|no
-|no
-|no
+|No
+|No
+|No
 |Single/multiple files/items|
-yes
-|yes
-|yes
+Yes
+|Yes
+|Yes
 |OneNote single/multiple notebooks|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote single/multiple section groups|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote single/multiple sections|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote pages
 
 NOTE: Pages within a section restore at the section level.
 
 |
-no
-|no
-|no
+No
+|No
+|No
 
 |===
 

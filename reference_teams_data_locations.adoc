@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: reference_teams_data.html
+permalink: reference_teams_data_locations.html
 keywords: netapp, saas backup, office 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files
 summary: A table reference shows where to locate Teams data in SaaS Backup.
 ---

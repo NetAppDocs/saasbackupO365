@@ -79,8 +79,6 @@ entries:
         url: /task_enabling_onenote_backups.html
       - title: Updating backup settings
         url: /task_updating_backup_settings.html
-      - title: Teams data locations
-        url: /reference_teams_data.html
       - title: Templates and apps supported for backup in Microsoft SharePoint Online
         url: /concept_supported_templates_and_apps.html
     - title: Managing restores
@@ -169,6 +167,8 @@ entries:
       url: /task_viewing_purged.html
     - title: Viewing deleted items
       url: /task_viewing_deleted.html
+    - title: Locating Teams data
+      url: /reference_teams_data_locations.html
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

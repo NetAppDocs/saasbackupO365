@@ -27,7 +27,7 @@ entries:
             url: /task_registering_for_free_trial_activation_code.html
           - title: Signing up for a Microsoft 365 free trial account
             url: /task_signing_up_for_o365_free_trial.html
-          - title: Creating a MS Office service account with global permissions
+          - title: Creating a Microsoft 365 service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
           - title: Configuring Impersonation for Microsoft Exchange Online
             url: /task_configuring_impersonation.html
@@ -79,6 +79,8 @@ entries:
         url: /task_enabling_onenote_backups.html
       - title: Updating backup settings
         url: /task_updating_backup_settings.html
+      - title: Locating Teams data
+        url: /reference_teams_data_locations.html
       - title: Templates and apps supported for backup in Microsoft SharePoint Online
         url: /concept_supported_templates_and_apps.html
     - title: Managing restores
@@ -167,8 +169,6 @@ entries:
       url: /task_viewing_purged.html
     - title: Viewing deleted items
       url: /task_viewing_deleted.html
-    - title: Locating Teams data
-      url: /reference_teams_data_locations.html
     - title: Downloading data
       url: /task_downloading_data.html
   - title: Providing feedback

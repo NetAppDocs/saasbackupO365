@@ -33,7 +33,7 @@ Microsoft 365 Groups > Teams > SampleTeam > SharePoint Site > Documents > Sample
 |Teams Private Channel Documents|
 SharePoint > SampleTeam – SampleTeam-PrivChannel > Documents > SampleTeam-PrivChannel
 
-NOTE: You will find a separate site collection with name “<Your Team Name – Private Channel Name>”. You can Filter for these site collections with Template ID: TEAMCHANNEL#0
+NOTE: You will find a separate site collection with name “<Your Team Name – Private Channel Name>”. You can filter for these site collections with Template ID: TEAMCHANNEL#0.
 
 |Teams Private Channel Chat|
 * Exchange > “User in Private Channel” > Mail > Conversations > Team Chat

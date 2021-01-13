@@ -14,6 +14,9 @@ summary: Within NetApp SaaS Backup for Microsoft 365 you can grant permissions t
 :linkattrs:
 :imagesdir: ./media/
 
+[.lead]
+You can grant permissions to enable shared mailboxes within NetApp SaaS Backup for Microsoft 365.
+
 .Steps
 
 .	Click image:services.gif[Screenshot of services button] from the left navigation pane.

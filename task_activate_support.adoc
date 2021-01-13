@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_activate_support.html
-keywords: netapp, saas backup, office 365, activating, activate, support, entitlement, marketplace
+keywords: netapp, saas backup, microsoft 365, activating, activate, support, entitlement, marketplace
 summary: Activating support enables you to access technical support over the phone, online chat, or web ticketing system.
 ---
 

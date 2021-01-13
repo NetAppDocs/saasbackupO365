@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concept_supported_templates_and_apps.html
-keywords: netapp, saas backup, office 365, backup, supported, templates, apps
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps
 summary: Only certain templates and apps are supported for Microsoft SharePoint Online.
 ---
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_discovering_new.html
-keywords: netapp, saas backup, office 365, discovering, new, mailboxes, sites, groups, teams, shared, archive
-summary: Within NetApp SaaS Backup for Office 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
+keywords: netapp, saas backup, microsoft 365, discovering, new, mailboxes, sites, groups, teams, shared, archive
+summary: Within NetApp SaaS Backup for Microsoft 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
 
 = Discovering new mailboxes, sites, and groups
@@ -15,13 +15,13 @@ summary: Within NetApp SaaS Backup for Office 365 you can manage your service ac
 :imagesdir: ./media/
 
 [.lead]
-A synchronization must occur between SaaS Backup and your Microsoft Office 365 account for new mailboxes (including shared and archive mailboxes), sites, groups, and teams to be discovered by SaaS Backup.  By default, synchronization automatically occurs once every 24 hours.  However, if you make changes and you want discovery to occur before the next scheduled *Auto Sync*, you can initiate an immediate synchronization.
+A synchronization must occur between SaaS Backup and your Microsoft 365 account for new mailboxes (including shared and archive mailboxes), sites, groups, and teams to be discovered by SaaS Backup.  By default, synchronization automatically occurs once every 24 hours.  However, if you make changes and you want discovery to occur before the next scheduled *Auto Sync*, you can initiate an immediate synchronization.
 
 .Steps
 
 .	Click image:services.gif[Screenshot of services button] from the left navigation pane.
-.	Click the Microsoft Office 365 settings icon.
-  image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+.	Click the Microsoft 365 settings icon.
+  image:mso365_settings.gif[Screenshot of Microsoft 365 button]
 . Click *Sync Now* next to the service that you want to synchronize.
   image:sync_now.png[]
   New users, shared mailboxes, and archive mailboxes are discovered and added in an unprotected state.  If you want newly discovered users, shared mailboxes, or archive mailboxes to be backed up, you must change the backup policy of the users from unprotected to one of the predefined tier groups.

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_restoring_from_previous_backup.html
-keywords: netapp, saas restores, office 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+keywords: netapp, saas restores, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
 summary: By default, only your most recent backup is available for restore.
 ---
 
@@ -32,7 +32,7 @@ A calendar is displayed.  Dates for which backups are available are indicated by
 . Select the items that you want to restore.
 . Click image:restore.gif[image of restore button]
 . Select a restore option:
-  .. If you are restoring mailboxes for *Microsoft Exchange Online* or a mailbox for a Microsoft Office 365 Group, select one of the following options:
+  .. If you are restoring mailboxes for *Microsoft Exchange Online* or a mailbox for a Microsoft 365 Group, select one of the following options:
     * *Restore to the same mailbox*
 +
 If you are restoring to the same mailbox, by default, a restore folder with the current date and time stamp is created in the original content location containing the backup copy.  If you select *Replace the existing content*, then your current data is completely replaced by the backup.
@@ -46,7 +46,7 @@ If you are restoring individual files to the same MySite, by default, a restore 
     * *Restore to a different MySite*
 +
 If you restore to a different MySite, you must enter the destination MySite in the search field. You can type in a portion of the destination MySite in the search field to initiate an automatic search for matching destination MySites.
-  .. If you are restoring sites for *Microsoft SharePoint Online*, you can restore to the same site or to a different site.  If you are restoring a Microsoft Office 365 group site, you can only restore to the same site.
+  .. If you are restoring sites for *Microsoft SharePoint Online*, you can restore to the same site or to a different site.  If you are restoring a Microsoft 365 group site, you can only restore to the same site.
     * *Restore to the same site*
 +
 If you restore to the same site, then by default, a restore folder with the current date and time stamp is created in the original file location containing the backup copy.   If you select the *Overwrite with merge* option, no restore folder is created.  If the version of the backup file and the current file match, the backup is restored to the original location.  Any new content in the destination is ignored and unaffected.  For example, if the backup contains File1 version5 and the destination contains File1 version 6, a restore with the *Overwrite with Merge* option selected fails.  If you select the *Replace the existing content* option, the current version of the data is completely replaced with the backup copy.

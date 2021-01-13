@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concept_backup_settings.html
-keywords: netapp, saas backup, office 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows
 summary: You can update your backup settings to control various backup options. Available backup settings vary based on service.
 ---
 
@@ -38,7 +38,7 @@ Enables the automatic scheduled synchronization of newly added or deleted users,
 * Microsoft Exchange Online
 * Microsoft SharePoint Online
 * Microsoft OneDrive for Business
-* Microsoft Office 365 Groups
+* Microsoft 365 Groups
 
 |Enable OneNote Backup a|
 Enables the backup of OneNote notebooks.
@@ -63,14 +63,14 @@ Includes workflows in the backup.
 |Manually a|
 
 * Microsoft SharePoint Online
-* Microsoft Office 365 Groups
+* Microsoft 365 Groups
 
 |Include List Views a|
 Includes list views in backup.
 |Manually a|
 
 * Microsoft SharePoint Online
-* Microsoft Office 365 Groups
+* Microsoft 365 Groups
 
 |Include Version History a|
 Enables maintenance of multiple file versions in the backup.
@@ -81,7 +81,7 @@ NOTE: This setting only applies to individual files.  It does not apply to entir
 
 * Microsoft SharePoint Online
 * Microsoft OneDrive for Business
-* Microsoft Office 365 Groups
+* Microsoft 365 Groups
 
 |Number of Versions a|
 Sets the number of backup file versions to maintain.
@@ -90,5 +90,5 @@ By default, the latest version is automatically backed up, even if this setting 
 
 * Microsoft SharePoint Online
 * Microsoft OneDrive for Business
-* Microsoft Office 365 Groups
+* Microsoft 365 Groups
 |===

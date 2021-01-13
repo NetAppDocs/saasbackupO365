@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_scheduling_backup_or_changing_frequency.html
-keywords: netapp, saas backup, office 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes
+keywords: netapp, saas backup, microsoft 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes
 summary: You follow the same process to schedule a new backup or change it to the frequency of a current backup.
 ---
 
@@ -37,7 +37,7 @@ sites, remain on the *SITES* tab.
 c. For OneDrive
 * If you are backing up or changing the backup policy for users, remain on the *USER* tab.
 
-d. For Office 365 groups
+d. For Microsoft 365 groups
 * If you are backing up groups (Tier 3 only), remain on the *GROUPS* tab.
 * If you are backing up teams (Tier 3 only), click the *TEAMS* tab.
 
@@ -47,6 +47,6 @@ d. For Office 365 groups
 image:groups_menu.gif[Groups Menu]
 5. Select the new policy tier for the backup.
 +
-NOTE:  Microsoft Office 365 groups and archive mailboxes can only be moved to the tier 3 policy.
+NOTE:  Microsoft 365 groups and archive mailboxes can only be moved to the tier 3 policy.
 
 6.	Click *Apply*.

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_deleting_security_groups.html
-keywords: netapp, saas backup, office 365, security, groups
+keywords: netapp, saas backup, microsoft 365, security, groups
 summary: If a security group is being utilized in a user-defined rule, it cannot be deleted.  You must remove the user-defined rule, then delete the security group.
 ---
 

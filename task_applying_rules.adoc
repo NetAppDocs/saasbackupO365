@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_applying_rules.html
-keywords: netapp, saas backup, office 365, creating, rules, managing, adding, applying
+keywords: netapp, saas backup, microsoft 365, creating, rules, managing, adding, applying
 summary: You can apply existing rules to unprotected items, change the order in which rules are applied, and delete rules.
 ---
 

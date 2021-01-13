@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_performing_search.html
-keywords: netapp, saas backup, office 365, search, searching, advanced search, performing, exchange, sharePoint, oneDrive, online
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, performing, exchange, sharePoint, oneDrive, online
 summary: You can use inline search to find specific content.
 ---
 
@@ -24,7 +24,7 @@ You can perform an inline search or an advanced search.
 * <<Using Advanced Search for Microsoft Exchange Online>>
 
 === Performing an inline search inside Microsoft Exchange Online
-You can perform an inline search within an individual mailbox for specific content. This also applies to mailboxes that are part of an Office 365 Group.
+You can perform an inline search within an individual mailbox for specific content. This also applies to mailboxes that are part of an Microsoft 365 Group.
 
 .Steps
 
@@ -119,7 +119,7 @@ You can perform an inline search within an individual MySite for specific conten
   The search is automatically performed and results are displayed after the search string is entered.
 
 == Searching inside Microsoft SharePoint Online
-You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Office 365 Group.
+You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Microsoft 365 Group.
 
 .Steps
 

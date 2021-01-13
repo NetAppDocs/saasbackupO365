@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: reference_teams_data_locations.html
-keywords: netapp, saas backup, office 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files
+keywords: netapp, saas backup, microsoft 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files
 summary: A table reference shows where to locate Teams data in SaaS Backup.
 ---
 
@@ -13,7 +13,7 @@ summary: A table reference shows where to locate Teams data in SaaS Backup.
 :imagesdir: ./media/
 
 [.lead]
-Data for Microsoft Teams has different locations in SaaS Backup for Microsoft Office 365.
+Data for Microsoft Teams has different locations in SaaS Backup for Microsoft 365.
 
 The table shows you where to locate Teams data in SaaS Backup.
 
@@ -22,14 +22,14 @@ The table shows you where to locate Teams data in SaaS Backup.
 |Teams data
 |Where is it in SaaS Backup?
 |Teams email|
-Office 365 Groups > Teams > SampleTeam > Mailbox
+Microsoft 365 Groups > Teams > SampleTeam > Mailbox
 |Teams channels
-|Office 365 Groups > Teams > SampleTeam > Channels
+|Microsoft 365 Groups > Teams > SampleTeam > Channels
 |Teams Standard Channel Documents|
-Office 365 Groups > Teams > SampleTeam > SharePoint Site > Documents > SampleTeam-StdChannel
+Microsoft 365 Groups > Teams > SampleTeam > SharePoint Site > Documents > SampleTeam-StdChannel
 |Teams Standard Channel Chat|
-* Office 365 Groups > Teams > SampleTeam > Mailbox > Conversations > Team Chat
-* Office 365 Groups > Teams > SampleTeam > Mailbox > Mail > Conversation History > Team Chat (actual location)
+* Microsoft 365 Groups > Teams > SampleTeam > Mailbox > Conversations > Team Chat
+* Microsoft 365 Groups > Teams > SampleTeam > Mailbox > Mail > Conversation History > Team Chat (actual location)
 |Teams Private Channel Documents|
 SharePoint > SampleTeam – SampleTeam-PrivChannel > Documents > SampleTeam-PrivChannel
 

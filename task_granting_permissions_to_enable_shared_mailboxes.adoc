@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_granting_permissions_to_enable_shared_mailboxes.html
-keywords: netapp, saas backup, office 365, granting, permissions, enabling, shared, mailboxes, azure, grant, shared
-summary: Within NetApp SaaS Backup for Office 365 you can grant permissions to enable shared mailboxes.
+keywords: netapp, saas backup, microsoft 365, granting, permissions, enabling, shared, mailboxes, azure, grant, shared
+summary: Within NetApp SaaS Backup for Microsoft 365 you can grant permissions to enable shared mailboxes.
 ---
 
 = Granting permissions to enable shared mailboxes
@@ -17,9 +17,9 @@ summary: Within NetApp SaaS Backup for Office 365 you can grant permissions to e
 .Steps
 
 .	Click image:services.gif[Screenshot of services button] from the left navigation pane.
-.	Click the Microsoft Office 365 link.
+.	Click the Microsoft 365 link.
 +
-image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+image:mso365_settings.gif[Screenshot of Microsoft 365 button]
 . Click *Grant Consent*.
 +
 image:grant_consent.gif[Screenshot of grant consent icon]

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_performing_immediate_backup_of_policy.html
-keywords: netapp, saas backup, office 365, getting started
-summary: Getting started with SaaS Backup for Office 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a MS Office 365 service account, and assigning user permissions.
+keywords: netapp, saas backup, microsoft 365, getting started
+summary: Getting started with SaaS Backup for Microsoft 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a Microsoft 365 service account, and assigning user permissions.
 ---
 
 = Performing an immediate backup of a specific backup policy
@@ -15,9 +15,9 @@ summary: Getting started with SaaS Backup for Office 365 includes deciding what 
 :imagesdir: ./media/
 
 [.lead]
-When you set up SaaS Backup for Office 365, by default, all of your data is unprotected.  After you move your data to a protected tier, you can perform an immediate backup of the tier to which you moved your data.  This prevents your data from being at risk until the first scheduled backup occurs.  If you can wait for the first scheduled backup, performing an immediate backup is not necessary.
+When you set up SaaS Backup for Microsoft 365, by default, all of your data is unprotected.  After you move your data to a protected tier, you can perform an immediate backup of the tier to which you moved your data.  This prevents your data from being at risk until the first scheduled backup occurs.  If you can wait for the first scheduled backup, performing an immediate backup is not necessary.
 
-You can perform an immediate backup any time you deem necessary for data protection. If you are running a trial version of SaaS Backup for Office 365, you can only perform three immediate backups per day, per service.
+You can perform an immediate backup any time you deem necessary for data protection. If you are running a trial version of SaaS Backup for Microsoft 365, you can only perform three immediate backups per day, per service.
 
 .Steps
 

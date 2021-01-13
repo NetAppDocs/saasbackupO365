@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concept_free_trial_restrictions.html
-keywords: netapp, saas backup, office 365, getting started, free trial, restrictions
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, restrictions
 summary: You should be aware of certain restrictions that apply to free trial accounts.
 ---
 

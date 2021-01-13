@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_creating_rules.html
-keywords: netapp, saas backup, office 365, creating, rules, adding, applying
+keywords: netapp, saas backup, microsoft 365, creating, rules, adding, applying
 summary: Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
 ---
 
@@ -19,7 +19,7 @@ Rules allow you to automatically move users to a preselected backup tier based o
 
 You can create rules for Microsoft Exchange Online and Microsoft OneDrive for Business.  Rules for Microsoft Exchange Online are applied before rules for Microsoft OneDrive for Business.  You cannot create rules for Microsoft SharePoint Online.
 
-You must apply a user defined filter to your data before you can create a rule.  Applied filters are displayed below the *Filter* icon.  NetApp SaaS Backup for Office 365 default filters appear in gray.  User defined filters appear in light blue.
+You must apply a user defined filter to your data before you can create a rule.  Applied filters are displayed below the *Filter* icon.  NetApp SaaS Backup for Microsoft 365 default filters appear in gray.  User defined filters appear in light blue.
 image:rules.gif[Example of user defined filter and SaaS Backup defined filter for creating rules]
 
 <<task_creating_user_defined_filter.adoc#creating-user-defined-filter, Creating a user defined filter>>

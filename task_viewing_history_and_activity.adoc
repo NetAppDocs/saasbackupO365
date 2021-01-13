@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_viewing_history_and_activity.html
-keywords: netapp, saas backup, office 365, viewing, jobs, history, activity, log
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, history, activity, log
 summary: You can view or download a log of the SaaS Backup activities and job history.
 ---
 
@@ -15,12 +15,12 @@ summary: You can view or download a log of the SaaS Backup activities and job hi
 :imagesdir: ./media/
 
 [.lead]
-SaaS Backup for Office 365 stores a log of your job history and a log of all activities performed inside SaaS Backup.
+SaaS Backup for Microsoft 365 stores a log of your job history and a log of all activities performed inside SaaS Backup.
 
 //video::xGVHUZdfJFM[youtube, width=848, height=480]
 
 == Viewing Job History
-NetApp SaaS Backup for Office 365 stores a log of all jobs that includes the job type, service, start time, end time, and completion status.
+NetApp SaaS Backup for Microsoft 365 stores a log of all jobs that includes the job type, service, start time, end time, and completion status.
 
 .Steps
 
@@ -36,13 +36,13 @@ Filter results are displayed.
 .	Click any job to expand the view for additional job details.
 
 == Viewing the Activity Log
-A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can filter the activity log by service and event. For example, if you need to see all of the restore operations that have occurred for Microsoft Exchange Online, you can filter the activity log to view those specific results.
+A log is stored of all activity that occurs inside SaaS Backup for Microsoft 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can filter the activity log by service and event. For example, if you need to see all of the restore operations that have occurred for Microsoft Exchange Online, you can filter the activity log to view those specific results.
 
 .Steps
 
 .	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
 .	Click the *Activity Log* tab.
-  A list of all SaaS Backup for Office 365 activity is displayed.
+  A list of all SaaS Backup for Microsoft 365 activity is displayed.
 .	To filter the results, click *Filter*.
 .	Click the *Select* drop-down menu, and select a filter.
   You can filter by service or event.  After you select a filter, a search field appears.

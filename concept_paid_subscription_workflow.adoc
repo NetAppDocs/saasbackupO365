@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: concept_paid_subscription_workflow.html
-keywords: netapp, saas backup, office 365, getting started, paid, subscription, workflow
-summary: To get started with a paid subscription for SaaS Backup for Office 365, you must decide what type of storage you will use for your backups, create a Microsoft Office 365 service account with global permissions, and you must complete the sign up process.
+keywords: netapp, saas backup, microsoft 365, getting started, paid, subscription, workflow
+summary: To get started with a paid subscription for SaaS Backup for Microsoft 365, you must decide what type of storage you will use for your backups, create a Microsoft 365 service account with global permissions, and you must complete the sign up process.
 ---
 
-= Workflow for getting started with a paid subscription to SaaS Backup for Office 365
+= Workflow for getting started with a paid subscription to SaaS Backup for Microsoft 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -15,7 +15,7 @@ summary: To get started with a paid subscription for SaaS Backup for Office 365,
 :imagesdir: ./media/
 
 [.lead]
-To get started with a paid subscription to SaaS Backup for Office 365, you must do the following:
+To get started with a paid subscription to SaaS Backup for Microsoft 365, you must do the following:
 
 . Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup.
 +
@@ -25,7 +25,7 @@ link:concept_storage_types.html[Storage types you can use with SaaS Backup].
 
 . If needed, link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
 
-. link:task_signing_up_for_saasbkup_paid_subscription.html[Sign up for SaaS Backup for Office 365] using your Microsoft Office 365 account or your NetApp SSO account.
+. link:task_signing_up_for_saasbkup_paid_subscription.html[Sign up for SaaS Backup for Microsoft 365] using your Microsoft 365 account or your NetApp SSO account.
 
 . link:task_scheduling_first_backup.html[Schedule your first backup]
 

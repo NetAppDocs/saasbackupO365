@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_downloading_data.html
-keywords: netapp, saas backup, office 365, jobs, history, activity, log, downloading
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, downloading
 summary: You can view or download a log of the SaaS Backup activities and job history.
 ---
 
@@ -15,16 +15,16 @@ summary: You can view or download a log of the SaaS Backup activities and job hi
 :imagesdir: ./media/
 
 [.lead]
-SaaS Backup for Office 365 stores a log of your job history inside SaaS Backup. You can download the job history and a list of completed jobs.
+SaaS Backup for Microsoft 365 stores a log of your job history inside SaaS Backup. You can download the job history and a list of completed jobs.
 
 == Downloading the Activity Log
-A log is stored of all activity that occurs inside SaaS Backup for Office 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can download the activity log to a .csv file.
+A log is stored of all activity that occurs inside SaaS Backup for Microsoft 365.  The log contains the date of each action performed along with the name of the user who performed the action. You can download the activity log to a .csv file.
 
 .Steps
 
 .	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
 .	Click the *Activity Log* tab.
-A list of all SaaS Backup for Office 365 activity is displayed.
+A list of all SaaS Backup for Microsoft 365 activity is displayed.
 .	Click image:download_activitylog.gif[Screenshoot of download button right corner of the Activity Log].
 The activity log is downloaded as a .csv file.
 

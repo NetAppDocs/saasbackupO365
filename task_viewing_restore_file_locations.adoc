@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_viewing_restore_file_locations.html
-keywords: netapp, saas backup, office 365, viewing, jobs, log, restore, file, locations
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, log, restore, file, locations
 summary: You can download a log of the title and location of restored files and folders.
 ---
 

@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosyn
 summary: You can update your backup settings to control various backup options. Available backup settings vary based on service.
 ---
 
-== Backup settings
+= Backup settings
 :toc: macro
 :toclevels: 1
 :hardbreaks:

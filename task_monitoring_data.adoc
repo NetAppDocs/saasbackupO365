@@ -1,0 +1,25 @@
+---
+sidebar: sidebar
+permalink: task_monitoring_data.html
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, monitoring, monitor, user, data, user data, email, url, mailbox, license, licenses, discovery state, discovery, backup status, backup tier
+summary: In SaaS Backup for Microsoft Office 365, you can monitor user data for all services like email or url addresses, mailbox types, license use, discovery state, last discovery, backup status, backup tier, and more.
+---
+
+= Monitoring user data
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+In SaaS Backup for Microsoft Office 365, you can monitor user data for all services like email or url addresses, mailbox types, license use, discovery state, last discovery, backup status, backup tier, and more.
+
+.Steps
+. Click on *Services*.
+. Click the service for which you want to export user data.
+.. For Microsoft Exchange Online, click on the number of protected, pending, or unprotected mailboxes.
+.. For Microsoft SharePoint Online, click on the number of protected, pending, or unprotected sites.
+.. For Microsoft OneDrive for Business, click on the number of protected, pending, or unprotected MySites.
+.. For Microsoft Office 365 Groups, click on the number of protected, pending, or unprotected groups.
+. Click *Download* to export an Excel file of user data for the respective service.

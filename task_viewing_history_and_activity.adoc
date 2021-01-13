@@ -5,9 +5,7 @@ keywords: netapp, saas backup, microsoft 365, viewing, jobs, history, activity, 
 summary: You can view or download a log of the SaaS Backup activities and job history.
 ---
 
-== Viewing Job History and Activity Log
-:toc: macro
-:toclevels: 1
+= Viewing job history and activity log
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -21,14 +19,21 @@ SaaS Backup for Microsoft 365 stores a log of your job history and a log of all 
 
 == Viewing Job History
 NetApp SaaS Backup for Microsoft 365 stores a log of all jobs that includes the job type, service, start time, end time, and completion status.
+=======
+You can view or download reports of your job history and all activities in SaaS Backup for Microsoft Office 365.
+
+//video::xGVHUZdfJFM[youtube, width=848, height=480]
+
+== Viewing job history
+You can view or download reports of all your job history in NetApp SaaS Backup for Office 365. You can filter your search by job type, service, start time, end time, and completion status.
 
 .Steps
 
-.	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
+.	Click *Reporting* on the left navigation pane.
 A list of all SaaS Backup jobs is displayed under the *Job History* tab.
 .	To filter the results, click *Filter*.
 .	Click the *Select* drop-down menu, and select a filter.
-  You can filter by policy, service, or type. After you select a filter, a search field appears.
+  You can filter by policy, service, type, or status. After you select a filter, a search field appears.
 .	Enter your search criteria.
 .	If you want to add more filters, click *Add Filter*.
 .	Click image:apply_filter.gif[Screenshot of Apply Filter button]
@@ -40,7 +45,7 @@ A log is stored of all activity that occurs inside SaaS Backup for Microsoft 365
 
 .Steps
 
-.	Click image:reporting.gif[Screenshot of reporting button] on the left navigation pane.
+.	Click *Reporting* on the left navigation pane.
 .	Click the *Activity Log* tab.
   A list of all SaaS Backup for Microsoft 365 activity is displayed.
 .	To filter the results, click *Filter*.

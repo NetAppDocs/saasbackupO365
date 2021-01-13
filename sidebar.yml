@@ -171,6 +171,8 @@ entries:
       url: /task_viewing_deleted.html
     - title: Downloading data
       url: /task_downloading_data.html
+    - title: Monitoring user data
+      url: /task_monitoring_data.html
   - title: Providing feedback
     url: /task_providing_feedback.html
   - title: Where to get help and find more information

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_performing_high_level_restore.html
-keywords: netapp, saas restores, office 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
-summary: You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
+keywords: netapp, saas restores, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+summary: You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft 365 groups.
 ---
 
 = Performing a high-level service restore
@@ -13,7 +13,7 @@ summary: You follow the same procedure to perform high-level restores of mailbox
 :imagesdir: ./media/
 
 [.lead]
-You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft Office 365 groups.
+You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft 365 groups.
 
 By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
@@ -48,7 +48,7 @@ NOTE: If you select the export to PST restore option, the provided link is valid
 .. If you are restoring teams under *Microsoft Office 365 Groups* select one of the following options:
    * Restore to the same team
    * Restore to another team
-     This is ideal for situations where a team is deleted from Microsoft Office 365. You should create a new team to use this restore option. If you have recently created a new team in MS Teams, discover it by syncing the service. Go to *Services Settings* on the left. Click *Office 365*. Under *Manage Services*, click *Sync Now* for Microsoft Office 365 Groups.
+     This is ideal for situations where a team is deleted from Microsoft 365. You should create a new team to use this restore option. If you have recently created a new team in MS Teams, discover it by syncing the service. Go to *Services Settings* on the left. Click *Office 365*. Under *Manage Services*, click *Sync Now* for Microsoft 365 Groups.
    * Export data
      If you export data, you need to download it. Go to Reporting on the left menu. Find your export data job. Click on *Total Folders*. Then click *Export Data Download Link*. A zip file downloads. Open the zip file to extract the data.
 .. If you are restoring MySites for *Microsoft OneDrive for Business*, select one of the following options:

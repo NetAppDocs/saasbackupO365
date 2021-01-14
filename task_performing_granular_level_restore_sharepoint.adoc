@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_sharepoint.html
-keywords: netapp, saas backup, restore, restores, office 365, granular, granular level, Microsoft, SharePoint Online, sites
-summary: You can use SaaS Backup for Office 365 to perform granular level restores for Microsoft SharePoint Online.
+keywords: netapp, saas restores, microsoft 365, granular restores, Microsoft SharePoint Online, sites
+summary: You can use SaaS Backup for Microsoft 365 to perform granular level restores for Microsoft SharePoint Online.
 ---
 
 = Performing a granular-level restore for Microsoft SharePoint Online
@@ -15,7 +15,7 @@ summary: You can use SaaS Backup for Office 365 to perform granular level restor
 :imagesdir: ./media/
 
 [.lead]
-Within Microsoft SharePoint Online, you can restore granular-level items for a single user, such as individual folders or files. You can also restore granular-level items for a Microsoft Office 365 group site and OneNote notebooks. Site roles and permissions are protected automatically as part of a restore or backup.
+Within Microsoft SharePoint Online, you can restore granular-level items for a single user, such as individual folders or files. You can also restore granular-level items for a Microsoft 365 group site and OneNote notebooks. Site roles and permissions are protected automatically as part of a restore or backup.
 
 By default, only the most recent backup is available for restore. You can update your backup settings to maintain a specified number of backed-up versions of individual files. If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
@@ -27,62 +27,62 @@ The table indicates the restore options that are supported for granular-level it
 |Restore to the same site
 |Restore to another site
 |Export data
-|single/multiple items|
-yes
-|yes
-|no
-|single/multiple files|
-yes
-|yes
-|no
-|single site|
-yes
-| yes
-|yes
-|multiple sites|
-yes
-|yes
-|no
-|communication sites|
-no
-|no
-|no
-|single/multiple subsite|
-yes
-|yes
-|yes
-|single/multiple folder|
-yes
-|yes
-|yes
-|single/multiple list|
-yes
-|yes
-|yes
-|content|
-yes
-|yes
-|yes
+|Single/multiple items|
+Yes
+|Yes
+|No
+|Single/multiple files|
+Yes
+|Yes
+|No
+|Single site|
+Yes
+|Yes
+|Yes
+|Multiple sites|
+Yes
+|Yes
+|No
+|Communication sites|
+No
+|No
+|No
+|Single/multiple subsites|
+Yes
+|Yes
+|Yes
+|Single/multiple folders|
+Yes
+|Yes
+|Yes
+|Single/multiple lists|
+Yes
+|Yes
+|Yes
+|Content|
+Yes
+|Yes
+|Yes
 |OneNote single/multiple notebooks|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote single/multiple section groups|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote single/multiple sections|
-yes
-|yes
-|no
+Yes
+|Yes
+|No
 |OneNote pages
 
 NOTE: Pages within a section restore at the section level.
 
 |
-no
-|no
-|no
+No
+|No
+|No
 |===
 
 .Steps

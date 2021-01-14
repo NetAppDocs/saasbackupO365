@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_completing_signing_up_ipa.html
-keywords: netapp, saas backup, office 365, getting started, signing up, paid, subscription, licensed, version
-summary: You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 service account or with your NetApp SSO account.
+keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version
+summary: You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 service account or with your NetApp SSO account.
 ---
 
 = Signing up with paid subscription

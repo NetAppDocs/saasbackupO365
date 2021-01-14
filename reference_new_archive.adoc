@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: reference_new_archived.html
 keywords: what's new, features, new, release notes, enhancements
-summary: SaaS Backup for Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
+summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 
 = New features and updates - Archived
@@ -15,11 +15,11 @@ summary: SaaS Backup for Office 365 regularly introduces a new release to bring 
 :imagesdir: ./media/
 
 [.lead]
-The following is an archived list of new features added to SaaS Backup for Office 368.
+The following is an archived list of new features added to SaaS Backup for Microsoft 365.
 
 
 == December 2018
-* SaaS Backup for Office 365 can now be purchased through the AppDirect Marketplace and the CANCOM Marketplace.
+* SaaS Backup for Microsoft 365 can now be purchased through the AppDirect Marketplace and the CANCOM Marketplace.
 
 == August 2018
 * The user interface has been redesigned for improved user experience and efficiency.
@@ -27,13 +27,13 @@ The following is an archived list of new features added to SaaS Backup for Offic
   <<concept_backup_policies.adoc#backup_policies,Backup policies>>
 
 == May 2018
-* NetApp Cloud Control has been renamed to NetApp SaaS Backup for Office 365.
-* You can now purge users, site collections, and Office 365 groups, completely removing all associated data from SaaS Backup for Office 365.
-  <<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,Purging a user, site collection, or Office 365 group>>
-* SaaS Backup now discovers both public and private groups for Office 365 groups.
+* NetApp Cloud Control has been renamed to NetApp SaaS Backup for Microsoft 365.
+* You can now purge users, site collections, and Microsoft 365 groups, completely removing all associated data from SaaS Backup for Microsoft 365.
+  <<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,Purging a user, site collection, or Microsoft 365 group>>
+* SaaS Backup now discovers both public and private groups for Microsoft 365 groups.
 
 == April 2018
-* SaaS Backup for Office 365 now supports shared mailboxes for Microsoft Office Exchange Online.
+* SaaS Backup for Microsoft 365 now supports shared mailboxes for Microsoft Office Exchange Online.
 +
 Shared mailboxes are discovered through the use of an automatically created service account.  If you have not activated service for Microsoft Office Exchange Online prior to this update, the automatic service account for shared mailboxes is created by SaaS Backup when you activate Microsoft Office Exchange Online. If your service for Microsoft Office Exchange Online is already activated, you must grant SaaS Backup permission to create the automatic service account, so that your shared mailboxes can be discovered and backed up.  <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,Granting permissions to enable shared mailboxes>>
 +
@@ -47,21 +47,21 @@ image:subscription_types_free_trial.jpg[Screenshot that shows where you enter an
 == February 2018
 * Filtering based on Template ID is now available for Microsoft SharePoint Online.
   <<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,Creating a user defined filter>>
-* You can now download the SaaS Backup for Office 365 user account activity log to a .csv file.
+* You can now download the SaaS Backup for Microsoft 365 user account activity log to a .csv file.
   <<task_viewing_and_downloading_data.adoc#downloading-the-activity-log,Downloading the activity log>>
-* Synchronization of user accounts, sites, and groups between SaaS Backup for Office 365 and your service is now enabled by default.
+* Synchronization of user accounts, sites, and groups between SaaS Backup for Microsoft 365 and your service is now enabled by default.
 * Inclusion of backup version history is now enabled by default. The default number of versions is 20.
   <<task_updating_backup_settings.adoc#updating-backup-settings,Updating Backup Settings>>
 
 == January 2018
-* The activity log now displays the name of the user ID associated with each action performed inside SaaS Backup for Office 365.
-* You can now manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Office 365.
+* The activity log now displays the name of the user ID associated with each action performed inside SaaS Backup for Microsoft 365.
+* You can now manually synchronize your user permissions with Azure Active Directory from within SaaS Backup for Microsoft 365.
 * Microsoft Exchange Online now supports export to PST for restore at the folder level.
 
 == November 2017
-* SaaS Backup for Office 365 now supports Azure Blob as an option for SaaS Backup provided storage.
-* SaaS Backup for Office 365 now supports Microsoft Office 365 Groups for backup and restore.
-  Microsoft Exchange Online or Microsoft SharePoint Online must be activated before you can activate Microsoft Office 365 Groups. Microsoft Office 365 Groups can only be protected by the tier 3 backup policy.
+* SaaS Backup for Microsoft 365 now supports Azure Blob as an option for SaaS Backup provided storage.
+* SaaS Backup for Microsoft 365 now supports Microsoft 365 Groups for backup and restore.
+  Microsoft Exchange Online or Microsoft SharePoint Online must be activated before you can activate Microsoft 365 Groups. Microsoft 365 Groups can only be protected by the tier 3 backup policy.
 * Microsoft Exchange Online now supports export to PST for restore at the mailbox level.
 
 == October 2017

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_browsing_backups.html
-keywords: netapp, saas backup, Microsoft, office 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Office 365 Groups, date range, days, items, user, users, group, groups
-summary: You can browse your backups in all of your Microsoft Office 365 services.
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups
+summary: You can browse your backups in all of your Microsoft 365 services.
 ---
 
 = Browsing backups
@@ -15,7 +15,7 @@ summary: You can browse your backups in all of your Microsoft Office 365 service
 :imagesdir: ./media/
 
 [.lead]
-You can browse protected instances in recent backups or in all of your backups for Microsoft Office 365 Exchange, SharePoint, OneDrive for Business, and Groups.
+You can browse protected instances in recent backups or in all of your backups for Microsoft 365 Exchange, SharePoint, OneDrive for Business, and Groups.
 
 NOTE: The default browse setting is *Showing Last 5 days Backup*. If you select 5 days, only items backed up in the last 5 days appear. You can change the time range as needed.
 

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: concept_storage_types.html
-keywords: netapp, saas backup, office 365, getting started, storage, types, amazon s3, azure, blob
+keywords: netapp, saas backup, microsoft 365, getting started, storage, types, amazon s3, azure, blob
 summary: Storage types you can use with SaaS Backup.
 ---
 

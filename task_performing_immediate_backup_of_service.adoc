@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_performing_immediate_backup_of_service.html
-keywords: netapp, saas backup, office 365, performing, immediate, backup, service
-summary: As needed, you can perform an immediate backup of any Microsoft Office 365 service.
+keywords: netapp, saas backup, microsoft 365, performing, immediate, backup, service
+summary: As needed, you can perform an immediate backup of any Microsoft 365 service.
 ---
 
 = Performing an immediate backup of a service
@@ -15,7 +15,7 @@ summary: As needed, you can perform an immediate backup of any Microsoft Office 
 :imagesdir: ./media/
 
 [.lead]
-As needed, you can perform an immediate backup of any Microsoft Office 365 service.
+As needed, you can perform an immediate backup of any Microsoft 365 service.
 
 .Steps
 
@@ -32,7 +32,7 @@ b. For SharePoint
 c. For OneDrive
 * If you are backing up users, remain on the *USER* tab.
 
-d. For Office 365 groups
+d. For Microsoft 365 groups
 * If you are backing up groups, remain on the *GROUPS* tab.
 * If you are backing up teams, click the *TEAMS* tab.
 +

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: reference_new_saasbackupO365.html
 keywords: what's new, features, new, release notes, enhancements
-summary: SaaS Backup for Microsoft Office 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
+summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 
 = New features and updates
@@ -13,7 +13,7 @@ summary: SaaS Backup for Microsoft Office 365 regularly introduces a new release
 :imagesdir: ./media/
 
 [.lead]
-The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft Office 365.
+The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft 365.
 
 == December 2020
 If you deploy Microsoft Azure in the US, your data will not leave your Microsoft environment. During the sign-up process for SaaS Backup for Microsoft 365, you can use Azure Blob storage or your own storage.

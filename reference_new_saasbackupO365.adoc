@@ -18,8 +18,6 @@ The following new features and updates have been added to this release of NetApp
 == December 2020
 If you deploy Microsoft Azure in the US, your data will not leave your Microsoft environment. During the sign-up process for SaaS Backup for Microsoft 365, you can use Azure Blob storage or your own storage.
 
-image:1.1.4.8_saas_backup_provided_storage.png[Storage options for Microsoft Azure customers]
-
 link:task_signing_up_for_saasbkup_free_trial.html[Signing up for SaaS Backup from a free trial]
 
 link:task_signing_up_for_saasbkup_paid_subscription.html[Signing up for SaaS Backup from a paid subscription]

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: reference_free_trial_data.html
-keywords: free, trial, data, saas, backup, office, 365
-summary: If you do not upgrade to a licensed version of SaaS Backup for Office 365, the data used during your free trial period is deleted.
+keywords: free, trial, data, saas, backup, microsoft 365
+summary: If you do not upgrade to a licensed version of SaaS Backup for Microsoft 365, the data used during your free trial period is deleted.
 ---
 
 = Free trial data deletion
@@ -15,7 +15,7 @@ summary: If you do not upgrade to a licensed version of SaaS Backup for Office 3
 :imagesdir: ./media/
 
 [.lead]
-If you do not upgrade to a licensed version of SaaS Backup for Office 365, the data used during your free trial period is deleted as follows:
+If you do not upgrade to a licensed version of SaaS Backup for Microsoft 365, the data used during your free trial period is deleted as follows:
 
 [options="header" width="70%"]
 |===

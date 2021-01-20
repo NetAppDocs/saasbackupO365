@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_viewing_purged.html
-keywords: netapp, saas backup, office 365, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites
 summary: You can view a list of mailboxes or user accounts that have been purged.
 ---
 

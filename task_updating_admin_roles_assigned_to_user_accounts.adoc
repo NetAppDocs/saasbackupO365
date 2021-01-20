@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: task_updating_admin_roles_assigned_to_user_accounts.html
-keywords: netapp, saas backup, office 365, role-based accounts, administrative roles, privileges, updating, changing
-summary: If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Office 365. When the user logs back in, administrative role updates are reflected in the user's account.
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, updating, changing
+summary: If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Microsoft 365. When the user logs back in, administrative role updates are reflected in the user's account.
 ---
 
 = Updating administrative roles assigned to user accounts
@@ -15,7 +15,7 @@ summary: If an update is made to a user's administrative roles, the user is auto
 :imagesdir: ./media/
 
 [.lead]
-If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Office 365. When the user logs back in, administrative role updates are reflected in the user's account.
+If an update is made to a user's administrative roles, the user is automatically logged out of SaaS Backup for Microsoft 365. When the user logs back in, administrative role updates are reflected in the user's account.
 
 .Steps
 

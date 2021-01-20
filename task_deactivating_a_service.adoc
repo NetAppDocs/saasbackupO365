@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_deactivating_a_service.html
-keywords: netapp, saas backup, office 365, service, deactivating
+keywords: netapp, saas backup, microsoft 365, service, deactivating
 summary: If you deactivate a service, all of the schedules associated with that service are removed and no further backup is performed.  You can still view the last backup that occurred before deactivation and you can still perform restores.
 ---
 
@@ -15,13 +15,13 @@ summary: If you deactivate a service, all of the schedules associated with that 
 :imagesdir: ./media/
 
 [.lead]
-If needed, you can deactivate one or more of your SaaS Backup for Office 365 services.  If you deactivate a service, all of the schedules associated with that service are removed and no further backup is performed.  You can still view the last backup that occurred before deactivation and you can still perform restores.
+If needed, you can deactivate one or more of your SaaS Backup for Microsoft 365 services.  If you deactivate a service, all of the schedules associated with that service are removed and no further backup is performed.  You can still view the last backup that occurred before deactivation and you can still perform restores.
 
 .Steps
 
 .	Click image:services.gif[Screenshot of services button] from the left navigation pane.
-. Click the Microsoft Office 365 link.
+. Click the Microsoft 365 link.
 +
-image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+image:mso365_settings.gif[Screenshot of Microsoft 365 button]
 .	Click image:deactivate.gif[Screenshot of deactivate button] next to the service that you want to deactivate.
 .	Click *Confirm*.

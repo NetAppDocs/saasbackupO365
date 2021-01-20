@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_updating_backup_settings.html
-keywords: netapp, saas backup, office 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows
 summary: You can update your backup settings to control various backup options. Available backup settings vary based on service.
 ---
 
@@ -22,9 +22,9 @@ You can update your <<concept_backup_settings.adoc#backup-settings, backup setti
 . Click *Services* from the left navigation pane.
 +
 image:services.gif[Screenshot of services button]
-. Click Microsoft Office 365.
+. Click Microsoft 365.
 +
-image:mso365_settings.gif[Screenshot of Microsoft Office 365 button]
+image:mso365_settings.gif[Screenshot of Microsoft 365 button]
 .	Under *Manage Services*, click the backup settings icon image:configure_icon.gif[Screenshot of configuration icon] next to the service that you need to update.
   A list of your backup settings available for the selected service is displayed.
 . Select the desired backup settings.

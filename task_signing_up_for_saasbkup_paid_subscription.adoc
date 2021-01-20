@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_signing_up_for_saasbkup_paid_subscription.html
-keywords: netapp, saas backup, office 365, getting started, signing up, paid, subscription, licensed, version
-summary: You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 service account or with your NetApp SSO account.
+keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version
+summary: You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 service account or with your NetApp SSO account.
 ---
 
-= Signing up for a paid subscription of SaaS Backup for Office 365
+= Signing up for a paid subscription of SaaS Backup for Microsoft 365
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -15,31 +15,31 @@ summary: You can sign up for SaaS Backup for Office 365 with your Microsoft Offi
 :imagesdir: ./media/
 
 [.lead]
-You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 service account or with your NetApp SSO account.
+You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 service account or with your NetApp SSO account.
 
 //video::A4nIi7n-uAw[youtube, width=848, height=480]
 
-== Signing up for a paid subscription with a Microsoft Office 365 service account
+== Signing up for a paid subscription with a Microsoft 365 service account
 
 .Steps
 
-.	Enter the SaaS Backup for Office 365 URL into your web browser:
+.	Enter the SaaS Backup for Microsoft 365 URL into your web browser:
   https://saasbackup.netapp.com
 . Select your region.
   Your tenancy is created in the selected region.  Your data will be stored in that datacenter location and cannot be changed later.
 .	Click *Sign up* at the bottom of the landing page.
 .	Accept the End-User License Agreement.
 . Click *Sign Up with Office 365*.
-  image:sign_up_0365.gif[Screenshot of button clicked to sign for SaaS Backup for Office 365 using an Office 365 service account]
-.	Enter the email address and password for your Microsoft Office 365 global administrator service account, and then click *Sign in*.
-  A list of the permissions requested by SaaS Backup for Office 365 is displayed.
+  image:sign_up_0365.gif[Screenshot of button clicked to sign for SaaS Backup for Microsoft 365 using an Microsoft 365 service account]
+.	Enter the email address and password for your Microsoft 365 global administrator service account, and then click *Sign in*.
+  A list of the permissions requested by SaaS Backup for Microsoft 365 is displayed.
 .	Click *Accept*.
 .	Enter the requested user information.
 .	Click *Sign up*.
-  Your user name and a list of permissions given to SaaS Backup for Office 365 is displayed.
+  Your user name and a list of permissions given to SaaS Backup for Microsoft 365 is displayed.
 .	Click *Next*.
-  A list of the available Microsoft Office 365 services is displayed.
-.	Select the Microsoft Office 365 services that you want to activate.
+  A list of the available Microsoft 365 services is displayed.
+.	Select the Microsoft 365 services that you want to activate.
 .	Click *Next*.
 
 . If you purchased your license through NetApp, your subscription types are displayed
@@ -53,23 +53,23 @@ You can sign up for SaaS Backup for Office 365 with your Microsoft Office 365 se
 
 .Steps
 
-.	Enter the SaaS Backup for Office 365 URL into your web browser:
+.	Enter the SaaS Backup for Microsoft 365 URL into your web browser:
   https://saasbackup.netapp.com
 .	Click Sign up at the bottom of the landing page.
 .	Accept the End-User License Agreement.
 . Click *Sign Up with NetApp SSO*.
-  image:sign_up_sso.gif[Screenshot of button clicked to sign for SaaS Backup for Office 365 using a NetApp SSO account]
+  image:sign_up_sso.gif[Screenshot of button clicked to sign for SaaS Backup for Microsoft 365 using a NetApp SSO account]
 . Enter your NetApp SSO and password, and then click *LOGIN*.
 .	Enter the requested user information, and then click *Sign Up*.
-. Click the *Services* image:bluecircle_icon.gif[Screenshot of SaaS Backup for Office 365 services icon] icon.
-. Click the Microsoft Office 365 image:O365_icon.gif[MS Office 365 icon] icon to select the SaaS service.
+. Click the *Services* image:bluecircle_icon.gif[Screenshot of SaaS Backup for Microsoft 365 services icon] icon.
+. Click the Microsoft 365 image:O365_icon.gif[Microsoft 365 icon] icon to select the SaaS service.
 . Click *Add Microsoft Office 365 Account*.
-.	Enter the email address and password for your Microsoft Office 365 global administrator service account, and then click *Sign in*.
-  A list of the permissions requested by SaaS Backup for Office 365 is displayed.
+.	Enter the email address and password for your Microsoft 365 global administrator service account, and then click *Sign in*.
+  A list of the permissions requested by SaaS Backup for Microsoft 365 is displayed.
 .	Click *Accept*.
 . Click *Next*.
-  A list of the available Microsoft Office 365 services is displayed.
-.	Select the Microsoft Office 365 services that you want to activate.
+  A list of the available Microsoft 365 services is displayed.
+.	Select the Microsoft 365 services that you want to activate.
 .	Click *Next*.
 . Select *Licensed* for the subscription type.
 . Enter the requested information, and then validate the subscription.

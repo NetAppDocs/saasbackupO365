@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_viewing_deleted.html
-keywords: netapp, saas backup, office 365, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams
 summary: You can view deleted items from all services if you switch on deleted items from Service Settings.
 ---
 

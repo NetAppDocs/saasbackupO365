@@ -18,8 +18,6 @@ The following new features and updates have been added to this release of NetApp
 == December 2020
 If you deploy Microsoft Azure in the US, your data will not leave your Microsoft environment. During the sign-up process for SaaS Backup for Microsoft 365, you can use Azure Blob storage or your own storage.
 
-image:1.1.4.8_saas_backup_provided_storage.png[Storage options for Microsoft Azure customers]
-
 link:task_signing_up_for_saasbkup_free_trial.html[Signing up for SaaS Backup from a free trial]
 
 link:task_signing_up_for_saasbkup_paid_subscription.html[Signing up for SaaS Backup from a paid subscription]
@@ -43,7 +41,8 @@ link:task_purging.html[Purging]
 link:task_viewing_history_and_activity.html[Viewing job history]
 
 == June 2020
-* SaaS Backup for Microsoft Office 365 now supports advanced search capabilities for Exchange Online users. Once enabled, a user can search for individual, shared, and archive mailbox items within the last six months of backup data.
+* SaaS Backup for Microsoft 365 now supports advanced search capabilities for Exchange Online users. Once enabled, a user can search for individual, shared, and archive mailbox items within the last six months of backup data.
+// and restore those items to the original mailbox.
 +
 link:task_performing_search.html[Performing a search]
 +
@@ -52,13 +51,13 @@ To enable this feature, go to link:https://mysupport.netapp.com/[Support] and su
 You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 
 == March/April 2020
-* Now you can select different time ranges to browse backups for Microsoft Office 365 Exchange, SharePoint, OneDrive for Business, and Groups for protected users.
+* Now you can select different time ranges to browse backups for Microsoft 365 Exchange, SharePoint, OneDrive for Business, and Groups for protected users.
 +
 image:date_range_browse_feature.gif[Image shows time range options for browsing backups]
 +
 link:task_browsing_backups.html[Browsing backups]
 
-* SaaS Backup for Office 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat.
+* SaaS Backup for Microsoft 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat.
 +
 link:task_performing_immediate_backup_of_service.html[Performing an immediate backup of a service]
 +
@@ -81,7 +80,7 @@ Activating support enables you to access technical support over the phone, onlin
 <<task_activate_support.adoc#activating-support, Activating support>>
 
 == June 2019
-* SaaS Backup for Office 365 now supports the backup and restore of items created using the copy-to feature in Microsoft SharePoint Online and Microsoft OneDrive for Business.
+* SaaS Backup for Microsoft 365 now supports the backup and restore of items created using the copy-to feature in Microsoft SharePoint Online and Microsoft OneDrive for Business.
 * Enhancements have been made to include additional details in the restore statistics including restore size, restore location, and additional comments.
 
 == May 2019
@@ -90,13 +89,13 @@ Activating support enables you to access technical support over the phone, onlin
 <<task_activating_an_add_on_license.adoc#activating-an-add-on-license, Activating an add-on license>>
 
 == April 2019
-* SaaS Backup for Office 365 now supports deletion of security groups.
+* SaaS Backup for Microsoft 365 now supports deletion of security groups.
 +
 <<task_deleting_security_groups.adoc#deleting-security-groups, Deleting security groups>>
 * Shared mailboxes no longer consume a user license.
 
 == March 2019
-* SaaS Backup for Office 365 now supports multiple backup locations in each supported region.
+* SaaS Backup for Microsoft 365 now supports multiple backup locations in each supported region.
 +
 You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
 +
@@ -108,7 +107,7 @@ NOTE: If you are upgrading from a trial version and you choose a backup location
   <<task_releasing_a_user_license.adoc#releasing-a-user-license, Releasing a user license>>
 
 == February 2019
-* SaaS Backup for Office 365 now supports the following:
+* SaaS Backup for Microsoft 365 now supports the following:
 ** Backup and restore of archive mailboxes.
 ** Enhanced backup and restore statistics across Microsoft Office Exchange Online, SharePoint, and OneDrive for Business.
 

@@ -6,8 +6,6 @@ summary: SaaS Backup for microsoft 365 has three predefined tiers of backup poli
 ---
 
 = Backup policies
-:toc: macro
-:toclevels: 1
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -32,6 +30,8 @@ You can move data between the three policies, but you cannot create new policies
 NOTE: As an administrator, you can change the data retention period for SaaS Backup provided storage up to an unlimited period of time. SaaS Backup retains the backup data for the retention period if the subscription is active.
 
 == Backup policies for BYOS
+
+BYOS is for existing customers only.
 
 [options="header" width="80%"]
 |=======

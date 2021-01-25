@@ -6,8 +6,6 @@ summary: You can update, add, or renew a license.
 ---
 
 = Updating subscription information
-:toc: macro
-:toclevels: 1
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,14 +13,14 @@ summary: You can update, add, or renew a license.
 :imagesdir: ./media/
 
 [.lead]
-After you purchase an add-on license or subscription extension, renew your subscription details inside of SaaS Backup in order to update the subscription information.
+After you purchase an add-on license or subscription extension, you can update your subscription details inside of SaaS Backup.
 
 NOTE: Any regular user mailbox, whether protected or unprotected, consumes a license.  Shared mailboxes do not consume a license.
 
 .Steps
 
-. Click image:services.gif[Screenshot of services button] from the left navigation pane.
+. Click *Services* from the left navigation pane.
 . Click image:configure_icon.gif[Screenshot of configuration icon] icon in the right corner.
-. Click image:renew_icon.gif[Screenshot of renew icon] next to Subscription Details.
+. Click *Update* next to Subscription Details.
 . Enter the same username and password you used when you first signed up.
 . Click *Submit*.

@@ -15,6 +15,8 @@ summary: You can update your backup settings to control various backup options. 
 [.lead]
 You can update your backup settings to control various backup options. Available backup settings vary based on service.
 
+== Backup settings per service
+
 [cols=4*,options="header",cols="12,64,24,24"]
 |===
 |Backup setting
@@ -90,3 +92,18 @@ By default, the latest version is automatically backed up, even if this setting 
 * Microsoft OneDrive for Business
 * Microsoft 365 Groups
 |===
+
+== Updating backup settings
+
+.Steps
+
+. Click *Services* from the left navigation pane.
++
+image:services.gif[Screenshot of services button]
+. Click Microsoft 365.
++
+image:mso365_settings.gif[Screenshot of Microsoft 365 button]
+.	Under *Manage Services*, click the backup settings icon image:configure_icon.gif[Screenshot of configuration icon] next to the service that you need to update.
+  A list of your backup settings available for the selected service is displayed.
+. Select the desired backup settings.
+. Click *Confirm*.

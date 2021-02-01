@@ -12,11 +12,17 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 :linkattrs:
 :imagesdir: ./media/
 
+* The following limitation exists for all users who sign up with a Microsoft 365 service account:
+** SaaS Backup supports Basic Authentication only.
+
 * The following limitation exists for Microsoft Office 365 Teams channel restores:
 ** Channel configuration is restored but content and conversations are not.
 
-* The following limitation exists for both free trial and licensed users for all services:
-** A maximum of 10 restores are allowed in a 24-hour period.
+* The following limitation exists for free trial users:
+** A maximum of 10 restores per service are allowed in a 24-hour period.
+
+* The following limitation exists for licensed users:
+** A maximum of 10 export data restores per service are allowed in a 24-hour period. All other restore options have no limitations.
 
 * The following limitation exists for OneDrive for Business:
 ** Newly added drives are not detected until you manually complete a sync for the service.

@@ -20,16 +20,17 @@ By default, only the most recent backup is available for restore.  You can updat
 .Steps
 
 . From the Dashboard, click the number above *PROTECTED* in the box of the service for which you want to perform the restore.
-+
-image:number_protected_unprotected.gif[screenshot of number of protected and unprotected users]
-. Select a restore option.
-..  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
-..  If you are restoring archive mailboxes for Microsoft Exchange Online, click the *ARCHIVE* tab. Note: Archive mailboxes are restored to the user's regular mailbox.
-..  If you are restoring mailboxes that are not shared, remain on the *USER* tab.
-. Select the items that you want to restore.
-. Click *Restore*.
-+
-image:restore.gif[image of restore button]
+//+
+//image:number_protected_unprotected.gif[screenshot of number of protected and unprotected users]
+//. Select a restore option.
+//..  If you are restoring shared mailboxes for Microsoft Exchange Online, click the *SHARED* tab.
+//..  If you are restoring archive mailboxes for Microsoft Exchange Online, click the *ARCHIVE* tab. Note: Archive mailboxes are restored to the user's regular mailbox.
+//..  If you are restoring mailboxes that are not shared, remain on the *USER* tab.
+//. Select the items that you want to restore.
+//. Click *Restore*.
+//+
+//image:restore.gif[image of restore button]
+. Select the name of the mailbox, group, team, Mysite, or site to restore.
 . Select a restore option:
 +
 NOTE: If you select the export to PST restore option, the provided link is valid for seven days and is pre-authenticated.

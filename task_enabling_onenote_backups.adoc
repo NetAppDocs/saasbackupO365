@@ -6,8 +6,6 @@ summary: You can enable backups for OneNote notebooks.
 ---
 
 = Enabling backups for OneNote
-:toc: macro
-:toclevels: 1
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -27,8 +25,7 @@ image:services.gif[Screenshot of services button]
 image:mso365_settings.gif[Screenshot of Microsoft 365 button]
 .	Under *Manage Services*, click the backup settings icon image:configure_icon.gif[Screenshot of configuration icon] next to the service that you need to update.
 +
-OneNote backups are available for
-  A list of your backup settings available for the selected service is displayed.
+A list of your backup settings available for the selected service is displayed.
 . Select *ENABLE ONENOTE BACKUP*.
 . Click *Confirm*.
 Notebooks will be included in the next scheduled backup.  If you want them backed up immediately, perform an link:task_performing_immediate_backup_of_service.html[immediate backup].

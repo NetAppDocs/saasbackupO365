@@ -6,8 +6,6 @@ summary: You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 3
 ---
 
 = Signing up for a paid subscription of SaaS Backup for Microsoft 365
-:toc: macro
-:toclevels: 1
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -20,6 +18,10 @@ You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 servic
 //video::A4nIi7n-uAw[youtube, width=848, height=480]
 
 == Signing up for a paid subscription with a Microsoft 365 service account
+
+//Users who sign up for a paid subscription with a Microsoft 365 service account need to enable Basic Authentication to use SaaS Backup. SaaS Backup supports Basic Authentication only. If your Microsoft 365 tenant was created beginning in October 2020, and it has no recorded usage, you may encounter authentication failures. Ensure that you disable Modern Authentication for your Microsoft 365 service account.
+
+//link:https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online[Learn how to disable Modern Authentication]
 
 .Steps
 

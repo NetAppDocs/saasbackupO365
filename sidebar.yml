@@ -95,7 +95,7 @@ entries:
           url: /task_performing_granular_level_restore_sharepoint.html
         - title: For OneDrive
           url: /task_performing_granular_level_restore_onedrive.html
-        - title: For TeamsChat
+        - title: For Groups and Teams
           url: task_performing_granular_level_restore_teams.html
       - title: Restoring from a previous backup
         url: /task_restoring_from_previous_backup.html

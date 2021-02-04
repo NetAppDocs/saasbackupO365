@@ -93,7 +93,7 @@ By default, the latest version is automatically backed up, even if this setting 
 * Microsoft 365 Groups
 |===
 
-== Updating backup settings
+== Update backup settings
 
 .Steps
 

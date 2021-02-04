@@ -33,7 +33,7 @@ The tables show the high-level restore options per service and where to find the
 
 == Groups
 
-[cols=5*,options="header",cols="64,24a,24a,24a, 24a"]
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
 |===
 |Type of item
 |Restore to the same group
@@ -59,7 +59,7 @@ Yes
 
 == Teams
 
-[cols=5*,options="header",cols="64,24a,24a,24a, 24a"]
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
 |===
 |Type of item
 |Restore to the same team

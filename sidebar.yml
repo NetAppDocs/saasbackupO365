@@ -77,8 +77,6 @@ entries:
         url: /task_updating_backup_retention_period.html
       - title: Enable backups for OneNote
         url: /task_enabling_onenote_backups.html
-      - title: Locate Teams data
-        url: /reference_teams_data_locations.html
       - title: Templates and apps supported for backup in Microsoft SharePoint Online
         url: /concept_supported_templates_and_apps.html
     - title: Manage restores

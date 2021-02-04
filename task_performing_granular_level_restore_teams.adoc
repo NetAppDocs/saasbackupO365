@@ -74,14 +74,14 @@ Yes
 |Conversations/chat|
 No
 |No
-|Yes (Export to HTML only)
+|Yes (export to HTML only)
 |* Office 365 Groups > Teams > (Team Name) > Mailbox > Conversations > Team Chat
 
 * Office 365 Groups > Teams > (Team Name) > Mailbox > Mail > Conversation History > Team Chat (actual location)
 |Conversation single/multiple items|
 No
 |No
-|Yes (Export to HTML only)
+|Yes (export to HTML only)
 |Office 365 Groups > Teams > (Team Name) > Mailbox > Conversation History > Team Chat
 |Single/multiple channels|
 Yes

@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_upgrading_from_trial.html
-keywords: netapp, saas backup, microsoft 365, activating service, deactivating, synchronizing, user accounts, sites, groups, adding, license, granting, permissions, enabling shared mailboxes, azure, active directory
+keywords: netapp, saas backup, microsoft 365, upgrade, upgrading, trial, activating service, deactivating, synchronizing, user accounts, sites, groups, adding, license, granting, permissions, enabling shared mailboxes, azure, active directory
 summary: When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you do not change your backup storage destination.
 ---
 
-= Upgrading from a trial subscription
-:toc: macro
-:toclevels: 1
+= Upgrade from a trial subscription
 :hardbreaks:
 :nofooter:
 :icons: font

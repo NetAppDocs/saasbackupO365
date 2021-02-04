@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_restoring_from_previous_backup.html
-keywords: netapp, saas restores, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+keywords: netapp, saas restore, restoring, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
 summary: By default, only your most recent backup is available for restore.
 ---
 
-= Restoring from a previous backup
-:toc: macro
-:toclevels: 1
+= Restore from a previous backup
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_onedrive.html
-keywords: netapp, saas restores, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business
 summary: You can use SaaS Backup for Microsoft 365 to perform high-level and granular level restores for Microsoft OneDrive for Business.
 ---
 
-= Performing a granular-level restore for Microsoft OneDrive for Business
-:toc: macro
-:toclevels: 1
+= Perform a granular-level restore for Microsoft OneDrive for Business
 :hardbreaks:
 :nofooter:
 :icons: font

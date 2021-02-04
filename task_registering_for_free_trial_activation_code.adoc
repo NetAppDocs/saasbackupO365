@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_registering_for_free_trial_activation_code.html
-keywords: netapp, saas backup, microsoft 365, getting started, free trial, registering, activation, code
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, register, registering, activation, code
 summary: You must have an activation code in order to sign up for a free trial of SaaS Backup for Microsoft 365.
 ---
 
-= Registering for a free trial activation code
-:toc: macro
-:toclevels: 1
+= Register for a free trial activation code
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -17,7 +15,7 @@ summary: You must have an activation code in order to sign up for a free trial o
 [.lead]
 You must have an activation code in order to sign up for a free trial of SaaS Backup for Microsoft 365.  An activation code may have been provided to you by your channel partner or sales representative.  If not, you must register to receive one.
 
-Steps
+.Steps
 
 . Click https://www.netapp.com/us/products/cloud-storage/saas-backup-office-365.aspx[here] to go to the SaaS Backup for Microsoft 365 free-trial URL.
 . Enter the requested registration information and click *Submit*.

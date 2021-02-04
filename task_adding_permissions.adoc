@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_adding_permissions.html
-keywords: netapp, saas backup, microsoft 365, adding, permissions, service, account
+keywords: netapp, saas backup, microsoft 365, add, added, adding, permissions, service, account
 summary: Within NetApp SaaS Backup for Microsoft 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
 
-= Adding permissions to service accounts
-:toc: macro
-:toclevels: 1
+= Add permissions to service accounts
 :hardbreaks:
 :nofooter:
 :icons: font

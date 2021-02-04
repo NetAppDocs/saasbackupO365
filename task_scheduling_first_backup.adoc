@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_scheduling_first_backup.html
-keywords: netapp, saas backup, microsoft 365, getting started, scheduling, first, performing
+keywords: netapp, saas backup, microsoft 365, getting started, schedule, scheduling, first, performing
 summary: When you set up SaaS Backup for Microsoft 365, by default, your data is unprotected and not scheduled for a backup. You must move your data to a protected tier to initiate the first backup.
 ---
 
-= Scheduling your first backup
-:toc: macro
-:toclevels: 1
+= Schedule your first backup
 :hardbreaks:
 :nofooter:
 :icons: font

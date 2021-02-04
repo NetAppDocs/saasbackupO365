@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_teams.html
-keywords: netapp, saas restores, microsoft 365, granular restores, Microsoft TeamsChat, conversations, channels
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft TeamsChat, conversations, channels
 summary: You can use SaaS Backup for Microsoft 365 Groups/Teams to perform granular level restores.
 ---
 
-= Performing a granular-level restore for Microsoft 365 Groups/Teams
-:toc: macro
-:toclevels: 1
+= Perform a granular-level restore for Microsoft 365 Groups/Teams
 :hardbreaks:
 :nofooter:
 :icons: font

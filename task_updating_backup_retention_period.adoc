@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_updating_backup_retention_period.html
-keywords: netapp, saas backup, microsoft 365, backup, retention, period, updating, specific, tier, tenants
+keywords: netapp, saas backup, microsoft 365, backup, retention, period, update, updating, specific, tier, tenants
 summary: You can update the length of time, in number of years, that data is retained for individual tiers, mailboxes, sites, and MySites to 7 years, 10 years or unlimited.
 ---
 
-= Updating the backup retention period
+= Update the backup retention period
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -19,7 +19,7 @@ You can update the length of time, in number of years, that data is retained for
 
 //video::vQ2WDXq04FY[youtube, width=848, height=480]
 
-== Updating the backup retention period for a specific tier
+== Update the backup retention period for a specific tier
 
 .Steps
 
@@ -28,7 +28,7 @@ You can update the length of time, in number of years, that data is retained for
 . Select the desired retention period from the pre-defined list.
 . Click *UPDATE RETENTION PERIOD*.
 
-== Updating the backup retention period for individual users and tenants
+== Update the backup retention period for individual users and tenants
 .Steps
 
 . Click the configuration icon image:configure_icon.gif[Configuration Icon] next to your SaaS Backup userid in the top left corner.

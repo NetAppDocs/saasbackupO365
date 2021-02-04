@@ -15,29 +15,29 @@ entries:
       url: /concept_overview.html
     - title: Storage types you can use with SaaS Backup
       url: /concept_storage_types.html
-  - title: Getting started
+  - title: Get started
     entries:
-      - title: Getting started with a free trial
+      - title: Get started with a free trial
         entries:
           - title: Workflow
             url: /concept_free_trial_workflow.html
           - title: Free trial restrictions
             url: /concept_free_trial_restrictions.html
-          - title: Registering for a free trial activation code
+          - title: Register for a free trial activation code
             url: /task_registering_for_free_trial_activation_code.html
-          - title: Signing up for a Microsoft 365 free trial account
+          - title: Sign up for a Microsoft 365 free trial account
             url: /task_signing_up_for_o365_free_trial.html
-          - title: Creating a Microsoft 365 service account with global permissions
+          - title: Create a Microsoft 365 service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
-          - title: Configuring Impersonation for Microsoft Exchange Online
+          - title: Configure Impersonation for Microsoft Exchange Online
             url: /task_configuring_impersonation.html
-          - title: Signing up for a free trial of SaaS Backup for Microsoft 365
+          - title: Sign up for a free trial of SaaS Backup for Microsoft 365
             url: /task_signing_up_for_saasbkup_free_trial.html
-          - title: Scheduling your first backup
+          - title: Schedule your first backup
             url: /task_scheduling_first_backup.html
-          - title: Performing an immedate backup
+          - title: Perform an immedate backup
             url: /task_performing_immediate_backup_of_policy.html
-          - title: Upgrading from a trial subscription
+          - title: Upgrade from a trial subscription
             entries:
             - title: Upgrade
               url: /task_upgrading_from_trial.html
@@ -49,45 +49,45 @@ entries:
         entries:
           - title: Workflow
             url: /concept_paid_subscription_workflow.html
-          - title: Creating a MS Office service account with global permissions
+          - title: Create a MS Office service account with global permissions
             url: /task_creating_msservice_account_with_global_permissions.html
-          - title: Configuring Impersonation for Microsoft Exchange Online
+          - title: Configure Impersonation for Microsoft Exchange Online
             url: /task_configuring_impersonation.html
-          - title: Signing up for a paid subscription of SaaS Backup for Microsoft 365
+          - title: Sign up for a paid subscription of SaaS Backup for Microsoft 365
             url: /task_signing_up_for_saasbkup_paid_subscription.html
-          - title: Scheduling your first backup
+          - title: Schedule your first backup
             url: /task_scheduling_first_backup.html
-          - title: Performing an immedate backup
+          - title: Perform an immedate backup
             url: /task_performing_immediate_backup_of_policy.html
-  - title: Managing SaaS Backup
+  - title: Manage SaaS Backup
     entries:
-    - title: Managing backups
+    - title: Manage backups
       entries:
       - title: Backup policies
         url: /concept_backup_policies.html
       - title: Backup settings
         url: /concept_backup_settings.html
-      - title: Scheduling a backup or changing backup frequency
+      - title: Schedule a backup or changing backup frequency
         url: /task_scheduling_backup_or_changing_frequency.html
-      - title: Performing an immediate backup
+      - title: Perform an immediate backup
         url: /task_performing_immediate_backup_of_service.html
-      - title: Browsing backups
+      - title: Browse backups
         url: /task_browsing_backups.html
-      - title: Updating the backup retention period
+      - title: Update the backup retention period
         url: /task_updating_backup_retention_period.html
-      - title: Enabling backups for OneNote
+      - title: Enable backups for OneNote
         url: /task_enabling_onenote_backups.html
-      - title: Updating backup settings
-        url: /task_updating_backup_settings.html
-      - title: Locating Teams data
+      - title: Locate Teams data
         url: /reference_teams_data_locations.html
       - title: Templates and apps supported for backup in Microsoft SharePoint Online
         url: /concept_supported_templates_and_apps.html
-    - title: Managing restores
+    - title: Manage restores
       entries:
-      - title: Performing a high-level restore
+      - title: About restores
+        url: /reference_about_restores.html
+      - title: Perform a high-level restore
         url: /task_performing_high_level_restore.html
-      - title: Performing a granular-level restore
+      - title: Perform a granular-level restore
         entries:
         - title: For Exchange
           url: /task_performing_granular_level_restore_exchange.html
@@ -97,83 +97,85 @@ entries:
           url: /task_performing_granular_level_restore_onedrive.html
         - title: For Groups and Teams
           url: task_performing_granular_level_restore_teams.html
-      - title: Restoring from a previous backup
+      - title: Restore from a previous backup
         url: /task_restoring_from_previous_backup.html
-      - title: Finding restored files
+      - title: Find restored files
         url: /task_viewing_restore_file_locations.html
-    - title: Managing permissions
+    - title: Manage users
       entries:
-      - title: Adding permissions to a service account
-        url: /task_adding_permissions_to_service_accounts.html
-      - title: Synchronizing user permissions with Azure Active Directory
-        url: /task_syncing_user_permissions_with_azure.html
-      - title: Granting permissions to enable shared mailboxes
-        url: /task_granting_permissions_to_enable_shared_mailboxes.html
-    - title: Managing licenses
+      - title: Permissions
+        entries:
+        - title: Add permissions to a service account
+          url: /task_adding_permissions_to_service_accounts.html
+        - title: Synchronize user permissions with Azure Active Directory
+          url: /task_syncing_user_permissions_with_azure.html
+        - title: Grant permissions to enable shared mailboxes
+          url: /task_granting_permissions_to_enable_shared_mailboxes.html
+      - title: Licenses
+        entries:
+        - title: Add a license
+          url: /task_adding_a_license.html
+        - title: Update subscription information
+          url: /task_updating_subscription_information.html
+        - title: Release a user license
+          url: /task_releasing_a_user_license.html
+      - title: Rules
+        entries:
+        - title: Create new rules
+          url: /task_creating_rules.html
+        - title: Apply existing rules
+          url: /task_applying_rules.html
+        - title: Delete rules
+          url: /task_deleting_rules.html
+      - title: Role-based account access
+        entries:
+        - title: Assign administrative roles to user accounts
+          url: /task_assigning_admin_roles_to_user_accounts.html
+        - title: Update administrative roles assigned to user accounts
+          url: /task_updating_admin_roles_assigned_to_user_accounts.html
+        - title: Delete all administrative roles from a user account
+          url: /task_deleting_admin_roles_from_a_user_account.html
+      - title: Security groups
+        entries:
+        - title: Add security groups
+          url: /task_adding_security_groups.html
+        - title: Delete security groups
+          url: /task_deleting_security_groups.html
+    - title: Manage services
       entries:
-      - title: Adding a license
-        url: /task_adding_a_license.html
-      - title: Updating subscription information
-        url: /task_updating_subscription_information.html
-      - title: Releasing a user license
-        url: /task_releasing_a_user_license.html
-    - title: Managing rules
-      entries:
-      - title: Creating new rules
-        url: /task_creating_rules.html
-      - title: Applying existing rules
-        url: /task_applying_rules.html
-      - title: Deleting rules
-        url: /task_deleting_rules.html
-    - title: Managing services
-      entries:
-      - title: Activating a service
+      - title: Activate a service
         url: /task_activating_a_service.html
-      - title: Deactivating a service
+      - title: Deactivate a service
         url: /task_deactivating_a_service.html
       - title: Activate support
         url: /task_activate_support.html
-      - title: Canceling a job
+      - title: Cancel a job
         url: /task_canceling_job.html
-      - title: Setting notifications
+      - title: Set notifications
         url: /task_setting_account_notifications.html
-      - title: Discovering new mailboxes, sites, and groups
+      - title: Discover new mailboxes, sites, and groups
         url: /task_discovering_new.html
-      - title: Purging a user, site collection, or Microsoft 365 group
+      - title: Purge a user, site collection, or Microsoft 365 group
         url: /task_purging.html
-    - title: Managing role-based account access
-      entries:
-      - title: Assigning administrative roles to user accounts
-        url: /task_assigning_admin_roles_to_user_accounts.html
-      - title: Updating administrative roles assigned to user accounts
-        url: /task_updating_admin_roles_assigned_to_user_accounts.html
-      - title: Deleting all administrative roles from a user account
-        url: /task_deleting_admin_roles_from_a_user_account.html
-    - title: Managing security groups
-      entries:
-      - title: Adding security groups
-        url: /task_adding_security_groups.html
-      - title: Deleting security groups
-        url: /task_deleting_security_groups.html
-  - title: Viewing data
+  - title: View data
     entries:
-    - title: Creating a user defined filter
+    - title: Create a user defined filter
       url: /task_creating_user_defined_filter.html
-    - title: Performing a search
+    - title: Perform a search
       url: /task_performing_search.html
-    - title: Viewing job history and activity log
+    - title: View job history and activity log
       url: /task_viewing_history_and_activity.html
-    - title: Viewing deprovisioned items
+    - title: View deprovisioned items
       url: /task_viewing_deprovisioned.html
-    - title: Viewing purged data
+    - title: View purged data
       url: /task_viewing_purged.html
-    - title: Viewing deleted items
+    - title: View deleted items
       url: /task_viewing_deleted.html
-    - title: Downloading data
+    - title: Download data
       url: /task_downloading_data.html
-    - title: Monitoring user data
+    - title: Monitor user data
       url: /task_monitoring_data.html
-  - title: Providing feedback
+  - title: Provide feedback
     url: /task_providing_feedback.html
   - title: Where to get help and find more information
     url: /concept_get_help_find_info.html

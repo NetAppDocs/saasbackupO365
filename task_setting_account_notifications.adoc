@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_setting_account_notifications.html
-keywords: netapp, saas backup, microsoft 365, setting, account, notifications, notification, management, adding
+keywords: netapp, saas backup, microsoft 365, set, setting, account, notifications, notification, management, adding
 summary: Within NetApp SaaS Backup for Microsoft 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
 
-= Setting notifications
-:toc: macro
-:toclevels: 1
+= Set notifications
 :hardbreaks:
 :nofooter:
 :icons: font

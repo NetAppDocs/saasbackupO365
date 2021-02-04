@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_signing_up_for_saasbkup_free_trial.html
-keywords: netapp, saas backup, microsoft 365, getting started, free trial, signing up, sso, micrsoft, 365, service, account
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, sign up, signing up, sso, micrsoft, 365, service, account
 summary: Getting started with SaaS Backup for Microsoft 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a Microsoft 365 service account, and assigning user permissions.
 ---
 
-= Signing up for a free trial of SaaS Backup for Microsoft 365
+= Sign up for a free trial of SaaS Backup for Microsoft 365
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -17,7 +17,7 @@ You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 servic
 
 //video::A4nIi7n-uAw[youtube, width=848, height=480]
 
-== Signing up for a free trial with a Microsoft 365 service account
+== Sign up for a free trial with a Microsoft 365 service account
 
 //Users who sign up for a free trial with a Microsoft 365 service account need to enable Basic Authentication to use SaaS Backup. SaaS Backup supports Basic Authentication only. If your Microsoft 365 tenant was created beginning in October 2020, and it has no recorded usage, you may encounter authentication failures. Ensure that you disable Modern Authentication for your Microsoft 365 service account.
 
@@ -52,7 +52,7 @@ You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 servic
   .. Click *Next*.
   .. Review your configuration, and then click *Save*.
 
-== Signing up for a free trial with a NetApp SSO account
+== Sign up for a free trial with a NetApp SSO account
 
 .Steps
 

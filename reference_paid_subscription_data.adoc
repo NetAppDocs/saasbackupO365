@@ -5,7 +5,7 @@ keywords: paid, subscription, data, saas, backup, microsoft 365
 summary: If you do not renew your licensed version of SaaS Backup for Microsoft 365, the data used during your subscription is deleted.
 ---
 
-= Free trial data deletion
+= Paid subscription data deletion
 :hardbreaks:
 :nofooter:
 :icons: font

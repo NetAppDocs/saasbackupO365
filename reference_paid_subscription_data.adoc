@@ -1,0 +1,24 @@
+---
+sidebar: sidebar
+permalink: reference_paid_subscription_data.html
+keywords: paid, subscription, data, saas, backup, microsoft 365
+summary: If you do not renew your licensed version of SaaS Backup for Microsoft 365, the data used during your subscription is deleted.
+---
+
+= Free trial data deletion
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+If you do not renew your licensed version of SaaS Backup for Microsoft 365, the data used during your subscription is deleted as follows:
+
+[options="header" width="70%"]
+|===
+|If your SaaS Backup free trial is... |Number of days after end of trial |Your data is...
+|Expired |1-30 days |Available: The administrator has normal access and can perform manual backups and restores.  SaaS Backup continues to display alerts and send out notifications.
+|Disabled |31-60 days |Deactivated: The administrator does not have access to the SaaS Backup portal. If subscription is renewed during this period, data can be reactivated.
+|Deprovisioned |61 or more days |Deleted: All data is deleted and your tenant account is removed.
+|===

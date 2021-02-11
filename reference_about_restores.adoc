@@ -27,9 +27,106 @@ The following tables show the high-level restore options that are supported per 
 
 == Exchange Online
 
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same mailbox
+|Restore to another mailbox
+|Export to PST
+| Where to find it in SaaS Backup
+|Single mailbox|
+Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users
+|Multiple mailboxes|
+Yes
+|Yes
+|No
+|Exchange Online > Mailboxes - Users
+|Mailbox content|
+Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users > <User Name>
+|===
+
 == SharePoint Online
 
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same site
+|Restore to another site
+|Export data
+|Where to find it in SaaS Backup
+|Single SharePoint site|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites
+|Multiple SharePoint sites|
+Yes
+|Yes
+|No
+|SharePoint Online > Sites
+|SharePoint site content|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites > <Site Name>
+|Single SharePoint site with restore only roles enabled|
+Yes
+|No
+|No
+|SharePoint Online > Sites
+|Single subsite|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites
+|Multiple subsites|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites
+|SharePoint subsite content|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites > <Site Name>
+|Single/Multiple subsite with restore only roles enabled|
+Yes
+|No
+|No
+|SharePoint Online > Sites > <Site Name>
+|===
+
 == OneDrive for Business
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same MySite
+|Restore to another MySite
+|Export data
+| Where to find it in SaaS Backup
+|Single drive|
+Yes
+|Yes
+|Yes
+|OneDrive for Business > MySites
+|Multiple drives|
+No
+|No
+|No
+|OneDrive for Business > MySites
+|Single drive content|
+Yes
+|Yes
+|Yes
+|OneDrive for Business > MySites> <OneDrive User>
+|===
 
 == Groups
 

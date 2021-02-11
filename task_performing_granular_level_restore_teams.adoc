@@ -45,8 +45,6 @@ Yes
 |Office 365 Groups > Groups > (Group Name) > Mailbox > Mail
 |===
 
-For granular-level restores for SharePoint online, go to  link:task_performing_granular_level_restore_sharepoint.html[Perform a granular-level restore for Microsoft SharePoint Online].
-
 For *Teams*
 
 [cols=5*,options="header",cols="24a,24a,24a,24a,64a"]

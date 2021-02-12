@@ -33,7 +33,7 @@ The following tables show the high-level restore options that are supported per 
 |Restore to the same mailbox
 |Restore to another mailbox
 |Export to PST
-| Where to find it in SaaS Backup
+|Where to find it in SaaS Backup
 |Single mailbox|
 Yes
 |Yes
@@ -110,7 +110,7 @@ Yes
 |Restore to the same MySite
 |Restore to another MySite
 |Export data
-| Where to find it in SaaS Backup
+|Where to find it in SaaS Backup
 |Single drive|
 Yes
 |Yes
@@ -136,7 +136,7 @@ Yes
 |Restore to the same group
 |Restore to another group
 |Export data
-| Where to find it in SaaS Backup
+|Where to find it in SaaS Backup
 |Single group|
 Yes
 |Yes
@@ -162,7 +162,7 @@ Yes
 |Restore to the same team
 |Restore to another team
 |Export data
-| Where to find it in SaaS Backup
+|Where to find it in SaaS Backup
 |Single team|
 Yes
 |Yes

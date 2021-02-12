@@ -59,6 +59,8 @@ entries:
             url: /task_scheduling_first_backup.html
           - title: Performing an immedate backup
             url: /task_performing_immediate_backup_of_policy.html
+          - title: Paid subscription data deletion
+            url: /reference_paid_subscription_data.html
   - title: Managing SaaS Backup
     entries:
     - title: Managing backups

@@ -48,7 +48,7 @@ Yes
 Yes
 |Yes
 |Yes
-|Exchange Online > Mailboxes - Users > <User Name>
+|Exchange Online > Mailboxes - Users > <User name>
 |===
 
 == SharePoint Online
@@ -74,7 +74,7 @@ Yes
 Yes
 |Yes
 |Yes
-|SharePoint Online > Sites > <Site Name>
+|SharePoint Online > Sites > <Site name>
 |Single SharePoint site with restore only roles enabled|
 Yes
 |No
@@ -94,12 +94,12 @@ Yes
 Yes
 |Yes
 |Yes
-|SharePoint Online > Sites > <Site Name>
+|SharePoint Online > Sites > <Site name>
 |Single/Multiple subsite with restore only roles enabled|
 Yes
 |No
 |No
-|SharePoint Online > Sites > <Site Name>
+|SharePoint Online > Sites > <Site name>
 |===
 
 == OneDrive for Business
@@ -125,7 +125,7 @@ No
 Yes
 |Yes
 |Yes
-|OneDrive for Business > MySites> <OneDrive User>
+|OneDrive for Business > MySites> <OneDrive user>
 |===
 
 == Groups
@@ -152,6 +152,11 @@ Yes
 |Yes
 |Yes
 |Office 365 Groups > Groups > <Group Name>
+|SharePoint content|
+Yes
+|No
+|Yes
+|Office 365 Groups > Groups > <Group name> <Site name>
 |===
 
 == Teams
@@ -177,5 +182,10 @@ Yes
 Yes
 |Yes
 |Yes
-|Office 365 Groups > Teams > (Team Name)
+|Office 365 Groups > Teams > <Team name>
+|SharePoint content|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > <Team name> <Site name>
 |===

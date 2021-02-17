@@ -25,6 +25,8 @@ Learn how to perform high-level and granular-level restores:
 
 The following tables show the high-level restore options that are supported per service and where to find the restored data in SaaS Backup.
 
+NOTE: When your data is deleted, or deprovisioned, you can restore the data to another location (mailbox, site, Mysite, group, or team) or export the data. You cannot restore to the same location.
+
 == Exchange Online
 
 [cols=5*,options="header",cols="24a,24a,24a,24a,64"]
@@ -38,17 +40,17 @@ The following tables show the high-level restore options that are supported per 
 Yes
 |Yes
 |Yes
-|Exchange Online > Mailboxes - Users
+|Exchange Online > Mailboxes - Users/Shared/Archive
 |Multiple mailboxes|
 Yes
 |Yes
 |No
-|Exchange Online > Mailboxes - Users
+|Exchange Online > Mailboxes - Users/Shared/Archive
 |Mailbox content|
 Yes
 |Yes
 |Yes
-|Exchange Online > Mailboxes - Users > <User name>
+|Exchange Online > Mailboxes - Users/Shared/Archive > <User name>
 |===
 
 == SharePoint Online

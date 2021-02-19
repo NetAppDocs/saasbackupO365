@@ -27,7 +27,7 @@ To get started with a free trial of SaaS Backup for Microsoft 365, you must do t
 
 . Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup.
 
-. If needed, link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
+. link:task_configuring_impersonation.html[configure Impersonation for Microsoft Exchange Online].
 
 . link:task_signing_up_for_saasbkup_free_trial.html[Sign up for SaaS Backup for Microsoft 365] using your Microsoft 365 account or your NetApp SSO account.
 

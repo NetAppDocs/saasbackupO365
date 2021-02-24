@@ -86,7 +86,7 @@ Activating support enables you to access technical support over the phone, onlin
 == May 2019
 * SaaS Backup now supports add-on licenses.
 +
-<<task_activating_an_add_on_license.adoc#activating-an-add-on-license, Activating an add-on license>>
+link:task_upgrading_from_trial.html[Upgrading from a trial subscription]
 
 == April 2019
 * SaaS Backup for Microsoft 365 now supports deletion of security groups.

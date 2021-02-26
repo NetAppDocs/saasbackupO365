@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_activating_a_service.html
-keywords: netapp, saas backup, microsoft 365, activating, service
+keywords: netapp, saas backup, microsoft 365, activate, activating, service, services
 summary: If needed, you can activate one or more SaaS Backup for Microsoft 365 services. Microsoft Exchange Online or Microsoft SharePoint Online must be activated before you can activate Microsoft 365 Groups.
 ---
 
-= Activating a service
-:toc: macro
-:toclevels: 1
+= Activate a service
 :hardbreaks:
 :nofooter:
 :icons: font

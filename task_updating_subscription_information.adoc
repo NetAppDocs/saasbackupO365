@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_updating_subscription_information.html
-keywords: netapp, saas backup, renew, updating, add-on, add, on, license, subscription, extension
+keywords: netapp, saas backup, renew, update, updating, add-on, add, on, license, subscription, extension
 summary: You can update, add, or renew a license.
 ---
 
-= Updating subscription information
+= Update subscription information
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_high_level_restore.html
-keywords: netapp, saas restores, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
 summary: You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft 365 groups.
 ---
 
-= Performing a high-level service restore
+= Perform a high-level service restore
 :hardbreaks:
 :nofooter:
 :icons: font

@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_discovering_new.html
-keywords: netapp, saas backup, microsoft 365, discovering, new, mailboxes, sites, groups, teams, shared, archive
+keywords: netapp, saas backup, microsoft 365, discover, discovery, discovering, new, mailboxes, sites, groups, teams, shared, archive
 summary: Within NetApp SaaS Backup for Microsoft 365 you can manage your service accounts, discover newly added accounts, and set account notifications.
 ---
 
-= Discovering new mailboxes, sites, and groups
-:toc: macro
-:toclevels: 1
+= Discover new mailboxes, sites, and groups
 :hardbreaks:
 :nofooter:
 :icons: font

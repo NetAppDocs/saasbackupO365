@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_immediate_backup_of_policy.html
-keywords: netapp, saas backup, microsoft 365, getting started
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy
 summary: Getting started with SaaS Backup for Microsoft 365 includes deciding what type of storage you want to use to back up your data, gathering pertinent information, creating a Microsoft 365 service account, and assigning user permissions.
 ---
 
-= Performing an immediate backup of a specific backup policy
-:toc: macro
-:toclevels: 1
+= Perform an immediate backup of a specific backup policy
 :hardbreaks:
 :nofooter:
 :icons: font

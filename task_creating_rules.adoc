@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_creating_rules.html
-keywords: netapp, saas backup, microsoft 365, creating, rules, adding, applying
+keywords: netapp, saas backup, microsoft 365, create, creating, rules, user, users, applied
 summary: Rules allow you to automatically move users to a preselected backup tier based on predefined criteria.
 ---
 
-= Creating new rules
-:toc: macro
-:toclevels: 1
+= Create new rules
 :hardbreaks:
 :nofooter:
 :icons: font

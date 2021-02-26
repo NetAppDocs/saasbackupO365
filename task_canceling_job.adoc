@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_canceling_job.html
-keywords: netapp, saas backup, microsoft 365, canceling, jobs, backup, restore, immediate
+keywords: netapp, saas backup, microsoft 365, cancel, canceling, jobs, backup, restore, immediate
 summary: If you have initiated an immediate backup or an immediate restore, but need to cancel it before it is completed, you can do so.
 ---
 
-= Canceling a job
-:toc: macro
-:toclevels: 1
+= Cancel a job
 :hardbreaks:
 :nofooter:
 :icons: font

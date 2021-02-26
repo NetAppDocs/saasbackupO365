@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_monitoring_data.html
-keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, monitoring, monitor, user, data, user data, email, url, mailbox, license, licenses, discovery state, discovery, backup status, backup tier
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, monitor, monitoring, user, data, user data, email, url, mailbox, license, licenses, discovery state, discovery, backup status, backup tier
 summary: In SaaS Backup for Microsoft Office 365, you can monitor user data for all services like email or url addresses, mailbox types, license use, discovery state, last discovery, backup status, backup tier, and more.
 ---
 
-= Monitoring user data
+= Monitor user data
 :hardbreaks:
 :nofooter:
 :icons: font

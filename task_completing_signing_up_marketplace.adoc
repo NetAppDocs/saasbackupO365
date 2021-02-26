@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_completing_signing_up_marketplace.html
-keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version
+keywords: netapp, saas backup, microsoft 365, getting started, sign up, signing up, paid, subscription, licensed, version
 summary: You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 service account or with your NetApp SSO account.
 ---
 
-= Signing up with paid subscription through a Marketplace
-:toc: macro
-:toclevels: 1
+= Sign up with paid subscription through a Marketplace
 :hardbreaks:
 :nofooter:
 :icons: font

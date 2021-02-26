@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_enabling_onenote_backups.html
-keywords: netapp, saas backup, microsoft 365, backup, setting, enabling, onenote
+keywords: netapp, saas backup, microsoft 365, backup, setting, enable, enabling, onenote
 summary: You can enable backups for OneNote notebooks.
 ---
 
-= Enabling backups for OneNote
+= Enable backups for OneNote
 :hardbreaks:
 :nofooter:
 :icons: font

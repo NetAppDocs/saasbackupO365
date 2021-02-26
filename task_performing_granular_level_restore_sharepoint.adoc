@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_sharepoint.html
-keywords: netapp, saas restores, microsoft 365, granular restores, Microsoft SharePoint Online, sites
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft SharePoint Online, sites
 summary: You can use SaaS Backup for Microsoft 365 to perform granular level restores for Microsoft SharePoint Online.
 ---
 
-= Performing a granular-level restore for Microsoft SharePoint Online
-:toc: macro
-:toclevels: 1
+= Perform a granular-level restore for Microsoft SharePoint Online
 :hardbreaks:
 :nofooter:
 :icons: font

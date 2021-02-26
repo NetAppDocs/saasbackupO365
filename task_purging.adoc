@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_purging.html
-keywords: netapp, saas backup, microsoft 365, purge, purging, site collection, groups
+keywords: netapp, saas backup, microsoft 365, purge, purged, purging, site collection, groups
 summary: You can manage your service in various ways within NetApp SaaS Backup including activating a new services, deactivating a existing services, purging data, and canceling a job.
 ---
 
-= Purging a user, site collection, or Microsoft 365 group
-:toc: macro
-:toclevels: 1
+= Purge a user, site collection, or Microsoft 365 group
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,7 +13,7 @@ summary: You can manage your service in various ways within NetApp SaaS Backup i
 :imagesdir: ./media/
 
 [.lead]
-You can completely remove all the data associated with a user, site collection, or Microsoft 365 group. Purged data is recoverable for seven days.  After seven days, the data is permanently deleted and the user license is automatically released.
+You can completely remove all the data associated with a user, site collection, or Microsoft 365 group. Purged data is recoverable for seven days. After seven days, the data is permanently deleted and the user license is automatically released.
 
 //video::9Gl6r-d-VP4[youtube, width=848, height=480]
 

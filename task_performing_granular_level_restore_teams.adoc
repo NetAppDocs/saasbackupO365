@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_teams.html
-keywords: netapp, saas restores, microsoft 365, granular restores, Microsoft TeamsChat, conversations, channels
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft TeamsChat, conversations, channels
 summary: You can use SaaS Backup for Microsoft 365 Groups/Teams to perform granular level restores.
 ---
 
-= Performing a granular-level restore for Microsoft 365 Groups/Teams
-:toc: macro
-:toclevels: 1
+= Perform a granular-level restore for Microsoft 365 Groups and Teams
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,9 +13,136 @@ summary: You can use SaaS Backup for Microsoft 365 Groups/Teams to perform granu
 :imagesdir: ./media/
 
 [.lead]
-Within Microsoft 365 Groups/Teams, you can restore granular-level items like mailboxes, SharePoint, conversations, channels, tabs, and attachments.
+Within Microsoft 365 Groups and Teams, you can restore granular-level items like mailboxes, SharePoint, conversations, channels, tabs, and attachments.
 
 By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+
+The table indicates the restore options that are supported for granular-level items and where to find them in SaaS Backup.
+
+For *Groups*
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64a"]
+|===
+|Type of item
+|Restore to the same group
+|Restore to another group
+|Export data
+|Where to find it in SaaS Backup
+|Single/multiple folders|
+Yes
+|No
+|Yes
+|Office 365 Groups > Groups > (Group Name) > Mailbox
+|Inbox|
+Yes
+|No
+|Yes
+|Office 365 Groups > Groups > (Group Name) > Mailbox
+|Single/multiple items (email or event)|
+Yes
+|No
+|No
+|Office 365 Groups > Groups > (Group Name) > Mailbox > Mail
+|===
+
+For *Teams*
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64a"]
+|===
+|Type of item
+|Restore to the same team
+|Restore to another team
+|Export data
+| Where to find it in SaaS Backup
+|Single/Multiple folders|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > (Team Name) > Mailbox
+|Inbox|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > (Team Name) > Mailbox > Mail
+|Single/multiple items (email or event)|
+Yes
+|No
+|No
+|Office 365 Groups > Teams > (Team Name) > Mailbox > Mail
+|Conversations/chat|
+No
+|No
+|Yes (export to HTML only)
+|* Office 365 Groups > Teams > (Team Name) > Mailbox > Conversations > Team Chat
+
+* Office 365 Groups > Teams > (Team Name) > Mailbox > Mail > Conversation History > Team Chat (actual location)
+|Conversation single/multiple items|
+No
+|No
+|Yes (export to HTML only)
+|Office 365 Groups > Teams > (Team Name) > Mailbox > Conversation History > Team Chat
+|Single/multiple channels|
+Yes
+|No
+|No
+|Office 365 Groups > Teams > (Team Name) > Channels
+
+NOTE: Restore includes channel name and tab names only.
+
+|Tabs under channels|
+No
+|No
+|No
+|Office 365 Groups > Teams > (Team Name) > Channels
+|Channel standard documents|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > (Team Name > SharePoint Site > Documents > (Channel name)
+|Channel private documents|
+Yes
+|No
+|Yes
+|SharePoint > (Private channel site name) > Documents > (Private Channel name)
+
+NOTE: You will find a separate site collection with name “<Your Team Name – Private Channel Name>”. You can filter for these site collections with Template ID: TEAMCHANNEL#0.
+
+|OneNote content|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > (Team Name) > SharePoint Site > Documents > (Channel Name)
+|Wiki content|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > (Team Name) > SharePoint Site > Teams Wiki Data > (Channel Name)
+|Files|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > (Team Name) > SharePoint Site > Documents > (Channel Name)
+|Individual user chat and group chats
+
+NOTE: Chats included in Exchange Online backups.
+|
+
+No
+|No
+|Yes
+|* Exchange > “User” > Mail > Conversations > Team Chat
+* Exchange > “User” > Mail > Conversation History > Team Chat
+|Files in individual user chat and group chats
+
+NOTE: Files included in OneDrive for Business backups.
+|
+
+Yes
+|No
+|No
+|OneDrive > “User” > Files > Microsoft Teams Chat Files
+
+|===
 
 == Restore mailboxes
 Select this granular-level restore to restore inboxes, calendars, and conversation history.
@@ -92,7 +217,6 @@ If you export data, you need to download it. Go to Reporting on the left menu. F
 NOTE: If you select the *Export Data* restore option, the provided link is valid for seven days and is pre-authenticated.
 
 . Click *Confirm*.
-
 
 == Restore channels
 Select this granular-level restore to restore channels.

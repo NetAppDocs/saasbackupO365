@@ -1,0 +1,193 @@
+---
+sidebar: sidebar
+permalink: reference_about_restores.html
+keywords: netapp, saas backup, microsoft 365, restores, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files
+summary: SaaS Backup for Microsoft 365 offers high-level and granular-level restore options for each service.
+---
+
+= About restores
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+With SaaS Backup for Microsoft 365, you can perform high-level and granular-level restores for Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft 365 Groups and Teams.
+
+Learn how to perform high-level and granular-level restores:
+
+* link:task_performing_high_level_restore.html[Perform a high-level restore]
+* link:task_performing_granular_level_restore_exchange.html[Perform a granular-level restore for Exchange Online]
+* link:task_performing_granular_level_restore_sharepoint.html[Perform a granular-level restore for SharePoint Online]
+* link:task_performing_granular_level_restore_onedrive.html[Perform a granular-level restore for OneDrive for Business]
+* link:task_performing_granular_level_restore_teams.html[Perform a granular-level restore for Groups and Teams]
+
+The following tables show the high-level restore options that are supported per service and where to find the restored data in SaaS Backup.
+
+NOTE: When your data is deleted, or deprovisioned, you can restore the data to another location (mailbox, site, Mysite, group, or team) or export the data. You cannot restore to the same location.
+
+== Exchange Online
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same mailbox
+|Restore to another mailbox
+|Export to PST
+|Where to find it in SaaS Backup
+|Single mailbox|
+Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users/Shared/Archive
+|Multiple mailboxes|
+Yes
+|Yes
+|No
+|Exchange Online > Mailboxes - Users/Shared/Archive
+|Mailbox content|
+Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users/Shared/Archive > <User name>
+|===
+
+== SharePoint Online
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same site
+|Restore to another site
+|Export data
+|Where to find it in SaaS Backup
+|Single SharePoint site|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites
+|Multiple SharePoint sites|
+Yes
+|Yes
+|No
+|SharePoint Online > Sites
+|SharePoint site content|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites > <Site name>
+|Single SharePoint site with restore only roles enabled|
+Yes
+|No
+|No
+|SharePoint Online > Sites
+|Single subsite|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites
+|Multiple subsites|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites
+|SharePoint subsite content|
+Yes
+|Yes
+|Yes
+|SharePoint Online > Sites > <Site name>
+|Single/Multiple subsite with restore only roles enabled|
+Yes
+|No
+|No
+|SharePoint Online > Sites > <Site name>
+|===
+
+== OneDrive for Business
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same MySite
+|Restore to another MySite
+|Export data
+|Where to find it in SaaS Backup
+|Single drive|
+Yes
+|Yes
+|Yes
+|OneDrive for Business > MySites
+|Multiple drives|
+No
+|No
+|No
+|OneDrive for Business > MySites
+|Single drive content|
+Yes
+|Yes
+|Yes
+|OneDrive for Business > MySites> <OneDrive user>
+|===
+
+== Groups
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same group
+|Restore to another group
+|Export data
+|Where to find it in SaaS Backup
+|Single group|
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Groups
+|Multiple groups|
+Yes
+|No
+|No
+|Office 365 Groups > Groups
+|Group content|
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Groups > <Group Name>
+|SharePoint content|
+Yes
+|No
+|Yes
+|Office 365 Groups > Groups > <Group name> <Site name>
+|===
+
+== Teams
+
+[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+|===
+|Type of item
+|Restore to the same team
+|Restore to another team
+|Export data
+|Where to find it in SaaS Backup
+|Single team|
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Teams
+|Multiple teams|
+Yes
+|No
+|No
+|Office 365 Groups > Teams
+|Team content|
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Teams > <Team name>
+|SharePoint content|
+Yes
+|No
+|Yes
+|Office 365 Groups > Teams > <Team name> <Site name>
+|===

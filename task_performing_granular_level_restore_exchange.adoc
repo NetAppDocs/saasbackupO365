@@ -19,6 +19,49 @@ By default, only the most recent backup is available for restore.  You can updat
 
 //video::yG-n3bm4DW8[youtube, width=848, height=480]
 
+The table indicates the restore options that are supported for granular-level items for OneDrive for Business.
+[cols=5*,options="header",cols="64,24a,24a,24a,24a"]
+|===
+|Type of item
+|Restore to the same mailbox
+|Restore to another mailbox
+|Export data
+|Where to find it in SaaS Backup
+|Mail/Task/Contacts/etc.|
+Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users
+|Single/Multiple mailbox folders (Inbox/Archive)
+
+NOTE: Excludes conversation history.
+
+|Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users > <User Name>
+|Folder level under Inbox|
+Yes
+|Yes
+|Yes
+|Exchange Online > Mailboxes - Users > <User Name>
+|Conversation history under Mail folder|
+No
+|No
+|Yes
+|Exchange Online > Mailboxes - Users > <User Name>
+|Single/Multiple item-level restores|
+Yes
+|Yes
+|No
+|Exchange Online > Mailboxes - Users > <User Name>
+|Single/Multiple restore items for "Replace the existing content"|
+Yes
+|No
+|No
+|Exchange Online > Mailboxes - Users > <User Name>|
+|===
+
 .Steps
 
 . From the Dashboard, click the number above *PROTECTED* in the Exchange box.

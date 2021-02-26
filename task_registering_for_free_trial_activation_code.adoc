@@ -17,6 +17,6 @@ You must have an activation code in order to sign up for a free trial of SaaS Ba
 
 .Steps
 
-. Click https://www.netapp.com/us/products/cloud-storage/saas-backup-office-365.aspx[here] to go to the SaaS Backup for Microsoft 365 free-trial URL.
+. Click https://www.netapp.com/forms/saas-backup-ms-365-30-day-trial/[here] to go to the SaaS Backup for Microsoft 365 free-trial URL.
 . Enter the requested registration information and click *Submit*.
 You will receive an email containing your free-trial activation code.

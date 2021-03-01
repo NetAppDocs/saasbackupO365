@@ -20,7 +20,7 @@ By default, only the most recent backup is available for restore.  You can updat
 //video::yG-n3bm4DW8[youtube, width=848, height=480]
 
 The table indicates the restore options that are supported for granular-level items for OneDrive for Business.
-[cols=5*,options="header",cols="64,24a,24a,24a,24a"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40a"]
 |===
 |Type of item
 |Restore to the same mailbox

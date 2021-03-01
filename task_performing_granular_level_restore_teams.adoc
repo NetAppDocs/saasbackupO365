@@ -21,7 +21,7 @@ The table indicates the restore options that are supported for granular-level it
 
 For *Groups*
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64a"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40a"]
 |===
 |Type of item
 |Restore to the same group
@@ -47,7 +47,7 @@ Yes
 
 For *Teams*
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64a"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40a"]
 |===
 |Type of item
 |Restore to the same team

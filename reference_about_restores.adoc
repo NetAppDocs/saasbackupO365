@@ -29,7 +29,7 @@ NOTE: When your data is deleted, or deprovisioned, you can restore the data to a
 
 == Exchange Online
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
 |===
 |Type of item
 |Restore to the same mailbox
@@ -55,7 +55,7 @@ Yes
 
 == SharePoint Online
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
 |===
 |Type of item
 |Restore to the same site
@@ -106,7 +106,7 @@ Yes
 
 == OneDrive for Business
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
 |===
 |Type of item
 |Restore to the same MySite
@@ -132,7 +132,7 @@ Yes
 
 == Groups
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
 |===
 |Type of item
 |Restore to the same group
@@ -163,7 +163,7 @@ Yes
 
 == Teams
 
-[cols=5*,options="header",cols="24a,24a,24a,24a,64"]
+[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
 |===
 |Type of item
 |Restore to the same team

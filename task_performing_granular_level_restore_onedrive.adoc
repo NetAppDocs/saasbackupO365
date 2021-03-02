@@ -18,7 +18,7 @@ Within Microsoft OneDrive for Business, you can restore granular-level items, su
 By default, only the most recent backup is available for restore. You can update your backup settings to maintain a specified number of backed-up versions of individual files. If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
 
 The table indicates the restore options that are supported for granular-level items for OneDrive for Business.
-[cols=4*,options="header",cols="64,24a,24a,24a"]
+[cols=4*,options="header",cols="40,20a,20a,20a"]
 |===
 |Type of item
 |Restore to the same MySite

@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, getting started, sign up, signing 
 summary: You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 service account or with your NetApp SSO account.
 ---
 
-= Sign up with paid subscription
+= Sign up with a paid subscription
 :hardbreaks:
 :nofooter:
 :icons: font

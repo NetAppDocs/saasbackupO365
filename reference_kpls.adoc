@@ -12,6 +12,9 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 :linkattrs:
 :imagesdir: ./media/
 
+* The following limitation exists for Advanced Search:
+** A maximum of 10 search jobs are allowed in a 24-hour period.
+
 * The following limitation exists for Exchange Online:
 ** SaaS Backup does not support backups for public folders.
 

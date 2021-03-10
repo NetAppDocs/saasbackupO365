@@ -12,48 +12,48 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 :linkattrs:
 :imagesdir: ./media/
 
-* The following limitation exists for Advanced Search:
-** A maximum of 10 search jobs are allowed in a 24-hour period.
+[.lead]
+The following are known limitations identified at the application level for SaaS Backup for Microsoft 365.
 
-* The following limitation exists for Exchange Online:
-** SaaS Backup does not support backups for public folders.
+== For Microsoft 365 OneDrive for Business
+Newly added drives are not detected until you manually complete a sync for the service.
 
-* The following limitation exists for all users who sign up with a Microsoft 365 service account:
-** SaaS Backup supports Basic Authentication only.
+== For Microsoft 365 Exchange Online
+*	SaaS Backup does not support backups for public folders.
+*	*Advanced Search* is only available for Exchange Online. The setting is disabled by default. A customer must request to enable this feature. After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
 
-* The following limitation exists for Microsoft Office 365 Teams channel restores:
-** Channel configuration is restored but content and conversations are not.
-
-* The following limitation exists for free trial users:
-** A maximum of 10 restores per service are allowed in a 24-hour period.
-
-* The following limitation exists for licensed users:
-** A maximum of 10 export data restores per service are allowed in a 24-hour period. All other restore options have no limitations.
-
-* The following limitation exists for OneDrive for Business:
-** Newly added drives are not detected until you manually complete a sync for the service.
-
-* The following limitations exist for the backup setting Enabled Advanced Search:
-** The feature is only available for Microsoft Exchange Online.
-** The setting is disabled by default. A customer must request to enable this feature.
-After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
-
-* The following limitations exist for TeamsChat:
-** Backup or restore for emojis and gifs is not supported.
-** Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
-** High-level restore restores Mailbox & SharePoint data only, not conversations.
-** Team chat conversations only export option is Export to HTML.
-+
+== For Microsoft 365 Teams
+*	Channel configuration is restored but content and conversations are not.
+*	Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
+*	High-level restore restores Mailbox & SharePoint data only, not conversations.
+*	Backup or restore for emojis and gifs is not supported in Teams Chat.
+*	Team chat conversations only export option is Export to HTML.
 Attachment links posted in conversations are not visible in the html document.
 
-* The following limitations exist for OneNote:
-** Export to data is not available.
-** Incremental backup job might fail with the following error message:  `Partial Failure.  Failed to back up few OneNote Sections`
-** OneDrive backup includes the backup of .onebak files.
-** Restore statistics are not available for download.
-* Partially failed job status for restore of site collection group
-  If an entire site collection group is deleted, the restore of private groups in the collection fails, resulting in a restore job status of “partially failed.”  If this happens, the site is not accessible from the GUI.
-* The following are not supported for OneNote:
-** Data export
-** Data purge
-* “Partial Failure. Failed to back up few Onenote Sections”
+== For Microsoft 365 OneNote
+*	Export to data is not available.
+*	Incremental backup job might fail with the following error message:
+`Partial Failure. Failed to back up few OneNote Sections`.
+*	OneDrive backups include the backup of .onebak files.
+*	Restore statistics are not available for download.
+*	Data export and data purge are not supported.
+
+== Other problems and limitations
+
+The following known limitations are not specific to one application.
+
+For free trial users:
+
+*	A maximum of 10 restores per service are allowed in a 24-hour period.
+
+For licensed users:
+
+*	A maximum of 10 export data restores per service are allowed in a 24-hour period. All other restore options have no limitations.
+
+For restores of site collection groups:
+
+*	If an entire site collection group is deleted, the restore of private groups in the collection fails, resulting in a restore job status of “partially failed.” If this happens, the site is not accessible from the GUI.
+
+The following limitation exists for Advanced Search:
+
+* A maximum of 10 search jobs are allowed in a 24-hour period.

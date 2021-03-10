@@ -40,7 +40,7 @@ Attachment links posted in conversations are not visible in the html document.
 
 == Other problems and limitations
 
-The following known limitations are not specific to one application.
+The following known problems and limitations are not specific to one application.
 
 For free trial users:
 
@@ -54,6 +54,6 @@ For restores of site collection groups:
 
 *	If an entire site collection group is deleted, the restore of private groups in the collection fails, resulting in a restore job status of “partially failed.” If this happens, the site is not accessible from the GUI.
 
-The following limitation exists for Advanced Search:
+For *Advanced Search*:
 
 * A maximum of 10 search jobs are allowed in a 24-hour period.

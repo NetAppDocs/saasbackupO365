@@ -156,9 +156,9 @@ Yes
 |Office 365 Groups > Groups > <Group Name>
 |Mailbox content|
 Yes
+|No
 |Yes
-|Yes
-|Office 365 Groups > Groups > <Group Name>
+|Office 365 Groups > Groups > (Group email) > Group Name
 |SharePoint content|
 Yes
 |No
@@ -190,11 +190,11 @@ Yes
 |Yes
 |Yes
 |Office 365 Groups > Teams > <Team name>
-|Mailbox content
+|Mailbox content|
 Yes
+|No
 |Yes
-|Yes
-|Office 365 Groups > Teams > <Team name>
+|Office 365 Groups > Teams > (Team email) > Team Name
 |SharePoint content|
 Yes
 |No
@@ -202,7 +202,7 @@ Yes
 |Office 365 Groups > Teams > <Team name> <Site name>
 |Channels|
 Yes
-|Yes
-|Yes
-|Office 365 Groups > Teams > <Team name>
+|No
+|No
+|Office 365 Groups > Teams > (Team email)
 |===

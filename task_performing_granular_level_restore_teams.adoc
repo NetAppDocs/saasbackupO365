@@ -192,7 +192,7 @@ image:granular_level_restore_mailbox_conversations_option.gif[image of highlight
 +
 .. Select the conversations you want to restore and click *Restore*.
 +
-NOTE: *View Conversations* shows you a list of all conversations from the last five days of backups up to the last 30 days of backups.
+NOTE: *View Conversations* shows you a list of all conversations from the last "x" days of backups up to the last 30 backups. For example, if you back up seven times in the last five days, then you can only see conversations from the last seven backups.  
 
 .. Click *Confirm*.
 

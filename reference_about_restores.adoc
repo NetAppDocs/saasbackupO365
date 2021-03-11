@@ -86,12 +86,12 @@ Yes
 Yes
 |Yes
 |Yes
-|SharePoint Online > Sites
+|SharePoint Online > Sites > <Site name>
 |Multiple subsites|
 Yes
 |Yes
 |Yes
-|SharePoint Online > Sites
+|SharePoint Online > Sites > <Site name>
 |SharePoint subsite content|
 Yes
 |Yes
@@ -154,6 +154,11 @@ Yes
 |Yes
 |Yes
 |Office 365 Groups > Groups > <Group Name>
+|Mailbox content|
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Groups > <Group Name>
 |SharePoint content|
 Yes
 |No
@@ -185,9 +190,19 @@ Yes
 |Yes
 |Yes
 |Office 365 Groups > Teams > <Team name>
+|Mailbox content
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Teams > <Team name>
 |SharePoint content|
 Yes
 |No
 |Yes
 |Office 365 Groups > Teams > <Team name> <Site name>
+|Channels|
+Yes
+|Yes
+|Yes
+|Office 365 Groups > Teams > <Team name>
 |===

@@ -53,6 +53,9 @@ You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 servic
 
 == Signing up for a paid subscription with a NetApp SSO account
 
+.Before you begin
+To validate your subscription, you must have a NetApp SSO user ID and password. If you do not have a NetApp SSO account, go to https://mysupport.netapp.com/eservice/public/now.do to register for one. After your request has been processed, you will receive an email notification containing your NetApp SSO credentials.  It will take approximately 24 hours to process the request and send the notification email.
+
 .Steps
 
 .	Enter the SaaS Backup for Microsoft 365 URL into your web browser:

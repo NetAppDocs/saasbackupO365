@@ -15,7 +15,9 @@ summary: You can use SaaS Backup for Microsoft 365 to perform granular level res
 [.lead]
 Within Microsoft SharePoint Online, you can restore granular-level items for a single user, such as individual folders or files. You can also restore granular-level items for a Microsoft 365 group site and OneNote notebooks. Site roles and permissions are protected automatically as part of a restore or backup.
 
-By default, only the most recent backup is available for restore. You can update your backup settings to maintain a specified number of backed-up versions of individual files. If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+By default, only the most recent backup is available for restore. Other available options include:
+
+image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items.
 

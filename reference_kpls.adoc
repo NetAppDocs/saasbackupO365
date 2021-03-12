@@ -24,7 +24,7 @@ Newly added drives are not detected until you manually complete a sync for the s
 
 == For Microsoft 365 Teams
 *	Channel configuration is restored but content and conversations are not.
-*	Due to API limitations, Saas Backup cannot differentiate between public and private channels in SaaS Backup.
+*	Due to API limitations, SaaS Backup cannot differentiate between public and private channels in SaaS Backup.
 *	High-level restore restores Mailbox & SharePoint data only, not conversations.
 *	Backup or restore for emojis and gifs is not supported in Teams Chat.
 *	Team chat conversations only export option is Export to HTML.

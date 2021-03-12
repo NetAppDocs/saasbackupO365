@@ -86,7 +86,7 @@ Activating support enables you to access technical support over the phone, onlin
 == May 2019
 * SaaS Backup now supports add-on licenses.
 +
-link:updating_subscription_information.html[Updating subscription information]
+link:task_updating_subscription_information.html[Updating subscription information]
 
 == April 2019
 * SaaS Backup for Microsoft 365 now supports deletion of security groups.

@@ -21,68 +21,67 @@ image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items.
 
-[cols=4*,options="header",cols="40,20a,20a,20a"]
+NOTE: For the restore options *Restore to the same site* and *Restore to another site*, the following items restore as subsites under the selected site with the naming convention <sitename_cc_timestamp>: *Single site*, *multiple sites*, and *single/multiple lists* if 3 or more lists are selected.
+
+
+[cols=5*,options="header",cols="40,20a,20a,20a,40"]
 |===
 |Type of item
 |Restore to the same site
 |Restore to another site
 |Export data
+|Where to find it in SaaS Backup
 |Single/multiple items|
 Yes
 |Yes
 |No
-|Single/multiple files|
-Yes
-|Yes
-|No
+|SharePoint Online > Sites > <Site Name> > <List Name>
 |Single site|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites
 |Multiple sites|
 Yes
 |Yes
 |No
+|SharePoint Online > Sites
 |Communication sites|
 No
 |No
 |No
+|SharePoint Online > Sites
 |Single/multiple subsites|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name> > Subsites
 |Single/multiple folders|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name> > <List name>
 |Single/multiple lists|
 Yes
 |Yes
 |Yes
-|Content|
-Yes
-|Yes
-|Yes
+|SharePoint Online > Sites > <Site name>
 |OneNote single/multiple notebooks|
 Yes
 |Yes
-|No
+|Yes
+|SharePoint Online > Sites > <Site name> > <List name>
 |OneNote single/multiple section groups|
 Yes
 |Yes
-|No
+|Yes
+|SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
 |OneNote single/multiple sections|
 Yes
 |Yes
 |No
-|OneNote pages
+|SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
 
-NOTE: Pages within a section restore at the section level.
-
-|
-No
-|No
-|No
 |===
 
 .Steps

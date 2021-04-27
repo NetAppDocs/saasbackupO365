@@ -42,6 +42,10 @@ Attachment links posted in conversations are not visible in the html document.
 
 The following known problems and limitations are not specific to one application.
 
+For all users who sign up with a Microsoft 365 service account:
+
+* SaaS Backup supports Basic Authentication only.
+
 For free trial users:
 
 *	A maximum of 10 restores per service are allowed in a 24-hour period.

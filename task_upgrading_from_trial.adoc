@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, upgrade, upgrading, trial, activat
 summary: When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you do not change your backup storage destination.
 ---
 
-= Upgrade from a trial subscription
+= Upgrading from a trial subscription
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: When you upgrade from a trial subscription to a licensed subscription, 
 :imagesdir: ./media/
 
 [.lead]
-When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you keep the same backup storage destination type and the same backup storage region.
+When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you keep the same backup storage destination type and the same backup storage region. To associate the license to the correct tenant account when you upgrade, use the same email address for both trial and licensed subscriptions.
 
 *If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
@@ -29,6 +29,9 @@ When you upgrade from a trial subscription to a licensed subscription, your tria
 //|BYOS | Amazon S3 provided by SaaS Backup | Not migrated
 //|BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
+
+.Before you begin
+To validate your subscription, you must have a NetApp SSO user ID and password.  If you do not have a NetApp SSO account, go to https://mysupport.netapp.com/eservice/public/now.do to register for one. After your request has been processed, you will receive an email notification containing your NetApp SSO credentials.  It will take approximately 24 hours to process the request and send the notification email.
 
 .Steps
 
@@ -56,6 +59,7 @@ NOTE: If you change the destination of your storage or your destination region, 
 . If you selected *AWS*, *AppDirect*, or *StreamOne*:
   .. Click the link to go to the selected Marketplace.
   .. Follow the Marketplace instructions.
+  To associate the license to the correct tenant account, use the same email address used for the free trial.
 +
 NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.
 

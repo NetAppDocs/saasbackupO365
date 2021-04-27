@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_deactivating_a_service.html
-keywords: netapp, saas backup, microsoft 365, service, deactivating
+keywords: netapp, saas backup, microsoft 365, service, deactivate, deactivation, deactivating
 summary: If you deactivate a service, all of the schedules associated with that service are removed and no further backup is performed.  You can still view the last backup that occurred before deactivation and you can still perform restores.
 ---
 
-= Deactivating a service
-:toc: macro
-:toclevels: 1
+= Deactivate a service
 :hardbreaks:
 :nofooter:
 :icons: font

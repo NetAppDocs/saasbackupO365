@@ -5,9 +5,7 @@ keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected in
 summary: You can browse your backups in all of your Microsoft 365 services.
 ---
 
-= Browsing backups
-:toc: macro
-:toclevels: 1
+= Browse backups
 :hardbreaks:
 :nofooter:
 :icons: font

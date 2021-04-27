@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_high_level_restore.html
-keywords: netapp, saas restores, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes
 summary: You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft 365 groups.
 ---
 
-= Performing a high-level service restore
+= Perform a high-level service restore
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,7 +15,9 @@ summary: You follow the same procedure to perform high-level restores of mailbox
 [.lead]
 You follow the same procedure to perform high-level restores of mailboxes for Microsoft Exchange Online, MySites for Microsoft OneDrive for Business, sites for Microsoft SharePoint Online, and for Microsoft 365 groups.
 
-By default, only the most recent backup is available for restore.  You can update your backup settings to maintain a specified number of backed-up versions of individual files.  If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+By default, only the most recent backup is available for restore. Other available options include:
+
+image:backup_for_restore_availability.png[Available backups for restore]
 
 .Steps
 

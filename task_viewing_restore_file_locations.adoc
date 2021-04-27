@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_viewing_restore_file_locations.html
-keywords: netapp, saas backup, microsoft 365, viewing, jobs, log, restore, file, locations
+keywords: netapp, saas backup, microsoft 365, find, viewing, jobs, log, restore, file, locations
 summary: You can download a log of the title and location of restored files and folders.
 ---
 
-= Locating restored files
-:toc: macro
-:toclevels: 1
+= Find restored files
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -15,7 +13,7 @@ summary: You can download a log of the title and location of restored files and 
 :imagesdir: ./media/
 
 [.lead]
-When some files or folders are restored, they are contained inside a newly created restore folder.  To help you easily identify your restored items, you can download an Excel file with the names and locations of your restored files and folders.
+When some files or folders are restored, they are contained inside a newly created restore folder.  To help you easily find your restored items, you can download an Excel file with the names and locations of your restored files and folders.
 
 .Steps
 

@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_creating_user_defined_filter.html
-keywords: netapp, saas backup, microsoft 365, viewing, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log
 summary: You can filter the view of your mailboxes, sites, or MySites to only show results that fit specific criteria.
 ---
 
-= Creating a user defined filter
-:toc: macro
-:toclevels: 1
+= Create a user defined filter
 :hardbreaks:
 :nofooter:
 :icons: font

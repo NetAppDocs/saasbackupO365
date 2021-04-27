@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_adding_a_license.html
-keywords: netapp, saas backup, adding, license
+keywords: netapp, saas backup, microsoft 365, add, adding, release, license
 summary: You can add or release a license.
 ---
 
-= Adding a license
-:toc: macro
-:toclevels: 1
+= Add a license
 :hardbreaks:
 :nofooter:
 :icons: font

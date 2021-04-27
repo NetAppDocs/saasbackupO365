@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_performing_search.html
-keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, performing, exchange, sharePoint, oneDrive, online
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online
 summary: You can use inline search to find specific content.
 ---
 
@@ -15,13 +15,13 @@ summary: You can use inline search to find specific content.
 [.lead]
 You can use inline search for Microsoft Exchange Online, Microsoft OneDrive for Business, and Microsoft SharePoint Online to find specific content.
 
-== Searching options for Microsoft Exchange Online
+== Search options for Microsoft Exchange Online
 You can perform an inline search or an advanced search.
 
 * <<Performing an inline search inside Microsoft Exchange Online>>
 * <<Using Advanced Search for Microsoft Exchange Online>>
 
-=== Performing an inline search inside Microsoft Exchange Online
+=== Perform an inline search inside Microsoft Exchange Online
 You can perform an inline search within an individual mailbox for specific content. This also applies to mailboxes that are part of an Microsoft 365 Group.
 
 .Steps
@@ -36,7 +36,7 @@ You can perform an inline search within an individual mailbox for specific conte
   .. Type a search string in the search field.
      The search is automatically performed and results are displayed after the search string is entered.
 
-=== Using Advanced Search for Microsoft Exchange Online
+=== Use Advanced Search for Microsoft Exchange Online
 You can search for individual or shared mailbox items and restore these items to their original mailbox. To enable this setting, refer to the June 2020 link:reference_new_saasbackupO365.html[New features and updates] release notes.
 
 //You can enable advanced search in settings for Microsoft Exchange Online. Once enabled, you can search for individual or shared mailbox items.
@@ -45,7 +45,7 @@ You can search for individual or shared mailbox items and restore these items to
 * <<Performing a search>>
 * <<Finding previous search jobs>>
 
-==== Setting advanced search settings
+==== Set advanced search settings
 *Advanced Search Settings* gives users the option to enable or disable the search feature.
 
 NOTE: Licensed and unlicensed users can use the advanced search feature if enabled.
@@ -62,7 +62,7 @@ NOTE: Licensed and unlicensed users can use the advanced search feature if enabl
 . To save your changes to the settings, click *Save Settings*.
 . To backup the enabled users, go to link:task_scheduling_backup_or_changing_frequency.html[Scheduling a backup or changing backup frequency] and remain on the *User* tab to select the users for backup.
 
-==== Performing a search
+==== Perform a search
 Advanced Search gives users the option to perform a search for individual or shared mailbox items and restore these items to their original mailbox under *Perform Search*.
 
 .Steps
@@ -88,7 +88,7 @@ Advanced Search gives users the option to perform a search for individual or sha
 .	Click *Search*.
 .	To find your search job, go to Finding Previous Search Jobs below.
 
-==== Finding previous search jobs
+==== Find previous search jobs
 Advanced Search gives users the option to find previous search jobs under *Previous Search Jobs*
 
 .Steps
@@ -105,7 +105,7 @@ NOTE: Restored items go back to the original mailbox with the naming convention 
 
 . To exit the results display for your search, click on *Back To Search Jobs*.
 
-== Searching inside Microsoft OneDrive for Business
+== Search inside Microsoft OneDrive for Business
 You can perform an inline search within an individual MySite for specific content.
 
 .Steps
@@ -116,7 +116,7 @@ You can perform an inline search within an individual MySite for specific conten
 .	Type a search string in the search field.
   The search is automatically performed and results are displayed after the search string is entered.
 
-== Searching inside Microsoft SharePoint Online
+== Search inside Microsoft SharePoint Online
 You can perform an inline search within an individual MySite for specific content.  This also applies to sites that are part of an Microsoft 365 Group.
 
 .Steps

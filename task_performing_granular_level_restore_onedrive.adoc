@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_onedrive.html
-keywords: netapp, saas restores, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business
 summary: You can use SaaS Backup for Microsoft 365 to perform high-level and granular level restores for Microsoft OneDrive for Business.
 ---
 
-= Performing a granular-level restore for Microsoft OneDrive for Business
-:toc: macro
-:toclevels: 1
+= Perform a granular-level restore for Microsoft OneDrive for Business
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -17,47 +15,53 @@ summary: You can use SaaS Backup for Microsoft 365 to perform high-level and gra
 [.lead]
 Within Microsoft OneDrive for Business, you can restore granular-level items, such as individual folders or files, for a list or library. You can also restore OneNote notebooks or groups.
 
-By default, only the most recent backup is available for restore. You can update your backup settings to maintain a specified number of backed-up versions of individual files. If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+By default, only the most recent backup is available for restore. Other available options include:
+
+image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items for OneDrive for Business.
-[cols=4*,options="header",cols="64,24a,24a,24a"]
+[cols=5*,options="header",cols="40,20a,20a,20a,40"]
 |===
 |Type of item
 |Restore to the same MySite
 |Restore to another MySite
 |Export data
+|Where to find it in SaaS Backup
 |Single drive|
 Yes
 |Yes
 |Yes
-|Multiple drives
-|No
-|No
-|No
-|Single/multiple files/items|
-Yes
-|Yes
-|Yes
-|OneNote single/multiple notebooks|
-Yes
-|Yes
-|No
-|OneNote single/multiple section groups|
-Yes
-|Yes
-|No
-|OneNote single/multiple sections|
-Yes
-|Yes
-|No
-|OneNote pages
-
-NOTE: Pages within a section restore at the section level.
-
-|
+|OneDrive for Business > MySites
+|Multiple drives|
 No
 |No
 |No
+|OneDrive for Business > MySites
+|Single/multiple folders|
+Yes
+|Yes
+|Yes
+|OneDrive for Business > MySites > <Drive Name> > Files
+|Single/multiple files/items|
+Yes
+|Yes
+|No
+|OneDrive for Business > MySites > <Drive name> > Files
+|OneNote single/multiple folders|
+Yes
+|Yes
+|No
+|OneDrive for Business > MySites > <Drive name> > Files > Notebooks
+|OneNote files|
+Yes
+|Yes
+|No
+|OneDrive for Business > MySites > <Drive name> > Files > Notebooks
+|OneNote notebooks folder|
+Yes
+|Yes
+|No
+|OneDrive for Business > MySites > <Drive Name> > Files
 
 |===
 

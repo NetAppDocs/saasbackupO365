@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_syncing_user_permissions_with_azure.html
-keywords: netapp, saas backup, microsoft 365, synchronizing, granting, permissions, azure, active directory
+keywords: netapp, saas backup, microsoft 365, synchronize, synchronizing, granting, permissions, azure, active directory
 summary: Within NetApp SaaS Backup for Microsoft 365 you can manage permissions with Azure Active Directory.
 ---
 
-= Synchronizing user permissions with Azure Active Directory
+= Synchronize user permissions with Azure Active Directory
 :toc: macro
 :toclevels: 1
 :hardbreaks:

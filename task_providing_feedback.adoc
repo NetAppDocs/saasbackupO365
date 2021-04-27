@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_providing_feedback.html
-keywords: netapp, saas backup, microsoft 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates,
+keywords: netapp, saas backup, microsoft 365, provide, providing, feedback, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates
 summary: Provide feedback to help us serve you better.
 ---
 
-= Providing feedback
-:toc: macro
-:toclevels: 1
+= Provide feedback
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -16,8 +14,6 @@ summary: Provide feedback to help us serve you better.
 
 [.lead]
 Your feedback about the NetApp SaaS Backup for Microsoft 365 product helps us serve you better.  You can provide feedback from inside SaaS Backup for Microsoft 365.
-
-toc::[]
 
 .Steps
 

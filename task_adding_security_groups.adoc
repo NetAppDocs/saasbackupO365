@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_adding_security_groups.html
-keywords: netapp, saas backup, microsoft 365, security, groups, adding, creating
+keywords: netapp, saas backup, microsoft 365, security, groups, add, adding, creating
 summary: Security groups can be used as filtering options to view your data and to create rules.
 ---
 
-= Adding security groups
-:toc: macro
-:toclevels: 1
+= Add security groups
 :hardbreaks:
 :nofooter:
 :icons: font

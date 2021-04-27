@@ -1,13 +1,11 @@
 ---
 sidebar: sidebar
 permalink: task_performing_granular_level_restore_sharepoint.html
-keywords: netapp, saas restores, microsoft 365, granular restores, Microsoft SharePoint Online, sites
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft SharePoint Online, sites
 summary: You can use SaaS Backup for Microsoft 365 to perform granular level restores for Microsoft SharePoint Online.
 ---
 
-= Performing a granular-level restore for Microsoft SharePoint Online
-:toc: macro
-:toclevels: 1
+= Perform a granular-level restore for Microsoft SharePoint Online
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -17,72 +15,73 @@ summary: You can use SaaS Backup for Microsoft 365 to perform granular level res
 [.lead]
 Within Microsoft SharePoint Online, you can restore granular-level items for a single user, such as individual folders or files. You can also restore granular-level items for a Microsoft 365 group site and OneNote notebooks. Site roles and permissions are protected automatically as part of a restore or backup.
 
-By default, only the most recent backup is available for restore. You can update your backup settings to maintain a specified number of backed-up versions of individual files. If you have more versions of a file than you have specified for backup, only the number of versions that you have specified is available for restore.
+By default, only the most recent backup is available for restore. Other available options include:
+
+image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items.
 
-[cols=4*,options="header",cols="64,24a,24a,24a"]
+NOTE: For the restore options *Restore to the same site* and *Restore to another site*, the following items restore as subsites under the selected site with the naming convention <sitename_cc_timestamp>: *Single site*, *multiple sites*, and *single/multiple lists* if 3 or more lists are selected.
+
+
+[cols=5*,options="header",cols="40,20a,20a,20a,40"]
 |===
 |Type of item
 |Restore to the same site
 |Restore to another site
 |Export data
+|Where to find it in SaaS Backup
 |Single/multiple items|
 Yes
 |Yes
 |No
-|Single/multiple files|
-Yes
-|Yes
-|No
+|SharePoint Online > Sites > <Site Name> > <List Name>
 |Single site|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites
 |Multiple sites|
 Yes
 |Yes
 |No
+|SharePoint Online > Sites
 |Communication sites|
 No
 |No
 |No
+|SharePoint Online > Sites
 |Single/multiple subsites|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name> > Subsites
 |Single/multiple folders|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name> > <List name>
 |Single/multiple lists|
 Yes
 |Yes
 |Yes
-|Content|
-Yes
-|Yes
-|Yes
+|SharePoint Online > Sites > <Site name>
 |OneNote single/multiple notebooks|
 Yes
 |Yes
-|No
+|Yes
+|SharePoint Online > Sites > <Site name> > <List name>
 |OneNote single/multiple section groups|
 Yes
 |Yes
-|No
+|Yes
+|SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
 |OneNote single/multiple sections|
 Yes
 |Yes
 |No
-|OneNote pages
+|SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
 
-NOTE: Pages within a section restore at the section level.
-
-|
-No
-|No
-|No
 |===
 
 .Steps

@@ -28,5 +28,4 @@ NetApp SaaS Backup is a secure, web-based, software-as-a-service (SaaS) offering
 * link:task_providing_feedback.html[Provide feedback]
 * link:concept_get_help_find_info.html[Where to get help and find more information]
 * link:https://cloud.netapp.com/saas-backup[Product Page]
-* link:https://cloud.netapp.com/hubfs/NetApp%20SaaS%20Backup%20for%20Microsoft%20365.pdf?hsCtaTracking=486aae2e-33b3-489b-89c0-aff2c8adf7d1%7C37e522a7-0826-4a5f-8a79-85f565ff4592[Solution Brief]
-* link:https://docs.netapp.com/us-en/salesforce/[Documentation for SaaS Backup for Salesforce]
+* link:https://www.netapp.com/pdf.html?item=/media/21210-SB-3831-1220-NetApp-SaaS-Backup.pdf[Solution Brief]

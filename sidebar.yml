@@ -45,7 +45,7 @@ entries:
               url: /task_activate_support.html
           - title: Free trial data deletion
             url: /reference_free_trial_data.html
-      - title: Get Started with a Paid Subscription
+      - title: Get started with a Paid Subscription
         entries:
           - title: Workflow
             url: /concept_paid_subscription_workflow.html
@@ -120,7 +120,7 @@ entries:
       - title: Add security groups
         url: /task_adding_security_groups.html
       - title: Delete security groups
-        url: /task_deleting_security_groups.html        
+        url: /task_deleting_security_groups.html
   - title: Manage backups
     entries:
     - title: Schedule a backup or changing backup frequency
@@ -165,6 +165,8 @@ entries:
       url: /task_creating_user_defined_filter.html
     - title: Perform a search
       url: /task_performing_search.html
+    - title: Use Advanced Search
+      url: /task_using_advanced_search.html
     - title: View job history and activity log
       url: /task_viewing_history_and_activity.html
     - title: View deprovisioned items

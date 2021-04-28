@@ -21,10 +21,9 @@ image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items.
 
-NOTE: For the restore options *Restore to the same site* and *Restore to another site*, the following items restore as subsites under the selected site with the naming convention <sitename_cc_timestamp>: *Single site*, *multiple sites*, and *single/multiple lists* if 3 or more lists are selected.
+NOTE: Data restores as a subsite under the target site with the naming convention <sitename_cc_timestamp> for *Single site*, *Multiple sites*, and *3 or more lists*.
 
-
-[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
+[cols=5*,options="header",cols="20,20a,20a,20a,40"]
 |===
 |Type of item
 |Restore to the same site
@@ -81,7 +80,6 @@ Yes
 |Yes
 |No
 |SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
-
 |===
 
 .Steps

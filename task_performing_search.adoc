@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, search, searching, advanced search
 summary: You can use inline search to find specific content.
 ---
 
-= Perform a search
+= Performing a search
 :hardbreaks:
 :nofooter:
 :icons: font

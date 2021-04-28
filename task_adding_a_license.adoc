@@ -22,7 +22,7 @@ Education domains can have a license for faculty and a separate license for stud
 .Steps
 
 . Click image:services.gif[Screenshot of services button] from the left navigation pane.
-. Click image:bluecircle_icon.gif[Blue plus sign icon] icon in the right corner.
+. Click image:bluecircle_icon.gif[Blue plus sign icon] in the right corner.
 . Enter the license information.
 . Click *Validate Subscription*.
 . Click *Next*.

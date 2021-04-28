@@ -16,7 +16,7 @@ summary: In SaaS Backup for Microsoft Office 365, you can monitor user data for 
 In SaaS Backup for Microsoft Office 365, you can monitor user data for all services like email or url addresses, mailbox types, license use, discovery state, last discovery, backup status, backup tier, and more.
 
 .Steps
-. Click on *Services*.
+. Click *Services*.
 . Click the service for which you want to export user data.
 .. For Microsoft Exchange Online, click on the number of protected, pending, or unprotected mailboxes.
 .. For Microsoft SharePoint Online, click on the number of protected, pending, or unprotected sites.

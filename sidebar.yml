@@ -79,6 +79,8 @@ entries:
       url: /concept_backup_policies.html
     - title: Backup settings
       url: /concept_backup_settings.html
+    - title: Set notifications
+      url: /task_setting_account_notifications.html
     - title: Permissions
       entries:
       - title: Add permissions to a service account
@@ -95,8 +97,6 @@ entries:
         url: /task_updating_admin_roles_assigned_to_user_accounts.html
       - title: Delete all administrative roles from a user account
         url: /task_deleting_admin_roles_from_a_user_account.html
-    - title: Set notifications
-      url: /task_setting_account_notifications.html
   - title: Manage users
     entries:
     - title: Licenses
@@ -120,17 +120,17 @@ entries:
       - title: Add security groups
         url: /task_adding_security_groups.html
       - title: Delete security groups
-        url: /task_deleting_security_groups.html
+        url: /task_deleting_security_groups.html        
   - title: Manage backups
     entries:
     - title: Schedule a backup or changing backup frequency
       url: /task_scheduling_backup_or_changing_frequency.html
     - title: Perform an immediate backup
       url: /task_performing_immediate_backup_of_service.html
-    - title: Cancel a job
-      url: /task_canceling_job.html
     - title: Browse backups
       url: /task_browsing_backups.html
+    - title: Cancel a job
+      url: /task_canceling_job.html
     - title: Update the backup retention period
       url: /task_updating_backup_retention_period.html
     - title: Enable backups for OneNote

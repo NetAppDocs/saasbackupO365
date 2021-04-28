@@ -69,8 +69,6 @@ entries:
       url: /task_deactivating_a_service.html
     - title: Activate support
       url: /task_activate_support.html
-    - title: Set notifications
-      url: /task_setting_account_notifications.html
     - title: Discover new mailboxes, sites, and groups
       url: /task_discovering_new.html
     - title: Purge a user, site collection, or Microsoft 365 group

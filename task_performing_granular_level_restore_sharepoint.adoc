@@ -21,7 +21,10 @@ image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items.
 
-[cols=5*,options="header",cols="40,20a,20a,20a,40"]
+NOTE: For the restore options *Restore to the same site* and *Restore to another site*, the following items restore as subsites under the selected site with the naming convention <sitename_cc_timestamp>: *Single site*, *multiple sites*, and *single/multiple lists* if 3 or more lists are selected.
+
+
+[cols=5*,options="header",cols="15a,15a,15a,15a,40"]
 |===
 |Type of item
 |Restore to the same site
@@ -33,11 +36,6 @@ Yes
 |Yes
 |No
 |SharePoint Online > Sites > <Site Name> > <List Name>
-|Single/multiple files|
-Yes
-|Yes
-|No
-|
 |Single site|
 Yes
 |Yes
@@ -68,10 +66,6 @@ Yes
 |Yes
 |Yes
 |SharePoint Online > Sites > <Site name>
-|Content|
-Yes
-|Yes
-|Yes
 |OneNote single/multiple notebooks|
 Yes
 |Yes
@@ -87,15 +81,7 @@ Yes
 |Yes
 |No
 |SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
-|OneNote pages
 
-NOTE: Pages within a section restore at the section level.
-
-|
-No
-|No
-|No
-|
 |===
 
 .Steps

@@ -21,44 +21,53 @@ image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items.
 
-[cols=4*,options="header",cols="40,20a,20a,20a"]
+[cols=5*,options="header",cols="40,20a,20a,20a,40"]
 |===
 |Type of item
 |Restore to the same site
 |Restore to another site
 |Export data
+|Where to find it in SaaS Backup
 |Single/multiple items|
 Yes
 |Yes
 |No
+|SharePoint Online > Sites > <Site Name> > <List Name>
 |Single/multiple files|
 Yes
 |Yes
 |No
+|
 |Single site|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites
 |Multiple sites|
 Yes
 |Yes
 |No
+|SharePoint Online > Sites
 |Communication sites|
 No
 |No
 |No
+|SharePoint Online > Sites
 |Single/multiple subsites|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name> > Subsites
 |Single/multiple folders|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name> > <List name>
 |Single/multiple lists|
 Yes
 |Yes
 |Yes
+|SharePoint Online > Sites > <Site name>
 |Content|
 Yes
 |Yes
@@ -66,15 +75,18 @@ Yes
 |OneNote single/multiple notebooks|
 Yes
 |Yes
-|No
+|Yes
+|SharePoint Online > Sites > <Site name> > <List name>
 |OneNote single/multiple section groups|
 Yes
 |Yes
-|No
+|Yes
+|SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
 |OneNote single/multiple sections|
 Yes
 |Yes
 |No
+|SharePoint Online > Sites > <Site name> > <List name> > <Notebook folder>
 |OneNote pages
 
 NOTE: Pages within a section restore at the section level.
@@ -83,6 +95,7 @@ NOTE: Pages within a section restore at the section level.
 No
 |No
 |No
+|
 |===
 
 .Steps

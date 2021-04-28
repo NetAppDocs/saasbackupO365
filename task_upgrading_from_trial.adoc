@@ -13,7 +13,7 @@ summary: When you upgrade from a trial subscription to a licensed subscription, 
 :imagesdir: ./media/
 
 [.lead]
-When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you keep the same backup storage destination type and the same backup storage region. To associate the license to the correct tenant account when you upgrade, use the same email address for both trial and licensed subscriptions.
+When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you keep the same backup storage destination type and the same backup storage region. To associate the license to the correct SaaS Backup account when you upgrade, use the same email address for both trial and licensed subscriptions.
 
 *If you change your backup storage destination type, your trial data is lost.  Any change to your backup destination region also results in data loss.*
 
@@ -59,7 +59,7 @@ NOTE: If you change the destination of your storage or your destination region, 
 . If you selected *AWS*, *AppDirect*, or *StreamOne*:
   .. Click the link to go to the selected Marketplace.
   .. Follow the Marketplace instructions.
-  To associate the license to the correct tenant account, use the same email address used for the free trial.
+  To associate the license to the correct SaaS Backup account, use the same email address used for the free trial.
 +
 NOTE: Licensed subscriptions through AWS marketplace can only use the Amazon S3 storage provided by SaaS Backup.
 

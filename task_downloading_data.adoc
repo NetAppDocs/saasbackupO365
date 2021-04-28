@@ -31,12 +31,10 @@ You can download an Excel spreadsheet of successfully completed jobs.
 
 .Steps
 
-. Click *Jobs* from the left navigation pane
-+
-image:jobs_button.gif[Screenshot of jobs button]
+. Click *Jobs* from the left navigation pane.
 . Click the recently completed job that you want to download.
 . Click *Successful* under the number of successfully completed jobs.
 +
 image:completed_jobs.gif[Screenshot of completed jobs]
 . Click *Download* in the top right.
-  The log is downloaded
+  The log is downloaded.

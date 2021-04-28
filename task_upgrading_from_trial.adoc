@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, upgrade, upgrading, trial, activat
 summary: When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you do not change your backup storage destination.
 ---
 
-= Upgrade from a trial subscription
+= Upgrading from a trial subscription
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -29,6 +29,9 @@ When you upgrade from a trial subscription to a licensed subscription, your tria
 //|BYOS | Amazon S3 provided by SaaS Backup | Not migrated
 //|BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
+
+.Before you begin
+To validate your subscription, you must have a NetApp SSO user ID and password.  If you do not have a NetApp SSO account, go to https://mysupport.netapp.com/eservice/public/now.do to register for one. After your request has been processed, you will receive an email notification containing your NetApp SSO credentials.  It will take approximately 24 hours to process the request and send the notification email.
 
 .Steps
 

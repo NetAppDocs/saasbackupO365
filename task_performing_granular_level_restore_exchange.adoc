@@ -20,7 +20,7 @@ By default, only the most recent backup is available for restore. Other availabl
 image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items for Exchange Online.
-[cols=5*,options="header",cols="20a,20a,20a,20a,40a"]
+[cols=5*,options="header",cols="20a,15a,15a,15a,40a"]
 |===
 |Type of item
 |Restore to the same mailbox

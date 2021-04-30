@@ -25,5 +25,5 @@ image:number_protected_unprotected.gif[]
 image:filter.gif[Screenshot of filter dropdown menu button]
 . Click *Rules*.
   The existing rules are displayed.
-. Click the trash can image:trash_can_icon.gif[Screenshot of delete icon] to delete the rule.
+. Click image:trash_can_icon.gif[Screenshot of delete icon] to delete the rule.
   The status of the items to which the rule was previously applies is not changed when the rule is deleted.

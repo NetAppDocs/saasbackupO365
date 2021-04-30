@@ -20,7 +20,7 @@ NOTE: Shared mailboxes do not consume a license.
 
 .Steps
 
-. Click the configuration icon image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup user id in the top left corner.
+. Click image:configure_icon.gif[Screenshot of configuration icon] next to your SaaS Backup user id in the top left corner.
 . Select *ACCOUNT SETTINGS*.
 . Click *RETAIN AND PURGE*.
 . Under *Release License*, begin typing the account name for the user whose license you want to release.

@@ -20,7 +20,7 @@ By default, only the most recent backup is available for restore. Other availabl
 image:backup_for_restore_availability.png[Available backups for restore]
 
 The table indicates the restore options that are supported for granular-level items for OneDrive for Business.
-[cols=5*,options="header",cols="40,20a,20a,20a,40"]
+[cols=5*,options="header",cols="20,20a,20a,20a,40"]
 |===
 |Type of item
 |Restore to the same MySite
@@ -42,36 +42,26 @@ Yes
 |Yes
 |Yes
 |OneDrive for Business > MySites > <Drive Name> > Files
-|Single/multiple files/items|
+|Single/multiple items|
 Yes
 |Yes
 |No
 |OneDrive for Business > MySites > <Drive name> > Files
-|OneNote single/multiple notebooks|
+|Notebooks folders|
+Yes
+|Yes
+|No
+|OneDrive for Business > MySites > <Drive name> > Files
+|OneNote single/multiple folders|
 Yes
 |Yes
 |No
 |OneDrive for Business > MySites > <Drive name> > Files > Notebooks
-|OneNote single/multiple section groups|
+|OneNote files
 Yes
 |Yes
 |No
 |OneDrive for Business > MySites > <Drive name> > Files > Notebooks
-|OneNote single/multiple sections|
-Yes
-|Yes
-|No
-|OneDrive for Business > MySites > <Drive name> > Files > Notebooks
-|OneNote pages
-
-NOTE: Pages within a section restore at the section level.
-
-|
-No
-|No
-|No
-|OneDrive for Business > MySites > <Drive name> > Files > Notebooks
-
 |===
 
 .Steps

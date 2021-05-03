@@ -49,7 +49,7 @@ Yes
 
 For *Teams*
 
-[cols=5*,options="header",cols="20a,20a,20a,20a,40a"]
+[cols=5*,options="header",cols="20a,15a,15a,15a,40a"]
 |===
 |Type of item
 |Restore to the same team

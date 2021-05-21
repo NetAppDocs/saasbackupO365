@@ -153,6 +153,10 @@ entries:
         url: /task_performing_granular_level_restore_onedrive.html
       - title: For Groups and Teams
         url: /task_performing_granular_level_restore_teams.html
+    - title: About Self Service Portal
+      url: /reference_about_ssp.html
+    - title: Use Self Service Portal
+      url: /task_use_ssp.html    
     - title: Restore from a previous backup
       url: /task_restoring_from_previous_backup.html
     - title: Cancel a job

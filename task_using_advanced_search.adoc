@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task_using_advanced_search.html
 keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange
-summary: You can enable Advanced Search to search for items in Microsoft 365 Exchange Online.
+summary: You can enable Advanced Search to search for backed up items in Microsoft 365 Exchange Online.
 ---
 
 = Use Advanced Search for Microsoft Exchange Online
@@ -13,19 +13,20 @@ summary: You can enable Advanced Search to search for items in Microsoft 365 Exc
 :imagesdir: ./media/
 
 [.lead]
-You can use *Advanced Search* for Microsoft Exchange Online to find specific content.
+You can use *Advanced Search* for Microsoft Exchange Online to search for individual or shared mailbox items and restore these items to their original mailbox. To enable this setting, refer to the June 2020 link:reference_new_saasbackupO365.html[New features and updates] release notes.
 
-You can search for individual or shared mailbox items and restore these items to their original mailbox. To enable this setting, refer to the June 2020 link:reference_new_saasbackupO365.html[New features and updates] release notes.
+You can enable *Advanced Search* in settings for Microsoft Exchange Online. You can also turn on Self Service Portal (SSP) for individual tenants after you enable *Advanced Search*. If you do not enable *Advanced Search* before your first backup, no search results appear.
 
-You can enable advanced search in settings for Microsoft Exchange Online. Once enabled, you can search for individual or shared mailbox items. If you do not enable *Advanced Search* before your first backup, no search results will appear.
+To learn more about Self Service Portal, see link:reference_about_ssp.html[About Self Service Portal].
+
 image:advanced_search_settings_exchange.png[A screenshot of advanced search settings]
 
-* <<Set advanced search settings>>
+* <<Enable Advanced Search>>
 * <<Perform a search>>
 * <<Find previous search jobs>>
 
-==== Set advanced search settings
-*Advanced Search Settings* gives users the option to enable or disable the search feature.
+== Enable Advanced Search
+You can enable the *Advanced Search* feature in Advanced Search Settings.
 
 NOTE: Licensed and unlicensed users can use the advanced search feature if enabled.
 
@@ -38,11 +39,11 @@ NOTE: Licensed and unlicensed users can use the advanced search feature if enabl
 //  image:advanced_search_settings.png[image shows advanced search settings].
 . To enable a user, under the *Advanced Search* column, select *On*.
   The next time you protect that enabled user in a full or incremental backup, you can perform a search of any new email items.
-. To save your changes to the settings, click *Save Settings*.
+. Click *Save Settings*.
 . To backup the enabled users, go to link:task_scheduling_backup_or_changing_frequency.html[Scheduling a backup or changing backup frequency] and remain on the *User* tab to select the users for backup.
 
-==== Perform a search
-Advanced Search gives you the option to perform a search for individual or shared mailbox items and restore these items to their original mailbox under *Perform Search*.
+== Perform a search
+You can perform a search for individual or shared mailbox items and restore these items to their original mailbox under *Perform Search*.
 
 .Steps
 . From the dashboard, click *Advanced Search* in the left menu.
@@ -67,8 +68,8 @@ Advanced Search gives you the option to perform a search for individual or share
 .	Click *Search*.
 .	To find your search job, go to Finding Previous Search Jobs below.
 
-==== Find previous search jobs
-Advanced Search gives users the option to find previous search jobs under *Previous Search Jobs*
+== Find previous search jobs
+You can find previous search jobs under *Previous Search Jobs*.
 
 .Steps
 . From the dashboard, click *Advanced Search* in the left menu.

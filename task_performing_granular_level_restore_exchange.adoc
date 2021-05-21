@@ -116,3 +116,6 @@ NOTE: If you select the *Export to Data* restore option, the provided link is va
 +
 A message is displayed indicating that the restore job was created.
 . Click *View the job progress* to monitor the progress of the restore.
+
+.Related information
+To learn about using Self Service Portal to restore items for Microsoft Exchange Online, see link:reference_about_ssp.hmtl[About Self Service Portal].

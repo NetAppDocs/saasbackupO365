@@ -40,6 +40,11 @@ Attachment links posted in conversations are not visible in the html document.
 
 == Other problems and limitations
 
+For Self Service Portal:
+* Only Exchange Online is supported.
+* SaaS Backup holds the backup data for a maximum of 30 days.
+* Primary user mailboxes are supported, not shared or archive mailboxes.
+
 The following known problems and limitations are not specific to one application.
 
 For all users who sign up with a Microsoft 365 service account:

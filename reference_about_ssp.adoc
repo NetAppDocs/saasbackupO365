@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: reference_about_ssp.html
+keywords: netapp, saas backup, microsoft 365, self service portal, self service, ssp, restore, restores, microsoft exchange online, exchange, advanced search
+summary: SaaS Backup for Microsoft 365 Self Service Portal (SSP) is the site where individual Microsoft Exchange Online mailbox account users can find and restore items for Microsoft Exchange Online.
+---
+
+= About Self Service Portal
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+SaaS Backup for Microsoft 365 Self Service Portal (SSP) is the site where individual Microsoft Exchange Online mailbox account users can find and restore items for Microsoft Exchange Online.
+
+Requirements:
+*	*Advanced Search* must be enabled for the tenant.
+*	A full backup is required for indexing mailbox items.
+
+Administrators can enable *Advanced Search* by going to link:https://mysupport.netapp.com/[Support] and submitting a request. You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
+
+Related links:
+•	link:Advanced Search
+•	link:Use Self-Service restore

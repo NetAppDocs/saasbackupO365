@@ -26,5 +26,5 @@ Administrators can enable *Advanced Search* by going to link:https://mysupport.n
 
 .Related links:
 
-*	link:task_using_advanced_search[Use Advanced Search]
-*	link:task_use_ssp[Use Self Service Portal]
+*	link:task_using_advanced_search.html[Use Advanced Search]
+*	link:task_use_ssp.html[Use Self Service Portal]

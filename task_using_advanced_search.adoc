@@ -13,11 +13,11 @@ summary: You can enable Advanced Search to search for backed up items in Microso
 :imagesdir: ./media/
 
 [.lead]
-You can use *Advanced Search* for Microsoft Exchange Online to search for individual or shared mailbox items and restore these items to their original mailbox. To enable this setting, refer to the June 2020 link:reference_new_saasbackupO365.html[New features and updates] release notes.
+You can use *Advanced Search* for Microsoft Exchange Online to search for individual or shared mailbox items and restore these items to their original mailbox.
 
-You can enable *Advanced Search* in settings for Microsoft Exchange Online. You can also turn on Self Service Portal (SSP) for individual tenants after you enable *Advanced Search*. If you do not enable *Advanced Search* before your first backup, no search results appear.
+Administrators can enable *Advanced Search* by going to link:https://mysupport.netapp.com/[Support] and submitting a request. You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 
-To learn more about Self Service Portal, see link:reference_about_ssp.html[About Self Service Portal].
+After you enable *Advanced Search*, you can turn on Self Service Portal (SSP) for individual tenants. If you do not enable *Advanced Search* before your first backup, no search results appear. To learn more about Self Service Portal, see link:reference_about_ssp.html[About Self Service Portal].
 
 image:advanced_search_settings_exchange.png[A screenshot of advanced search settings]
 

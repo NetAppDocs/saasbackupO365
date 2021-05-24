@@ -20,7 +20,13 @@ Newly added drives are not detected until you manually complete a sync for the s
 
 == For Microsoft 365 Exchange Online
 *	SaaS Backup does not support backups for public folders.
-*	*Advanced Search* is only available for Exchange Online. The setting is disabled by default. A customer must request to enable this feature. After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
+*	*Advanced Search* is only available for Exchange Online. The setting is disabled by default. A customer must request to enable this feature. After the *Enable Advanced Search* setting is enabled, administrators must manually enable the search feature for individual users.
+
+For *Self Service Portal*:
+
+* Only Exchange Online is supported.
+* SaaS Backup holds the backup data for a maximum of 30 days.
+* Primary user mailboxes are supported, not shared or archive mailboxes.
 
 == For Microsoft 365 Teams
 *	Channel configuration is restored but content and conversations are not.
@@ -41,6 +47,7 @@ Attachment links posted in conversations are not visible in the html document.
 == Other problems and limitations
 
 For Self Service Portal:
+
 * Only Exchange Online is supported.
 * SaaS Backup holds the backup data for a maximum of 30 days.
 * Primary user mailboxes are supported, not shared or archive mailboxes.

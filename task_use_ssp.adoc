@@ -16,28 +16,29 @@ summary: Individual Microsoft Exchange Online mailbox account users can use the 
 You can use Self Service Portal (SSP) to find and restore items for Microsoft Exchange Online.
 
 Requirements:
+
 * *Advanced Search* must be enabled for the tenant.
 *	A full backup is required for indexing mailbox items.
 
 == Enable Self Service Portal
-To enable Self Service Portal for individual Exchange Online tenant account holders, administrators must first enable *Advanced Search*. Go to link:task_using_advanced_search.html[Use Advanced Search] to enable *Advanced Search*.
+To enable Self Service Portal for individual Microsoft Exchange Online mailbox account users, administrators must first enable *Advanced Search*. For more information, see link:task_using_advanced_search.html[Use Advanced Search].
 
-After *Advanced Search* is enabled, you can enable the Self Service Portal setting by updating your Exchange Online backup settings.
+After administrators enable *Advanced Search*, they can enable the *Self Service Portal* setting by updating Exchange Online backup settings.
 
-To restore items, you should complete a full backup before you update your Exchange Online backup settings. This ensures you can find the items to restore. For more information about scheduling a backup, see link:task_scheduling_backup_or_changing_frequency.html[Schedule your first backup] or link:task_performing_immediate_backup_of_service[Perform an immediate backup].
+After *Advanced Search* and *Self Service Portal* settings are enabled, to find and restore items, a backup should be completed. For more information about scheduling a backup, see link:task_scheduling_backup_or_changing_frequency.html[Schedule your first backup] or link:task_performing_immediate_backup_of_service[Perform an immediate backup].
 
 .Steps
 1.	Go to https://saasbackup.netapp.com.
 2.	Log in to Microsoft 365.
 3.	Go to *Services*.
 4.	Click image:gear_icon.png[gear icon] to open your settings.
-5.	Under *Manage Services* and *Microsoft Exchange Online*, click image:gear_icon.png[gear icon]  .
+5.	Under *Manage Services* and *Microsoft Exchange Online*, click image:gear_icon.png[gear icon].
 6.	To enable Self Service Portal, click the check box.
 image:update_exchange_backup_settings_ssp.png[update Exchange backup settings for Self Service Portal]
 7.	Click *Confirm*.
 8.	Go to *Advanced Search* > *Advanced Search Settings*.
 9.	Under the *Advanced Search* column, click the *Off* button to turn *On* Advanced Search for the individual user.
-10.	Under the Self Service column, click the *Off* button to turn *On* Self Service for the individual user.
+10.	Under the *Self Service* column, click the *Off* button to turn *On* Self Service for the individual user.
 11.	Click *Save Settings*.
 
 == Monitor Self Service Portal use
@@ -52,7 +53,7 @@ Administrators can monitor Self Service Portal use in SaaS Backup for Microsoft 
 6.	Click *Download* to save the results if needed.
 
 == Use Self Service restore
-Individual Microsoft Exchange Online mailbox account users can use the Self-Service Portal to restore items for Microsoft Exchange Online.
+Individual Microsoft Exchange Online mailbox account users can use the Self Service Portal to find and restore items for Microsoft Exchange Online.
 
 .Steps
 1.	Go to https://saasbackup.netapp.com/ssp.
@@ -61,6 +62,7 @@ Individual Microsoft Exchange Online mailbox account users can use the Self-Serv
 Exchange Online is the only supported service in the Self Service Portal.
 4.	Click on the folder (Mail, Calendar, Other, Task, etc.) and subfolders (for Mail: Archive, Inbox, Sent Items, etc.) to find the item to restore.
 The default time is the last 30 days for the backed up items.
+
 NOTE: SaaS Backup supports backed up items for 30 days.
 
 5.	To filter the items by time, you can select *Last 30 days Backup*, *Last 15 days Backup*, or *Last 7 days Backup* from the dropdown menu at the top right corner of the page.

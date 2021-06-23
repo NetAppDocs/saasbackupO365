@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="at-element-marker">
+  <title>Search results | NetApp Cloud Docs</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Search results | NetApp Cloud Docs" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/us-en/saasbackupO365/search.html" />
+	<meta property="og:description" content="" />
+  <meta property="og:image" content="https://docs.netapp.com/us-en/saasbackupO365/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/>
+  
+  <meta name="description" content="">
+  <meta name="keywords" content=" ">
+  
+  
+  <meta name="translate" content="false"/>
+  
+
+  <!-- Icons -->
+  <link rel="icon" href="/us-en/saasbackupO365/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed -->
+  
+  <link rel="alternate" type="application/rss+xml" title="NetApp Cloud Docs" href="/us-en/saasbackupO365/feed.xml">
+  
+
+  <!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+  <!-- Elastic Search -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/searchkit/0.10.0/theme.css">
+
+  <!-- Controls AsciiDoctor Admonition Blocks -->
+  <link rel="stylesheet" type="text/css" href="/us-en/saasbackupO365/css/font-awesome.min.css">
+
+  <!-- Controls the shadow effect for search dropdown menu -->
+  <link rel="stylesheet" href="/us-en/saasbackupO365/css/boxshadowproperties.css">
+
+  <!-- NetApp CSS controls the technical content -->
+  <link rel="stylesheet" type="text/css" href="/us-en/saasbackupO365/css/netapp.css">
+
+  <!-- WWW CSS Content -->
+  <link rel="stylesheet" type="text/css" href="/us-en/saasbackupO365/css/www-luci-dotcom.min.css">
+  <link rel="stylesheet" type="text/css" href="/us-en/saasbackupO365/css/www-netapp-dotcom.css">
+  <link rel="stylesheet" href="/us-en/saasbackupO365/css/www-netapp-library-critical.min.css" media="all" >
+  <link rel="stylesheet" href="/us-en/saasbackupO365/css/www-netapp-library-non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="/us-en/saasbackupO365/css/www-netapp-library-global-header-footer.min.css">
+
+  <!-- NetApp IE Customizations -->
+  <link rel="stylesheet" href='/us-en/saasbackupO365/css/na-utility.css' type='text/css'>
+  <link rel="stylesheet" href='/us-en/saasbackupO365/css/na-sidebar.css' type='text/css'>
+  <link rel='stylesheet' href='/us-en/saasbackupO365/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/us-en/saasbackupO365/css/na-pagenav.css' type='text/css'>
+
+  
+
+  
+  <link rel='stylesheet' href='/us-en/saasbackupO365/css/na-feature.css' type='text/css'>
+  
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script>
+  
+
+  
+
+  <link rel='stylesheet' href='/us-en/saasbackupO365/css/prism.css' type='text/css'>
+  <link rel='stylesheet' href='/us-en/saasbackupO365/css/prism-netapp.css' type='text/css'>
+
+
+  <script src='/us-en/saasbackupO365/js/na-utility.js'></script>
+  <script src='/us-en/saasbackupO365/js/clouddocs.js'></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    var head = document.getElementsByTagName('head')[0];
+    var adobe = document.createElement("script");
+    adobe.type = "text/javascript";
+    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+    head.appendChild(adobe);
+  }
+  </script>
+  <script src='/us-en/saasbackupO365/js/jquery.navgoco.min.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src='/us-en/saasbackupO365/js/toc.js'></script>
+  <script src='/us-en/saasbackupO365/js/customscripts.js'></script>
+
+  <script>
+      $(document).ready(function() {
+          
+          var collapseOnInit = true;
+          
+
+          var navSettings = {
+              "caretHtml": '',
+              "accordion": collapseOnInit,
+              "openClass": 'active', // open
+              "save": false, // leave false or nav highlighting doesn't work right
+              "cookie": {
+                  "name": 'navgoco',
+                  "expires": false,
+                  "path": '/'
+              },
+              "slide": {
+                  "duration": 400,
+                  "easing": 'swing'
+              }
+          };
+
+          // Initialize navgoco with default options
+          $("#mysidebar").navgoco(navSettings);
+          
+
+          $("#collapseAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', false);
+          });
+
+          $("#expandAll").click(function(e) {
+              e.preventDefault();
+              $("#mysidebar").navgoco('toggle', true);
+          });
+
+      });
+
+  </script>
+  <script>
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
+  <script>
+  if (document.location.hostname === "docs.netapp.com") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-81697994-3');
+  }
+  </script>
+</head>
+
+
+  <body class role="document">
+    <div id="page" class="n-off-canvas-menu">
+      <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
+      <div class="n-off-canvas-menu__content-wrap">
+        <header class="site-header" id="banner">
+  <!-- Start top_hat -->
+  <div class="n-top-hat">
+    <div class="n-container">
+      <div class="n-top-hat__cross-property-nav">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/products-a-z/" class="n-top-hat__link">Product and Solutions</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/support-and-training/netapp-university/" class="n-top-hat__link">Support and Training</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://cloud.netapp.com" class="n-top-hat__link">Cloud Central</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://community.netapp.com/" class="n-top-hat__link">Community</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://blog.netapp.com/" class="n-top-hat__link">Blog</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://customers.netapp.com/en/" class="n-top-hat__link">Customer Stories</a>
+          </li>
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="n-top-hat__utils">
+        <ul class="n-top-hat__list">
+          <li class="n-top-hat__list-item">
+            <a href="https://www.netapp.com/us/contact-us/index.aspx" target="_self" class="n-top-hat__link" data-ntap-ui="contact-us">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End top_hat -->
+
+  <!-- Start property bar -->
+  <style>
+    .n-property-navigation-bar__menus--desktop-experience .n-menu--mega__default-content__heading span {
+    color: #34B0FF;
+    }
+  </style>
+  <div class="n-property-bar " data-ntap-ui="sticky-nav">
+    <div class="n-property-bar__inner-wrap">
+      <div class="n-property-bar__menu-toggle">
+        <a href="#" class="n-property-bar__menu-toggle-link">
+          <span class="n-property-bar__menu-toggle-text">Menu</span>
+          <svg class="n-icon-bars n-property-bar__menu-toggle-icon" aria-labelledby="title">
+            <title>bars</title>
+            <use xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#bars"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="n-property-bar__property-mark ">
+        <a href="https://www.netapp.com" class="n-property-bar__property-link">
+          <div class="n-property-bar__logo">
+            <svg class="n-icon-netapp-mark n-icon-netapp-mark n-property-bar__netapp-mark-icon" aria-labelledby="title">
+              <title>netapp-mark</title>
+              <use xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#netapp-mark"></use>
+            </svg>
+            <svg class="n-icon-netapp-logo n-property-bar__logo-svg" aria-labelledby="title">
+              <title>netapp-logo</title>
+              <use xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#netapp-logo"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      
+    </div>
+  </div>
+  <div class="n-property-bar__toolbar"><!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
+      <div id="ie-i18n-menu">
+      <span class="ie-i18n-lang">English</span>
+        <button class="ie-i18n-icon-container" type="button">
+          <svg class="n-globe__icon" aria-labelledby="title">
+            <title>globe</title>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#globe"></use>
+          </svg>
+        </button>
+      </div>
+      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
+        <div class="n-language-selector-menu">
+          <div class="n-language-selector-menu__header">
+            <span class="n-language-selector-menu__title">Select Your Language</span>
+          </div>
+          <ul class="n-menu__list">
+            <li class="n-menu__list-column">
+              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/us-en/saasbackupO365" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ja-jp/saasbackupO365" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
+                </li></ul>
+            </li>
+          </ul>
+          <div class="menu__footer">
+            <p>Current Language: English
+            </p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Language Selector -->
+
+    <div class="n-property-bar__cta"></div>
+  </div>
+  <script>
+    $(function(){
+        var currentLocalization = $('html').attr('lang');
+
+        var localizationsDictionary = {
+            "en-CA" : "https://www.netapp.com/search/index.aspx?for_cr=canada&",
+            "en-IN" : "https://www.netapp.com/search/index.aspx?for_cr=india&",
+            "nl-NL" : "https://www.netapp.com/search/index.aspx?for_cr=netherlands&",
+            "ru-RU" : "https://www.netapp.com/search/index.aspx?for_cr=russia&",
+            "sv-SE" : "https://www.netapp.com/search/index.aspx?for_cr=sweden&",
+            "it-IT" : "https://www.netapp.com/search/index.aspx?for_cr=italy&",
+            "he-IL" : "https://www.netapp.com/search/index.aspx?for_cr=israel&",
+            "ko-KR" : "https://www.netapp.com/search/index.aspx?for_cr=korea&",
+            "zh-TW" : "https://www.netapp.com/search/index.aspx?for_cr=taiwan&",
+            "en-GB" : "https://www.netapp.com/search/index.aspx?for_cr=unitedkingdom&",
+            "en-SG" : "https://www.netapp.com/search/index.aspx?for_cr=asean&",
+            "en-AU" : "https://www.netapp.com/search/index.aspx?for_cr=australia&",
+            "pt-BR" : "https://www.netapp.com/search/index.aspx?for_cr=brasil&",
+            "de-CH" : "https://www.netapp.com/search/index.aspx?for_cr=switzerland&",
+            "es-MX" : "https://www.netapp.com/search/index.aspx?for_cr=mexico&"
+        };
+
+        if($('html').hasClass('ntap-whitelisted') && localizationsDictionary.hasOwnProperty(currentLocalization)) {
+            $('.n-property-bar__property-link').attr('href', '/');
+        }
+    });
+  </script>
+  <!-- End property bar -->
+</header>
+
+        <div class="ie-utility">
+  <div class="ie-menu">
+    <div class="n-breadcrumb">
+      <ul class="n-breadcrumb__list">
+        <li class="n-breadcrumb__list-item">
+          <a href="https://www.netapp.com">Home</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com">Documentation</a>
+        </li>
+        
+        <li class="n-breadcrumb__list-item">
+          <a href="https://docs.netapp.com/us-en/cloud/">Cloud Docs</a>
+        </li>
+        
+
+        <li class="n-breadcrumb__list-item">
+          <a href="/us-en/saasbackupO365/">SaaS&nbsp;Backup&nbsp;For&nbsp;Office&nbsp;365</a>
+        </li>
+        <li class="n-breadcrumb__list-item">
+          Search results
+        </li>
+      </ul>
+    </div>
+
+    <div style="clear: both"></div><!-- Main needs to have height -->
+  </div>
+</div>
+
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+  <!-- Sidebar Column -->
+  
+  <div class="col-md-3" >
+      <div class="n-pdf-header">
+  <a id="toggleButtonPdf" class="n-pdf-button" type="button">PDFs<span>
+    </span>
+  </a>
+</div>
+<ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><div class="n-pdf-section">
+      <span class="n-pdf-section-title">Site</span>
+    </div>
+    <li>
+      <a target="_blank" href="/us-en/saasbackupO365/pdfs/fullsite-sidebar/NetApp_SaaS_Backup_for_Microsoft_365_documentation.pdf" >
+        <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+        NetApp SaaS Backup for Microsoft 365 documentation
+      </a>
+    </li>
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Release_notes.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Release notes
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Concepts.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Concepts
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Get_started.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Get started
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Get_started_with_a_free_trial.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Get started with a free trial
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Upgrade_from_a_trial_subscription.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Upgrade from a trial subscription
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Get_started_with_a_Paid_Subscription.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Get started with a Paid Subscription
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Manage_services.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Manage services
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Manage_settings.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Manage settings
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Permissions.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Permissions
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Role_based_account_access.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Role-based account access
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Manage_users.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Manage users
+          </a>
+        </li>
+        <span>
+          
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Licenses.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Licenses
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Rules.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Rules
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Security_groups.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Security groups
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Manage_backups.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Manage backups
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Manage_restores.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Manage restores
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/Perform_a_granular_level_restore.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            Perform a granular-level restore
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+    
+      <span class="subfolders" style="display:none;">
+        
+          <div class="n-pdf-section">
+            <span class="n-pdf-section-title">
+              Sections
+            </span>
+          </div>
+        
+        <li>
+          <a target="_blank" href="/us-en/saasbackupO365/pdfs/sidebar/View_data.pdf" >
+            <img src="/us-en/saasbackupO365/images/pdf.png" width="20" height="20"/>
+            View data
+          </a>
+        </li>
+        <span>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        </span>
+      </span>
+    
+
+  
+
+
+
+
+
+
+
+
+</ul>
+
+<script>
+  $("#toggleContainerPdf li.active").parents('li').toggle('display');
+  $("#toggleContainerPdf li.active").parents('span.subfolders').toggle('display');
+  $("#toggleButtonPdf").click(function () {
+    $("#toggleContainerPdf").toggle('display');
+  });
+</script><ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="index.html">
+        NetApp SaaS Backup for Microsoft 365
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Release notes</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="reference_new_saasbackupO365.html">
+        What's new
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_new_archived.html">
+        What's new archive
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_kpls.html">
+        Known problems and limitations
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Concepts</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_overview.html">
+        Overview
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_storage_types.html">
+        Storage types you can use with SaaS Backup
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Get started</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Get started with a free trial</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_free_trial_workflow.html">
+        Workflow
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_free_trial_restrictions.html">
+        Free trial restrictions
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_registering_for_free_trial_activation_code.html">
+        Register for a free trial activation code
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_signing_up_for_o365_free_trial.html">
+        Sign up for a Microsoft 365 free trial account
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_creating_msservice_account_with_global_permissions.html">
+        Create a Microsoft 365 service account with global permissions
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_configuring_impersonation.html">
+        Configure Impersonation for Microsoft Exchange Online
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_signing_up_for_saasbkup_free_trial.html">
+        Sign up for a free trial of SaaS Backup for Microsoft 365
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_scheduling_first_backup.html">
+        Schedule your first backup
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_immediate_backup_of_policy.html">
+        Perform an immedate backup
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Upgrade from a trial subscription</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_upgrading_from_trial.html">
+        Upgrade
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_activate_support.html">
+        Activate support after upgrade
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="reference_free_trial_data.html">
+        Free trial data deletion
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Get started with a Paid Subscription</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_paid_subscription_workflow.html">
+        Workflow
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_creating_msservice_account_with_global_permissions.html">
+        Create a MS Office service account with global permissions
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_configuring_impersonation.html">
+        Configure Impersonation for Microsoft Exchange Online
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_signing_up_for_saasbkup_paid_subscription.html">
+        Sign up for a paid subscription of SaaS Backup for Microsoft 365
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_scheduling_first_backup.html">
+        Schedule your first backup
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_immediate_backup_of_policy.html">
+        Perform an immedate backup
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_paid_subscription_data.html">
+        Paid subscription data deletion
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Manage services</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_activating_a_service.html">
+        Activate a service
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_deactivating_a_service.html">
+        Deactivate a service
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_activate_support.html">
+        Activate support
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_discovering_new.html">
+        Discover new mailboxes, sites, and groups
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_purging.html">
+        Purge a user, site collection, or Microsoft 365 group
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Manage settings</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="concept_backup_policies.html">
+        Backup policies
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_backup_settings.html">
+        Backup settings
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_setting_account_notifications.html">
+        Set notifications
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Permissions</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_adding_permissions_to_service_accounts.html">
+        Add permissions to a service account
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_syncing_user_permissions_with_azure.html">
+        Synchronize user permissions with Azure Active Directory
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_granting_permissions_to_enable_shared_mailboxes.html">
+        Grant permissions to enable shared mailboxes
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Role-based account access</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_assigning_admin_roles_to_user_accounts.html">
+        Assign administrative roles to user accounts
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_updating_admin_roles_assigned_to_user_accounts.html">
+        Update administrative roles assigned to user accounts
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_deleting_admin_roles_from_a_user_account.html">
+        Delete all administrative roles from a user account
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Manage users</div>
+      </a>
+      <ul><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Licenses</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_adding_a_license.html">
+        Add a license
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_updating_subscription_information.html">
+        Update subscription information
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_releasing_a_user_license.html">
+        Release a user license
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Rules</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_creating_rules.html">
+        Create new rules
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_applying_rules.html">
+        Apply existing rules
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_deleting_rules.html">
+        Delete rules
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Security groups</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_adding_security_groups.html">
+        Add security groups
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_deleting_security_groups.html">
+        Delete security groups
+      </a></li></ul></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Manage backups</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_scheduling_backup_or_changing_frequency.html">
+        Schedule a backup or changing backup frequency
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_immediate_backup_of_service.html">
+        Perform an immediate backup
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_browsing_backups.html">
+        Browse backups
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_canceling_job.html">
+        Cancel a job
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_updating_backup_retention_period.html">
+        Update the backup retention period
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_enabling_onenote_backups.html">
+        Enable backups for OneNote
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_supported_templates_and_apps.html">
+        Templates and apps supported for backup in Microsoft SharePoint Online
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Manage restores</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="reference_about_restores.html">
+        About restores
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_high_level_restore.html">
+        Perform a high-level restore
+      </a></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> Perform a granular-level restore</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_performing_granular_level_restore_exchange.html">
+        For Exchange
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_granular_level_restore_sharepoint.html">
+        For SharePoint
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_granular_level_restore_onedrive.html">
+        For OneDrive
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_granular_level_restore_teams.html">
+        For Groups and Teams
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="task_restoring_from_previous_backup.html">
+        Restore from a previous backup
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_canceling_job.html">
+        Cancel a job
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_viewing_restore_file_locations.html">
+        Find restored files
+      </a></li></ul></li><li class="subfolders "><a href="#">
+        <div class="na-navbar-padding"> View data</div>
+      </a>
+      <ul><li class=" "><a class="na-navbar-padding" href="task_creating_user_defined_filter.html">
+        Create a user defined filter
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_performing_search.html">
+        Perform a search
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_using_advanced_search.html">
+        Use Advanced Search
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_viewing_history_and_activity.html">
+        View job history and activity log
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_viewing_deprovisioned.html">
+        View deprovisioned items
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_viewing_purged.html">
+        View purged data
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_viewing_deleted.html">
+        View deleted items
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_downloading_data.html">
+        Download data
+      </a></li><li class=" "><a class="na-navbar-padding" href="task_monitoring_data.html">
+        Monitor user data
+      </a></li></ul></li><li class=" "><a class="na-navbar-padding" href="task_providing_feedback.html">
+        Provide feedback
+      </a></li><li class=" "><a class="na-navbar-padding" href="concept_get_help_find_info.html">
+        Where to get help and find more information
+      </a></li><li class=" "><a class="na-navbar-padding" href="reference_legal_notices.html">
+        Legal Notices
+      </a></li></ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+  </div>
+  
+
+  <div class="ie-content-pane n-doc__component-detail-content n-doc__component-detail-content--show-code">
+    <!-- Begin of page container -->
+    <article class="page-content">
+      
+
+
+
+<div class="n-doc__component-detail-heading-wrap">
+  <h1 class="n-doc__component-detail-heading">Search results</h1>
+</div>
+
+
+
+<div id="search-demo-container" class="n-property-bar__search">
+  <div id="react-search" data-type="page" data-placeholder="Search Documentation" data-no-results-found="No results were found for {query}" data-did-you-mean="Search for {suggestion}." data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?" data-results-found="{hitCount} results found"></div>
+  <button class="search-all-icon n-property-bar__search-toggle-button" type="button">
+    <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
+      <title>search</title>
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#search"></use>
+    </svg>
+  </button>
+</div>
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <div style="clear: both"></div><!-- Main needs to have height -->
+</div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+      <div class="n-footer__bottom-left">
+
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2021 NetApp, Inc.</a>
+            </li>
+
+</ul>
+</div>
+<div class="n-footer__social-links">
+<ul class="n-footer__social-link-list">
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
+<span class="n-footer__social-link-text">blog</span>
+<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+  <title>blog@</title>
+  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#blog"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
+<span class="n-footer__social-link-text">community</span>
+<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+<title>community@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#comments"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
+<span class="n-footer__social-link-text">twitter</span>
+<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+<title>twitter@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#twitter"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
+<span class="n-footer__social-link-text">facebook</span>
+<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+<title>facebook@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#facebook"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+<span class="n-footer__social-link-text">linkedin</span>
+<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+<title>linkedin@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#linkedin"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+<span class="n-footer__social-link-text">youtube</span>
+<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+<title>youtube@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#youtube"></use>
+</svg>
+
+</a>
+</li>
+<li class="n-footer__social-link-list-item">
+<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+<span class="n-footer__social-link-text">slideshare</span>
+<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+<title>slideshare@</title>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/saasbackupO365/common/svg/sprite.svg#slideshare"></use>
+</svg>
+
+</a>
+</li>
+</ul>
+</div>
+
+</div>
+<div class="n-footer__bottom-right">
+  <p class="n-footer__fine-print">Have feedback for our website?<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">Let us know</a>
+  <a href="https://docs.netapp.com/us-en/announcements/" class="n-footer__copyright">Announcements</a>
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+      </div>
+
+      <!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/us-en/saasbackupO365/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/us-en/saasbackupO365/js/prism.js'></script>
+      <script type="text/javascript" src='/us-en/saasbackupO365/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/us-en/saasbackupO365/js/www-ntap.js'></script>
+  </body>
+
+  
+  <script>
+      if(hasParameter(window.location.search,'q')) {
+        var queryString = decodeURI(getParameter(window.location.search, 'q'));
+        document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
+      }
+
+      function getParameter(searchString,param) {
+        var params = searchString.split('?&');
+        for(var i=0;i<params.length;i++) {
+          var paramIndex = params[i].indexOf(param+"=");
+          if(paramIndex != -1) {
+            return params[i].substring(paramIndex+param.length+1);
+          }
+        }
+
+        return "";
+      }
+
+      function hasParameter(searchString,param) {
+        searchString = searchString || "";
+        param = param || "";
+        return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
+      }
+  </script>
+  
+</html>

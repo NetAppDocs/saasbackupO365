@@ -41,10 +41,10 @@ link:task_purging.html[Purging]
 link:task_viewing_history_and_activity.html[Viewing job history]
 
 == June 2020
-* SaaS Backup for Microsoft 365 now supports advanced search capabilities for Exchange Online users. Once enabled, a user can search for individual, shared, and archive mailbox items within the last six months of backup data.
-// and restore those items to the original mailbox.
+* SaaS Backup for Microsoft 365 now supports Advanced Search capabilities for Exchange Online users. Once enabled, you can search for individual, shared, and archive mailbox items within the last six months of backup data.
 +
-link:task_performing_search.html[Performing a search]
+link:task_performing_search.html[Perform a search]
+link:task_using_advanced_search.html[Use Advanced Search for Microsoft Exchange Online]
 +
 To enable this feature, go to link:https://mysupport.netapp.com/[Support] and submit a request.
 +
@@ -69,7 +69,7 @@ You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 * You can now view mailboxes, sites, mysites, groups, or accounts that have been deprovisioned.
 link:task_viewing_deprovisioned.html[Viewing deprovisioned items]
 * User licenses are now automatically release seven days after the accounts are purged. You can view a list of items scheduled to be purged within seven days and list of items that have already been purged.
-link:task_viewing_deprovisioned.html[Viewing a list of purged data]
+link:task_viewing_purged.html[Viewing a list of purged data]
 * Backup for Microsoft OneNote notebooks is now supported for Microsoft SharePoint Online and OneDrive for Business.
 link:task_enabling_onenote_backups.html[Enabling backups for OneNote]
 

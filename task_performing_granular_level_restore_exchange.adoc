@@ -34,7 +34,7 @@ Yes
 |Exchange Online > Mailboxes - Users
 |Single/Multiple mailbox folders (Inbox, Archive, etc.)
 
-NOTE: Excludes conversation history.
+*Note*: Excludes conversation history.
 
 |Yes
 |Yes

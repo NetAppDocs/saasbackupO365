@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, upgrade, upgrading, trial, activat
 summary: When you upgrade from a trial subscription to a licensed subscription, your trial data is only preserved if you do not change your backup storage destination.
 ---
 
-= Upgrading from a trial subscription
+= Upgrade from a trial subscription
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -22,12 +22,6 @@ When you upgrade from a trial subscription to a licensed subscription, your tria
 |If the backup destination of your trial subscription is... |And the backup destination of your licensed subscription is... |Your trial data is...
 |Amazon S3 provided by SaaS Backup | Amazon S3 provided by SaaS Backup | Preserved
 |Azure Blob provided by SaaS Backup |Azure Blob provided by SaaS Backup | Preserved
-//|BYOS | The same BYOS target | Preserved
-//|Amazon S3 provided by SaaS Backup | BYOS | Not migrated
-//|Azure Blob provided by SaaS Backup | BYOS | Not migrated
-//|BYOS | A different BYOS target | Not migrated
-//|BYOS | Amazon S3 provided by SaaS Backup | Not migrated
-//|BYOS | Azure Blob provided by SaaS Backup | Not migrated
 |=======
 
 .Before you begin

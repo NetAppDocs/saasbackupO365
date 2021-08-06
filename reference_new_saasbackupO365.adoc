@@ -15,6 +15,15 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 [.lead]
 The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft 365.
 
+== May 2021
+Individual Microsoft Exchange Online mailbox account users can now use the Self Service Portal (SSP) from SaaS Backup for Microsoft 365 to find and restore items for Microsoft Exchange Online. To enable Self Service Portal, contact your administrator.
+
+*Advanced Search* must be enabled for the tenant. A full backup is required for indexing mailbox items. 
+
+*  link:task_using_advanced_search.html[Use Advanced Search]
+*	link:reference_about_ssp.html[About Self Service Portal]
+*	link:task_use_ssp.html[Use Self Service Portal]
+
 == December 2020
 If you deploy Microsoft Azure in the US, your data will not leave your Microsoft environment. During the sign-up process for SaaS Backup for Microsoft 365, you can use Azure Blob storage or your own storage.
 
@@ -41,9 +50,10 @@ link:task_purging.html[Purge a user, site collection, or Microsoft 365 group]
 link:task_viewing_history_and_activity.html[View job history]
 
 == June 2020
-* SaaS Backup for Microsoft 365 now supports Advanced Search capabilities for Exchange Online users. Once enabled, you can search for individual, shared, and archive mailbox items within the last six months of backup data.
+* SaaS Backup for Microsoft 365 now supports advanced search capabilities for Exchange Online users. After *Advanced Search* is enabled, you can search for individual, shared, and archive mailbox items within the last six months of backup data.
+// and restore those items to the original mailbox.
 +
-link:task_using_advanced_search.html[Use Advanced Search for Microsoft Exchange Online]
+link:task_using_advanced_search.html[Use Advanced Search]
 +
 To enable this feature, go to link:https://mysupport.netapp.com/[Support] and submit a request.
 +

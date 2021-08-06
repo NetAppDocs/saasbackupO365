@@ -89,7 +89,7 @@ Yes
 |No
 |Office 365 Groups > Teams > (Team Name) > Channels
 
-NOTE: Restore includes channel name and tab names only.
+*Note*: Restore includes channel name and tab names only.
 
 |Tabs under channels|
 No
@@ -107,7 +107,7 @@ Yes
 |Yes
 |SharePoint > (Private channel site name) > Documents > (Private Channel name)
 
-NOTE: You will find a separate site collection with name “<Your Team Name – Private Channel Name>”. You can filter for these site collections with Template ID: TEAMCHANNEL#0.
+*Note*: You will find a separate site collection with name “<Your Team Name – Private Channel Name>”. You can filter for these site collections with Template ID: TEAMCHANNEL#0.
 
 |OneNote content|
 Yes
@@ -126,7 +126,7 @@ Yes
 |Office 365 Groups > Teams > (Team Name) > SharePoint Site > Documents > (Channel Name)
 |Individual user chat and group chats
 
-NOTE: Chats included in Exchange Online backups.
+*Note*: Chats included in Exchange Online backups.
 |
 
 No
@@ -136,7 +136,7 @@ No
 * Exchange > “User” > Mail > Conversation History > Team Chat
 |Files in individual user chat and group chats
 
-NOTE: Files included in OneDrive for Business backups.
+*Note*: Files included in OneDrive for Business backups.
 |
 
 Yes

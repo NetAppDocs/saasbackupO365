@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, down
 summary: You can view or download a log of the SaaS Backup activities and job history.
 ---
 
-=  Download logs
+= Download logs
 :hardbreaks:
 :nofooter:
 :icons: font

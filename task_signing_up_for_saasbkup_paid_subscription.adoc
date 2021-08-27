@@ -15,8 +15,6 @@ summary: You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 3
 [.lead]
 You can sign up for SaaS Backup for Microsoft 365 with your Microsoft 365 service account or with your NetApp SSO account.
 
-//video::A4nIi7n-uAw[youtube, width=848, height=480]
-
 == Sign up for a paid subscription with a Microsoft 365 service account
 
 Users who sign up for a paid subscription with a Microsoft 365 service account need to enable Basic Authentication to use SaaS Backup. SaaS Backup supports Basic Authentication only. If your Microsoft 365 tenant was created beginning in October 2020, and it has no recorded usage, you may encounter authentication failures. Ensure that you disable Modern Authentication for your Microsoft 365 service account.

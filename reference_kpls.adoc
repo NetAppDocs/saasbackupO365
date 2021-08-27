@@ -20,7 +20,7 @@ Newly added drives are not detected until you manually complete a sync for the s
 
 == For Microsoft 365 Exchange Online
 *	SaaS Backup does not support backups for public folders.
-*	*Advanced Search* is only available for Exchange Online. The setting is disabled by default. A customer must request to enable this feature. After the Enable Advanced Search setting is enabled, administrators must manually enable the search feature for individual users.
+*	*Advanced Search* is only available for Exchange Online. The setting is disabled by default. A customer must request to enable this feature. After the *Enable Advanced Search* setting is enabled, administrators must manually enable the search feature for individual users.
 
 == For Microsoft 365 Teams
 *	Channel configuration is restored but content and conversations are not.
@@ -39,7 +39,6 @@ Attachment links posted in conversations are not visible in the html document.
 *	Data export and data purge are not supported.
 
 == Other problems and limitations
-
 The following known problems and limitations are not specific to one application.
 
 For all users who sign up with a Microsoft 365 service account:

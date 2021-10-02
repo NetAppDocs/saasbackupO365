@@ -17,7 +17,7 @@ Microsoft 365 targets October 2021 to deprecate Basic Authentication in Exchange
 
 You can enable Modern Authentication at any time.
 
-New customers do not need to take any action. Modern Authentication is enabled when you sign up.
+New customers don't need to take any action. Modern Authentication is enabled when you sign up.
 
 Existing customers need to take action. Follow the instructions below to enable Modern Authentication.
 

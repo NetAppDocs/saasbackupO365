@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: reference_new_saasbackupO365.html
-keywords: what's new, features, new, release notes, enhancements
+keywords: what's new, features, release notes, enhancements
 summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.
 ---
 

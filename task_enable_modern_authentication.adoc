@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_enable_modern_authentication.html
-keywords: netapp, saas backup, microsoft 365, setting, settings, enable, enabling, modern authentication, basic authentication, discovery, discovery failures, archive, shared, mailboxes, groups
+keywords: saas backup, microsoft 365, setting, settings, enable, modern authentication, basic authentication, discovery, failure
 summary: You can enable Modern Authentication for SaaS Backup for Microsoft 365 to avoid discovery failures for Microsoft 365 groups, and Shared and Archive mailboxes.
 ---
 

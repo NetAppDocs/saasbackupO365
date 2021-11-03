@@ -15,14 +15,17 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 [.lead]
 The following are known limitations identified at the application level for SaaS Backup for Microsoft 365.
 
-== For Microsoft 365 OneDrive for Business
+== For SharePoint
+SaaS Backup does not support the backup of archived SharePoint sites.
+
+== For OneDrive for Business
 Newly added drives are not detected until you manually complete a sync for the service.
 
-== For Microsoft 365 Exchange Online
+== For Exchange Online
 *	SaaS Backup does not support backups for public folders.
 *	*Advanced Search* is only available for Exchange Online. The setting is disabled by default. A customer must request to enable this feature. After the *Enable Advanced Search* setting is enabled, administrators must manually enable the search feature for individual users.
 
-== For Microsoft 365 Teams
+== For Teams
 *	Channel configuration is restored but content and conversations are not.
 *	Due to API limitations, SaaS Backup cannot differentiate between public and private channels in SaaS Backup.
 *	High-level restore restores Mailbox & SharePoint data only, not conversations.
@@ -30,7 +33,7 @@ Newly added drives are not detected until you manually complete a sync for the s
 *	Team chat conversations only export option is Export to HTML.
 Attachment links posted in conversations are not visible in the html document.
 
-== For Microsoft 365 OneNote
+== For OneNote
 *	Export to data is not available.
 *	Incremental backup job might fail with the following error message:
 `Partial Failure. Failed to back up few OneNote Sections`.

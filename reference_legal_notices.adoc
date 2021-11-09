@@ -35,11 +35,11 @@ A current list of NetApp owned patents can be found at:
 https://www.netapp.com/us/media/patents-page.pdf[^]
 
 == Privacy policy
-
+git
 https://www.netapp.com/us/legal/privacypolicy/index.aspx[^]
 
 == Open source
 
 Notice files provide information about third-party copyright and licenses used in NetApp software.
 
-link:SaaS_Backup_(formerly_Cloud_Control)-2019.04.16-05.41.08.pdf[Notice for SaaS Backup^]
+link:SaaS_Backup-2019.04.16-05.41.08-notice-file.pdf[Notice for SaaS Backup^]

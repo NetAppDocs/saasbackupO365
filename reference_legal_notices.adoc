@@ -42,4 +42,4 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[^]
 
 Notice files provide information about third-party copyright and licenses used in NetApp software.
 
-link:media\SaaS_Backup_(formerly_Cloud_Control)-2019.04.16-05.41.08.pdf[Notice for SaaS Backup^]
+link:media/SaaS_Backup_notice.pdf[Notice for SaaS Backup^]

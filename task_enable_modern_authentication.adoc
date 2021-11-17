@@ -1,0 +1,46 @@
+---
+sidebar: sidebar
+permalink: task_enable_modern_authentication.html
+keywords: saas backup, microsoft 365, setting, settings, enable, modern authentication, basic authentication, discovery, failure
+summary: You can enable Modern Authentication for SaaS Backup for Microsoft 365 to avoid discovery failures for Microsoft 365 groups, and Shared and Archive mailboxes.
+---
+
+= Enable Modern Authentication
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Microsoft 365 targets October 2021 to deprecate Basic Authentication in Exchange Online. After deprecation, discovery failures can occur for Microsoft 365 groups, and Shared and Archive mailboxes.
+
+You can enable Modern Authentication at any time.
+
+New customers don't need to take any action. Modern Authentication is enabled when you sign up.
+
+Existing customers need to take action. Follow the instructions below to enable Modern Authentication.
+
+.Option 1 steps
+. Sign in to SaaS Backup for Microsoft 365.
+  The following message pops up.
+  image:enable_mod_auth_pop-up.png[Pop up message to enable Modern Authentication reads Microsoft Basic Authentication is getting disabled soon. Please enable Modern Authentication to avoid discovery failures with Microsoft 365 groups, archive mailboxes, and shared mailboxes. Do you want to enable it now?]
+. Select *Confirm* to enable Modern Authentication.
+. Accept all permissions.
+  Modern Authentication is now enabled.
+  The ZZZ config service account has been removed.
+
+.Option 2 steps
+. In SaaS Backup for Microsoft 365, go to Settings image:settings_icon.png[gear icon]> Service settings > Microsoft 365 service settings.
+  image:microsoft365_service_settings.png[Arrow pointing to Microsoft 365 service settings]
+. Select *Enable Modern Authentication*.
+  image:enable_mod_auth_service_settings_button.png[Select Enable Modern Authentication from Service Settings]
+. Accept all permissions.
+  Modern Authentication is now enabled.
+  The ZZZ config service account has been removed.
+
+If you receive a failure notification, you can retry to enable Modern Authentication.
+
+For support, email saasbackupsupport@netapp.com.
+
+For more information, see link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210[Basic Authentication and Exchange Online - September 2021 Update].

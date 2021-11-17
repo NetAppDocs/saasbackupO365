@@ -16,7 +16,7 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft 365.
 
 == November 2021
-Microsoft 365 targets October 2021 to deprecate Basic Authentication in Exchange Online. For more information, see link:https://developer.microsoft.com/en-us/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/[Deferred end of support date for Basic Authentication in Exchange Online]. After deprecation, discovery failures can occur for Microsoft 365 groups, and Shared and Archive mailboxes. You can enable Modern Authentication at any time to avoid these failures.
+Microsoft 365 targets October 2021 to deprecate Basic Authentication in Exchange Online. For more information, see link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210[Basic Authentication and Exchange Online - September 2021 Update]. After deprecation, discovery failures can occur for Microsoft 365 groups, and Shared and Archive mailboxes. You can enable Modern Authentication at any time to avoid these failures.
 
 If you are a new customer, Modern Authentication is enabled when you sign up. No action is needed.
 

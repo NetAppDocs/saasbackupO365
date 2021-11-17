@@ -43,4 +43,4 @@ If you receive a failure notification, you can retry to enable Modern Authentica
 
 For support, email saasbackupsupport@netapp.com.
 
-For more information, see link:https://developer.microsoft.com/en-us/office/blogs/deferred-end-of-support-date-for-basic-authentication-in-exchange-online/[Deferred end of support date for Basic Authentication in Exchange Online].
+For more information, see link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210[Basic Authentication and Exchange Online - September 2021 Update].

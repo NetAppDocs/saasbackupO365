@@ -29,7 +29,7 @@ NOTE: If you select the export to PST restore option, the provided link is valid
 
 .. If you are restoring mailboxes for *Microsoft Exchange Online* select one of the following options:
 
-NOTE: Restoring mailboxes with messages larger than 140 MB may encounter upload failures back to the server. We recommended that you perform a high-level restore using the Export to PST option. For more information, see link:https://docs.google.com/document/d/1CfGVZjLlAafg7O6HBMi1Uz90nNyiBeoH2vGWKqisDQ8/edit#heading=h.7hj7njz1a0oj[Microsoft Exchange Online limits: Message limits].
+NOTE: Restoring mailboxes with messages larger than 140 MB may encounter upload failures back to the server. We recommended that you perform a high-level restore using the Export to PST option. For more information, see link:https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits[Microsoft Exchange Online limits: Message limits].
 
    * Restore to the same mailbox
    * Export to PST

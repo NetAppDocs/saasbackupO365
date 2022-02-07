@@ -84,6 +84,8 @@ sidebar:
         url: /task_discovering_new.html
       - title: Purge a user, site collection, or Microsoft 365 group
         url: /task_purging.html
+      - title: Enable Modern authentication
+        url: /task_enable_modern_authentication.html
     - title: Manage settings
       entries:
       - title: Backup policies
@@ -163,7 +165,7 @@ sidebar:
         - title: For OneDrive
           url: /task_performing_granular_level_restore_onedrive.html
         - title: For Groups and Teams
-          url: /task_performing_granular_level_restore_teams.html 
+          url: /task_performing_granular_level_restore_teams.html
       - title: Restore from a previous backup
         url: /task_restoring_from_previous_backup.html
       - title: Cancel a job

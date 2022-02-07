@@ -21,6 +21,9 @@ New customers don't need to take any action. Modern Authentication is enabled wh
 
 Existing customers need to take action. Follow the instructions below to enable Modern Authentication.
 
+NOTE: To enable Modern Authentication, log in with your tenant account user credentials. Make sure the Global Administrator role is assigned to this account. After Modern Authentication is successfully enabled, you can remove the Global Administrator role from the admin user.
+You can find your tenant account name by going to *Settings image:settings_icon.png[gear icon] > Service settings > Microsoft 365 service settings*. image:account-name.png[Microsoft 365 Service Settings with highlighted account name]
+
 .Option 1 steps
 . Sign in to SaaS Backup for Microsoft 365.
   The following message pops up.

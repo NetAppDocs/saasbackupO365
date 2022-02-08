@@ -28,6 +28,7 @@ image:backup_for_restore_availability.png[Available backups for restore]
 NOTE: If you select the export to PST restore option, the provided link is valid for seven days and is pre-authenticated.
 
 .. If you are restoring mailboxes for *Microsoft Exchange Online* select one of the following options:
+
    * Restore to the same mailbox
    * Export to PST
      If you export to PST, you will receive a notification email with the location of the PST file when the export is completed.

@@ -14,10 +14,6 @@ summary: Welcome to the documentation portal for NetApp SaaS Backup for Microsof
 
 NetApp SaaS Backup is a secure, web-based, software-as-a-service (SaaS) offering that backs up your Microsoft 365 data to Amazon S3 storage and Microsoft Azure Blob storage.
 
-== Discover what's new
-
-* link:reference_new_saasbackupO365.html[What's new in SaaS Backup for Microsoft 365]
-
 == Get started
 
 * link:concept_paid_subscription_workflow.html[Get started with a paid subscription]

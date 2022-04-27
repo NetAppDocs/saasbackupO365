@@ -5,7 +5,7 @@ keywords: netapp, saas backup, microsoft 365, getting started, paid, subscriptio
 summary: To get started with a paid subscription for SaaS Backup for Microsoft 365, you must decide what type of storage you will use for your backups, create a Microsoft 365 service account with global permissions, and you must complete the sign up process.
 ---
 
-= Workflow for getting started with a paid subscription to SaaS Backup for Microsoft 365
+= Workflow for getting started
 :toc: macro
 :toclevels: 1
 :hardbreaks:
@@ -15,7 +15,7 @@ summary: To get started with a paid subscription for SaaS Backup for Microsoft 3
 :imagesdir: ./media/
 
 [.lead]
-To get started with a paid subscription to SaaS Backup for Microsoft 365, you must do the following:
+To get started with SaaS Backup for Microsoft 365, you must do the following:
 
 . Decide if you will use Amazon S3 or Azure Blob storage provided by SaaS Backup.
 +

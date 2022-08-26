@@ -161,6 +161,8 @@ sidebar:
         url: /task_downloading_data.html
       - title: Monitor user data
         url: /task_monitoring_data.html
+    - title: Migrate data
+      url: /task_migrate_data.html   
     - title: Provide feedback
       url: /task_providing_feedback.html
     - title: Where to get help and find more information

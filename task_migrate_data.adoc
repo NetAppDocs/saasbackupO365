@@ -26,8 +26,6 @@ NOTE: Data migration is an end-of-license activity. All tenants should avoid any
 .Steps
 . Go to *Account Settings* image:gear_icon.png[gear icon].
 . Select the *Data Migration* tab.
-+
-You can see the migration status for the account.
 . In *Storage Details*, enter information into the fields:
 +
 * Bucket name
@@ -40,12 +38,12 @@ A green checkmark indicates the connection is healthy.
 . In *Consent*, select the box to agree to the terms and conditions of data migration, and select *Submit*.
 +
 You have successfully saved the details.
-The tenant ID is now visible in Migration Status.
+The tenant ID is now visible in *Migration Status*.
 +
 TIP: You will need the tenant ID when you export your data using the SaaS Backup Export Utility tool.
 
-*Additional steps for NetApp provided Amazon Web Services S3 buckets*
-If you have Amazon Web Services S3 buckets, Policy and Policy Note appear below Consent. Follow the next steps to finalize your data migration request.
+*Additional steps for SaaS Backup provided Amazon S3 buckets*
+After you provide consent, Policy and Policy Note now appear below Consent. Follow the next steps to finalize your data migration request.
 
 . Go to your Amazon Web Services S3 account and copy the policy provided with updated variables provided in *Policy Note*.
 +

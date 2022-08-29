@@ -28,6 +28,7 @@ NOTE: Data migration is an end-of-license activity. All tenants should avoid any
 . Select the *Data Migration* tab.
 . In *Storage Details*, enter information into the fields:
 +
+* Account name (Azure Blob storage only)
 * Bucket name
 * Select region from the drop-down list.
 * Access key

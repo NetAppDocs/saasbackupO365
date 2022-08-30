@@ -15,7 +15,7 @@ summary: To prepare for the end of your license with SaaS Backup for Microsoft 3
 [.lead]
 To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon Web Services S3 or Azure Blob.
 
-After data migration completes, you can export your data using the SaaS Backup Export Utility tool. Refer to … .
+After data migration completes, you can export your data using the SaaS Backup Export Utility tool. Sign in to link:mysupportnetapp.com[NetApp Support]. Then visit link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for SaaS Backup Export Utility.
 
 NOTE: Data migration is an end-of-license activity. All tenants should avoid any form of activity on their SaaS Backup accounts to avoid data and metadata discrepancy during data migration. After data migration completes, all scheduled backups for the tenant will be disabled.
 
@@ -28,11 +28,22 @@ NOTE: Data migration is an end-of-license activity. All tenants should avoid any
 . Select the *Data Migration* tab.
 . In *Storage Details*, enter information into the fields:
 +
-* Account name (Azure Blob storage only)
-* Bucket name
-* Select region from the drop-down list.
-* Access key
-* Secret key
+[cols=2*,options="header",cols="20,20"]
+|===
+|Amazon S3
+|Azure
+|Bucket name
+|Account name
+|Region
+|Container name
+|Access key
+|Access point
+|Secret key
+|Access key
+|
+|Region
+|===
+
 . Select *Test Connection*.
 +
 A green checkmark indicates the connection is healthy.

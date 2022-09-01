@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: task_migrate_data.html
-keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export
 summary: To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon Web Services S3 or Azure Blob.
 ---
 
@@ -15,7 +15,7 @@ summary: To prepare for the end of your license with SaaS Backup for Microsoft 3
 [.lead]
 To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon Web Services S3 or Azure Blob.
 
-After data migration completes, you can export your data using the SaaS Backup Export Utility tool. Sign in to  link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for SaaS Backup Export Utility.
+After data migration completes, you can export your data using the SaaS Backup Export Tool. Sign in to  link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for the SaaS Backup Export Tool.
 
 NOTE: Data migration is an end-of-license activity. All tenants should avoid any form of activity on their SaaS Backup accounts to avoid data and metadata discrepancy during data migration. After data migration completes, all scheduled backups for the tenant will be disabled.
 
@@ -52,7 +52,7 @@ A green checkmark indicates the connection is healthy.
 You have successfully saved the details.
 The tenant ID is now visible in *Migration Status*.
 +
-TIP: You will need the tenant ID when you export your data using the SaaS Backup Export Utility tool.
+TIP: You will need the tenant ID when you export your data using the SaaS Backup Export Tool.
 
 *Additional steps for SaaS Backup provided Amazon S3 buckets*
 After you provide consent, Policy and Policy Note now appear below Consent. Follow the next steps to finalize your data migration request.

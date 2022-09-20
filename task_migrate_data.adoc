@@ -44,7 +44,7 @@ NOTE: Data migration is an end-of-license activity. All tenants should avoid any
 |Region
 |===
 +
-NOTE: Microsoft Azure users must set Public access level as "Blob" for the container provided in *Storage Details*.
+NOTE: Microsoft Azure users must set Public access level to "Blob" for the container provided in *Storage Details*.
 
 . Select *Test Connection*.
 +

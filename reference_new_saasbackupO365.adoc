@@ -16,8 +16,8 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft 365.
 
 == October 2022
-*	Data migration is now possible in SaaS Backup for Microsoft 365. Account administrators can request data migration to tenant-owned Amazon Web Services S3 and Azure Blob destination buckets. Learn how to link:task_migrate_data.html[migrate data].
-*	The SaaS Backup Export Utility tool is now available and facilitates the export of your migrated data to Amazon Web Services S3 and Azure Blob destination buckets, or local storage. Sign in to link:mysupportnetapp.com[NetApp Support]. Then visit link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for the NetApp SaaS Backup Bulk Export Tool.
+*	Data migration is now possible in SaaS Backup for Microsoft 365. Account administrators can request data migration to tenant-owned Amazon S3 and Azure Blob storage destination buckets. Learn how to link:task_migrate_data.html[migrate data].
+*	The SaaS Backup Export Utility tool is now available and facilitates the export of your migrated data to Amazon S3 and Azure Blob storage destination buckets, or local storage. Sign in to link:mysupportnetapp.com[NetApp Support]. Then visit link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for the NetApp SaaS Backup Bulk Export Tool.
 
 == November 2021
 Microsoft 365 targets October 2021 to deprecate Basic Authentication in Exchange Online. For more information, see link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210[Basic Authentication and Exchange Online - September 2021 Update]. After deprecation, discovery failures can occur for Microsoft 365 groups, and Shared and Archive mailboxes. You can enable Modern Authentication at any time to avoid these failures.

@@ -1,0 +1,72 @@
+---
+sidebar: sidebar
+permalink: task_migrate_data.html
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export
+summary: To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon S3 or Microsoft Azure Blob Storage.
+---
+
+= Migrate data
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon S3 or Microsoft Azure Blob Storage.
+
+After data migration completes, you can export your data using the NetApp SaaS Backup Bulk Export Tool. Sign in to link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for the NetApp SaaS Backup Bulk Export Tool.
+
+NOTE: Data migration is an end-of-license activity. All tenants should avoid any form of activity on their SaaS Backup accounts to avoid data and metadata discrepancy during data migration. After data migration completes, all scheduled backups for the tenant will be disabled.
+
+*Requirement*: To request data migration, log in with tenant account credentials with Global Administrator permissions. Other user roles will not be able to access the Data Migration tab in the user interface.
+
+*Recommendation*: You should provision the destination storage with sufficient capacity to store all customer data and add 10% more capacity as a buffer for metadata storage.
+
+.Steps
+. Go to *Account Settings* image:gear_icon.png[gear icon].
+. Select the *Data Migration* tab.
+. In *Storage Details*, enter information into the fields:
++
+[cols=2*,options="header",cols="20,20"]
+|===
+|Amazon S3
+|Microsoft Azure
+|Bucket name
+|Account name
+|Region
+|Container name
+|Access key
+|Access point
+|Secret key
+|Access key
+|
+|Region
+|===
++
+NOTE: Microsoft Azure users must set Public access level to "Blob" for the container provided in Storage Details.
+
+. Select *Test Connection*.
++
+A green checkmark indicates the connection is healthy.
+
+. In *Consent*, select the box to agree to the terms and conditions of data migration, and select *Submit*.
++
+You have successfully saved the details.
+The tenant ID is now visible in *Migration Status*.
++
+TIP: You will need the tenant ID when you export your data using the NetApp SaaS Backup Bulk Export Tool.
+
+*Additional steps for SaaS Backup provided Amazon S3 buckets*
+After you provide consent, Policy and Policy Note now appear below Consent. Follow the next steps to finalize your data migration request.
+
+. Verify and copy the policy. 
++
+image:policy-note-variables.png[copied policy with highlighted IAM-user and destination variables]
+. Go to your Amazon S3 account. 
+. Attach the policy provided in *Storage Details* to the Amazon S3 destination bucket.
+. Return to the *Data Migration* tab in *Account Settings* in SaaS Backup for Microsoft 365.
+. In *Policy Confirmation*, select the box to confirm that you have uploaded the policy to the destination bucket, and select *Submit*.
+A green checkmark indicates the data migration request is complete and the data migration is now queued.
+
+Refer to *Migration Status* to monitor the progress of your migration. Migration duration depends on several factors like the amount of data and number of licenses you have.

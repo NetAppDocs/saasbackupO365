@@ -37,7 +37,7 @@ sidebar:
           url: /task_signing_up_for_saasbkup_paid_subscription.html
         - title: Schedule your first backup
           url: /task_scheduling_first_backup.html
-        - title: Perform an immedate backup
+        - title: Perform an immediate backup
           url: /task_performing_immediate_backup_of_policy.html
         - title: Data deletion
           url: /reference_paid_subscription_data.html

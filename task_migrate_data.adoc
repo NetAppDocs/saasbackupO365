@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task_migrate_data.html
 keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export
-summary: To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon Web Services S3 or Azure Blob.
+summary: To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon S3 or Microsoft Azure Blob Storage.
 ---
 
 = Migrate data
@@ -13,9 +13,9 @@ summary: To prepare for the end of your license with SaaS Backup for Microsoft 3
 :imagesdir: ./media/
 
 [.lead]
-To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon Web Services S3 or Azure Blob.
+To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration to tenant-owned Amazon S3 or Microsoft Azure Blob Storage.
 
-After data migration completes, you can export your data using the SaaS Backup Export Tool. Sign in to  link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for the SaaS Backup Export Tool.
+After data migration completes, you can export your data using the NetApp SaaS Backup Bulk Export Tool. Sign in to link:https://mysupport.netapp.com/site/tools[the NetApp Support Tools page] and search for the NetApp SaaS Backup Bulk Export Tool.
 
 NOTE: Data migration is an end-of-license activity. All tenants should avoid any form of activity on their SaaS Backup accounts to avoid data and metadata discrepancy during data migration. After data migration completes, all scheduled backups for the tenant will be disabled.
 
@@ -63,7 +63,7 @@ After you provide consent, Policy and Policy Note now appear below Consent. Foll
 . Verify and copy the policy. 
 +
 image:policy-note-variables.png[copied policy with highlighted IAM-user and destination variables]
-. Go to your Amazon Web Services S3 account. 
+. Go to your Amazon S3 account. 
 . Attach the policy to the Amazon Web Services destination bucket provided in *Storage Details*.
 . Return to the *Data Migration* tab in *Account Settings* in SaaS Backup for Microsoft 365.
 . In *Policy Confirmation*, select the box to confirm that you have uploaded the policy to the destination bucket, and select *Submit*.

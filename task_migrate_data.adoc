@@ -13,7 +13,7 @@ summary: To prepare for the end of your license with SaaS Backup for Microsoft 3
 :imagesdir: ./media/
 
 [.lead]
-To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration from Amazon S3 to tenant-owned Amazon S3 storage or from Microsoft Azure Blob to Microsoft Azure Blob Storage.
+To prepare for the end of your license with SaaS Backup for Microsoft 365, you can request data migration from Amazon S3 to tenant-owned Amazon S3 storage or from Microsoft Azure Blob to tenant-owned Microsoft Azure Blob Storage.
 
 NOTE: Cross migration from Amazon S3 to Microsoft Azure Blob storage or from Microsoft Azure Blob to Amazon S3 storage is not supported.
 

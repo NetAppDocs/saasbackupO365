@@ -32,7 +32,6 @@ Only the following templates are supported for Microsoft SharePoint Online backu
 * EHS#1 (Root Site)
 * EHS#0 (Root Site)
 * SITEPAGEPUBLISHING#0 (Communication Site)
-* GROUP#0 (Group Site Collection Prefix)
 * STS#1 (Blank Site)
 * STS#2 (Document Workspace)
 * STS#3 (Modern Team Site)
@@ -75,3 +74,5 @@ The following apps are supported for Microsoft SharePoint Online backups.
 * Issue Tracking
 * Record Library
 * Sharing Links
+
+// 2023 APR 25, OTHERDOC-9

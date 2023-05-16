@@ -17,7 +17,7 @@ You can use *Advanced Search* for Microsoft Exchange Online to search for indivi
 
 Administrators can enable *Advanced Search* by going to link:https://mysupport.netapp.com/[Support] and submitting a request. You can also email the SaaS Backup support team at saasbackupsupport@netapp.com.
 
-After you enable *Advanced Search*, you can turn on Self Service Portal (SSP) for individual tenants. If you do not enable *Advanced Search* before your first backup, no search results appear. To learn more about Self Service Portal, see link:reference_about_ssp.html[About Self Service Portal].
+After you enable *Advanced Search*, you can turn on Self Service Portal (SSP) for individual tenants. If you do not enable *Advanced Search* before your first backup, no search results appear. 
 
 image:advanced_search_settings_exchange.png[A screenshot of advanced search settings]
 
@@ -84,3 +84,5 @@ image:search_results_display_view.png[Image shows the search results display vie
 NOTE: Restored items go back to the original mailbox with the naming convention CC_search_MM.DD_time. To find the restore job, go to *Jobs* in the left menu.
 
 . To exit the results display for your search, click on *Back To Search Jobs*.
+
+// 2023-05-16, GitHub issue #46

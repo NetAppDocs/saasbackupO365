@@ -29,8 +29,6 @@ If you are an existing customer and have not enabled Modern Authentication, you 
 == December 2020
 If you deploy Microsoft Azure in the US, your data will not leave your Microsoft environment. During the sign-up process for SaaS Backup for Microsoft 365, you can use Azure Blob storage or your own storage.
 
-link:task_signing_up_for_saasbkup_free_trial.html[Sign up for SaaS Backup from a free trial]
-
 link:task_signing_up_for_saasbkup_paid_subscription.html[Sign up for SaaS Backup from a paid subscription]
 
 == November 2020
@@ -109,10 +107,6 @@ link:task_deleting_security_groups.html[Delete security groups]
 * SaaS Backup for Microsoft 365 now supports multiple backup locations in each supported region.
 +
 You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as *preferred* in the list of options.
-+
-NOTE: If you are upgrading from a trial version and you choose a backup location that is different from the location used in your trial, your trial data is not preserved.
-+
-link:task_upgrading_from_trial.html[Upgrade from a trial subscription]
 
 * You can now release user licenses and make them available for other users.
   link:task_releasing_a_user_license.html[Release a user license]
@@ -124,3 +118,5 @@ link:task_upgrading_from_trial.html[Upgrade from a trial subscription]
 
 == Archived
 Click link:reference_new_archived.html[here] for the archived list of new features
+
+// 2023-05-16, GitHub issue #46

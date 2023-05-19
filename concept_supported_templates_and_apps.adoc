@@ -32,10 +32,14 @@ Only the following templates are supported for Microsoft SharePoint Online backu
 * EHS#1 (Root Site)
 * EHS#0 (Root Site)
 * SITEPAGEPUBLISHING#0 (Communication Site)
+* SPSPERS#10 (Personal Sites)
 * STS#1 (Blank Site)
 * STS#2 (Document Workspace)
 * STS#3 (Modern Team Site)
 * APP#0 (App Template)
+* BLANKINTERNET#0 (Publishing Site)
+* TEAMCHANNEL#0
+* TEAMCHANNEL#1 (Private Team Channel)
 
 == Supported apps
 The following apps are supported for Microsoft SharePoint Online backups.

@@ -6,7 +6,6 @@ summary: You can update the length of time, in number of years, that data is ret
 ---
 
 = Update the backup retention period
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
@@ -46,3 +45,5 @@ You can update the length of time, in number of years, that data is retained for
 .. Under *Tenant Level Data Retention Policies*, click dropdown menu next to *RETENTION PERIOD* and select the period you want from the list of preset times.
 .. Click *Save*.
    All backup policy tiers are updated to the retention period you selected.
+
+// 2023 Dec 14, GH issue #49

@@ -53,7 +53,7 @@ sidebar:
         url: /task_discovering_new.html
       - title: Purge a user, site collection, or Microsoft 365 group
         url: /task_purging.html
-      - title: Enable Modern authentication
+      - title: Enable Modern Authentication
         url: /task_enable_modern_authentication.html
     - title: Manage settings
       entries:
@@ -169,3 +169,4 @@ sidebar:
       url: /concept_get_help_find_info.html
     - title: Legal Notices
       url: /reference_legal_notices.html
+

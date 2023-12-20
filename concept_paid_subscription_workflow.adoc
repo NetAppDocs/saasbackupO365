@@ -6,7 +6,6 @@ summary: To get started with a paid subscription for SaaS Backup for Microsoft 3
 ---
 
 = Workflow for getting started
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
@@ -32,3 +31,5 @@ link:concept_storage_types.html[Storage types you can use with SaaS Backup].
 . link:task_performing_immediate_backup_of_policy.html[Optional: Immediately back up your data]
 
 image:O365_workflow_paid_subscription_signup.gif[workflow of paid subscription sign up process]
+
+// 14 Dec 2023, GH Issue #49

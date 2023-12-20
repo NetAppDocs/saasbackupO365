@@ -6,7 +6,6 @@ summary: Only certain templates and apps are supported for Microsoft SharePoint 
 ---
 
 = Templates and apps supported for backup in Microsoft SharePoint Online
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
@@ -80,3 +79,4 @@ The following apps are supported for Microsoft SharePoint Online backups.
 * Sharing Links
 
 // 2023 APR 25, OTHERDOC-9
+// 2023 Dec 14, GH issue #49

@@ -6,7 +6,6 @@ summary: You can view a list of mailboxes or user accounts that have been delete
 ---
 
 = View a list of deprovisioned items
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
@@ -19,6 +18,8 @@ You can view a list of mailboxes or user accounts that have been deprovisioned.
 
 .Steps
 
-.	Click *SERVICES* on the left navigation pane.
+. Click *SERVICES* on the left navigation pane.
 . In the desired service, click the number of unprotected items.
 . Click the *DEPROVISIONED* tab.
+
+// 2023 Dec 14, GH issue #49

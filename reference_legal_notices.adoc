@@ -6,7 +6,6 @@ summary: Legal notices provide access to copyright statements, trademarks, paten
 ---
 
 = Legal notices
-:toc: macro
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -43,3 +42,5 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[^]
 Notice files provide information about third-party copyright and licenses used in NetApp software.
 
 link:media/SaaS_Backup_notice.pdf[Notice for SaaS Backup^]
+
+// 2023 Dec 14, GH issue #49

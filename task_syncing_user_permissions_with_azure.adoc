@@ -6,7 +6,6 @@ summary: Within NetApp SaaS Backup for Microsoft 365 you can manage permissions 
 ---
 
 = Synchronize user permissions with Azure Active Directory
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
@@ -28,3 +27,5 @@ image:mso365_settings.gif[Screenshot of Microsoft 365 button]
 image:rediscover_permissions.gif[Rediscover permissions icon]
 +
 If permissions for a services are discovered, the service is displayed with the option to active.
+
+// 2023 Dec 14, GH issue #49

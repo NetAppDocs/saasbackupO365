@@ -6,7 +6,6 @@ summary: Storage types you can use with SaaS Backup.
 ---
 
 = Storage types you can use with SaaS Backup
-:toc: macro
 :toclevels: 1
 :hardbreaks:
 :nofooter:
@@ -19,3 +18,5 @@ SaaS Backup offers the following storage options:
 
 * Amazon S3
 * Azure Blob
+
+// 2023 Dec 14, GH issue #49

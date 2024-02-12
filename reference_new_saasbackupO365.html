@@ -1,0 +1,2357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="at-element-marker">
+  <title>New features and updates</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="New features and updates" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html" />
+	<meta property="og:description" content="SaaS Backup for Microsoft 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes." />
+  <meta property="og:image" content="https://docs.netapp.com/us-en/saasbackupO365/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="SaaS Backup for Microsoft 365 regularly introduces a new release to bring you new features, enhancements, and bug fixes.">
+  <meta name="keywords" content=" what's new, features, release notes, enhancements"><!-- Icons -->
+  <link rel="icon" href="/us-en/saasbackupO365/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/us-en/saasbackupO365/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/us-en/saasbackupO365/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/us-en/saasbackupO365/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/saasbackupO365/reference_new_saasbackupO365.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/saasbackupO365/reference_new_saasbackupO365.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/us-en/saasbackupO365/js/na-search.js'></script><script src='/us-en/saasbackupO365/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/us-en/saasbackupO365/js/custom-dropdown.js'></script>
+  <script src='/us-en/saasbackupO365/js/FileSaver.min.js'></script>
+  <script src='/us-en/saasbackupO365/js/jszip-utils.min.js'></script>
+  <script src='/us-en/saasbackupO365/js/jszip.min.js'></script><script src='/us-en/saasbackupO365/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/us-en/saasbackupO365/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/">
+                <image id="ie-header-logo" src="/us-en/saasbackupO365/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">Docs</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --><li id="ie-language-dropdown">
+            <div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+                <div class="custom-dropdown-select custom-dropdown-select-lang">
+                    <img src="/us-en/saasbackupO365/images/language_white_24dp.svg" class="n-globe__icon" />
+                    <span class="lang-name">English</span>
+                    <img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu"><li>
+                        <a href="https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">English</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ja-jp/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">日本語</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/ko-kr/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">한국어</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-cn/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/zh-tw/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/de-de/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/es-es/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">Español</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/fr-fr/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">Français</span></a>
+                    </li><li>
+                        <a href="https://docs.netapp.com/it-it/saasbackupO365/reference_new_saasbackupO365.html"
+                            target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+                    </li></ul>
+            </div>
+            </li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/us-en/saasbackupO365/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">All NetApp</span>
+                    <img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">Support</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">Knowledge Base</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">Training</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/us-en/saasbackupO365/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/us-en/saasbackupO365/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">All docs</a>
+    </li>
+    
+    
+
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/us-en/saasbackupO365/">-->
+      SaaS Backup for Microsoft 365
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/us-en/saasbackupO365/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/us-en/saasbackupO365/search.html" 
+        data-type="widget"
+        data-placeholder="Search documentation"
+        data-no-results-found="No results were found for {query}"
+        data-did-you-mean="Search for {suggestion}."
+        data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?"
+        data-results-found="{hitCount} results found"
+        data-error-message="An error occurred. Please try again."
+        data-error-reset="Reset search"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp SaaS Backup for Microsoft 365"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/index.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/us-en/saasbackupO365/index.html">
+        NetApp SaaS Backup for Microsoft 365
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Release notes"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Release notes</div>-->
+         Release notes
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="What's new"
+      data-li-level="2#" 
+      class="  ie-sidebar-selected    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/reference_new_saasbackupO365.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/reference_new_saasbackupO365.html">
+        What's new
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="What's new archive"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/reference_new_archived.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/reference_new_archived.html">
+        What's new archive
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Known problems and limitations"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/reference_kpls.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/reference_kpls.html">
+        Known problems and limitations
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Concepts"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Concepts</div>-->
+         Concepts
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Overview"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/concept_overview.html">
+        Overview
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Storage types you can use with SaaS Backup"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_storage_types.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/concept_storage_types.html">
+        Storage types you can use with SaaS Backup
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Get started"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Get started</div>-->
+         Get started
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Workflow"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_paid_subscription_workflow.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/concept_paid_subscription_workflow.html">
+        Workflow
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Create a MS Office service account with global permissions"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_creating_msservice_account_with_global_permissions.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_creating_msservice_account_with_global_permissions.html">
+        Create a MS Office service account with global permissions
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configure Impersonation for Microsoft Exchange Online"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_configuring_impersonation.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_configuring_impersonation.html">
+        Configure Impersonation for Microsoft Exchange Online
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Sign up for SaaS Backup for Microsoft 365"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_signing_up_for_saasbkup_paid_subscription.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_signing_up_for_saasbkup_paid_subscription.html">
+        Sign up for SaaS Backup for Microsoft 365
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Schedule your first backup"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_scheduling_first_backup.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_scheduling_first_backup.html">
+        Schedule your first backup
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Perform an immediate backup"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_immediate_backup_of_policy.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_performing_immediate_backup_of_policy.html">
+        Perform an immediate backup
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Data deletion"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/reference_paid_subscription_data.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/reference_paid_subscription_data.html">
+        Data deletion
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manage services"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Manage services</div>-->
+         Manage services
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Activate a service"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_activating_a_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_activating_a_service.html">
+        Activate a service
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deactivate a service"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_deactivating_a_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_deactivating_a_service.html">
+        Deactivate a service
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Activate support"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_activate_support.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_activate_support.html">
+        Activate support
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Discover new mailboxes, sites, and groups"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_discovering_new.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_discovering_new.html">
+        Discover new mailboxes, sites, and groups
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Purge a user, site collection, or Microsoft 365 group"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_purging.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_purging.html">
+        Purge a user, site collection, or Microsoft 365 group
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Enable Modern Authentication"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_enable_modern_authentication.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_enable_modern_authentication.html">
+        Enable Modern Authentication
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manage settings"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Manage settings</div>-->
+         Manage settings
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Backup policies"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_backup_policies.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/concept_backup_policies.html">
+        Backup policies
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Backup settings"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_backup_settings.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/concept_backup_settings.html">
+        Backup settings
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Set notifications"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_setting_account_notifications.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_setting_account_notifications.html">
+        Set notifications
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Permissions"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Permissions</div>-->
+         Permissions
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Add permissions to a service account"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_adding_permissions_to_service_accounts.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_adding_permissions_to_service_accounts.html">
+        Add permissions to a service account
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Synchronize user permissions with Azure Active Directory"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_syncing_user_permissions_with_azure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_syncing_user_permissions_with_azure.html">
+        Synchronize user permissions with Azure Active Directory
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Grant permissions to enable shared mailboxes"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_granting_permissions_to_enable_shared_mailboxes.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_granting_permissions_to_enable_shared_mailboxes.html">
+        Grant permissions to enable shared mailboxes
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Role-based account access"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Role-based account access</div>-->
+         Role-based account access
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Assign administrative roles to user accounts"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_assigning_admin_roles_to_user_accounts.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_assigning_admin_roles_to_user_accounts.html">
+        Assign administrative roles to user accounts
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Update administrative roles assigned to user accounts"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_updating_admin_roles_assigned_to_user_accounts.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_updating_admin_roles_assigned_to_user_accounts.html">
+        Update administrative roles assigned to user accounts
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Delete all administrative roles from a user account"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_deleting_admin_roles_from_a_user_account.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_deleting_admin_roles_from_a_user_account.html">
+        Delete all administrative roles from a user account
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manage users"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Manage users</div>-->
+         Manage users
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Licenses"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Licenses</div>-->
+         Licenses
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Add a license"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_adding_a_license.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_adding_a_license.html">
+        Add a license
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Update subscription information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_updating_subscription_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_updating_subscription_information.html">
+        Update subscription information
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Release a user license"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_releasing_a_user_license.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_releasing_a_user_license.html">
+        Release a user license
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Rules"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Rules</div>-->
+         Rules
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Create new rules"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_creating_rules.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_creating_rules.html">
+        Create new rules
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Apply existing rules"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_applying_rules.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_applying_rules.html">
+        Apply existing rules
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Delete rules"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_deleting_rules.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_deleting_rules.html">
+        Delete rules
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Security groups"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Security groups</div>-->
+         Security groups
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Add security groups"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_adding_security_groups.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_adding_security_groups.html">
+        Add security groups
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Delete security groups"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_deleting_security_groups.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_deleting_security_groups.html">
+        Delete security groups
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manage backups"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Manage backups</div>-->
+         Manage backups
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Schedule a backup or changing backup frequency"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_scheduling_backup_or_changing_frequency.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_scheduling_backup_or_changing_frequency.html">
+        Schedule a backup or changing backup frequency
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Perform an immediate backup"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_immediate_backup_of_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_performing_immediate_backup_of_service.html">
+        Perform an immediate backup
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Browse backups"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_browsing_backups.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_browsing_backups.html">
+        Browse backups
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Cancel a job"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_canceling_job.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_canceling_job.html">
+        Cancel a job
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Update the backup retention period"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_updating_backup_retention_period.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_updating_backup_retention_period.html">
+        Update the backup retention period
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Enable backups for OneNote"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_enabling_onenote_backups.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_enabling_onenote_backups.html">
+        Enable backups for OneNote
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Templates and apps supported for backup in Microsoft SharePoint Online"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_supported_templates_and_apps.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/concept_supported_templates_and_apps.html">
+        Templates and apps supported for backup in Microsoft SharePoint Online
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Manage restores"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Manage restores</div>-->
+         Manage restores
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="About restores"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/reference_about_restores.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/reference_about_restores.html">
+        About restores
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Perform a high-level restore"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_high_level_restore.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_performing_high_level_restore.html">
+        Perform a high-level restore
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Perform a granular-level restore"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-2  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Perform a granular-level restore</div>-->
+         Perform a granular-level restore
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="For Exchange"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_granular_level_restore_exchange.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_performing_granular_level_restore_exchange.html">
+        For Exchange
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="For SharePoint"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_granular_level_restore_sharepoint.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_performing_granular_level_restore_sharepoint.html">
+        For SharePoint
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="For OneDrive"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_granular_level_restore_onedrive.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_performing_granular_level_restore_onedrive.html">
+        For OneDrive
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="For Groups and Teams"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_granular_level_restore_teams.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/saasbackupO365/task_performing_granular_level_restore_teams.html">
+        For Groups and Teams
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Restore from a previous backup"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_restoring_from_previous_backup.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_restoring_from_previous_backup.html">
+        Restore from a previous backup
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Cancel a job"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_canceling_job.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_canceling_job.html">
+        Cancel a job
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Find restored files"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_viewing_restore_file_locations.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_viewing_restore_file_locations.html">
+        Find restored files
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="View data"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/saasbackupO365/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/saasbackupO365/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> View data</div>-->
+         View data
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Create a user defined filter"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_creating_user_defined_filter.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_creating_user_defined_filter.html">
+        Create a user defined filter
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Perform a search"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_performing_search.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_performing_search.html">
+        Perform a search
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Use Advanced Search"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_using_advanced_search.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_using_advanced_search.html">
+        Use Advanced Search
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="View job history and activity log"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_viewing_history_and_activity.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_viewing_history_and_activity.html">
+        View job history and activity log
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="View deprovisioned items"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_viewing_deprovisioned.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_viewing_deprovisioned.html">
+        View deprovisioned items
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="View purged data"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_viewing_purged.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_viewing_purged.html">
+        View purged data
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="View deleted items"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_viewing_deleted.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_viewing_deleted.html">
+        View deleted items
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Download data"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_downloading_data.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_downloading_data.html">
+        Download data
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Monitor user data"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_monitoring_data.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/saasbackupO365/task_monitoring_data.html">
+        Monitor user data
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Migrate data"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_migrate_data.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/us-en/saasbackupO365/task_migrate_data.html">
+        Migrate data
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Provide feedback"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/task_providing_feedback.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/us-en/saasbackupO365/task_providing_feedback.html">
+        Provide feedback
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Where to get help and find more information"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/concept_get_help_find_info.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/us-en/saasbackupO365/concept_get_help_find_info.html">
+        Where to get help and find more information
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Legal Notices"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/reference_new_saasbackupO365.html" 
+      dale-entry-url="/reference_legal_notices.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/us-en/saasbackupO365/reference_legal_notices.html">
+        Legal Notices
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/us-en/saasbackupO365"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/us-en/saasbackupO365"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">New features and updates</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2023-05-16 15:58:48 +0000">05/16/2023</time>
+        
+    
+    
+        <span>Contributors
+            <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-rlithman"><img  class="avatar avatar-small" alt="netapp-rlithman" width="20" height="20" src="https://avatars.githubusercontent.com/u/54725121?v=4" style="border-radius: 50%;"/></a>
+        
+            <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-cgoff"><img  class="avatar avatar-small" alt="netapp-cgoff" width="20" height="20" src="https://avatars.githubusercontent.com/u/115156472?v=4" style="border-radius: 50%;"/></a>
+        
+        </span>
+    
+    
+        <a target="_blank" class="ext-link-indicator" href="/us-en/saasbackupO365/feed.xml"><img width="21" height="21" src="/us-en/saasbackupO365/images/rss-button.png" alt="RSS" title="Subscribe to RSS updates for this page" /></a>
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/us-en/saasbackupO365/images/discuss-sm.svg" alt="" class="github-icon" />Suggest changes</span>
+        <img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/saasbackupO365/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/us-en/saasbackupO365/reference_new_saasbackupO365.html&page-title=New features and updates" class="page-nav-contribute-link" role="button">Request doc changes</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/saasbackupO365/blob/main/reference_new_saasbackupO365.adoc" class="page-nav-contribute-link" role="button">Edit this page</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >Learn how to contribute</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>PDFs<img src="/us-en/saasbackupO365/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/us-en/saasbackupO365/pdfs/fullsite-sidebar/NetApp_SaaS_Backup_for_Microsoft_365_documentation.pdf" >
+                    <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>PDF of this doc site</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Release_notes.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Release notes
+          </a>
+          
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Concepts.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Concepts
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Get_started.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Get started
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Manage_services.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Manage services
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Manage_settings.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Manage settings
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Permissions.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Permissions
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Role_based_account_access.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Role-based account access
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Manage_users.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Manage users
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Licenses.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Licenses
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Rules.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Rules
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Security_groups.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Security groups
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Manage_backups.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Manage backups
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Manage_restores.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Manage restores
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/Perform_a_granular_level_restore.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Perform a granular-level restore
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/saasbackupO365/pdfs/sidebar/View_data.pdf" 
+            
+          >
+            <img src="/us-en/saasbackupO365/images/pdf-icon.png" alt="" width="16" height="16"/>
+            View data
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/us-en/saasbackupO365/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>Collection of separate PDF docs<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph lead">
+<p>The following new features and updates have been added to this release of NetApp SaaS Backup for Microsoft 365.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="october-2022">October 2022</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Data migration is now possible in SaaS Backup for Microsoft 365. Account administrators can request data migration to tenant-owned Amazon S3 and Azure Blob storage destination buckets. Learn how to <a href="task_migrate_data.html">migrate data</a>.</p>
+</li>
+<li>
+<p>The SaaS Backup Export Utility tool is now available and facilitates the export of your migrated data to Amazon S3 and Azure Blob storage destination buckets, or local storage. Sign in to <a href="https://mysupport.netapp.com/site/tools">the NetApp Support Tools page</a> and search for the NetApp SaaS Backup Bulk Export Tool.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="november-2021">November 2021</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Microsoft 365 targets October 2021 to deprecate Basic Authentication in Exchange Online. For more information, see <a href="https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210">Basic Authentication and Exchange Online - September 2021 Update</a>. After deprecation, discovery failures can occur for Microsoft 365 groups, and Shared and Archive mailboxes. You can enable Modern Authentication at any time to avoid these failures.</p>
+</div>
+<div class="paragraph">
+<p>If you are a new customer, Modern Authentication is enabled when you sign up. No action is needed.</p>
+</div>
+<div class="paragraph">
+<p>If you are an existing customer and have not enabled Modern Authentication, you need to take action. See <a href="task_enable_modern_authentication.html">Enable Modern Authentication</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="december-2020">December 2020</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you deploy Microsoft Azure in the US, your data will not leave your Microsoft environment. During the sign-up process for SaaS Backup for Microsoft 365, you can use Azure Blob storage or your own storage.</p>
+</div>
+<div class="paragraph">
+<p><a href="task_signing_up_for_saasbkup_paid_subscription.html">Sign up for SaaS Backup from a paid subscription</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="november-2020">November 2020</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Starting this month, you can monitor user data for all services. With this new functionality you can download an Excel file to monitor several user data types like email or url addresses, mailbox types, license use, discovery state, last discovery, backup status, backup tier, and more.</p>
+<div class="paragraph">
+<p><a href="task_monitoring_data.html">Monitor user data</a></p>
+</div>
+</li>
+<li>
+<p>Now you can restore your Microsoft Office 365 Groups to another group.</p>
+<div class="paragraph">
+<p><a href="task_performing_high_level_restore.html">Perform a high-level restore</a></p>
+</div>
+</li>
+<li>
+<p>OneDrive for Business license holders can release licenses and purge users without restrictions.</p>
+<div class="paragraph">
+<p><a href="task_releasing_a_user_license.html">Release a user license</a><br>
+<a href="task_purging.html">Purge a user, site collection, or Microsoft 365 group</a></p>
+</div>
+</li>
+<li>
+<p>When searching in the job history log, you can now filter by job completion status in addition to job type, service, start time, and end time.</p>
+<div class="paragraph">
+<p><a href="task_viewing_history_and_activity.html">View job history</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="june-2020">June 2020</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 now supports advanced search capabilities for Exchange Online users. After <strong>Advanced Search</strong> is enabled, you can search for individual, shared, and archive mailbox items within the last six months of backup data.</p>
+<div class="paragraph">
+<p><a href="task_using_advanced_search.html">Use Advanced Search</a></p>
+</div>
+<div class="paragraph">
+<p>To enable this feature, go to <a href="https://mysupport.netapp.com/">Support</a> and submit a request.</p>
+</div>
+<div class="paragraph">
+<p>You can also email the SaaS Backup support team at <a href="mailto:saasbackupsupport@netapp.com">saasbackupsupport@netapp.com</a>.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="marchapril-2020">March/April 2020</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Now you can select different time ranges to browse backups for Microsoft 365 Exchange, SharePoint, OneDrive for Business, and Groups for protected users.</p>
+<div class="paragraph">
+<p><span class="image"><img src="./media/date_range_browse_feature.gif" alt="Image shows time range options for browsing backups"></span></p>
+</div>
+<div class="paragraph">
+<p><a href="task_browsing_backups.html">Browse backups</a></p>
+</div>
+</li>
+<li>
+<p>SaaS Backup for Microsoft 365 now supports backup to Microsoft TeamsChat. With this new functionality, you can backup and restore your conversations, channels, tabs, attachments, members, and settings found in Microsoft TeamsChat.</p>
+<div class="paragraph">
+<p><a href="task_performing_immediate_backup_of_service.html">Perform an immediate backup of a service</a></p>
+</div>
+<div class="paragraph">
+<p>To enable this feature, go to <a href="https://mysupport.netapp.com/">Support</a> and submit a request.</p>
+</div>
+<div class="paragraph">
+<p>You can also email the SaaS Backup support team at <a href="mailto:saasbackupsupport@netapp.com">saasbackupsupport@netapp.com</a>.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="january-2020">January 2020</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>You can now view mailboxes, sites, mysites, groups, or accounts that have been deprovisioned.<br>
+<a href="task_viewing_deprovisioned.html">View deprovisioned items</a></p>
+</li>
+<li>
+<p>User licenses are now automatically release seven days after the accounts are purged. You can view a list of items scheduled to be purged within seven days and list of items that have already been purged.<br>
+<a href="task_viewing_purged.html">View a list of purged data</a></p>
+</li>
+<li>
+<p>Backup for Microsoft OneNote notebooks is now supported for Microsoft SharePoint Online and OneDrive for Business.<br>
+<a href="task_enabling_onenote_backups.html">Enable backups for OneNote</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="september-2019">September 2019</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>You can now activate support for paid subscriptions of SaaS Backup.<br>
+Activating support enables you to access technical support over the phone, online chat, or web ticketing system.</p>
+<div class="paragraph">
+<p><a href="task_activate_support.html">Activate Support</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="june-2019">June 2019</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 now supports the backup and restore of items created using the copy-to feature in Microsoft SharePoint Online and Microsoft OneDrive for Business.</p>
+</li>
+<li>
+<p>Enhancements have been made to include additional details in the restore statistics including restore size, restore location, and additional comments.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="may-2019">May 2019</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup now supports add-on licenses.</p>
+<div class="paragraph">
+<p><a href="task_updating_subscription_information.html">Update subscription information</a></p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="april-2019">April 2019</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 now supports deletion of security groups.</p>
+<div class="paragraph">
+<p><a href="task_deleting_security_groups.html">Delete security groups</a></p>
+</div>
+</li>
+<li>
+<p>Shared mailboxes no longer consume a user license.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="march-2019">March 2019</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 now supports multiple backup locations in each supported region.</p>
+<div class="paragraph">
+<p>You can now choose any of the available locations in your selected region as the site for your data backup. Choosing the location that is geographically closest to the location of your data is recommended.  The location recommended by SaaS Backup is marked as <strong>preferred</strong> in the list of options.</p>
+</div>
+</li>
+<li>
+<p>You can now release user licenses and make them available for other users.<br>
+<a href="task_releasing_a_user_license.html">Release a user license</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="february-2019">February 2019</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>SaaS Backup for Microsoft 365 now supports the following:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Backup and restore of archive mailboxes.</p>
+</li>
+<li>
+<p>Enhanced backup and restore statistics across Microsoft Office Exchange Online, SharePoint, and OneDrive for Business.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="archived">Archived</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Click <a href="reference_new_archived.html">here</a> for the archived list of new features</p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/us-en/saasbackupO365/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/us-en/saasbackupO365/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">On this page</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Terms of use</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Privacy policy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Cookie policy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie settings</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">Send feedback about this page</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/us-en/saasbackupO365/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/us-en/saasbackupO365/js/prism.js'></script>
+      <script type="text/javascript" src='/us-en/saasbackupO365/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/us-en/saasbackupO365/js/ie-tabbed-blocks.js'></script>
+    <script src='/us-en/saasbackupO365/js/ie-sidebar.js'></script>
+  </body>
+
+</html>

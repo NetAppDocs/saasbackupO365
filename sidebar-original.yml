@@ -1,0 +1,47 @@
+entries:
+  - title: NetApp SaaS Backup for Office 365
+    url: /index.html
+  - title: What's new in SaaS Backup for Office 365
+    url: /reference_new_saasbackupO365.html
+  - title: SaaS Backup for Office 365 Overview
+    url: /concept_overview.html
+  - title: Getting Started with a Free Trial
+    url: /task_getting_started_free_trial.html
+  - title: What happens to your free trial data
+    url: /reference_free_trial_data.html
+  - title: Getting Started with a Paid Subscription
+    url: /task_getting_started.html
+  - title: Managing backups with SaaS Backup for Office 365
+    url: /task_managing_backups.html
+  - title: Managing restores with SaaS Backup for Office 365
+    url: /task_managing_restores.html
+  - title: Viewing data for SaaS Backup for Office 365
+    url: /task_viewing_data.html
+  - title: Creating and managing rules
+    url: /task_managing_creating_rules.html
+  - title: Managing services
+    url: /task_managing_services.html
+  - title: Managing security groups
+    url: /task_managing_security_groups.html
+  - title: Managing permissions
+    url: /task_managing_permissions.html
+  - title: Managing licenses
+    url: /task_managing_licenses.html
+  - title: Managing accounts
+    url: /task_managing_accounts.html
+  - title: Managing role-based account access
+    url: /task_managing_role_based_account_access.html
+  - title: Adding permissions to service accounts
+    url: /task_adding_permissions.html
+  - title: Setting account Notifications
+    url: /task_setting_account_notifications.html
+  - title: Discovering new mailboxes, sites, and groups
+    url: /task_discovering_new.html
+  - title: Upgrading from a trial subscription
+    url: /task_upgrading_from_trial.html
+  - title: Providing feedback
+    url: /task_providing_feedback.html
+  - title: Where to get help and find more information
+    url: /concept_get_help_find_info.html
+  - title: Legal Notices
+    url: /reference_legal_notices.html

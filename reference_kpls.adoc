@@ -16,7 +16,7 @@ summary: SaaS Backup for Microsoft 365 regularly introduces a new release to bri
 The following are known limitations identified at the application level for SaaS Backup for Microsoft 365.
 
 == For SharePoint Online
-SaaS Backup does not support backups of archived SharePoint sites.
+SaaS Backup does not support backups of archived SharePoint sites. 
 
 == For OneDrive for Business
 Newly added drives are not detected until you manually complete a sync for the service.
